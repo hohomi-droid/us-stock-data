@@ -46,6 +46,8 @@ def run_source(src: dict):
         return us.dated_csv(src["pattern"])
     if t == "ftportfolios":
         return us.ftportfolios(src["ticker"])
+    if t == "ab":
+        return us.alliancebernstein(src["page"])
     if t == "eagle":
         return us.eagle()
     if t == "timefolio":

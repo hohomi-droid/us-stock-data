@@ -574,3 +574,68 @@ def ftportfolios(ticker: str):
     if not out:
         raise ValueError("First Trust 보유 행을 찾지 못함")
     return {"asof": asof, "units": None, "holdings": out}
+
+
+def _find_records(obj):
+    """JSON 안에서 종목 레코드 배열(티커+수량 키를 가진 dict 목록)을 찾는다."""
+    best = []
+    if isinstance(obj, list) and obj and isinstance(obj[0], dict):
+        keys = " ".join(obj[0].keys()).lower()
+        if ("ticker" in keys or "symbol" in keys) and ("share" in keys or "quantity" in keys or "units" in keys):
+            best = obj
+    if isinstance(obj, dict):
+        for v in obj.values():
+            r = _find_records(v)
+            if len(r) > len(best):
+                best = r
+    elif isinstance(obj, list):
+        for v in obj[:50]:
+            r = _find_records(v)
+            if len(r) > len(best):
+                best = r
+    return best
+
+
+def _pick(d: dict, *subs):
+    for s_ in subs:
+        for k, v in d.items():
+            if s_ in k.lower():
+                return v
+    return None
+
+
+def alliancebernstein(page_url: str):
+    page = S.get(page_url, timeout=40).text
+    m = re.search(r'"shareClassId"\s*:\s*"([0-9A-Z]{9})"', page)
+    if not m:
+        raise ValueError("AB shareClassId 없음")
+    cid = m.group(1)
+    last = None
+    for path in (f"funds/us/en-us/investments/{cid}", f"funds/us/en-us/investments/etf/{cid}", f"funds/{cid}"):
+        r = S.get(f"https://webapi.alliancebernstein.com/v1/{path}/holdings", timeout=40,
+                  headers={"Origin": "https://www.alliancebernstein.com", "Referer": page_url})
+        if r.status_code != 200:
+            last = f"{r.status_code} {path}"
+            continue
+        d = r.json()
+        recs = _find_records(d)
+        if not recs:
+            last = f"레코드 없음 {path}: {str(d)[:200]}"
+            continue
+        out, asof = {}, None
+        for h in recs:
+            tk = str(_pick(h, "ticker", "symbol") or "").strip()
+            sh = num(_pick(h, "shares", "quantity", "units"))
+            if not tk or not sh:
+                continue
+            name = str(_pick(h, "name", "description", "security") or tk)
+            asof = asof or iso(str(_pick(h, "asof", "date") or "")[:10])
+            y = cg_yahoo(tk, str(_pick(h, "isin") or "") or None, None, name)
+            out[y] = {"name": name.title(), "shares": sh, "weight": num(_pick(h, "weight", "percent", "pct")) or 0.0,
+                      "type": "equity", "yahoo": y}
+        if out:
+            if sum(h["weight"] for h in out.values()) <= 1.5:
+                for h in out.values():
+                    h["weight"] *= 100
+            return {"asof": asof, "units": None, "holdings": out}
+    raise ValueError(f"AB 보유 API 실패: {last}")
