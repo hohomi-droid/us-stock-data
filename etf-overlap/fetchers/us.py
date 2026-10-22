@@ -201,7 +201,7 @@ def capital_group(ticker: str):
         sh = num(h.get("sharesOrPrincipalAmount"))
         if not tk or not sh:
             continue
-        y = cg_yahoo(tk, h.get("isin"))
+        y = cg_yahoo(tk, h.get("isin"), None, h.get("securityName"))
         out[y] = {"name": (h.get("securityName") or tk).title(), "shares": sh,
                   "weight": num(h.get("percentageOfNetAssets")) or 0.0, "type": "equity", "yahoo": y}
     return {"asof": asof, "units": None, "holdings": out}
@@ -216,9 +216,10 @@ def _load_us_tickers():
     p = Path(__file__).resolve().parents[2] / "scripts" / "tickers.csv"
     try:
         with open(p, encoding="utf-8-sig") as f:
-            return {row["ticker"].strip().upper().replace(".", "-") for row in csv.DictReader(f)}
+            return {row["ticker"].strip().upper().replace(".", "-"): (row.get("name") or "").upper()
+                    for row in csv.DictReader(f)}
     except Exception:  # noqa: BLE001
-        return set()
+        return {}
 
 
 US_TICKERS = _load_us_tickers()
@@ -249,9 +250,9 @@ def _clean_local(tk: str, suf: str) -> str:
         tk = re.sub(r"[-.]T$", "", tk)
     if suf == ".SS" and re.fullmatch(r"(00|30)\d{4}", tk):
         suf = ".SZ"
+    elif suf == ".SS" and re.fullmatch(r"\d{1,5}", tk):
+        suf, tk = ".HK", tk.lstrip("0").zfill(4)
     tk = tk.rstrip("./-").replace("/", "").replace(".", "-")
-    if suf in (".CO", ".ST", ".HE", ".OL") and "-" not in tk and len(tk) >= 4 and tk[-1] in "AB":
-        tk = tk[:-1] + "-" + tk[-1]
     if suf == ".L":
         tk = tk.replace("-", "")
     return tk + suf
@@ -265,15 +266,41 @@ US_ONLY_FOREIGN = {"NXPI", "LYB", "CB", "GRMN", "SPOT", "ARM", "ASND", "ARGX", "
                    "JD", "BIDU", "NTES", "TCOM", "BEKE", "SE", "GRAB", "CPNG", "MELI", "NU", "STNE", "XP"}
 
 
-def cg_yahoo(tk: str, isin: str | None = None, country: str | None = None):
+LOCAL_FIX = {  # Yahoo 표기가 운용사 표기와 다른 해외 종목
+    "SAA-B.ST": "SAAB-B.ST", "SAAB.ST": "SAAB-B.ST", "VOLV.ST": "VOLV-B.ST", "SEB.ST": "SEB-A.ST",
+    "CARL.CO": "CARL-B.CO", "ERIC.ST": "ERIC-B.ST", "ATCO.ST": "ATCO-A.ST", "HM.ST": "HM-B.ST",
+    "INVE.ST": "INVE-B.ST", "AIR.AS": "AIR.PA", "ENX.AS": "ENX.PA", "CVC.L": "CVC.AS", "STLAM.AS": "STLAM.MI",
+    "BHARTI.NS": "BHARTIARTL.NS", "HDFCB.NS": "HDFCBANK.NS", "MSIL.NS": "MARUTI.NS", "ICICIBC.NS": "ICICIBANK.NS",
+    "RIL.NS": "RELIANCE.NS", "GULFF.BK": "GULF.BK", "ADIB.AE": "ADIB.AD", "FAB.AE": "FAB.AD",
+    "NOVOB.CO": "NOVO-B.CO", "DSV.CO": "DSV.CO", "MAERSKB.CO": "MAERSK-B.CO",
+}
+
+
+def _name_match(us_tk: str, name: str | None) -> bool:
+    if not name or us_tk not in US_TICKERS:
+        return False
+    a = re.sub(r"[^A-Z ]", " ", name.upper()).split()
+    b = re.sub(r"[^A-Z ]", " ", US_TICKERS[us_tk]).split()
+    return bool(a and b and a[0] == b[0])
+
+
+def cg_yahoo(tk: str, isin: str | None = None, country: str | None = None, name: str | None = None):
+    y = _cg_yahoo(tk, isin, country, name)
+    return LOCAL_FIX.get(y, y)
+
+
+def _cg_yahoo(tk: str, isin: str | None = None, country: str | None = None, name: str | None = None):
     """운용사 티커 → Yahoo 심볼. 블룸버그 'XXX NA' 표기 > 명시적 접미사 > ISIN 국가 > 국가명 순."""
-    tk = (tk or "").strip().upper()
+    tk = re.sub(r"\s+", " ", (tk or "").replace("\xa0", " ")).strip().upper()
+    tk = re.sub(r" EQUITY$", "", tk)
     if " " in tk:
         base, ex = tk.rsplit(" ", 1)
         if ex in BBG_SUFFIX:
             return _clean_local(base, BBG_SUFFIX[ex]) if BBG_SUFFIX[ex] else base.replace(".", "-").replace("/", "-")
         tk = base
-    tk = re.sub(r"-(UQ|UN|UW|US)$", "", tk)
+    tk = re.sub(r"[.\- ](UQ|UN|UW|US)$", "", tk)
+    if re.fullmatch(r"A\d{6}", tk):
+        return tk[1:] + ".KS"
     m = re.fullmatch(r"(.+?)[.\-](T|TO|HK|KS|KQ|TW|AS|PA|DE)$", tk)
     if m:
         return _clean_local(m.group(1), "." + m.group(2))
@@ -284,7 +311,14 @@ def cg_yahoo(tk: str, isin: str | None = None, country: str | None = None):
         cc = isin[:2].upper()
         if cc in ("KY", "BM") and re.fullmatch(r"\d{1,5}", tk):
             return _clean_local(tk, ".HK")
-        if cc in US_LIKE_ISIN or us_tk in US_ONLY_FOREIGN:
+        if us_tk in US_ONLY_FOREIGN or _name_match(us_tk, name):
+            return us_tk
+        if cc in US_LIKE_ISIN:
+            if US_TICKERS and us_tk not in US_TICKERS:
+                if cc == "IE":
+                    return _clean_local(tk, ".IR")
+                if cc in ("JE", "GG"):
+                    return _clean_local(tk, ".L")
             return us_tk
         if ISIN_SUFFIX.get(cc):
             return _clean_local(tk, ISIN_SUFFIX[cc])
@@ -292,6 +326,7 @@ def cg_yahoo(tk: str, isin: str | None = None, country: str | None = None):
     if country:
         c = country.strip()
         c = c.title() if c.isupper() else c
+        c = "Korea" if "Korea" in c else ("China" if c.startswith("China") else c)
         suf = COUNTRY_SUFFIX.get(c)
         is_localish = bool(re.fullmatch(r"\d+[A-Z]?|A\d{6}|\d{4}-T", tk)) or us_tk not in US_TICKERS
         if suf and is_localish and us_tk not in US_ONLY_FOREIGN:

@@ -61,8 +61,17 @@ def main(rng="6mo"):
     syms = symbols_needed()
     ok = fail = 0
     failed = []
+    alt = {".TW": [".TWO"], ".KS": [".KQ"], ".AS": [".PA", ".BR"], ".PA": [".AS"], ".SS": [".SZ", ".HK"],
+           ".L": [".IR", ".AS"], ".TO": [".V", ""], ".IR": [".L", ""], ".MC": [".PA"], ".DE": [".F"]}
     for s in syms:
         data = fetch(s, rng)
+        if not data:
+            import re as _re
+            m = _re.search(r"(\.[A-Z]+)$", s)
+            for a in alt.get(m.group(1), []) if m else []:
+                data = fetch(s[: -len(m.group(1))] + a, rng)
+                if data:
+                    break
         if data:
             prices.setdefault(s, {}).update(data)
             ok += 1
