@@ -1,15 +1,14 @@
 {
- "EAGL_JS": [{"url": "https://cdn.prod.website-files.com/6a4b827439ea98143673d4ea/6a591276fd0fdeb2ec11041d_eagle-etf-holdings-v1.0.1.js", "grep": "https?://[^\"'` ]+|fetch\\("}],
- "ALGER": [{"url": "https://www.alger.com/Pages/etf-daily-holdings", "grep": "\\.csv|\\.xlsx|holding|Holding"}, {"url": "https://www.alger.com/Pages/Products.aspx?productCode=2495", "grep": "allHoldings|all-holdings|ajax|\\.json|api/|Download"}],
- "AKRE": [{"url": "https://www.akrefund.com/etf", "grep": "\\.csv|csv\\.|holdings"}],
- "CHAT": [{"url": "https://www.roundhillinvestments.com/etf/chat/", "grep": "fullHoldingsTable|\\.csv|Holdings_"}],
- "EZMONEY": [{"url": "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI?fundCode=49YTW"}, {"url": "https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode=49YTW", "grep": "fundCode=|00403A|00988A|FundCode"}],
- "FHTRUST": [{"url": "https://www.fhtrust.com.tw/api/assetsExcel/ETF23/20261022"}, {"url": "https://www.fhtrust.com.tw/ETF/etf_detail/ETF23", "grep": "00991A|ETF2[0-9]|主動"}],
- "TROWE": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF", "grep": "src=\"[^\"]+\\.js\"|https?://[a-z.]*troweprice[^\"' ]+"}],
- "BGIG": [{"url": "https://www.bahl-gaynor.com/wp-content/uploads/etf_holdings_csv/BGIG_holdings_2026-10-22.csv"}],
+ "EAGL_API": [{"url": "https://emward-middleware-fea5fd912200.herokuapp.com/daily-holdings"}],
+ "TROWE_JS": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/static/js/main.1b1e7bd5.chunk.js", "grep": "https?://[a-zA-Z0-9.\\-]+/[a-zA-Z0-9/_\\-{}$.]*(holding|Holding|portfolio|Portfolio)[a-zA-Z0-9/_\\-{}$.?=&]*|/api/[a-zA-Z0-9/_\\-]*"}],
+ "FWD": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html", "grep": "\\.csv|\\.xls|holdings[A-Za-z]*\\.json|/content/dam[^\"']+|EMOP|emerging-markets-opportunities"}],
+ "AKRE": [{"url": "https://www.akrefund.com/etf", "tables": true, "grep": "\\.csv"}],
+ "CHAT": [{"url": "https://www.roundhillinvestments.com/etf/chat/", "tables": true}],
+ "WCMI": [{"url": "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI", "tables": true}],
+ "ARKW2": [{"url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_TECHNOLOGY_ETF_ARKW_HOLDINGS.csv"}, {"url": "https://www.ark-funds.com/funds/arkw", "grep": "funds-etf-csv[^\"']+"}],
  "LCAP": [{"url": "https://api.assetmgmt.principalam.com/public/files?key=LCAP.xlsx"}],
- "ARKAPI": [{"url": "https://www.ark-funds.com/api/fund/holdings/1001?fundHoldingData="}],
- "FWD": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/etfs.html", "grep": "FWD|EMOP|disruptors"}],
- "NUGO_ALT": [{"url": "https://www.nuveen.com/en-us/exchange-traded-funds/nuveen-growth-opportunities-etf?fundshareclass=NUGO"}],
- "WCMI_TBL": [{"url": "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI", "grep": "Shares / Quantity|Holding Name"}]
+ "EZ63": [{"url": "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI?fundCode=63YTW"}],
+ "BAFE": [{"url": "https://www.brownadvisory.com/us/funds/brown-advisory-flexible-equity-etf", "grep": "holding|\\.csv|\\.xls"}, {"url": "https://www.brownadvisory.com/us/etfs", "grep": "BAFE[^<]{0,200}|href=\"[^\"]*etf[^\"]*\""}],
+ "IDEQ": [{"url": "https://www.lazardassetmanagement.com/us/en_us/funds/etfs", "grep": "IDEQ[^<]{0,200}|href=\"[^\"]*dynamic[^\"]*\""}],
+ "ALGER_DATA": [{"url": "https://www.alger.com/Pages/Products.aspx?productCode=2495", "grep": "dataResAll[^<]{0,300}|\\$\\.(get|ajax|getJSON)\\([^)]{0,300}|_api/[^\"']+|\\.aspx\\?[^\"']+"}]
 }

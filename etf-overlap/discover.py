@@ -19,9 +19,9 @@ def main():
     for key, urls in targets.items():
         res = []
         for u in urls:
-            grep = None
+            grep, tables = None, False
             if isinstance(u, dict):
-                grep, u = u.get("grep"), u["url"]
+                grep, tables, u = u.get("grep"), u.get("tables", False), u["url"]
             try:
                 r = S.get(u, timeout=30, allow_redirects=True)
                 ct = r.headers.get("content-type", "")
@@ -45,9 +45,18 @@ def main():
                     try:
                         import io, openpyxl
                         wb = openpyxl.load_workbook(io.BytesIO(r.content), read_only=True, data_only=True)
-                        item["xlsx"] = [[str(c) for c in row] for row in list(wb.worksheets[0].iter_rows(values_only=True))[:25]]
+                        item["xlsx"] = [[str(c) for c in row] for row in list(wb.worksheets[0].iter_rows(values_only=True))[:45]]
                     except Exception as ex:  # noqa: BLE001
                         item["xlsx_err"] = str(ex)
+                if tables:
+                    try:
+                        import io as _io
+                        import pandas as pd
+                        ts = pd.read_html(_io.StringIO(r.text))
+                        item["tables"] = [{"cols": [str(c) for c in t.columns], "n": len(t),
+                                           "rows": t.head(3).astype(str).values.tolist()} for t in ts][:8]
+                    except Exception as ex:  # noqa: BLE001
+                        item["tables_err"] = str(ex)[:200]
                 res.append(item)
             except Exception as ex:  # noqa: BLE001
                 res.append({"url": u, "error": f"{type(ex).__name__}: {ex}"[:300]})
