@@ -37,8 +37,13 @@ THEME_KO = {
 
 def first_sentence(s: str, n: int = 160) -> str:
     s = re.sub(r"\s+", " ", s or "").strip()
-    m = re.match(r"(.+?\.)\s", s + " ")
-    s = m.group(1) if m else s
+    # 회사명 약어(Inc. Ltd. Co. N.V. 등)에서 끊기지 않도록 60자 이후 첫 문장 끝을 찾는다
+    abbr = ("Inc", "Ltd", "Co", "Corp", "Plc", "plc", "S.A", "N.V", "A.G", "AG", "SE", "Bhd", "Tbk", "L.P", "U.S", "Jr", "No", "vs")
+    for m in re.finditer(r"\.\s+[A-Z]", s):
+        if m.start() < 60 or any(s[: m.start()].endswith(a) for a in abbr):
+            continue
+        s = s[: m.start() + 1]
+        break
     return s if len(s) <= n else s[: n - 1].rsplit(" ", 1)[0] + "…"
 
 
@@ -47,7 +52,7 @@ def main(limit: int = 80):
     p = ROOT / "config" / "themes.json"
     themes = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
     dash = json.loads((ROOT / "out" / "dashboard.json").read_text(encoding="utf-8"))
-    todo = [r for r in dash["rows"][:limit] if r["sym"] not in themes]
+    todo = [r for r in dash["rows"][:limit] if r["sym"] not in themes or (themes[r["sym"]].get("auto") and themes[r["sym"]].get("v", 1) < 2)]
     for r in todo:
         try:
             info = yf.Ticker(r["yahoo"]).info or {}
@@ -58,7 +63,7 @@ def main(limit: int = 80):
             "name": info.get("shortName") or r["name"],
             "theme": THEME_KO.get(ind, ind or info.get("sector") or ""),
             "desc": first_sentence(info.get("longBusinessSummary") or ""),
-            "auto": True,
+            "auto": True, "v": 2,
         }
         time.sleep(0.4)
     p.write_text(json.dumps(themes, ensure_ascii=False, indent=1), encoding="utf-8")

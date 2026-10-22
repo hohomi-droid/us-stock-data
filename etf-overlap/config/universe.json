@@ -320,7 +320,9 @@
    "source": {
     "type": "ab",
     "page": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html"
-   }
+   },
+   "track": false,
+   "note": "AB webapi 경로 확인 필요"
   },
   {
    "rank": 26,
@@ -452,7 +454,9 @@
    "source": {
     "type": "ab",
     "page": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-emerging-markets-opportunities-etf.html"
-   }
+   },
+   "track": false,
+   "note": "AB webapi 경로 확인 필요"
   },
   {
    "rank": 37,

@@ -20,6 +20,11 @@ GitHub Actions 자동 수집 결과와 Claude가 직접 조사한 결과를 매�
 4. **원인 분석** — 불일치·한쪽에만 있는 종목은 이유를 한 줄로 적는다 (예: 티커 매핑 오류, 공시 지연, 자금 유입 보정, 반투명 ETF, 벤치마크 대비 비중 등).
    코드 버그가 분명하면 `etf-overlap/` 코드를 고치고 커밋 메시지에 이유를 적는다. 판정 기준 자체를 바꾸는 수정은 하지 말고 보고서에 제안만 적는다.
 5. **주 1회(월요일)** — 유니버스 AUM 순위 재확인. 50위 안팎 변동이 있으면 보고서에 적는다 (universe.json 수정은 제안만).
+5-1. **한국어 설명 보강** — `config/themes.json` 에서 겹침 상위 30개 중 `"auto": true` 인 종목의 `theme`(짧은 한국어 테마)과 `desc`(한 문장 한국어 사업 설명)를
+   직접 고쳐 쓰고 `"auto": false` 로 바꾼다. 이미 false 인 항목은 건드리지 않는다.
+5-2. **수집 대기 ETF** — `universe.json` 에서 `"track": false` 인 50위 안 ETF 중 1~2개를 골라 일별 보유종목 다운로드 경로를 찾아본다
+   (WebSearch/WebFetch, 필요하면 `config/discover_targets.json` 을 고쳐 푸시하면 GitHub Actions 'ETF holdings discovery' 가 운용사 사이트를 직접 받아
+   `out/discover.json` 에 남긴다). 찾으면 `fetchers/` 에 수집기를 추가하고 universe.json 의 source 를 바꾼 뒤 track 을 지운다. 일별 공시가 없으면 excluded 로 옮기고 다음 순위를 넣는다.
 6. 파일 저장 후 커밋·푸시: `validation/latest.json`, `validation/summary.json`(오늘 행 추가, 같은 날짜면 교체), `validation/YYYY-MM-DD.md`.
    푸시 후 `python etf-overlap/render.py` 결과는 다음 Actions 실행 때 페이지에 반영된다 (렌더 파일도 같이 커밋하면 즉시 반영).
 7. 사용자에게 3~5줄 요약 메시지: 일치율, 주요 불일치, Claude만 찾은 종목, 고친 것.

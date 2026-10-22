@@ -55,16 +55,12 @@ US_EXCH = ("NASDAQ", "New York Stock Exchange Inc.", "Nyse Mkt Llc", "Cboe BZX",
 
 
 def yahoo_sym(ticker: str, exchange: str | None = None, country: str | None = None) -> str:
-    t = (ticker or "").strip().upper().replace("/", "-").replace(" ", "-")
+    t = (ticker or "").strip().upper()
     if exchange and exchange not in US_EXCH:
         for k, suf in EXCH_SUFFIX.items():
             if k.lower() in exchange.lower():
-                if suf in (".HK",):
-                    t = t.lstrip("0").zfill(4)
-                return t + suf
-    if t.endswith(".") or t.endswith("-"):
-        t = t[:-1]
-    return t.replace(".", "-")  # BRK.B → BRK-B
+                return LOCAL_FIX.get(_clean_local(t, suf), _clean_local(t, suf))
+    return cg_yahoo(t, None, country if country and country not in ("United States",) else None)
 
 
 def is_equity(asset_class: str | None) -> bool:
@@ -245,7 +241,11 @@ COUNTRY_SUFFIX = {"Japan": ".T", "United Kingdom": ".L", "Hong Kong": ".HK", "Ne
                   "Canada": ".TO", "Italy": ".MI", "Spain": ".MC", "Sweden": ".ST", "Denmark": ".CO",
                   "Australia": ".AX", "India": ".NS", "Norway": ".OL", "Finland": ".HE", "Belgium": ".BR",
                   "Singapore": ".SI", "Mexico": ".MX", "Brazil": ".SA", "Indonesia": ".JK", "Thailand": ".BK",
-                  "China": ".SS", "Ireland": ".IR", "Philippines": ".PS", "South Africa": ".JO", "Israel": ".TA"}
+                  "China": ".SS", "Ireland": ".IR", "Philippines": ".PS", "South Africa": ".JO", "Israel": ".TA",
+                  "Saudi Arabia": ".SR", "Poland": ".WA", "Turkey": ".IS", "Turkiye": ".IS", "Malaysia": ".KL",
+                  "Greece": ".AT", "Hungary": ".BD", "Qatar": ".QA", "United Arab Emirates": ".AE", "Chile": ".SN",
+                  "Colombia": ".CL", "Vietnam": ".VN", "Peru": ".LM", "Kuwait": ".KW", "Austria": ".VI",
+                  "Portugal": ".LS", "Czech Republic": ".PR", "Argentina": ".BA", "New Zealand": ".NZ"}
 
 
 def _clean_local(tk: str, suf: str) -> str:
@@ -256,6 +256,8 @@ def _clean_local(tk: str, suf: str) -> str:
         tk = tk.lstrip("0").zfill(4)
     if suf == ".T":
         tk = re.sub(r"[-.]T$", "", tk)
+        if re.fullmatch(r"\d{4}00", tk) or re.fullmatch(r"\d{3}[A-Z]00", tk):
+            tk = tk[:4]
     if suf == ".SS" and re.fullmatch(r"(00|30)\d{4}", tk):
         suf = ".SZ"
     elif suf == ".SS" and re.fullmatch(r"\d{1,5}", tk):
@@ -392,7 +394,7 @@ def generic_table(url: str, fund_filter: str | None = None):
     hdr_i = None
     for i, rw in enumerate(rows[:40]):
         cells = [str(c).strip().lower() for c in rw if c is not None]
-        if any(c in ("ticker", "symbol", "stockticker") for c in cells) and any("share" in c or "quantity" in c for c in cells):
+        if any("ticker" in c or c == "symbol" for c in cells) and any("share" in c or "quantity" in c for c in cells):
             hdr_i = i
             break
     if hdr_i is None:
@@ -409,7 +411,7 @@ def generic_table(url: str, fund_filter: str | None = None):
                 if k in h:
                     return i
         return None
-    it, iname, ish, iw = find("ticker", "symbol", "stockticker"), find("description", "security name", "name", "company"), \
+    it, iname, ish, iw = find("ticker", "symbol/ticker", "symbol", "stockticker"), find("description", "security name", "name", "company"), \
         find("shares", "quantity", "shares/par"), find("weight", "% of net assets", "% net assets", "percent")
     idate, ifund = find("date", "as of"), find("account", "fund")
     asof = None
