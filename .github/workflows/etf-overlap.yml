@@ -39,7 +39,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install
-        run: pip install --quiet requests openpyxl yfinance
+        run: pip install --quiet requests openpyxl yfinance lxml pandas
 
       - name: Collect holdings
         run: python collect.py

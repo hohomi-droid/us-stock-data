@@ -255,9 +255,9 @@
    "aum_usd_bn": 4.44,
    "benchmark": "R1000G",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "jpm",
+    "cusip": "46654Q732"
+   }
   },
   {
    "rank": 21,
@@ -267,9 +267,9 @@
    "aum_usd_bn": 4.02,
    "benchmark": "ACWI",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "jpm",
+    "cusip": "46654Q757"
+   }
   },
   {
    "rank": 22,
@@ -291,9 +291,13 @@
    "aum_usd_bn": 3.66,
    "benchmark": "ACWI",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "ishares",
+    "id": "343529",
+    "slug": [
+     "ishares-defense-industrials-active-etf",
+     "ishares-defense-industrials-and-tech-active-etf"
+    ]
+   }
   },
   {
    "rank": 24,
@@ -483,9 +487,9 @@
    "aum_usd_bn": 2.03,
    "benchmark": "ACWI",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "html_table",
+    "url": "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI"
+   }
   },
   {
    "rank": 40,
@@ -495,9 +499,9 @@
    "aum_usd_bn": 2.01,
    "benchmark": "SP500",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "jpm",
+    "cusip": "46654Q781"
+   }
   },
   {
    "rank": 41,
@@ -531,9 +535,9 @@
    "aum_usd_bn": 1.85,
    "benchmark": "R1000G",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "ark",
+    "ticker": "ARKW"
+   }
   },
   {
    "rank": 44,
@@ -543,9 +547,9 @@
    "aum_usd_bn": 1.8,
    "benchmark": "R1000G",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "ark",
+    "ticker": "ARKQ"
+   }
   },
   {
    "rank": 45,
@@ -579,9 +583,9 @@
    "aum_usd_bn": 1.7,
    "benchmark": "ACWI",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "jpm",
+    "cusip": "46641Q266"
+   }
   },
   {
    "rank": 48,

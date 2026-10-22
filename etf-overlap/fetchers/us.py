@@ -74,8 +74,16 @@ def is_equity(asset_class: str | None) -> bool:
 
 # ---------------------------------------------------------------- iShares
 def ishares(product_id: str, slug: str):
-    url = f"https://www.ishares.com/us/products/{product_id}/{slug}/latest-holdings.csv"
-    r = S.get(url, timeout=30)
+    slugs = slug if isinstance(slug, list) else [slug]
+    r = None
+    for sl in slugs:
+        for url in (f"https://www.ishares.com/us/products/{product_id}/{sl}/latest-holdings.csv",
+                    f"https://www.ishares.com/us/products/{product_id}/{sl}/1467271812596.ajax?fileType=csv&dataType=fund"):
+            r = S.get(url, timeout=30)
+            if r.status_code == 200 and b"Ticker," in r.content[:4000]:
+                break
+        if r is not None and r.status_code == 200 and b"Ticker," in r.content[:4000]:
+            break
     r.raise_for_status()
     text = r.content.decode("utf-8-sig", errors="replace")
     lines = text.splitlines()
@@ -335,14 +343,21 @@ def _cg_yahoo(tk: str, isin: str | None = None, country: str | None = None, name
 
 
 # ---------------------------------------------------------------- ARK
-ARK_FILES = {"ARKK": "ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
-             "ARKW": "ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-             "ARKG": "ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv"}
+ARK_FILES = {"ARKK": ["ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv"],
+             "ARKW": ["ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
+                      "ARK_NEXT_GENERATION_TECHNOLOGY_ETF_ARKW_HOLDINGS.csv"],
+             "ARKG": ["ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv"],
+             "ARKQ": ["ARK_AUTONOMOUS_TECH._%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+                      "ARK_AUTONOMOUS_TECHNOLOGY_%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+                      "ARK_AUTONOMOUS_TECH_%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv"]}
 
 
 def ark(ticker: str):
-    url = "https://assets.ark-funds.com/fund-documents/funds-etf-csv/" + ARK_FILES[ticker]
-    r = S.get(url, timeout=30)
+    r = None
+    for fn in ARK_FILES[ticker]:
+        r = S.get("https://assets.ark-funds.com/fund-documents/funds-etf-csv/" + fn, timeout=30)
+        if r.status_code == 200 and b"ticker" in r.content[:500].lower():
+            break
     r.raise_for_status()
     rows = list(csv.DictReader(io.StringIO(r.content.decode("utf-8-sig", errors="replace"))))
     out, asof = {}, None
@@ -441,3 +456,48 @@ def gmo_qlty():
 def roundhill(ticker: str, d: datetime):
     url = f"https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{d:%m%d%Y}.csv"
     return generic_table(url, fund_filter=ticker)
+
+
+# ---------------------------------------------------------------- HTML 표 (First Trust, Eagle 등)
+def html_table(url: str):
+    import pandas as pd
+    r = S.get(url, timeout=40)
+    r.raise_for_status()
+    tables = pd.read_html(io.StringIO(r.text))
+    best = None
+    for t in tables:
+        cols = [str(c).lower() for c in t.columns]
+        if any("ticker" in c or "symbol" in c for c in cols) and any("share" in c or "quantity" in c for c in cols):
+            if best is None or len(t) > len(best):
+                best = t
+    if best is None:
+        raise ValueError("보유 표를 찾지 못함")
+    rows = [list(best.columns)] + best.astype(object).where(best.notna(), None).values.tolist()
+    m = re.search(r"(\d{1,2}/\d{1,2}/\d{4})", r.text)
+    d = _parse_rows(rows)
+    d["asof"] = d["asof"] or (iso(m.group(1)) if m else None)
+    return d
+
+
+def _parse_rows(rows):
+    hdr = [str(c).strip().lower() if c is not None else "" for c in rows[0]]
+
+    def find(*keys):
+        for k in keys:
+            for i, h in enumerate(hdr):
+                if k in h:
+                    return i
+        return None
+    it, iname, ish, iw = find("ticker", "symbol"), find("name", "security", "description", "company"), \
+        find("shares", "quantity"), find("weight", "% of net", "percent")
+    out = {}
+    for rw in rows[1:]:
+        tk = str(rw[it] or "").strip() if it is not None else ""
+        sh = num(rw[ish]) if ish is not None else None
+        if not tk or not sh or tk.upper() in ("CASH", "USD", "--"):
+            continue
+        name = str(rw[iname]) if iname is not None else tk
+        y = cg_yahoo(tk, None, None, name)
+        out[y] = {"name": name.title(), "shares": sh, "weight": (num(rw[iw]) or 0.0) if iw is not None else 0.0,
+                  "type": "equity", "yahoo": y}
+    return {"asof": None, "units": None, "holdings": out}

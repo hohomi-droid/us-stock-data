@@ -1,0 +1,48 @@
+"""보유종목 다운로드 경로 탐색용 (GitHub Actions에서 1회성 실행).
+config/discover_targets.json 의 URL을 받아 상태·링크·API 후보 문자열을 out/discover.json 에 저장."""
+import json
+import re
+import sys
+from pathlib import Path
+from urllib.parse import urljoin
+
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+from fetchers.us import S  # noqa: E402
+
+PAT = re.compile(r"""["'(]([^"'()\s<>]*(?:holding|Holding|HOLDING|\.csv|\.xlsx|\.xls|/api/|portfolio|Portfolio|constituent|pcf|PCF|NPOI|Excel|excel)[^"'()\s<>]*)["')]""")
+
+
+def main():
+    targets = json.loads((ROOT / "config" / "discover_targets.json").read_text(encoding="utf-8"))
+    out = {}
+    for key, urls in targets.items():
+        res = []
+        for u in urls:
+            try:
+                r = S.get(u, timeout=30, allow_redirects=True)
+                ct = r.headers.get("content-type", "")
+                item = {"url": u, "final": r.url, "status": r.status_code, "ctype": ct, "len": len(r.content)}
+                if "html" in ct or "javascript" in ct or "json" in ct:
+                    txt = r.text
+                    cands = sorted({urljoin(r.url, m) for m in PAT.findall(txt)})[:80]
+                    item["cands"] = cands
+                    if "json" in ct:
+                        item["head"] = txt[:1500]
+                    else:
+                        t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", txt, flags=re.S)
+                        t = re.sub(r"<[^>]+>", " ", t)
+                        item["text"] = re.sub(r"\s+", " ", t)[:1500]
+                else:
+                    item["head"] = r.content[:600].decode("utf-8", "replace")
+                res.append(item)
+            except Exception as ex:  # noqa: BLE001
+                res.append({"url": u, "error": f"{type(ex).__name__}: {ex}"[:300]})
+        out[key] = res
+    (ROOT / "out").mkdir(exist_ok=True)
+    (ROOT / "out" / "discover.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("done", len(out))
+
+
+if __name__ == "__main__":
+    main()

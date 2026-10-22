@@ -36,6 +36,8 @@ def run_source(src: dict):
         return us.gmo_qlty()
     if t == "generic":
         return us.generic_table(src["url"], src.get("fund_filter"))
+    if t == "html_table":
+        return us.html_table(src["url"])
     if t == "timefolio":
         return asia.timefolio(src["idx"])
     raise ValueError(f"알 수 없는 source type {t}")
