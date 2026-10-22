@@ -3,109 +3,127 @@
   "name": "Taiwan Semiconductor Manufactur",
   "theme": "반도체",
   "desc": "Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "GOOGL": {
   "name": "Alphabet Inc.",
   "theme": "인터넷 플랫폼",
-  "desc": "Alphabet Inc.",
-  "auto": true
+  "desc": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America.",
+  "auto": true,
+  "v": 2
  },
  "UNH": {
   "name": "UnitedHealth Group Incorporated",
   "theme": "건강보험",
   "desc": "UnitedHealth Group Incorporated operates as a health care company in the United States and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "SPCX": {
   "name": "Space Exploration Technologies ",
   "theme": "방산·항공우주",
-  "desc": "Space Exploration Technologies Corp.",
-  "auto": true
+  "desc": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally.",
+  "auto": true,
+  "v": 2
  },
  "AMZN": {
   "name": "Amazon.com, Inc.",
   "theme": "온라인 유통",
-  "desc": "Amazon.com, Inc.",
-  "auto": true
+  "desc": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America…",
+  "auto": true,
+  "v": 2
  },
  "META": {
   "name": "Meta Platforms, Inc.",
   "theme": "인터넷 플랫폼",
-  "desc": "Meta Platforms, Inc.",
-  "auto": true
+  "desc": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal…",
+  "auto": true,
+  "v": 2
  },
  "AVGO": {
   "name": "Broadcom Inc.",
   "theme": "반도체",
-  "desc": "Broadcom Inc.",
-  "auto": true
+  "desc": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally.",
+  "auto": true,
+  "v": 2
  },
  "PM": {
   "name": "Philip Morris International Inc",
   "theme": "담배",
-  "desc": "Philip Morris International Inc.",
-  "auto": true
+  "desc": "Philip Morris International Inc. operates as a tobacco company.",
+  "auto": true,
+  "v": 2
  },
  "INTC": {
   "name": "Intel Corporation",
   "theme": "반도체",
   "desc": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "WDC": {
   "name": "Western Digital Corporation",
   "theme": "IT 하드웨어",
   "desc": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "MSFT": {
   "name": "Microsoft Corporation",
   "theme": "클라우드·인프라 SW",
   "desc": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "AMD": {
   "name": "Advanced Micro Devices, Inc.",
   "theme": "반도체",
-  "desc": "Advanced Micro Devices, Inc.",
-  "auto": true
+  "desc": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally.",
+  "auto": true,
+  "v": 2
  },
  "ABT": {
   "name": "Abbott Laboratories",
   "theme": "의료기기",
   "desc": "Abbott Laboratories, together with its subsidiaries, discovers, develops, manufactures, and sells health care products worldwide.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "RCL": {
   "name": "Royal Caribbean Cruises Ltd.",
   "theme": "여행",
-  "desc": "Royal Caribbean Cruises Ltd.",
-  "auto": true
+  "desc": "Royal Caribbean Cruises Ltd. operates as a cruise company worldwide.",
+  "auto": true,
+  "v": 2
  },
  "LLY": {
   "name": "Eli Lilly and Company",
   "theme": "제약",
   "desc": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "ASML": {
   "name": "ASML Holding N.V. - New York Re",
   "theme": "반도체 장비",
-  "desc": "ASML Holding N.V.",
-  "auto": true
+  "desc": "ASML Holding N.V. provides lithography solutions for the development, production, marketing, sales, upgrading, and servicing of advanced semiconductor…",
+  "auto": true,
+  "v": 2
  },
  "WFC": {
   "name": "Wells Fargo & Company",
   "theme": "은행",
   "desc": "Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "KLAC": {
   "name": "KLA Corporation",
   "theme": "반도체 장비",
   "desc": "KLA Corporation, together with its subsidiaries, provides process control and process-enabling solutions for manufacturing wafers, reticles/masks,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "AIR": {
   "name": "AAR Corp.",
@@ -122,20 +140,23 @@
  "GOOG": {
   "name": "Alphabet Inc.",
   "theme": "인터넷 플랫폼",
-  "desc": "Alphabet Inc.",
-  "auto": true
+  "desc": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America.",
+  "auto": true,
+  "v": 2
  },
  "RTX": {
   "name": "RTX Corporation",
   "theme": "방산·항공우주",
   "desc": "RTX Corporation, an aerospace and defense company, provides systems and services for commercial, military, and government customers worldwide.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "UNP": {
   "name": "Union Pacific Corporation",
   "theme": "철도",
   "desc": "Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "ROP": {
   "name": "Roper Technologies, Inc.",
@@ -147,55 +168,64 @@
   "name": "Mastercard Incorporated",
   "theme": "결제·카드",
   "desc": "Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "CRWD": {
   "name": "CrowdStrike Holdings, Inc.",
   "theme": "클라우드·인프라 SW",
-  "desc": "CrowdStrike Holdings, Inc.",
-  "auto": true
+  "desc": "CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally.",
+  "auto": true,
+  "v": 2
  },
  "TMO": {
   "name": "Thermo Fisher Scientific Inc",
   "theme": "진단·연구장비",
-  "desc": "Thermo Fisher Scientific Inc.",
-  "auto": true
+  "desc": "Thermo Fisher Scientific Inc. provides life sciences solutions, analytical instruments, specialty diagnostics, and laboratory products and biopharma services…",
+  "auto": true,
+  "v": 2
  },
  "GE": {
   "name": "GE Aerospace",
   "theme": "방산·항공우주",
   "desc": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "APD": {
   "name": "Air Products and Chemicals, Inc",
   "theme": "특수화학",
-  "desc": "Air Products and Chemicals, Inc.",
-  "auto": true
+  "desc": "Air Products and Chemicals, Inc. provides atmospheric gases, process and specialty gases, equipment, and related services in the Americas, Asia, Europe, the…",
+  "auto": true,
+  "v": 2
  },
  "DE": {
   "name": "Deere & Company",
   "theme": "Farm & Heavy Construction Machinery",
   "desc": "Deere & Company engages in the manufacture and distribution of various equipment worldwide.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "ACN": {
   "name": "Accenture plc",
   "theme": "IT 서비스",
   "desc": "Accenture plc provides consulting and managed services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "MU": {
   "name": "Micron Technology, Inc.",
   "theme": "반도체",
-  "desc": "Micron Technology, Inc.",
-  "auto": true
+  "desc": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific…",
+  "auto": true,
+  "v": 2
  },
  "ANET": {
   "name": "Arista Networks, Inc.",
   "theme": "IT 하드웨어",
-  "desc": "Arista Networks, Inc.",
-  "auto": true
+  "desc": "Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and…",
+  "auto": true,
+  "v": 2
  },
  "STX": {
   "name": "Seagate Technology Holdings PLC",
@@ -207,31 +237,36 @@
   "name": "Bloom Energy Corporation",
   "theme": "전력기기",
   "desc": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "V": {
   "name": "Visa Inc.",
   "theme": "결제·카드",
-  "desc": "Visa Inc.",
-  "auto": true
+  "desc": "Visa Inc. operates as a payment technology company in the United States and internationally.",
+  "auto": true,
+  "v": 2
  },
  "ELV": {
   "name": "Elevance Health, Inc.",
   "theme": "건강보험",
   "desc": "Elevance Health, Inc., together with its subsidiaries, operates as a health benefits company in the United States.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "GLW": {
   "name": "Corning Incorporated",
   "theme": "전자부품",
   "desc": "Corning Incorporated operates in optical communications, display, specialty materials, automotive, and life sciences businesses in the United States, Canada,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "COP": {
   "name": "ConocoPhillips",
   "theme": "석유·가스 개발",
   "desc": "ConocoPhillips explores for, produces, transports, and markets crude oil, bitumen, natural gas, liquefied natural gas (LNG), and natural gas liquids.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "CSCO": {
   "name": "Cisco Systems, Inc.",
@@ -255,7 +290,8 @@
   "name": "SAP  SE",
   "theme": "응용 SW",
   "desc": "SAP SE, together with its subsidiaries, provides enterprise application and business solutions worldwide.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "TWLO": {
   "name": "Twilio Inc.",
@@ -272,8 +308,9 @@
  "HOOD": {
   "name": "Robinhood Markets, Inc.",
   "theme": "증권·자본시장",
-  "desc": "Robinhood Markets, Inc.",
-  "auto": true
+  "desc": "Robinhood Markets, Inc. operates financial services platform in the United States.",
+  "auto": true,
+  "v": 2
  },
  "HPE": {
   "name": "Hewlett Packard Enterprise Comp",
@@ -285,25 +322,29 @@
   "name": "Mondelez International, Inc.",
   "theme": "Confectioners",
   "desc": "Mondelez International, Inc., through its subsidiaries, manufactures, markets, and sells snack food and beverage products in Latin America, North America,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "LRCX": {
   "name": "Lam Research Corporation",
   "theme": "반도체 장비",
   "desc": "Lam Research Corporation designs, manufactures, markets, refurbishes, and services semiconductor processing equipment used in the fabrication of integrated…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "SNOW": {
   "name": "Snowflake Inc.",
   "theme": "응용 SW",
-  "desc": "Snowflake Inc.",
-  "auto": true
+  "desc": "Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally.",
+  "auto": true,
+  "v": 2
  },
  "PANW": {
   "name": "Palo Alto Networks, Inc.",
   "theme": "클라우드·인프라 SW",
-  "desc": "Palo Alto Networks, Inc.",
-  "auto": true
+  "desc": "Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan.",
+  "auto": true,
+  "v": 2
  },
  "PGR": {
   "name": "Progressive Corporation (The)",
@@ -314,8 +355,9 @@
  "LIN": {
   "name": "Linde plc",
   "theme": "특수화학",
-  "desc": "Linde plc operates as an industrial gas company worldwide.",
-  "auto": true
+  "desc": "Linde plc operates as an industrial gas company worldwide. The company offers atmospheric gases, including oxygen, nitrogen, argon, and rare gases; and…",
+  "auto": true,
+  "v": 2
  },
  "TSLA": {
   "name": "Tesla, Inc.",
@@ -326,8 +368,9 @@
  "HD": {
   "name": "Home Depot, Inc. (The)",
   "theme": "주택 개보수 유통",
-  "desc": "The Home Depot, Inc.",
-  "auto": true
+  "desc": "The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally.",
+  "auto": true,
+  "v": 2
  },
  "SNDK": {
   "name": "Sandisk Corporation",
@@ -338,8 +381,9 @@
  "LITE": {
   "name": "Lumentum Holdings Inc.",
   "theme": "통신장비·네트워크",
-  "desc": "Lumentum Holdings Inc.",
-  "auto": true
+  "desc": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa.",
+  "auto": true,
+  "v": 2
  },
  "NFLX": {
   "name": "Netflix, Inc.",
@@ -369,7 +413,8 @@
   "name": "AbbVie Inc.",
   "theme": "제약",
   "desc": "AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "SCHW": {
   "name": "Charles Schwab Corporation (The",
@@ -381,7 +426,8 @@
   "name": "Johnson & Johnson",
   "theme": "제약",
   "desc": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "NOVOB": {
   "name": "Novo Nordisk A/S B Common Stock Dkk.1",
@@ -404,8 +450,9 @@
  "PLTR": {
   "name": "Palantir Technologies Inc.",
   "theme": "클라우드·인프라 SW",
-  "desc": "Palantir Technologies Inc.",
-  "auto": true
+  "desc": "Palantir Technologies Inc. builds and deploys software platforms for the intelligence community to assist in counterterrorism investigations and operations in…",
+  "auto": true,
+  "v": 2
  },
  "USB": {
   "name": "U.S. Bancorp",
@@ -459,7 +506,8 @@
   "name": "ExxonMobil Holdings Corporation",
   "theme": "석유·가스",
   "desc": "ExxonMobil Holdings Corporation engages in the exploration and production of crude oil and natural gas in the United States, Canada, and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "AZO": {
   "name": "AutoZone, Inc.",
@@ -489,31 +537,36 @@
   "name": "Novo Nordisk A/S",
   "theme": "제약",
   "desc": "Novo Nordisk A/S, together with its subsidiaries, engages in the research and development, manufacture, and distribution of pharmaceutical products.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "000660.KS": {
   "name": "SK hynix",
   "theme": "반도체",
-  "desc": "SK hynix Inc.",
-  "auto": true
+  "desc": "SK hynix Inc. through its subsidiaries, engages in research, develops, manufactures, distributes, and sells semiconductor devices in Korea, China, rest of…",
+  "auto": true,
+  "v": 2
  },
  "BTI": {
   "name": "British American Tobacco  Indus",
   "theme": "담배",
-  "desc": "British American Tobacco p.l.c.",
-  "auto": true
+  "desc": "British American Tobacco p.l.c. provides tobacco and nicotine products to consumers in the United States, Europe, Latin America, Canada, the Asia-Pacific, the…",
+  "auto": true,
+  "v": 2
  },
  "SHOP": {
   "name": "Shopify Inc.",
   "theme": "응용 SW",
   "desc": "Shopify Inc., a commerce technology company, provides tools to start, scale, market, and run a business of various sizes in Canada, the United States, Europe,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "ITX.MC": {
   "name": "Industria De Diseno Textil Common Stock Eur.03",
   "theme": "Apparel Retail",
   "desc": "Industria de Diseño Textil, S.A., together with its subsidiaries, engages in the retail and online distribution of clothing, footwear, accessories, and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "ADI": {
   "name": "Analog Devices, Inc.",
@@ -524,8 +577,9 @@
  "JPM": {
   "name": "JP Morgan Chase & Co.",
   "theme": "은행",
-  "desc": "JPMorgan Chase & Co.",
-  "auto": true
+  "desc": "JPMorgan Chase & Co. operates as a bank and financial holding company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia…",
+  "auto": true,
+  "v": 2
  },
  "BMY": {
   "name": "Bristol-Myers Squibb Company",
@@ -555,13 +609,15 @@
   "name": "ROLLS-ROYCE HOLDINGS PLC ORD SH",
   "theme": "방산·항공우주",
   "desc": "Rolls-Royce Holdings plc designs and manages mission-critical power systems in the United Kingdom and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "UCG.MI": {
   "name": "UNICREDIT",
   "theme": "지역은행",
-  "desc": "UniCredit S.p.A.",
-  "auto": true
+  "desc": "UniCredit S.p.A. provides commercial banking services in Italy, Germany, Central Europe, and Eastern Europe.",
+  "auto": true,
+  "v": 2
  },
  "NVDA": {
   "name": "NVIDIA Corporation",
@@ -585,7 +641,8 @@
   "name": "TOKYO ELECTRON",
   "theme": "반도체 장비",
   "desc": "Tokyo Electron Limited, together with its subsidiaries, develops, manufactures, and sells semiconductor production equipment in Japan, South Korea, Taiwan,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "MMM": {
   "name": "3M Company",
@@ -597,7 +654,8 @@
   "name": "AIRBUS SE",
   "theme": "방산·항공우주",
   "desc": "Airbus SE, together with its subsidiaries, engages in the design, manufacture, and delivery of aeronautics and aerospace products, services, and solutions…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "CVS": {
   "name": "CVS Health Corporation",
@@ -608,32 +666,37 @@
  "DDOG": {
   "name": "Datadog, Inc.",
   "theme": "응용 SW",
-  "desc": "Datadog, Inc.",
-  "auto": true
+  "desc": "Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally.",
+  "auto": true,
+  "v": 2
  },
  "DASH": {
   "name": "DoorDash, Inc.",
   "theme": "온라인 유통",
   "desc": "DoorDash, Inc., together with its subsidiaries, operates a commerce platform that connects merchants, consumers, and dashers in the United States and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "CRWV": {
   "name": "CoreWeave, Inc.",
   "theme": "클라우드·인프라 SW",
-  "desc": "CoreWeave, Inc.",
-  "auto": true
+  "desc": "CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States.",
+  "auto": true,
+  "v": 2
  },
  "STAN.L": {
   "name": "STANDARD CHARTERED PLC ORD USD0",
   "theme": "은행",
   "desc": "Standard Chartered PLC, together with its subsidiaries, provides various banking products and services in Asia, Africa, the Middle East, Europe, and the…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "NESN.SW": {
   "name": "NESTLE N",
   "theme": "식품",
   "desc": "Nestlé S.A., together with its subsidiaries, manufactures and distributes food and beverage, and nutritional science products in the United States, Brazil,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "8766.T": {
   "name": "TOKIO MARINE HOLDINGS INC",
@@ -645,13 +708,15 @@
   "name": "GLENCORE PLC ORD USD0.01",
   "theme": "Other Industrial Metals & Mining",
   "desc": "Glencore plc engages in the production, refinement, processing, storage, transport, and marketing of metals and minerals, and energy products in the Americas,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "TTE": {
   "name": "TotalEnergies SE",
   "theme": "석유·가스",
   "desc": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "B": {
   "name": "Barrick Mining Corporation",
@@ -662,8 +727,9 @@
  "SAN": {
   "name": "Banco Santander, S.A. Sponsored",
   "theme": "은행",
-  "desc": "Banco Santander, S.A.",
-  "auto": true
+  "desc": "Banco Santander, S.A. provides various financial products and services to individuals, small and medium-sized enterprises, large corporations, and public…",
+  "auto": true,
+  "v": 2
  },
  "6098.T": {
   "name": "RECRUIT HOLDINGS CO LTD",
@@ -674,26 +740,30 @@
  "NET": {
   "name": "Cloudflare, Inc.",
   "theme": "클라우드·인프라 SW",
-  "desc": "Cloudflare, Inc.",
-  "auto": true
+  "desc": "Cloudflare, Inc. operates as a cloud services provider that delivers a range of services to businesses worldwide.",
+  "auto": true,
+  "v": 2
  },
  "GEV": {
   "name": "GE Vernova Inc.",
   "theme": "산업기계",
   "desc": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "1299.HK": {
   "name": "AIA",
   "theme": "Insurance - Life",
   "desc": "AIA Group Limited, together with its subsidiaries, provides life insurance based financial services in Hong Kong.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "BBVA": {
   "name": "Banco Bilbao Vizcaya Argentaria",
   "theme": "은행",
   "desc": "Banco Bilbao Vizcaya Argentaria, S.A., together with its subsidiaries, provides various financial services in Spain, Mexico, Turkey, South America, Europe,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "6861.T": {
   "name": "KEYENCE CORP",
@@ -717,13 +787,15 @@
   "name": "HKEX",
   "theme": "금융데이터·거래소",
   "desc": "Hong Kong Exchanges and Clearing Limited, together with its subsidiaries, owns and operates stock and futures exchanges, and related clearing houses in Hong…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "BA.L": {
   "name": "BAE SYSTEMS PLC ORD 2.5P",
   "theme": "방산·항공우주",
   "desc": "BAE Systems plc provides defense, aerospace, and security solutions in the United States, the United Kingdom, the Middle East, Australia, Kingdom of Saudi…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "4004.T": {
   "name": "RESONAC HOLDINGS CORPORATION",
@@ -777,19 +849,22 @@
   "name": "TENCENT",
   "theme": "인터넷 플랫폼",
   "desc": "Tencent Holdings Limited, an investment holding company, provides value-added services, marketing services, fintech, and business services in Mainland China…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "CBRS": {
   "name": "Cerebras Systems Inc.",
   "theme": "반도체",
-  "desc": "Cerebras Systems Inc.",
-  "auto": true
+  "desc": "Cerebras Systems Inc. operates as an artificial intelligence infrastructure company.",
+  "auto": true,
+  "v": 2
  },
  "005930.KS": {
   "name": "SamsungElec",
   "theme": "IT 하드웨어",
-  "desc": "Samsung Electronics Co., Ltd.",
-  "auto": true
+  "desc": "Samsung Electronics Co., Ltd. engages in the consumer electronics, information technology and mobile communications, and device solutions businesses worldwide.",
+  "auto": true,
+  "v": 2
  },
  "GMEXICO.MX": {
   "name": "Grupo Mexico Sab De Cv",
@@ -824,8 +899,9 @@
  "2454.TW": {
   "name": "MEDIATEK INC",
   "theme": "반도체",
-  "desc": "MediaTek Inc.",
-  "auto": true
+  "desc": "MediaTek Inc. engages in the research, development, production, manufacture, and marketing of multimedia integrated circuits (ICs) in Taiwan, rest of Asia,…",
+  "auto": true,
+  "v": 2
  },
  "2383.TW": {
   "name": "ELITE MATERIAL CO",
@@ -836,14 +912,16 @@
  "MELI": {
   "name": "MercadoLibre, Inc.",
   "theme": "온라인 유통",
-  "desc": "MercadoLibre, Inc.",
-  "auto": true
+  "desc": "MercadoLibre, Inc. operates online commerce platforms in Brazil, Mexico, Argentina, and internationally.",
+  "auto": true,
+  "v": 2
  },
  "2360.TW": {
   "name": "CHROMA ATE INC",
   "theme": "계측·과학장비",
-  "desc": "Chroma ATE Inc.",
-  "auto": true
+  "desc": "Chroma ATE Inc. designs, assembles, manufactures, sells, repairs, and maintains software/hardware for computers and peripherals, computerized automatic test…",
+  "auto": true,
+  "v": 2
  },
  "3711.TW": {
   "name": "ASE TECHNOLOGY HOLDING CO LTD",
@@ -854,13 +932,15 @@
  "105560.KS": {
   "name": "KBFinancialGroup",
   "theme": "지역은행",
-  "desc": "KB Financial Group Inc.",
-  "auto": true
+  "desc": "KB Financial Group Inc. provides financial products and services in South Korea, the United States, New Zealand, China, Cambodia, the United Kingdom,…",
+  "auto": true,
+  "v": 2
  },
  "2308.TW": {
   "name": "DELTA ELECTRONIC",
   "theme": "전자부품",
   "desc": "Delta Electronics, Inc., together with its subsidiaries, provides power and thermal management solutions in Mainland China, the United States, Taiwan,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  }
 }
