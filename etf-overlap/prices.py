@@ -10,6 +10,9 @@ from pathlib import Path
 
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from analyze import CANON  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
 
@@ -48,6 +51,7 @@ def symbols_needed():
             for s, h in e.get("holdings", {}).items():
                 if h.get("yahoo"):
                     syms.add(h["yahoo"])
+                    syms.add(CANON.get(h["yahoo"], h["yahoo"]))
     return sorted(syms)
 
 

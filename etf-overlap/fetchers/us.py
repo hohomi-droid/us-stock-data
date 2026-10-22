@@ -11,6 +11,7 @@ import csv
 import io
 import re
 from datetime import datetime
+from pathlib import Path
 
 import requests
 
@@ -152,7 +153,7 @@ def jpm(cusip: str):
         sh = num(g(rw, "shares/par"))
         if not sh:
             continue
-        y = yahoo_sym(str(tk))
+        y = cg_yahoo(str(tk), None, str(g(rw, "country") or ""))
         out[y] = {"name": str(g(rw, "security description") or tk).title(), "shares": sh,
                   "weight": num(g(rw, "% of net assets")) or 0.0, "type": "equity", "yahoo": y}
     units = None
@@ -211,24 +212,91 @@ ISIN_SUFFIX = {"JP": ".T", "GB": ".L", "HK": ".HK", "NL": ".AS", "FR": ".PA", "D
                "AU": ".AX", "IN": ".NS", "NO": ".OL", "FI": ".HE", "BE": ".BR", "IE": "", "BR": ".SA"}
 
 
-def cg_yahoo(tk: str, isin: str | None):
+def _load_us_tickers():
+    p = Path(__file__).resolve().parents[2] / "scripts" / "tickers.csv"
+    try:
+        with open(p, encoding="utf-8-sig") as f:
+            return {row["ticker"].strip().upper().replace(".", "-") for row in csv.DictReader(f)}
+    except Exception:  # noqa: BLE001
+        return set()
+
+
+US_TICKERS = _load_us_tickers()
+
+BBG_SUFFIX = {"NA": ".AS", "LN": ".L", "JP": ".T", "JT": ".T", "HK": ".HK", "FP": ".PA", "GR": ".DE", "GY": ".DE",
+              "SW": ".SW", "SE": ".SW", "VX": ".SW", "KS": ".KS", "KP": ".KS", "KQ": ".KQ", "TT": ".TW", "TP": ".TWO",
+              "CN": ".TO", "CT": ".TO", "IM": ".MI", "SM": ".MC", "SQ": ".MC", "SS": ".ST", "DC": ".CO", "AU": ".AX",
+              "AT": ".AX", "IN": ".NS", "IB": ".BO", "NO": ".OL", "FH": ".HE", "BB": ".BR", "ID": ".IR", "SP": ".SI",
+              "MM": ".MX", "BZ": ".SA", "IJ": ".JK", "TB": ".BK", "UH": ".AE", "DU": ".AE", "AB": ".SR", "LI": ".L",
+              "CH": ".SS", "C1": ".SS", "C2": ".SZ", "US": "", "UN": "", "UW": "", "UQ": "", "UR": "", "UA": "", "UP": "", "UV": ""}
+ISIN_SUFFIX.update({"SG": ".SI", "MX": ".MX", "ID": ".JK", "TH": ".BK", "AE": ".AE", "SA": ".SR", "PH": ".PS",
+                    "ZA": ".JO", "IL": ".TA", "AT": ".VI", "PT": ".LS", "PL": ".WA", "CN": ".SS", "KY": ""})
+COUNTRY_SUFFIX = {"Japan": ".T", "United Kingdom": ".L", "Hong Kong": ".HK", "Netherlands": ".AS", "France": ".PA",
+                  "Germany": ".DE", "Switzerland": ".SW", "Korea": ".KS", "South Korea": ".KS", "Taiwan": ".TW",
+                  "Canada": ".TO", "Italy": ".MI", "Spain": ".MC", "Sweden": ".ST", "Denmark": ".CO",
+                  "Australia": ".AX", "India": ".NS", "Norway": ".OL", "Finland": ".HE", "Belgium": ".BR",
+                  "Singapore": ".SI", "Mexico": ".MX", "Brazil": ".SA", "Indonesia": ".JK", "Thailand": ".BK",
+                  "China": ".SS", "Ireland": ".IR", "Philippines": ".PS", "South Africa": ".JO", "Israel": ".TA"}
+
+
+def _clean_local(tk: str, suf: str) -> str:
     tk = tk.strip().upper()
-    if " " in tk:  # 'ASML NA' 같은 블룸버그 표기
+    if suf in (".KS", ".KQ") and re.fullmatch(r"A\d{6}", tk):
+        tk = tk[1:]
+    if suf == ".HK":
+        tk = tk.lstrip("0").zfill(4)
+    if suf == ".T":
+        tk = re.sub(r"[-.]T$", "", tk)
+    if suf == ".SS" and re.fullmatch(r"(00|30)\d{4}", tk):
+        suf = ".SZ"
+    tk = tk.rstrip("./-").replace("/", "").replace(".", "-")
+    if suf in (".CO", ".ST", ".HE", ".OL") and "-" not in tk and len(tk) >= 4 and tk[-1] in "AB":
+        tk = tk[:-1] + "-" + tk[-1]
+    if suf == ".L":
+        tk = tk.replace("-", "")
+    return tk + suf
+
+
+US_LIKE_ISIN = {"US", "IE", "BM", "KY", "JE", "PR", "LR", "PA", "CW", "VG", "GG", "MH"}
+US_ONLY_FOREIGN = {"NXPI", "LYB", "CB", "GRMN", "SPOT", "ARM", "ASND", "ARGX", "ICLR", "CNH", "FER", "QGEN",
+                   "CRTO", "MBLY", "GFS", "TEAM", "CCEP", "RACE", "STLA", "NVO", "ASML", "SAP", "TSM", "SHEL", "AZN",
+                   "UL", "BTI", "BHP", "RIO", "HSBC", "TM", "SONY", "NVS", "TTE", "BUD", "DEO", "GSK", "BP", "SAN",
+                   "ING", "ABBNY", "SNY", "BCS", "LYG", "NWG", "INFY", "HDB", "IBN", "MUFG", "SMFG", "BABA", "PDD",
+                   "JD", "BIDU", "NTES", "TCOM", "BEKE", "SE", "GRAB", "CPNG", "MELI", "NU", "STNE", "XP"}
+
+
+def cg_yahoo(tk: str, isin: str | None = None, country: str | None = None):
+    """운용사 티커 → Yahoo 심볼. 블룸버그 'XXX NA' 표기 > 명시적 접미사 > ISIN 국가 > 국가명 순."""
+    tk = (tk or "").strip().upper()
+    if " " in tk:
         base, ex = tk.rsplit(" ", 1)
-        m = {"NA": ".AS", "LN": ".L", "JP": ".T", "JT": ".T", "HK": ".HK", "FP": ".PA", "GR": ".DE", "GY": ".DE",
-             "SW": ".SW", "SE": ".SW", "KS": ".KS", "TT": ".TW", "CN": ".TO", "IM": ".MI", "SM": ".MC",
-             "SS": ".ST", "DC": ".CO", "AU": ".AX", "IN": ".NS", "US": "", "UN": "", "UW": "", "UQ": ""}
-        suf = m.get(ex, "")
-        if suf == ".HK":
-            base = base.lstrip("0").zfill(4)
-        return base.replace("/", "-").replace(".", "-") + suf
-    cc = (isin or "")[:2]
-    if cc and cc not in ("US",) and cc in ISIN_SUFFIX and not tk.isalpha() or (cc in ("JP", "HK", "KR", "TW")):
-        suf = ISIN_SUFFIX.get(cc, "")
-        if suf == ".HK":
-            tk = tk.lstrip("0").zfill(4)
-        return tk + suf
-    return tk.replace("/", "-").replace(".", "-")
+        if ex in BBG_SUFFIX:
+            return _clean_local(base, BBG_SUFFIX[ex]) if BBG_SUFFIX[ex] else base.replace(".", "-").replace("/", "-")
+        tk = base
+    tk = re.sub(r"-(UQ|UN|UW|US)$", "", tk)
+    m = re.fullmatch(r"(.+?)[.\-](T|TO|HK|KS|KQ|TW|AS|PA|DE)$", tk)
+    if m:
+        return _clean_local(m.group(1), "." + m.group(2))
+    if re.fullmatch(r"[A-Z0-9]+\.\.?L|[A-Z]+/\.?L", tk):          # RR..L, AV/.L
+        return _clean_local(re.sub(r"[./]+L$", "", tk), ".L")
+    us_tk = tk.replace("/", "-").replace(".", "-").rstrip("-")
+    if isin:
+        cc = isin[:2].upper()
+        if cc in ("KY", "BM") and re.fullmatch(r"\d{1,5}", tk):
+            return _clean_local(tk, ".HK")
+        if cc in US_LIKE_ISIN or us_tk in US_ONLY_FOREIGN:
+            return us_tk
+        if ISIN_SUFFIX.get(cc):
+            return _clean_local(tk, ISIN_SUFFIX[cc])
+        return us_tk
+    if country:
+        c = country.strip()
+        c = c.title() if c.isupper() else c
+        suf = COUNTRY_SUFFIX.get(c)
+        is_localish = bool(re.fullmatch(r"\d+[A-Z]?|A\d{6}|\d{4}-T", tk)) or us_tk not in US_TICKERS
+        if suf and is_localish and us_tk not in US_ONLY_FOREIGN:
+            return _clean_local(tk, suf)
+    return us_tk
 
 
 # ---------------------------------------------------------------- ARK
@@ -250,7 +318,7 @@ def ark(ticker: str):
         if not tk or not sh:
             continue
         asof = asof or iso(row.get("date", ""))
-        y = yahoo_sym(tk)
+        y = cg_yahoo(tk)
         out[y] = {"name": row.get("company", tk).title(), "shares": sh,
                   "weight": num(row.get("weight (%)")) or 0.0, "type": "equity", "yahoo": y}
     # ARK 파일 날짜는 '다음 거래일' 표기 → 그대로 기준일로 사용(전일 종가 반영 보유)

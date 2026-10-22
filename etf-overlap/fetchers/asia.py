@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from datetime import datetime
 
-from .us import S, num, _table_from_bytes, iso
+from .us import S, num, _table_from_bytes, iso, cg_yahoo
 
 
 def _kr_yahoo(code: str, market_hint: str | None = None) -> str:
@@ -45,12 +45,12 @@ def timefolio(idx: int):
         code = str(rw[ic] or "").strip()
         name = str(rw[iname] or "").strip() if iname is not None else code
         sh = num(rw[ish]) if ish is not None else None
-        if not code or not sh or "원화" in name or "현금" in name or "예금" in name:
+        if not code or not sh or "액티브" in name or "ETF" in name.upper() or "원화" in name or "현금" in name or "예금" in name:
             continue
         if re.fullmatch(r"\d{5}[0-9A-Z]", code):          # 국내 종목
             y = _kr_yahoo(code)
         else:                                            # 해외 종목: 'NVDA US' 등
-            y = code.split()[0].replace(".", "-")
+            y = cg_yahoo(code)
         out[y] = {"name": name, "shares": sh, "weight": num(rw[iw]) if iw is not None else 0.0,
                   "type": "equity", "yahoo": y}
     return {"asof": asof or datetime.now().strftime("%Y-%m-%d"), "units": None, "holdings": out}

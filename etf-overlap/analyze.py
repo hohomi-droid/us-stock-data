@@ -37,6 +37,42 @@ MIN_NEW_WEIGHT = 0.10  # 신규 편입 인정 최소 비중(%) — 먼지 포지
 CASH_LIKE = {"CASH", "USD", "KRW", "TWD", "EUR", "JPY", "GBP", "MONEY MARKET", "", "-"}
 
 
+# 같은 회사의 해외 상장(현지) 주식 ↔ 미국 ADR 을 하나로 합쳐 겹침을 센다
+CANON = {
+    "2330.TW": "TSM", "ASML.AS": "ASML", "NOVO-B.CO": "NVO", "SAP.DE": "SAP", "7203.T": "TM", "6758.T": "SONY",
+    "SHEL.L": "SHEL", "AZN.L": "AZN", "ULVR.L": "UL", "BATS.L": "BTI", "9988.HK": "BABA", "SKHY": "000660.KS",
+    "RACE.MI": "RACE", "NOVN.SW": "NVS", "TTE.PA": "TTE", "BHP.AX": "BHP", "RIO.L": "RIO", "HSBA.L": "HSBC",
+    "INFY.NS": "INFY", "HDFCBANK.NS": "HDB", "ICICIBANK.NS": "IBN", "8306.T": "MUFG", "8316.T": "SMFG",
+    "GSK.L": "GSK", "BP.L": "BP", "DGE.L": "DEO", "ABI.BR": "BUD", "SAN.MC": "SAN", "INGA.AS": "ING",
+    "SAN.PA": "SNY", "MELI": "MELI", "SPOT": "SPOT", "TCEHY": "0700.HK", "SE": "SE", "ARGX.BR": "ARGX",
+    "ADYEN.AS": "ADYEN.AS", "005930.KS": "005930.KS", "SSNLF": "005930.KS", "SMSN.L": "005930.KS",
+    "BIDU": "BIDU", "9888.HK": "BIDU", "9618.HK": "JD", "9999.HK": "NTES", "3690.HK": "3690.HK",
+    "MBG.DE": "MBG.DE", "SIE.DE": "SIE.DE", "1299.HK": "1299.HK", "STLAM.MI": "STLA", "CNHI.MI": "CNH",
+    "FER.MC": "FER", "SHOP.TO": "SHOP", "RY.TO": "RY", "TD.TO": "TD", "CNQ.TO": "CNQ", "CP.TO": "CP",
+    "CNR.TO": "CNI", "ENB.TO": "ENB", "BN.TO": "BN", "BAM.TO": "BAM", "CSU.TO": "CSU.TO", "ATD.TO": "ATD.TO",
+    "TRI.TO": "TRI", "WCN.TO": "WCN", "SU.TO": "SU", "MFC.TO": "MFC", "BMO.TO": "BMO", "BNS.TO": "BNS",
+    "CM.TO": "CM", "NTR.TO": "NTR", "AEM.TO": "AEM", "ABX.TO": "B", "WPM.TO": "WPM", "FNV.TO": "FNV",
+    "CCO.TO": "CCJ", "TECK-B.TO": "TECK", "FTS.TO": "FTS", "SLF.TO": "SLF", "QSR.TO": "QSR",
+}
+
+
+def canon(sym: str) -> str:
+    return CANON.get(sym, sym)
+
+
+def canon_holdings(hs: dict) -> dict:
+    out = {}
+    for s, h in hs.items():
+        c = canon(s)
+        if c in out and (out[c].get("weight") or 0) >= (h.get("weight") or 0):
+            continue
+        h = dict(h)
+        if c != s:
+            h["yahoo"] = c
+        out[c] = h
+    return out
+
+
 def load_json(p: Path, default):
     try:
         return json.loads(p.read_text(encoding="utf-8"))
@@ -47,7 +83,10 @@ def load_json(p: Path, default):
 def load_snapshots():
     snaps = []
     for f in sorted(SNAP_DIR.glob("*.json")):
-        snaps.append(load_json(f, {}))
+        snap = load_json(f, {})
+        for e in snap.get("etfs", {}).values():
+            e["holdings"] = canon_holdings(e.get("holdings", {}))
+        snaps.append(snap)
     return [s for s in snaps if s.get("etfs")]
 
 
@@ -130,7 +169,7 @@ def latest_price(prices: dict, sym: str):
 def main():
     universe = load_json(ROOT / "config" / "universe.json", {"etfs": []})
     uni = {e["ticker"]: e for e in universe["etfs"] if e.get("track", True)}
-    bench = load_json(ROOT / "data" / "benchmark.json", {})
+    bench = {k: {canon(s): w for s, w in v.items()} for k, v in load_json(ROOT / "data" / "benchmark.json", {}).items()}
     prices = load_json(ROOT / "data" / "prices.json", {})
     themes = load_json(ROOT / "config" / "themes.json", {})
     snaps = load_snapshots()
