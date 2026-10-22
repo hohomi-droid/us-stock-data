@@ -1,0 +1,32 @@
+{
+ "note": "전세계 액티브 주식형 ETF 운용규모(AUM) 순. 제외: 레버리지·인버스, 단일종목, 옵션인컴·커버드콜, 버퍼, 채권·멀티에셋, 재간접, 체계적 팩터·인핸스드 인덱스(Dimensional·Avantis·Fidelity Enhanced·JPM Research Enhanced·iShares Rotation 등), 반투명(FBCG·FMAG·PVAL·TCHP). AUM 기준일 2026-10 (TradingView·CFRA·TWSE·운용사).",
+ "benchmarks": {
+  "SP500": {"id": "239726", "slug": "ishares-core-sp-500-etf"},
+  "R1000G": {"id": "239706", "slug": "ishares-russell-1000-growth-etf"},
+  "R1000V": {"id": "239708", "slug": "ishares-russell-1000-value-etf"},
+  "ACWI": {"id": "239600", "slug": "ishares-msci-acwi-etf"}
+ },
+ "etfs": [
+  {"ticker": "CGDV", "name": "Capital Group Dividend Value ETF", "market": "US", "aum_usd_bn": 39.76, "benchmark": "SP500", "source": {"type": "capital_group", "ticker": "CGDV"}},
+  {"ticker": "CGGR", "name": "Capital Group Growth ETF", "market": "US", "aum_usd_bn": 26.08, "benchmark": "SP500", "source": {"type": "capital_group", "ticker": "CGGR"}},
+  {"ticker": "BAI", "name": "iShares A.I. Innovation and Tech Active ETF", "market": "US", "aum_usd_bn": 13.06, "benchmark": "ACWI", "source": {"type": "ishares", "id": "339081", "slug": "ishares-a-i-innovation-and-tech-active-etf"}},
+  {"ticker": "CGUS", "name": "Capital Group Core Equity ETF", "market": "US", "aum_usd_bn": 12.25, "benchmark": "SP500", "source": {"type": "capital_group", "ticker": "CGUS"}},
+  {"ticker": "CGGO", "name": "Capital Group Global Growth Equity ETF", "market": "US", "aum_usd_bn": 11.86, "benchmark": "ACWI", "source": {"type": "capital_group", "ticker": "CGGO"}},
+  {"ticker": "JGRO", "name": "JPMorgan Active Growth ETF", "market": "US", "aum_usd_bn": 9.78, "benchmark": "R1000G", "source": {"type": "jpm", "cusip": "46654Q609"}},
+  {"ticker": "BLCR", "name": "iShares Large Cap Core Active ETF", "market": "US", "aum_usd_bn": 9.75, "benchmark": "SP500", "source": {"type": "ishares", "id": "333889", "slug": "ishares-large-cap-core-active-etf"}},
+  {"ticker": "00981A", "name": "主動統一台股增長 (UPAMC Taiwan Stock Growth Active)", "market": "TW", "aum_usd_bn": 8.44, "benchmark": null, "track": false, "source": {"type": "pending"}},
+  {"ticker": "TCAF", "name": "T. Rowe Price Capital Appreciation Equity ETF", "market": "US", "aum_usd_bn": 8.43, "benchmark": "SP500", "track": false, "source": {"type": "pending"}},
+  {"ticker": "JAVA", "name": "JPMorgan Active Value ETF", "market": "US", "aum_usd_bn": 7.35, "benchmark": "R1000V", "source": {"type": "jpm", "cusip": "46641Q167"}},
+  {"ticker": "SEQ", "name": "Sequoia ETF", "market": "US", "aum_usd_bn": 6.72, "benchmark": "SP500", "source": {"type": "sequoia"}},
+  {"ticker": "CGXU", "name": "Capital Group International Focus Equity ETF", "market": "US", "aum_usd_bn": 6.57, "benchmark": "ACWI", "source": {"type": "capital_group", "ticker": "CGXU"}},
+  {"ticker": "JGLO", "name": "JPMorgan Global Select Equity ETF", "market": "US", "aum_usd_bn": 6.33, "benchmark": "ACWI", "source": {"type": "jpm", "cusip": "46654Q740"}},
+  {"ticker": "ARKK", "name": "ARK Innovation ETF", "market": "US", "aum_usd_bn": 6.15, "benchmark": "R1000G", "source": {"type": "ark", "ticker": "ARKK"}},
+  {"ticker": "CNEQ", "name": "Alger Concentrated Equity ETF", "market": "US", "aum_usd_bn": 6.05, "benchmark": "R1000G", "track": false, "source": {"type": "pending"}},
+  {"ticker": "CGDG", "name": "Capital Group Dividend Growers ETF", "market": "US", "aum_usd_bn": 5.85, "benchmark": "ACWI", "source": {"type": "capital_group", "ticker": "CGDG"}},
+  {"ticker": "QLTY", "name": "GMO U.S. Quality ETF", "market": "US", "aum_usd_bn": 5.46, "benchmark": "SP500", "source": {"type": "gmo"}},
+  {"ticker": "00403A", "name": "主動統一升級50", "market": "TW", "aum_usd_bn": 4.01, "benchmark": null, "track": false, "source": {"type": "pending"}},
+  {"ticker": "00991A", "name": "主動復華未來50", "market": "TW", "aum_usd_bn": 2.16, "benchmark": null, "track": false, "source": {"type": "pending"}},
+  {"ticker": "426030", "name": "TIME 미국나스닥100액티브", "market": "KR", "aum_usd_bn": 1.72, "benchmark": "R1000G", "source": {"type": "timefolio", "idx": 2}},
+  {"ticker": "456600", "name": "TIME 글로벌AI인공지능액티브", "market": "KR", "aum_usd_bn": 1.36, "benchmark": "ACWI", "source": {"type": "timefolio", "idx": 6}}
+ ]
+}
