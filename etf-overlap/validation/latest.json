@@ -1,0 +1,136 @@
+{
+ "date": "2026-10-23",
+ "github_generated": "2026-10-23",
+ "checked": 10,
+ "matched": 10,
+ "mismatched": 0,
+ "unverifiable": 0,
+ "match_rate": 1.0,
+ "checks": [
+  {
+   "sym": "TSM",
+   "claim": "30개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "JEMA 16.18→16.06(stockanalysis), ARKQ 3.83→3.84(tipranks 10/20), EAGL 6.29→6.33, BAI 4.9→4.65 확인. 00981A 11.34 vs 9.38은 8/1 자료라 기준일 차이. Yahoo 10/20 425.08·10/22 412.35 일치"
+  },
+  {
+   "sym": "AMZN",
+   "claim": "15개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "EAGL 9.51→9.31, BLCR 5.98→6.02, JGLO 5.41→5.07(7/31). CGGR 10/19 매수 보도(2.68%) — 스크레이퍼 CGGR 2.6%이나 R1000G 대비 미달이라 초과보유 집계 제외(설계대로). Yahoo 262.37·250.38 일치"
+  },
+  {
+   "sym": "SPCX",
+   "claim": "14개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "ARKQ 9.32→8.81(tipranks 10/20), ARKK ~5.9(7/31 환산), BAI 3.61→2.99(benzinga) — 보유 확인, 비중 차는 기준일·주가 변동. Yahoo 147.79·144.75 일치"
+  },
+  {
+   "sym": "UNH",
+   "claim": "14개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "EAGL 6.29→6.04, QLTY 2.6→2.40(10/7), JGLO 1.48→1.70(7/31)"
+  },
+  {
+   "sym": "META",
+   "claim": "14개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "CGGR 6.42→5.91(9/2), BLCR 4.97→4.98, QLTY 4.5→4.80, CGDV 3.68→4.05(8/20). Yahoo 697.52·648.85 일치"
+  },
+  {
+   "sym": "GOOGL",
+   "claim": "13개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "BLCR 4.89→5.00, QLTY 4.7→4.90, JGLO 4.13→4.26, CGDV 3.58→3.58"
+  },
+  {
+   "sym": "AVGO",
+   "claim": "12개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "BAI 4.4→4.18, QLTY 3.3→3.70, CGDV 4.4→4.54, CGGR 4.26→5.49(9/2 자료, 기준일 차이)"
+  },
+  {
+   "sym": "PM",
+   "claim": "12개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "QLTY 1.0→1.00(10/7), CGDG 4.11→3.75(2/28 N-PORT)"
+  },
+  {
+   "sym": "000660.KS",
+   "claim": "12개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "JEMA 4.4→4.24, CHAT 3.35→4.24(10/1, 메모리주 급등락으로 설명). Yahoo 10/20·10/22 1,223,000 일치"
+  },
+  {
+   "sym": "ASML",
+   "claim": "11개 ETF 초과보유, 신규 0",
+   "verdict": "일치",
+   "note": "JGLO 2.69→2.65, CHAT 3.12→3.38. Yahoo 1676.69·1560.54 일치"
+  }
+ ],
+ "both": [
+  {
+   "sym": "MU",
+   "name": "Micron Technology",
+   "reason": "BAI(+6,893주)·CGGR(+2,740주) 10/20 매수 보도. GitHub 점수 16위(9개 ETF 초과보유) — 다만 CGDV·CGGO는 매도해 엇갈림"
+  },
+  {
+   "sym": "AMZN",
+   "name": "Amazon.com",
+   "reason": "CGGR($18.3M)·CGUS 10/19 매수 보도, GitHub 점수 2위. ARKK는 감소"
+  },
+  {
+   "sym": "META",
+   "name": "Meta Platforms",
+   "reason": "ARK 10/13 $17.3M·CGUS 10/19 매수, GitHub 점수 5위. CGDV는 $37.6M 매도로 혼재"
+  }
+ ],
+ "claude_only": [
+  {
+   "sym": "3017.TW",
+   "name": "奇鋐 AVC",
+   "reason": "00981A·00403A 10/16~10/22 연속 가매수, 10/21 액티브 4개 동시 매수. GitHub는 스냅샷 2일뿐이고 두 날 공시일이 같아 변화 미감지"
+  },
+  {
+   "sym": "3231.TW",
+   "name": "緯創 Wistron",
+   "reason": "00981A 10/20 신규 4,703장+10/21 1,300장, 00985A·00406A 신규. 00985A·00406A는 유니버스 밖"
+  },
+  {
+   "sym": "3037.TW",
+   "name": "欣興 Unimicron",
+   "reason": "00981A 10/16·10/21, 00403A 10/21~22 가매수 — 수집 시작(10/22) 이전·동일 공시일이라 미반영"
+  },
+  {
+   "sym": "2368.TW",
+   "name": "金像電 Gold Circuit",
+   "reason": "00981A 10/14·10/16, 00403A 10/16 가매수 — 수집 시작 전"
+  },
+  {
+   "sym": "3443.TW",
+   "name": "創意 GUC",
+   "reason": "00981A·00403A 10/14 동시 가매수 — 수집 시작 전"
+  },
+  {
+   "sym": "5274.TW",
+   "name": "信驊 ASPEED",
+   "reason": "00981A·00403A 10/14 동시 가매수 — 수집 시작 전"
+  },
+  {
+   "sym": "SPOT",
+   "name": "Spotify",
+   "reason": "CGGR 10/20 $80.7M 사실상 신규 편입(0.31%, 스크레이퍼 비중과 일치) — 단일 ETF라 겹침 신호 아님"
+  },
+  {
+   "sym": "CRWV",
+   "name": "CoreWeave",
+   "reason": "ARKK·ARKW 10/14·15·19 반복 매수 — 수집 시작 전"
+  }
+ ],
+ "github_only": [],
+ "fixes": [
+  "config/themes.json 겹침 상위 30개 한국어 테마·설명 작성(auto:false), UCG.MI 테마 '지역은행'→'은행', SPCX '방산·항공우주'→'우주·위성통신'",
+  "수집 대기 ETF AKRE·TCAF 보유 파일 경로 탐색: 공개 페이지에 일별 파일 링크 없음 → discover_targets.json 에 akrefund.com·troweprice TCAF 페이지 추가(Actions discovery 결과 대기)"
+ ],
+ "summary": "상위 10개 보유 판정은 제3자 보유 페이지로 모두 일치, 가격 6종목 Yahoo 재확인 일치. 스냅샷이 2개(10/22·10/23)이고 대부분 ETF 공시일이 같아 GitHub 신규 겹침·매도 경고는 0 — Claude 조사의 대만 AI 하드웨어(奇鋐·欣興·金像電 등) 동시 매수는 아직 GitHub에 안 잡힘."
+}

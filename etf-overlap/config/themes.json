@@ -1,65 +1,65 @@
 {
  "TSM": {
-  "name": "Taiwan Semiconductor Manufactur",
+  "name": "Taiwan Semiconductor (TSMC)",
   "theme": "반도체",
-  "desc": "Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other…",
-  "auto": true,
+  "desc": "세계 최대 반도체 위탁생산(파운드리) 기업으로 엔비디아·애플 등의 첨단 공정 칩과 AI 가속기용 CoWoS 패키징을 생산한다.",
+  "auto": false,
   "v": 2
  },
  "GOOGL": {
-  "name": "Alphabet Inc.",
+  "name": "Alphabet",
   "theme": "인터넷 플랫폼",
-  "desc": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America.",
-  "auto": true,
+  "desc": "구글 검색·유튜브 광고와 구글 클라우드, 자체 AI 칩(TPU)·제미나이 모델을 보유한 구글 모회사다.",
+  "auto": false,
   "v": 2
  },
  "UNH": {
-  "name": "UnitedHealth Group Incorporated",
+  "name": "UnitedHealth Group",
   "theme": "건강보험",
-  "desc": "UnitedHealth Group Incorporated operates as a health care company in the United States and internationally.",
-  "auto": true,
+  "desc": "미국 최대 민간 건강보험사(유나이티드헬스케어)로 의료 서비스·약국급여관리(옵텀)도 함께 운영한다.",
+  "auto": false,
   "v": 2
  },
  "SPCX": {
-  "name": "Space Exploration Technologies ",
-  "theme": "방산·항공우주",
-  "desc": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally.",
-  "auto": true,
+  "name": "SpaceX",
+  "theme": "우주·위성통신",
+  "desc": "재사용 로켓(팰컨·스타십)으로 발사 서비스를 제공하고 스타링크 위성 인터넷을 운영하는 우주 기업이다.",
+  "auto": false,
   "v": 2
  },
  "AMZN": {
-  "name": "Amazon.com, Inc.",
+  "name": "Amazon.com",
   "theme": "온라인 유통",
-  "desc": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America…",
-  "auto": true,
+  "desc": "미국 최대 온라인 유통 기업이자 세계 1위 클라우드(AWS) 사업자로 광고·구독 사업도 키우고 있다.",
+  "auto": false,
   "v": 2
  },
  "META": {
-  "name": "Meta Platforms, Inc.",
+  "name": "Meta Platforms",
   "theme": "인터넷 플랫폼",
-  "desc": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal…",
-  "auto": true,
+  "desc": "페이스북·인스타그램·왓츠앱을 운영하며 광고 수익으로 AI 모델(Llama)과 AI 데이터센터에 대규모 투자한다.",
+  "auto": false,
   "v": 2
  },
  "AVGO": {
-  "name": "Broadcom Inc.",
+  "name": "Broadcom",
   "theme": "반도체",
-  "desc": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally.",
-  "auto": true,
+  "desc": "데이터센터용 맞춤형 AI 칩(ASIC)과 네트워크 칩을 설계하고 VMware 등 인프라 소프트웨어를 판매한다.",
+  "auto": false,
   "v": 2
  },
  "PM": {
-  "name": "Philip Morris International Inc",
+  "name": "Philip Morris International",
   "theme": "담배",
-  "desc": "Philip Morris International Inc. operates as a tobacco company.",
-  "auto": true,
+  "desc": "말보로(미국 외)와 궐련형 전자담배 아이코스, 니코틴 파우치 진(ZYN)을 판매하는 글로벌 담배 회사다.",
+  "auto": false,
   "v": 2
  },
  "INTC": {
-  "name": "Intel Corporation",
+  "name": "Intel",
   "theme": "반도체",
-  "desc": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland,…",
-  "auto": true,
+  "desc": "PC·서버용 CPU를 설계·생산하며 외부 고객용 파운드리 사업을 키우는 미국 반도체 기업이다.",
+  "auto": false,
   "v": 2
  },
  "WDC": {
@@ -70,17 +70,17 @@
   "v": 2
  },
  "MSFT": {
-  "name": "Microsoft Corporation",
+  "name": "Microsoft",
   "theme": "클라우드·인프라 SW",
-  "desc": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide.",
-  "auto": true,
+  "desc": "윈도우·오피스와 애저 클라우드를 운영하며 오픈AI와 협력해 코파일럿 등 AI 서비스를 판매한다.",
+  "auto": false,
   "v": 2
  },
  "AMD": {
-  "name": "Advanced Micro Devices, Inc.",
+  "name": "Advanced Micro Devices",
   "theme": "반도체",
-  "desc": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally.",
-  "auto": true,
+  "desc": "서버·PC용 CPU와 데이터센터 AI 가속기(인스팅트 GPU)를 설계하는 미국 반도체 기업이다.",
+  "auto": false,
   "v": 2
  },
  "ABT": {
@@ -91,24 +91,24 @@
   "v": 2
  },
  "RCL": {
-  "name": "Royal Caribbean Cruises Ltd.",
+  "name": "Royal Caribbean Cruises",
   "theme": "여행",
-  "desc": "Royal Caribbean Cruises Ltd. operates as a cruise company worldwide.",
-  "auto": true,
+  "desc": "로열캐리비안·셀러브리티 등 브랜드로 대형 크루즈선을 운영하는 세계 2위 크루즈 회사다.",
+  "auto": false,
   "v": 2
  },
  "LLY": {
-  "name": "Eli Lilly and Company",
+  "name": "Eli Lilly",
   "theme": "제약",
-  "desc": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and…",
-  "auto": true,
+  "desc": "GLP-1 계열 비만·당뇨 치료제(마운자로·젭바운드)로 급성장한 미국 대형 제약사다.",
+  "auto": false,
   "v": 2
  },
  "ASML": {
-  "name": "ASML Holding N.V. - New York Re",
+  "name": "ASML Holding",
   "theme": "반도체 장비",
-  "desc": "ASML Holding N.V. provides lithography solutions for the development, production, marketing, sales, upgrading, and servicing of advanced semiconductor…",
-  "auto": true,
+  "desc": "첨단 반도체 생산에 필수인 극자외선(EUV) 노광장비를 사실상 독점 공급하는 네덜란드 장비 기업이다.",
+  "auto": false,
   "v": 2
  },
  "WFC": {
@@ -121,8 +121,8 @@
  "KLAC": {
   "name": "KLA Corporation",
   "theme": "반도체 장비",
-  "desc": "KLA Corporation, together with its subsidiaries, provides process control and process-enabling solutions for manufacturing wafers, reticles/masks,…",
-  "auto": true,
+  "desc": "반도체 웨이퍼·마스크의 결함을 찾아내는 공정 검사·계측 장비 1위 기업이다.",
+  "auto": false,
   "v": 2
  },
  "AIR": {
@@ -147,8 +147,8 @@
  "RTX": {
   "name": "RTX Corporation",
   "theme": "방산·항공우주",
-  "desc": "RTX Corporation, an aerospace and defense company, provides systems and services for commercial, military, and government customers worldwide.",
-  "auto": true,
+  "desc": "패트리어트 미사일 등 방산 시스템(레이시온)과 항공기 엔진(프랫앤휘트니)·항공부품(콜린스)을 만든다.",
+  "auto": false,
   "v": 2
  },
  "UNP": {
@@ -165,31 +165,31 @@
   "auto": true
  },
  "MA": {
-  "name": "Mastercard Incorporated",
+  "name": "Mastercard",
   "theme": "결제·카드",
-  "desc": "Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and…",
-  "auto": true,
+  "desc": "전 세계 카드 결제 네트워크를 운영하며 거래 건수·금액에 따라 수수료를 받는 결제 기업이다.",
+  "auto": false,
   "v": 2
  },
  "CRWD": {
-  "name": "CrowdStrike Holdings, Inc.",
+  "name": "CrowdStrike",
   "theme": "클라우드·인프라 SW",
-  "desc": "CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally.",
-  "auto": true,
+  "desc": "클라우드 기반 엔드포인트 보안 플랫폼(팰컨)으로 기업 PC·서버의 해킹을 탐지·차단한다.",
+  "auto": false,
   "v": 2
  },
  "TMO": {
-  "name": "Thermo Fisher Scientific Inc",
+  "name": "Thermo Fisher Scientific",
   "theme": "진단·연구장비",
-  "desc": "Thermo Fisher Scientific Inc. provides life sciences solutions, analytical instruments, specialty diagnostics, and laboratory products and biopharma services…",
-  "auto": true,
+  "desc": "생명과학 연구장비·시약과 제약사 위탁개발생산(CDMO)·임상 서비스를 제공하는 세계 최대 과학장비 기업이다.",
+  "auto": false,
   "v": 2
  },
  "GE": {
   "name": "GE Aerospace",
   "theme": "방산·항공우주",
-  "desc": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric…",
-  "auto": true,
+  "desc": "민항기·군용기 엔진을 만들고 엔진 정비·부품 서비스로 꾸준한 수익을 내는 항공엔진 1위 업체다.",
+  "auto": false,
   "v": 2
  },
  "APD": {
@@ -207,17 +207,17 @@
   "v": 2
  },
  "ACN": {
-  "name": "Accenture plc",
+  "name": "Accenture",
   "theme": "IT 서비스",
-  "desc": "Accenture plc provides consulting and managed services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific.",
-  "auto": true,
+  "desc": "기업의 디지털 전환·클라우드·AI 도입을 돕는 세계 최대 IT 컨설팅·아웃소싱 기업이다.",
+  "auto": false,
   "v": 2
  },
  "MU": {
-  "name": "Micron Technology, Inc.",
+  "name": "Micron Technology",
   "theme": "반도체",
-  "desc": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific…",
-  "auto": true,
+  "desc": "미국 유일의 대형 D램·낸드 메모리 제조사로 AI 서버용 HBM 공급을 늘리고 있다.",
+  "auto": false,
   "v": 2
  },
  "ANET": {
@@ -354,10 +354,10 @@
   "auto": true
  },
  "LIN": {
-  "name": "Linde plc",
+  "name": "Linde",
   "theme": "특수화학",
-  "desc": "Linde plc operates as an industrial gas company worldwide. The company offers atmospheric gases, including oxygen, nitrogen, argon, and rare gases; and…",
-  "auto": true,
+  "desc": "산소·질소·수소 등 산업용 가스를 반도체·화학·의료 고객에게 공급하는 세계 최대 산업가스 기업이다.",
+  "auto": false,
   "v": 2
  },
  "TSLA": {
@@ -545,22 +545,22 @@
  "000660.KS": {
   "name": "SK hynix",
   "theme": "반도체",
-  "desc": "SK hynix Inc. through its subsidiaries, engages in research, develops, manufactures, distributes, and sells semiconductor devices in Korea, China, rest of…",
-  "auto": true,
+  "desc": "D램·낸드 메모리 반도체를 만들며 AI 가속기용 고대역폭메모리(HBM) 시장 선두 업체다.",
+  "auto": false,
   "v": 2
  },
  "BTI": {
-  "name": "British American Tobacco  Indus",
+  "name": "British American Tobacco",
   "theme": "담배",
-  "desc": "British American Tobacco p.l.c. provides tobacco and nicotine products to consumers in the United States, Europe, Latin America, Canada, the Asia-Pacific, the…",
-  "auto": true,
+  "desc": "럭키스트라이크·던힐 등 담배와 전자담배(뷰즈)·가열담배(글로)를 판매하는 영국 담배 회사다.",
+  "auto": false,
   "v": 2
  },
  "SHOP": {
-  "name": "Shopify Inc.",
+  "name": "Shopify",
   "theme": "응용 SW",
-  "desc": "Shopify Inc., a commerce technology company, provides tools to start, scale, market, and run a business of various sizes in Canada, the United States, Europe,…",
-  "auto": true,
+  "desc": "중소상공인부터 대기업까지 온라인 쇼핑몰 구축·결제·물류를 지원하는 캐나다 전자상거래 소프트웨어 기업이다.",
+  "auto": false,
   "v": 2
  },
  "ITX.MC": {
@@ -608,17 +608,17 @@
   "auto": true
  },
  "RR.L": {
-  "name": "ROLLS-ROYCE HOLDINGS PLC ORD SH",
+  "name": "Rolls-Royce Holdings",
   "theme": "방산·항공우주",
-  "desc": "Rolls-Royce Holdings plc designs and manages mission-critical power systems in the United Kingdom and internationally.",
-  "auto": true,
+  "desc": "대형 민항기 엔진과 군용 엔진·잠수함 원자로, 발전 시스템을 만드는 영국 기업이다.",
+  "auto": false,
   "v": 2
  },
  "UCG.MI": {
-  "name": "UNICREDIT",
-  "theme": "지역은행",
-  "desc": "UniCredit S.p.A. provides commercial banking services in Italy, Germany, Central Europe, and Eastern Europe.",
-  "auto": true,
+  "name": "UniCredit",
+  "theme": "은행",
+  "desc": "이탈리아·독일·중동부 유럽에서 영업하는 이탈리아 2위 상업은행이다.",
+  "auto": false,
   "v": 2
  },
  "NVDA": {
@@ -653,10 +653,10 @@
   "auto": true
  },
  "AIR.PA": {
-  "name": "AIRBUS SE",
+  "name": "Airbus",
   "theme": "방산·항공우주",
-  "desc": "Airbus SE, together with its subsidiaries, engages in the design, manufacture, and delivery of aeronautics and aerospace products, services, and solutions…",
-  "auto": true,
+  "desc": "보잉과 함께 세계 민항기 시장을 양분하는 유럽 항공기 제조사로 헬리콥터·방산·우주 사업도 한다.",
+  "auto": false,
   "v": 2
  },
  "CVS": {
@@ -858,10 +858,10 @@
   "v": 2
  },
  "CBRS": {
-  "name": "Cerebras Systems Inc.",
+  "name": "Cerebras Systems",
   "theme": "반도체",
-  "desc": "Cerebras Systems Inc. operates as an artificial intelligence infrastructure company.",
-  "auto": true,
+  "desc": "웨이퍼 한 장 크기의 초대형 AI 칩과 이를 이용한 AI 추론 클라우드 서비스를 제공한다.",
+  "auto": false,
   "v": 2
  },
  "005930.KS": {

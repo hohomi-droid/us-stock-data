@@ -1,7 +1,20 @@
 {
- "ALGER_JS2": [{"url": "https://www.alger.com/Style%20Library/Alger/js/product4.js", "grep": "product\\.data\\s*=|\\.aspx/[A-Za-z]+|ProductService[^\"']*|/_vti_bin/[^\"']+|/api/[^\"']+|Handler[^\"']*\\.ashx[^\"']*"}],
- "ALGER_PAGE": [{"url": "https://www.alger.com/Pages/Products.aspx?productCode=2495", "grep": "product\\.(init|load|get)[A-Za-z]*\\([^)]{0,200}\\)|productCode\\s*[:=][^,;]{0,100}|_vti_bin/[^\"']+"}],
- "TROWE_ALT": [{"url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs.html", "grep": "TCAF[^<]{0,200}|holdings[^\"']{0,150}"}, {"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TMSL", "grep": "\\.js"}],
- "CHAT_DATA": [{"url": "https://www.roundhillinvestments.com/assets/js/app.js", "grep": "Holdings[A-Za-z_]*\\.csv|fullHoldingsTablex[^;]{0,300}|FilepointRoundhill[^\"']+"}],
- "INFL_DATA": [{"url": "https://horizonkinetics.com/products/etf/infl/", "grep": "data-tab=\"holdings\"[\\s\\S]{0,1500}"}]
+ "AKRE_HOME": [
+  {
+   "url": "https://www.akrefund.com/",
+   "grep": "href=\"[^\"]*(holding|Holding|csv|xlsx|daily)[^\"]*\""
+  }
+ ],
+ "AKRE_DOCS": [
+  {
+   "url": "https://www.akrefund.com/documents-and-forms/",
+   "grep": "href=\"[^\"]*(holding|Holding|csv|xlsx)[^\"]*\""
+  }
+ ],
+ "TCAF_PAGE": [
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "grep": "[^\"']*(holdings|Holdings)[^\"']{0,120}\\.(csv|xlsx|json)|/api/[^\"']+|fundId[^,]{0,40}"
+  }
+ ]
 }
