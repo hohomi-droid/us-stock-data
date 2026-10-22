@@ -478,5 +478,119 @@
   "theme": "건강보험",
   "desc": "The Cigna Group, together with its subsidiaries, provides insurance and related products and services in the United States.",
   "auto": true
+ },
+ "AIR.AS": {
+  "name": "Airbus Se Common Stock Eur1.0",
+  "theme": "",
+  "desc": "",
+  "auto": true
+ },
+ "NVO": {
+  "name": "Novo Nordisk A/S",
+  "theme": "제약",
+  "desc": "Novo Nordisk A/S, together with its subsidiaries, engages in the research and development, manufacture, and distribution of pharmaceutical products.",
+  "auto": true
+ },
+ "000660.KS": {
+  "name": "SK hynix",
+  "theme": "반도체",
+  "desc": "SK hynix Inc.",
+  "auto": true
+ },
+ "BTI": {
+  "name": "British American Tobacco  Indus",
+  "theme": "담배",
+  "desc": "British American Tobacco p.l.c.",
+  "auto": true
+ },
+ "SHOP": {
+  "name": "Shopify Inc.",
+  "theme": "응용 SW",
+  "desc": "Shopify Inc., a commerce technology company, provides tools to start, scale, market, and run a business of various sizes in Canada, the United States, Europe,…",
+  "auto": true
+ },
+ "ITX.MC": {
+  "name": "Industria De Diseno Textil Common Stock Eur.03",
+  "theme": "Apparel Retail",
+  "desc": "Industria de Diseño Textil, S.A., together with its subsidiaries, engages in the retail and online distribution of clothing, footwear, accessories, and…",
+  "auto": true
+ },
+ "ADI": {
+  "name": "Analog Devices, Inc.",
+  "theme": "반도체",
+  "desc": "Analog Devices, Inc.",
+  "auto": true
+ },
+ "JPM": {
+  "name": "JP Morgan Chase & Co.",
+  "theme": "은행",
+  "desc": "JPMorgan Chase & Co.",
+  "auto": true
+ },
+ "BMY": {
+  "name": "Bristol-Myers Squibb Company",
+  "theme": "제약",
+  "desc": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide.",
+  "auto": true
+ },
+ "AON": {
+  "name": "Aon plc",
+  "theme": "보험중개",
+  "desc": "Aon plc operates as a professional services firm in the United States, rest of the Americas, the United Kingdom, Ireland, rest of Europe, the Middle East,…",
+  "auto": true
+ },
+ "SYK": {
+  "name": "Stryker Corporation",
+  "theme": "의료기기",
+  "desc": "Stryker Corporation operates as a medical technology company in the United States and internationally.",
+  "auto": true
+ },
+ "PFGC": {
+  "name": "Performance Food Group Company",
+  "theme": "Food Distribution",
+  "desc": "Performance Food Group Company, through its subsidiaries, markets and distributes food and food-related products in North America.",
+  "auto": true
+ },
+ "RR.L": {
+  "name": "ROLLS-ROYCE HOLDINGS PLC ORD SH",
+  "theme": "방산·항공우주",
+  "desc": "Rolls-Royce Holdings plc designs and manages mission-critical power systems in the United Kingdom and internationally.",
+  "auto": true
+ },
+ "UCG.MI": {
+  "name": "UNICREDIT",
+  "theme": "지역은행",
+  "desc": "UniCredit S.p.A.",
+  "auto": true
+ },
+ "NVDA": {
+  "name": "NVIDIA Corporation",
+  "theme": "반도체",
+  "desc": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally.",
+  "auto": true
+ },
+ "MCD": {
+  "name": "McDonald's Corporation",
+  "theme": "외식",
+  "desc": "McDonald's Corporation owns, operates, and franchises restaurants under the McDonald's brand in the United States and internationally.",
+  "auto": true
+ },
+ "ENTG": {
+  "name": "Entegris, Inc.",
+  "theme": "반도체 장비",
+  "desc": "Entegris, Inc.",
+  "auto": true
+ },
+ "8035.T": {
+  "name": "TOKYO ELECTRON",
+  "theme": "반도체 장비",
+  "desc": "Tokyo Electron Limited, together with its subsidiaries, develops, manufactures, and sells semiconductor production equipment in Japan, South Korea, Taiwan,…",
+  "auto": true
+ },
+ "MMM": {
+  "name": "3M Company",
+  "theme": "Conglomerates",
+  "desc": "3M Company provides diversified technology services in the America, the Asia Pacific, Europe, the Middle East, Africa, and internationally.",
+  "auto": true
  }
 }
