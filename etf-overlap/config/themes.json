@@ -622,5 +622,161 @@
   "theme": "클라우드·인프라 SW",
   "desc": "CoreWeave, Inc.",
   "auto": true
+ },
+ "STAN.L": {
+  "name": "STANDARD CHARTERED PLC ORD USD0",
+  "theme": "은행",
+  "desc": "Standard Chartered PLC, together with its subsidiaries, provides various banking products and services in Asia, Africa, the Middle East, Europe, and the…",
+  "auto": true
+ },
+ "NESN.SW": {
+  "name": "NESTLE N",
+  "theme": "식품",
+  "desc": "Nestlé S.A., together with its subsidiaries, manufactures and distributes food and beverage, and nutritional science products in the United States, Brazil,…",
+  "auto": true
+ },
+ "8766.T": {
+  "name": "TOKIO MARINE HOLDINGS INC",
+  "theme": "Insurance - Property & Casualty",
+  "desc": "Tokio Marine Holdings, Inc.",
+  "auto": true
+ },
+ "GLEN.L": {
+  "name": "GLENCORE PLC ORD USD0.01",
+  "theme": "Other Industrial Metals & Mining",
+  "desc": "Glencore plc engages in the production, refinement, processing, storage, transport, and marketing of metals and minerals, and energy products in the Americas,…",
+  "auto": true
+ },
+ "TTE": {
+  "name": "TotalEnergies SE",
+  "theme": "석유·가스",
+  "desc": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and…",
+  "auto": true
+ },
+ "B": {
+  "name": "Barrick Mining Corporation",
+  "theme": "금광",
+  "desc": "Barrick Mining Corporation engages in the exploration, development, production, and sale of mineral properties.",
+  "auto": true
+ },
+ "SAN": {
+  "name": "Banco Santander, S.A. Sponsored",
+  "theme": "은행",
+  "desc": "Banco Santander, S.A.",
+  "auto": true
+ },
+ "6098.T": {
+  "name": "RECRUIT HOLDINGS CO LTD",
+  "theme": "인터넷 플랫폼",
+  "desc": "Recruit Holdings Co., Ltd.",
+  "auto": true
+ },
+ "NET": {
+  "name": "Cloudflare, Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Cloudflare, Inc.",
+  "auto": true
+ },
+ "GEV": {
+  "name": "GE Vernova Inc.",
+  "theme": "산업기계",
+  "desc": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store…",
+  "auto": true
+ },
+ "1299.HK": {
+  "name": "AIA",
+  "theme": "Insurance - Life",
+  "desc": "AIA Group Limited, together with its subsidiaries, provides life insurance based financial services in Hong Kong.",
+  "auto": true
+ },
+ "BBVA": {
+  "name": "Banco Bilbao Vizcaya Argentaria",
+  "theme": "은행",
+  "desc": "Banco Bilbao Vizcaya Argentaria, S.A., together with its subsidiaries, provides various financial services in Spain, Mexico, Turkey, South America, Europe,…",
+  "auto": true
+ },
+ "6861.T": {
+  "name": "KEYENCE CORP",
+  "theme": "계측·과학장비",
+  "desc": "Keyence Corporation, together with its subsidiaries, manufactures and sells electronic application equipment in Japan and internationally.",
+  "auto": true
+ },
+ "SAF.PA": {
+  "name": "SAFRAN",
+  "theme": "방산·항공우주",
+  "desc": "Safran SA, together with its subsidiaries, engages in the aerospace and defense businesses in France, rest of Europe, the Americas, the Asia-Pacific, Africa,…",
+  "auto": true
+ },
+ "6501.T": {
+  "name": "HITACHI",
+  "theme": "Conglomerates",
+  "desc": "Hitachi, Ltd.",
+  "auto": true
+ },
+ "0388.HK": {
+  "name": "HKEX",
+  "theme": "금융데이터·거래소",
+  "desc": "Hong Kong Exchanges and Clearing Limited, together with its subsidiaries, owns and operates stock and futures exchanges, and related clearing houses in Hong…",
+  "auto": true
+ },
+ "BA.L": {
+  "name": "BAE SYSTEMS PLC ORD 2.5P",
+  "theme": "방산·항공우주",
+  "desc": "BAE Systems plc provides defense, aerospace, and security solutions in the United States, the United Kingdom, the Middle East, Australia, Kingdom of Saudi…",
+  "auto": true
+ },
+ "4004.T": {
+  "name": "RESONAC HOLDINGS CORPORATION",
+  "theme": "화학",
+  "desc": "Resonac Holdings Corporation operates as a chemical company in Japan and internationally.",
+  "auto": true
+ },
+ "RYAAY": {
+  "name": "Ryanair Holdings plc",
+  "theme": "항공",
+  "desc": "Ryanair Holdings plc, together with its subsidiaries, engages in the provision of scheduled-passenger airline services in Ireland, Italy, Spain, the United…",
+  "auto": true
+ },
+ "NTRA": {
+  "name": "Natera, Inc.",
+  "theme": "진단·연구장비",
+  "desc": "Natera, Inc., a diagnostics company, engages in the development and commercialization of molecular testing services worldwide.",
+  "auto": true
+ },
+ "ENGI.PA": {
+  "name": "ENGIE",
+  "theme": "Utilities - Diversified",
+  "desc": "Engie SA engages in renewables and decentralized and low-carbon energy networks in France, Europe, North America, Asia, the Middle East, Oceania, South…",
+  "auto": true
+ },
+ "APH": {
+  "name": "Amphenol Corporation",
+  "theme": "전자부품",
+  "desc": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United…",
+  "auto": true
+ },
+ "NWG": {
+  "name": "NatWest Group plc",
+  "theme": "지역은행",
+  "desc": "NatWest Group plc, together with its subsidiaries, provides banking and financial products and services in the United Kingdom and internationally.",
+  "auto": true
+ },
+ "7182.T": {
+  "name": "JAPAN POST BANK CO LTD",
+  "theme": "지역은행",
+  "desc": "JAPAN POST BANK Co., Ltd.",
+  "auto": true
+ },
+ "MC.PA": {
+  "name": "LVMH",
+  "theme": "Luxury Goods",
+  "desc": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne, together with its subsidiaries, operates as a luxury goods company worldwide.",
+  "auto": true
+ },
+ "0700.HK": {
+  "name": "TENCENT",
+  "theme": "인터넷 플랫폼",
+  "desc": "Tencent Holdings Limited, an investment holding company, provides value-added services, marketing services, fintech, and business services in Mainland China…",
+  "auto": true
  }
 }
