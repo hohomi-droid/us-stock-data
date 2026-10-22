@@ -1,5 +1,7 @@
 {
- "AB_SPEC": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html", "grep": "\"(fundApiUrl|currentSegmentName|lang|shareClassId|countryCode)\"\\s*:\\s*\"[^\"]*\""}],
- "AB_JS_ST": [{"url": "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-fund-detail.lc-04860f235db8163f5ed99ba4a1f284f7-lc.min.js", "grep": "st=\\([^)]*\\)=>[^;]{0,300}|ot=\\([^)]*\\)=>[^;]{0,200}"}],
- "EMOP_SEARCH": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf.html", "grep": "products/etf/[a-z\\-]+/[a-z\\-.]+\\.-\\.[0-9A-Z]{9}\\.html"}]
+ "ALGER_JS2": [{"url": "https://www.alger.com/Style%20Library/Alger/js/product4.js", "grep": "product\\.data\\s*=|\\.aspx/[A-Za-z]+|ProductService[^\"']*|/_vti_bin/[^\"']+|/api/[^\"']+|Handler[^\"']*\\.ashx[^\"']*"}],
+ "ALGER_PAGE": [{"url": "https://www.alger.com/Pages/Products.aspx?productCode=2495", "grep": "product\\.(init|load|get)[A-Za-z]*\\([^)]{0,200}\\)|productCode\\s*[:=][^,;]{0,100}|_vti_bin/[^\"']+"}],
+ "TROWE_ALT": [{"url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs.html", "grep": "TCAF[^<]{0,200}|holdings[^\"']{0,150}"}, {"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TMSL", "grep": "\\.js"}],
+ "CHAT_DATA": [{"url": "https://www.roundhillinvestments.com/assets/js/app.js", "grep": "Holdings[A-Za-z_]*\\.csv|fullHoldingsTablex[^;]{0,300}|FilepointRoundhill[^\"']+"}],
+ "INFL_DATA": [{"url": "https://horizonkinetics.com/products/etf/infl/", "grep": "data-tab=\"holdings\"[\\s\\S]{0,1500}"}]
 }
