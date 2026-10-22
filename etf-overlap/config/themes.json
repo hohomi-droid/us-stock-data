@@ -820,5 +820,47 @@
   "theme": "석유·가스 개발",
   "desc": "Canadian Natural Resources Limited engages in the acquisition, exploration, development, production, marketing, and sale of crude oil, natural gas, and…",
   "auto": true
+ },
+ "2454.TW": {
+  "name": "MEDIATEK INC",
+  "theme": "반도체",
+  "desc": "MediaTek Inc.",
+  "auto": true
+ },
+ "2383.TW": {
+  "name": "ELITE MATERIAL CO",
+  "theme": "전자부품",
+  "desc": "Elite Material Co., Ltd.",
+  "auto": true
+ },
+ "MELI": {
+  "name": "MercadoLibre, Inc.",
+  "theme": "온라인 유통",
+  "desc": "MercadoLibre, Inc.",
+  "auto": true
+ },
+ "2360.TW": {
+  "name": "CHROMA ATE INC",
+  "theme": "계측·과학장비",
+  "desc": "Chroma ATE Inc.",
+  "auto": true
+ },
+ "3711.TW": {
+  "name": "ASE TECHNOLOGY HOLDING CO LTD",
+  "theme": "반도체",
+  "desc": "ASE Technology Holding Co., Ltd., together with its subsidiaries, provides semiconductor manufacturing services in the United States, Taiwan, rest of Asia,…",
+  "auto": true
+ },
+ "105560.KS": {
+  "name": "KBFinancialGroup",
+  "theme": "지역은행",
+  "desc": "KB Financial Group Inc.",
+  "auto": true
+ },
+ "2308.TW": {
+  "name": "DELTA ELECTRONIC",
+  "theme": "전자부품",
+  "desc": "Delta Electronics, Inc., together with its subsidiaries, provides power and thermal management solutions in Mainland China, the United States, Taiwan,…",
+  "auto": true
  }
 }
