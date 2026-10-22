@@ -592,5 +592,35 @@
   "theme": "Conglomerates",
   "desc": "3M Company provides diversified technology services in the America, the Asia Pacific, Europe, the Middle East, Africa, and internationally.",
   "auto": true
+ },
+ "AIR.PA": {
+  "name": "AIRBUS SE",
+  "theme": "방산·항공우주",
+  "desc": "Airbus SE, together with its subsidiaries, engages in the design, manufacture, and delivery of aeronautics and aerospace products, services, and solutions…",
+  "auto": true
+ },
+ "CVS": {
+  "name": "CVS Health Corporation",
+  "theme": "건강보험",
+  "desc": "CVS Health Corporation provides health solutions in the United States.",
+  "auto": true
+ },
+ "DDOG": {
+  "name": "Datadog, Inc.",
+  "theme": "응용 SW",
+  "desc": "Datadog, Inc.",
+  "auto": true
+ },
+ "DASH": {
+  "name": "DoorDash, Inc.",
+  "theme": "온라인 유통",
+  "desc": "DoorDash, Inc., together with its subsidiaries, operates a commerce platform that connects merchants, consumers, and dashers in the United States and…",
+  "auto": true
+ },
+ "CRWV": {
+  "name": "CoreWeave, Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "CoreWeave, Inc.",
+  "auto": true
  }
 }
