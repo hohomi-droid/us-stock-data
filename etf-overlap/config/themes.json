@@ -778,5 +778,47 @@
   "theme": "인터넷 플랫폼",
   "desc": "Tencent Holdings Limited, an investment holding company, provides value-added services, marketing services, fintech, and business services in Mainland China…",
   "auto": true
+ },
+ "CBRS": {
+  "name": "Cerebras Systems Inc.",
+  "theme": "반도체",
+  "desc": "Cerebras Systems Inc.",
+  "auto": true
+ },
+ "005930.KS": {
+  "name": "SamsungElec",
+  "theme": "IT 하드웨어",
+  "desc": "Samsung Electronics Co., Ltd.",
+  "auto": true
+ },
+ "GMEXICO.MX": {
+  "name": "Grupo Mexico Sab De Cv",
+  "theme": "",
+  "desc": "",
+  "auto": true
+ },
+ "BHARTIARTL.NS": {
+  "name": "BHARTI AIRTEL LIMITED",
+  "theme": "통신",
+  "desc": "Bharti Airtel Limited operates as a telecommunications company in India and internationally.",
+  "auto": true
+ },
+ "012450.KS": {
+  "name": "HANWHA AEROSPACE",
+  "theme": "방산·항공우주",
+  "desc": "Hanwha Aerospace Co., Ltd.",
+  "auto": true
+ },
+ "TXN": {
+  "name": "Texas Instruments Incorporated",
+  "theme": "반도체",
+  "desc": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, the…",
+  "auto": true
+ },
+ "CNQ": {
+  "name": "Canadian Natural Resources Limi",
+  "theme": "석유·가스 개발",
+  "desc": "Canadian Natural Resources Limited engages in the acquisition, exploration, development, production, marketing, and sale of crude oil, natural gas, and…",
+  "auto": true
  }
 }
