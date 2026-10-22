@@ -1,8 +1,5 @@
 {
- "AB_SPEC": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html", "grep": "fundApiUrl[^,;]{0,200}|shareClassId[^,;]{0,120}|dataSpec\\s*=\\s*\\{[^}]{0,800}"}],
- "AB_JS": [{"url": "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-fund-detail.lc-04860f235db8163f5ed99ba4a1f284f7-lc.min.js", "grep": "getHoldings[^;]{0,400}|fundApiUrl[^;]{0,300}"}],
- "ALGER_JS": [{"url": "https://www.alger.com/Style%20Library/Alger/js/product4.js", "grep": "url\\s*[:=][^,;]{0,250}|\\.ajax\\([^)]{0,300}|getJSON\\([^)]{0,300}|fetch\\([^)]{0,300}"}],
- "TROWE_JS": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/main.1b1e7bd5.chunk.js", "grep": "baseURL[^,;]{0,200}|apiUrl[^,;]{0,200}|https?://[a-z0-9.\\-]*troweprice\\.com[^\"'`]{0,150}|/fund-research/[^\"'`]{0,120}|holdings[^\"'`]{0,120}"}],
- "TROWE_JS15": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/15.83ffcb6d.chunk.js", "grep": "https?://[a-z0-9.\\-]*troweprice\\.com[^\"'`]{0,150}|holdings[A-Za-z]*\\?[^\"'`]{0,120}"}],
- "AKRE_SRC": [{"url": "https://www.akrefund.com/etf", "grep": "(holdings|Holdings)[^<]{0,300}"}]
+ "AB_SPEC": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html", "grep": "\"(fundApiUrl|currentSegmentName|lang|shareClassId|countryCode)\"\\s*:\\s*\"[^\"]*\""}],
+ "AB_JS_ST": [{"url": "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-fund-detail.lc-04860f235db8163f5ed99ba4a1f284f7-lc.min.js", "grep": "st=\\([^)]*\\)=>[^;]{0,300}|ot=\\([^)]*\\)=>[^;]{0,200}"}],
+ "EMOP_SEARCH": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf.html", "grep": "products/etf/[a-z\\-]+/[a-z\\-.]+\\.-\\.[0-9A-Z]{9}\\.html"}]
 }
