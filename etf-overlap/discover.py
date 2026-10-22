@@ -19,6 +19,9 @@ def main():
     for key, urls in targets.items():
         res = []
         for u in urls:
+            grep = None
+            if isinstance(u, dict):
+                grep, u = u.get("grep"), u["url"]
             try:
                 r = S.get(u, timeout=30, allow_redirects=True)
                 ct = r.headers.get("content-type", "")
@@ -35,6 +38,16 @@ def main():
                         item["text"] = re.sub(r"\s+", " ", t)[:1500]
                 else:
                     item["head"] = r.content[:600].decode("utf-8", "replace")
+                if grep:
+                    txt = r.content.decode("utf-8", "replace")
+                    item["grep"] = [txt[max(0, m.start() - 150): m.end() + 250] for m in re.finditer(grep, txt)][:12]
+                if r.content[:2] == b"PK":
+                    try:
+                        import io, openpyxl
+                        wb = openpyxl.load_workbook(io.BytesIO(r.content), read_only=True, data_only=True)
+                        item["xlsx"] = [[str(c) for c in row] for row in list(wb.worksheets[0].iter_rows(values_only=True))[:25]]
+                    except Exception as ex:  # noqa: BLE001
+                        item["xlsx_err"] = str(ex)
                 res.append(item)
             except Exception as ex:  # noqa: BLE001
                 res.append({"url": u, "error": f"{type(ex).__name__}: {ex}"[:300]})
