@@ -19,9 +19,9 @@ def main():
     for key, urls in targets.items():
         res = []
         for u in urls:
-            grep, tables = None, False
+            grep, tables, follow = None, False, None
             if isinstance(u, dict):
-                grep, tables, u = u.get("grep"), u.get("tables", False), u["url"]
+                grep, tables, follow, u = u.get("grep"), u.get("tables", False), u.get("follow_js"), u["url"]
             try:
                 r = S.get(u, timeout=30, allow_redirects=True)
                 ct = r.headers.get("content-type", "")
@@ -48,6 +48,20 @@ def main():
                         item["xlsx"] = [[str(c) for c in row] for row in list(wb.worksheets[0].iter_rows(values_only=True))[:45]]
                     except Exception as ex:  # noqa: BLE001
                         item["xlsx_err"] = str(ex)
+                if follow:
+                    js_hits = {}
+                    for src in re.findall(r"<script[^>]+src=[\"']([^\"']+)", r.text)[:40]:
+                        ju = urljoin(r.url, src)
+                        if any(x in ju for x in ("googletag", "adobedtm", "jquery", "gtm", "analytics", "onetrust", "cookie")):
+                            continue
+                        try:
+                            jt = S.get(ju, timeout=20).text
+                        except Exception:  # noqa: BLE001
+                            continue
+                        hits = [jt[max(0, m.start() - 120): m.end() + 200] for m in re.finditer(follow, jt)][:6]
+                        if hits:
+                            js_hits[ju] = hits
+                    item["js_hits"] = js_hits
                 if tables:
                     try:
                         import io as _io

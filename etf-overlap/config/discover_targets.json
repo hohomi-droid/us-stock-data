@@ -1,14 +1,11 @@
 {
- "EAGL_API": [{"url": "https://emward-middleware-fea5fd912200.herokuapp.com/daily-holdings"}],
- "TROWE_JS": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/static/js/main.1b1e7bd5.chunk.js", "grep": "https?://[a-zA-Z0-9.\\-]+/[a-zA-Z0-9/_\\-{}$.]*(holding|Holding|portfolio|Portfolio)[a-zA-Z0-9/_\\-{}$.?=&]*|/api/[a-zA-Z0-9/_\\-]*"}],
- "FWD": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html", "grep": "\\.csv|\\.xls|holdings[A-Za-z]*\\.json|/content/dam[^\"']+|EMOP|emerging-markets-opportunities"}],
- "AKRE": [{"url": "https://www.akrefund.com/etf", "tables": true, "grep": "\\.csv"}],
- "CHAT": [{"url": "https://www.roundhillinvestments.com/etf/chat/", "tables": true}],
- "WCMI": [{"url": "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI", "tables": true}],
- "ARKW2": [{"url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_TECHNOLOGY_ETF_ARKW_HOLDINGS.csv"}, {"url": "https://www.ark-funds.com/funds/arkw", "grep": "funds-etf-csv[^\"']+"}],
- "LCAP": [{"url": "https://api.assetmgmt.principalam.com/public/files?key=LCAP.xlsx"}],
- "EZ63": [{"url": "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI?fundCode=63YTW"}],
- "BAFE": [{"url": "https://www.brownadvisory.com/us/funds/brown-advisory-flexible-equity-etf", "grep": "holding|\\.csv|\\.xls"}, {"url": "https://www.brownadvisory.com/us/etfs", "grep": "BAFE[^<]{0,200}|href=\"[^\"]*etf[^\"]*\""}],
- "IDEQ": [{"url": "https://www.lazardassetmanagement.com/us/en_us/funds/etfs", "grep": "IDEQ[^<]{0,200}|href=\"[^\"]*dynamic[^\"]*\""}],
- "ALGER_DATA": [{"url": "https://www.alger.com/Pages/Products.aspx?productCode=2495", "grep": "dataResAll[^<]{0,300}|\\$\\.(get|ajax|getJSON)\\([^)]{0,300}|_api/[^\"']+|\\.aspx\\?[^\"']+"}]
+ "TROWE": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF", "follow_js": "https?://[a-zA-Z0-9.\\-]+(/[a-zA-Z0-9_\\-{}$.]+){1,8}|[\"'`]/[a-zA-Z0-9_\\-]+/(api|services|v[0-9])/[^\"'`]+"}],
+ "ALGER": [{"url": "https://www.alger.com/Pages/Products.aspx?productCode=2495", "follow_js": "dataResAll|allHoldings|Holdings[A-Za-z]*\\.(json|csv|ashx|aspx)|_api/web/lists[^\"']*|\\.ashx[^\"']*"}],
+ "AKRE": [{"url": "https://www.akrefund.com/etf", "tables": true, "follow_js": "\\.csv[^\"']*|holdings"}],
+ "CHAT": [{"url": "https://www.roundhillinvestments.com/etf/chat/", "follow_js": "fullHoldingsTable|holdings[A-Za-z]*\\.(json|csv)|/assets/data/[^\"']+|Filepoint[^\"']+"}],
+ "FWD": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html", "follow_js": "holding[A-Za-z]*|/api/[^\"']+|\\.json[^\"']*"}],
+ "INFL": [{"url": "https://horizonkinetics.com/products/etf/infl/", "grep": "\\.csv|\\.xlsx|holding|Holding"}],
+ "IDEQ": [{"url": "https://www.lazardassetmanagement.com/us/en_us/funds/list/etf", "grep": "IDEQ[^<]{0,200}|dynamic-equity[^\"']*"}],
+ "BAFE": [{"url": "https://www.brownadvisory.com/us/funds", "grep": "BAFE[^<]{0,200}|flexible-equity-etf[^\"']*"}],
+ "NUGO": [{"url": "https://documents.nuveen.com/Documents/Nuveen/Default.aspx?uniqueId=NUGO-holdings"}]
 }
