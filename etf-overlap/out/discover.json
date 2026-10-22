@@ -1,147 +1,5 @@
 {
- "TROWE": [
-  {
-   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
-   "final": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
-   "status": 200,
-   "ctype": "text/html",
-   "len": 7857,
-   "cands": [],
-   "text": " You need to enable JavaScript to run this app. ",
-   "js_hits": {
-    "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/runNavSetup.js": [
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/personal-investing/index.html \"\n                                variant=\"tertiary\"\n                              >\n                                Personal Investing\n                                <beacon-icon\n                  ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/workplace/en/login.html\"\n                                variant=\"tertiary\"\n                              >\n                                Workplace Retirement\n                                <beacon-icon\n                 ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/individual-investor/au/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Individual / SMSF Investors\n                                <beacon-icon\n          ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/institutional/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Institutional Investor / Consultant\n                                <beacon-icon\n  ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/financial-intermediary/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Financial Advisor / Intermediary\n                                <beacon-icon\n     ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/retirement-plan-services/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Recordkeeping Sponsor / Consultant\n                                <beacon-icon\n   "
-    ],
-    "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/15.83ffcb6d.chunk.js": [
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/personal-investing/index.html \"\n                                variant=\"tertiary\"\n                              >\n                                Personal Investing\n                                <beacon-icon\n                  ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/workplace/en/login.html\"\n                                variant=\"tertiary\"\n                              >\n                                Workplace Retirement\n                                <beacon-icon\n                 ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/individual-investor/au/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Individual / SMSF Investors\n                                <beacon-icon\n          ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/institutional/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Institutional Investor / Consultant\n                                <beacon-icon\n  ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/financial-intermediary/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Financial Advisor / Intermediary\n                                <beacon-icon\n     ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/retirement-plan-services/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Recordkeeping Sponsor / Consultant\n                                <beacon-icon\n   "
-    ],
-    "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/main.1b1e7bd5.chunk.js": [
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/personal-investing/index.html \"\n                                variant=\"tertiary\"\n                              >\n                                Personal Investing\n                                <beacon-icon\n                  ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/workplace/en/login.html\"\n                                variant=\"tertiary\"\n                              >\n                                Workplace Retirement\n                                <beacon-icon\n                 ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/individual-investor/au/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Individual / SMSF Investors\n                                <beacon-icon\n          ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/institutional/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Institutional Investor / Consultant\n                                <beacon-icon\n  ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/financial-intermediary/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Financial Advisor / Intermediary\n                                <beacon-icon\n     ",
-     "          scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/retirement-plan-services/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Recordkeeping Sponsor / Consultant\n                                <beacon-icon\n   "
-    ]
-   }
-  }
- ],
- "ALGER": [
-  {
-   "url": "https://www.alger.com/Pages/Products.aspx?productCode=2495",
-   "final": "https://www.alger.com/Pages/Products.aspx?productCode=2495",
-   "status": 200,
-   "ctype": "text/html; charset=utf-8",
-   "len": 194401,
-   "cands": [
-    "https://www.alger.com/Pages/Products.aspx?productCode=2495#all-holdings",
-    "https://www.alger.com/Pages/Products.aspx?productCode=2495#portfolio-exposure",
-    "https://www.alger.com/Pages/Products.aspx?productCode=2495#top-10-holdings",
-    "https://www.alger.com/Pages/Products.aspx?productCode=2495#top-active-holdings",
-    "https://www.alger.com/Pages/all-holdings",
-    "https://www.alger.com/Pages/allHoldings",
-    "https://www.alger.com/Pages/dataActiveHoldingsTop10",
-    "https://www.alger.com/Pages/dataActiveHoldingsTop10-prefix",
-    "https://www.alger.com/Pages/dataActiveHoldingsTop10-suffix",
-    "https://www.alger.com/Pages/dataPortfolioExposure",
-    "https://www.alger.com/Pages/dataPortfolioExposure-prefix",
-    "https://www.alger.com/Pages/dataPortfolioExposure-suffix",
-    "https://www.alger.com/Pages/dataPortfolioExposure-tab",
-    "https://www.alger.com/Pages/dataTopHoldings-suffix",
-    "https://www.alger.com/Pages/etf-daily-holdings",
-    "https://www.alger.com/Pages/portfolio-exposure",
-    "https://www.alger.com/Pages/top-10-holdings",
-    "https://www.alger.com/Pages/top-active-holdings"
-   ],
-   "text": " Alger Concentrated Equity ETF - CNEQ | Alger --> Skip to main content Log In About Alger Our History Our Investment Approach Investment Team Careers Commitment to Sustainability Commitment to Culture &amp; Employees Charitable Giving We Remember Strategies Strategies Overview Asset Classes Vehicles Strategy Finder Large Cap Mid Cap Small/SMid Cap International Alternatives Specialty Focus Mutual Funds ETFs SMAs Institutional Separate Accounts UCITS Collective Investment Trusts Insights Insights Blogs Alger On the Money Alger On the Record Manager Commentary Capital Markets Outlook Retirement Solutions Viewpoints The Power of Focus Newsroom Press Releases In the News Contact Us Contact Us Please confirm your investment status to view this information. There has been an error in loading the information on this page. Please try refreshing the page or click here . Show UCITS modal Show ISA modal Show ETF modal Show ETF VIIV modal COMMENTARY FACT SHEET PROSPECTUS CONTACT US BUY Summary Market Data Performance Composition Attribution Risk Metrics Management --> --> Summary *ETF CR --> This ETF is different from traditional ETFs. This may create additional risks for your investment. Click here for additional important information. as of ? Fund Snapshot CUSIP Net Asset Value Offering Price Daily Change (NAV) YTD Total Return (NAV) --> Minimum Investment Annual Fund Operating Expenses Total - without Waiver Annual Fund Operating Expenses Total - with Waiver Investment Strategy - High",
-   "js_hits": {
-    "https://www.alger.com/_layouts/15/init.js?rev=OnwPJFgbRDrP1%2BflEUTKoA%3D%3DTAG0": [
-     "ploadData=function(){j();r()};var j=function(){if(q)return;c=A();if(!c)return;a=new v(c,false);m=\"/_layouts/15/WsaUpload.ashx\";e=new Array(0);f=new Array(0);p(BaseLogger.Constants.STREAM_ID,1);s=Boolean(n)?n:y;q=true},p=function(b,g){if(!Boolean(e[b])){var f=new E(b,g),c=k;a.wsaStreams[c]=f;k++;d+=BaseLogger.Constants.SIZE_"
-    ],
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js": [
-     "ide Holdings\r\n        if (!isEmpty(product.data.dataHoldingsTop10) || holdingFlag || transparentETF) {\r\n            $(\"#allHoldings\").show();\r\n        } else {\r\n            $(\"#allHoldings\").hide();\r\n        }\r\n\r\n        // Hide Exposures //Apply Template\r\n        if (!isEmpty(product.data.dataIndustrySectorTop10) && tmplExposure",
-     "ngsTop10) || holdingFlag || transparentETF) {\r\n            $(\"#allHoldings\").show();\r\n        } else {\r\n            $(\"#allHoldings\").hide();\r\n        }\r\n\r\n        // Hide Exposures //Apply Template\r\n        if (!isEmpty(product.data.dataIndustrySectorTop10) && tmplExposureType != 'HFComp') {\r\n            $(\"#allExposures\").show(",
-     "ngs or Exposures is empty \r\n        //Chagged from OR to AND\r\n        if (($('#characteristics').is(':hidden')) && ($('#allHoldings').is(':hidden')) && ($('#allExposures').is(':hidden'))) {\r\n            $('#sidebar-right').hide();\r\n        } else {\r\n            $('#sidebar-right').show();\r\n        }\r\n        //Chagged from OR to ",
-     "right').show();\r\n        }\r\n        //Chagged from OR to AND\r\n        if (($('#characteristics').is(':hidden')) && ($('#allHoldings').is(':hidden')) && ($('#allExposures').is(':hidden'))) {\r\n            $('#hash-composition').hide();\r\n        } else {\r\n            $('#hash-composition').show();\r\n        }\r\n\r\n\r\n        // Composit",
-     "alhRanking; });\r\n            var alhEffDate = showUTCDate(product.data.dataHoldingsAll[0].alhEffDate);\r\n            $(\"#dataResAll-prefix\").text('(as of ' + alhEffDate + ')');\r\n\r\n            if (productShortName == \"BalancedAM\" || product.data.dataProductTypeFields.holdingsType == \"DynOpp\") {\r\n                tmp = '<thead><tr><",
-     "tiveWeight, '%') + '</td></tr>';\r\n                }\r\n                tmp += '</tbody>';\r\n            }\r\n            $(\"#dataResAll\").html(tmp);\r\n        } else {\r\n            $(\"#dataResAll\").hide();\r\n            $(\"a[href='#all-holdings']\").parent().hide();\r\n\r\n\r\n        }\r\n\r\n        //Applying Template\r\n        if (tmplHoldings"
-    ],
-    "https://www.alger.com/Style%20Library/Alger/js/print.js": [
-     "|| productCode == 'KQ1CA_E')\r\n\t{\r\n\t\t$('#all-section-performance').after('<div class=\"print-page-break\"></div>');\r\n\t\t$('#allHoldings').after('<div class=\"print-page-break\"></div>');\t\t\r\n\t}\r\n\tif(!(productCode == '2051' || productCode == '2055' || productCode == '2072' || productCode == '2176' || productCode == 'KQ1KA' || productCode"
-    ]
-   }
-  }
- ],
- "AKRE": [
-  {
-   "url": "https://www.akrefund.com/etf",
-   "final": "https://www.akrefund.com/fund-summary/",
-   "status": 200,
-   "ctype": "text/html; charset=UTF-8",
-   "len": 324767,
-   "cands": [
-    "https://maps.google.com/maps/api/js?key=",
-    "https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13"
-   ],
-   "text": " Fund Summary - Akre Focus ETF Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Menu Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Search Search Fund Summary Investing involves risk. Principal loss is possible. The Fund is non-diversified, meaning it may focus its assets in fewer individual holdings than a diversified fund. Therefore, the Fund is more exposed to individual stock volatility than a diversified fund. In addition to large capitalization companies, the Fund invests in small- and medium- capitalization companies, which involve additional risks such as limited liquidity and greater volatility than larger capitalization companies. Download the prospectus. This fund is an actively-managed ETF that does not seek to replicate the performance of a specified index. To determine whether to buy or sell a security, the portfolio manager considers, among other things, various fund requirements and standards, along with economic conditions, alternative investments, interest rates and various credit metrics. If the portfolio manager considerations are inaccurate or misapplied, the fund’s performance may suffer. Exchange-Traded Funds (ETFs) are bought and sold through exchange trading at market price (not NAV ), and are not individually redeemed from the fund. Shares may ",
-   "js_hits": {},
-   "tables_err": "No tables found"
-  }
- ],
- "CHAT": [
-  {
-   "url": "https://www.roundhillinvestments.com/etf/chat/",
-   "final": "https://www.roundhillinvestments.com/etf/chat/",
-   "status": 200,
-   "ctype": "text/html",
-   "len": 122551,
-   "cands": [
-    "https://www.roundhillinvestments.com/assets/img/top-holdings/alphabet-logo.png",
-    "https://www.roundhillinvestments.com/assets/img/top-holdings/asml-logo.png",
-    "https://www.roundhillinvestments.com/assets/img/top-holdings/microsoft-logo.png",
-    "https://www.roundhillinvestments.com/assets/img/top-holdings/nvidia-logo.png",
-    "https://www.roundhillinvestments.com/assets/img/top-holdings/sk-hynix-logo.png",
-    "https://www.roundhillinvestments.com/assets/pdfs/CHAT_Q1_Holdings.pdf",
-    "https://www.roundhillinvestments.com/assets/pdfs/CHAT_Q3_Holdings.pdf",
-    "https://www.roundhillinvestments.com/assets/pdfs/Roundhill_CHAT_Voting_Table_2026.xlsx",
-    "https://www.roundhillinvestments.com/etf/chat/#holdings",
-    "https://www.roundhillinvestments.com/etf/chat/Holdings",
-    "https://www.roundhillinvestments.com/etf/chat/fullHoldingsTablex",
-    "https://www.roundhillinvestments.com/etf/chat/fund-Holdings-mobile",
-    "https://www.roundhillinvestments.com/etf/chat/fund-topTenHoldings",
-    "https://www.roundhillinvestments.com/etf/chat/fund-topTenHoldings-mobile",
-    "https://www.roundhillinvestments.com/etf/chat/holdings",
-    "https://www.roundhillinvestments.com/etf/chat/holdings-disclo",
-    "https://www.roundhillinvestments.com/etf/chat/holdings-disclosure",
-    "https://www.roundhillinvestments.com/etf/chat/holdings-link-holder",
-    "https://www.roundhillinvestments.com/etf/chat/holdingsDate",
-    "https://www.roundhillinvestments.com/etf/chat/holdingsModal",
-    "https://www.roundhillinvestments.com/etf/chat/of-holdings"
-   ],
-   "text": " AI ETF | Invest in Generative AI Stocks with CHAT | Roundhill Investments --> Invest --> Menu Our ETFs Thematic ETFs Growth-oriented themes & sectors BETZ CABZ CCML CHAT DRAM HUMN LOHA LYTE MAGC MAGS MARS MEME METV NCLD NERD OZEM UX WEED WeeklyPay&trade; ETFs Single stock exposure plus weekly distributions AAPW AMDW AMZW ARMW AVGW BABW BRKW COIW COSW GDXW GLDW GOOW HOOW METW MSFW MSTW NFLW NVDW PLTW TOPW TSLW TSYW UBEW UNHW Leveraged ETFs Amplified exposureÂ for sophisticated traders MAGX RAM XX Income ETFs Diversified income & yield-focused MAGY QDTE RDTE TPAY WEEK XDTE XPAY YBTC YETH Core ETFs Core Exposure for investors XBOX XDIV Explore all ETFs Thematic ETFs Growth-oriented themes & sectors BETZ CABZ CCML CHAT DRAM HUMN LOHA LYTE MAGC MAGS MARS MEME METV NCLD NERD OZEM UX WEED WeeklyPay&trade; ETFs Single stock exposure plus weekly distributions AAPW AMDW AMZW ARMW AVGW BABW BRKW COIW COSW GDXW GLDW GOOW HOOW METW MSFW MSTW NFLW NVDW PLTW TOPW TSLW TSYW UBEW UNHW Income ETFs Diversified income & yield-focused MAGY QDTE RDTE TPAY WEEK XDTE XPAY YBTC YETH Core ETFs Core Exposure for investors XBOX XDIV Leveraged ETFs Amplified exposure for sophisticated traders MAGX RAM XX Explore all ETFs Strategies WeeklyPay&trade; ETFs Magnificent Seven ETFs Prediction Markets Research About Us Contact Phone: 646.661.5441 Email: etfs@roundhillinvestments.com Follow us on social media Invest --> CHAT Generative AI & Technology ETF Overall Morningstar Ratingâ¢ (As of September 30, 2026)",
-   "js_hits": {
-    "https://www.roundhillinvestments.com/assets/js/app.js": [
-     "e.slice(-4)==e&&r[s].trim()==l&&(n+=\"<tr>\",n+=\"<td>\"+a[i].Date+\"</td>\",\"pdf\"==a[i].Filename.slice(-3)?n+='<td><a href=\"./assets/data/rh_filings/'+a[i].Filename+'\" target=\"_blank\">'+a[i].Title+\"</a></td>\":n+='<td><a href=\"./assets/data/rh_filings/'+a[i].Filename+'\" download=\"./assets/data/rh_filings/'+a[i].Filename+'\">'+a[i].Title+\"</a></td>\",",
-     "n+='<td><a href=\"./assets/data/rh_filings/'+a[i].Filename+'\" target=\"_blank\">'+a[i].Title+\"</a></td>\":n+='<td><a href=\"./assets/data/rh_filings/'+a[i].Filename+'\" download=\"./assets/data/rh_filings/'+a[i].Filename+'\">'+a[i].Title+\"</a></td>\",n+=\"</tr>\",o=r[s].trim());n+=\"</tbody></table></div>\",o&&(document.getElementById(o.toLowerCase()).inn",
-     "ame+'\" target=\"_blank\">'+a[i].Title+\"</a></td>\":n+='<td><a href=\"./assets/data/rh_filings/'+a[i].Filename+'\" download=\"./assets/data/rh_filings/'+a[i].Filename+'\">'+a[i].Title+\"</a></td>\",n+=\"</tr>\",o=r[s].trim());n+=\"</tbody></table></div>\",o&&(document.getElementById(o.toLowerCase()).innerHTML+='<div class=\"cell small-12 medium-4 filing-blo",
-     "tion(t,e){t=new Date(t[0]);return new Date(e[0])-t}),0!=m.length&&(_=m.slice(-1)[0],l=_[1],$.ajax({type:\"GET\",url:\"../../assets/data/FilepointRoundhill.40RU.RU_DailyNAV.csv\",crossOrigin:!0,dataType:\"text\",success:function(t){var e,i,n,o=l,r=Zt.a.parse(t,{header:!0,dynamicTyping:!1}),t=$(\".fundname\").attr(\"id\"),s=\"TSW\"==t?\"TSLW\":\"NVW\"==t?\"NVDW\":\"WPAY\"==t?\"TOPW\":\"DRAG\"==t",
-     "+n+\"-market-sia\").html(i.data[e][\"Since Inception Annualized\"]+\"%\"))}function wo(){var t;0<$(\".RAM-etf\").length?t=\"../../assets/data/rex_data/RAM-performance-2026-06-30.csv\":0<$(\".etfHomeMain\").length&&(t=\"./../assets/data/rex_data/RAM-performance-2026-06-30.csv\"),$.ajax({type:\"GET\",url:t,crossOrigin:!0,dataType:\"text\",success:So,error:xo})}function xo(){console.log(\"Fa",
-     "<$(\".RAM-etf\").length?t=\"../../assets/data/rex_data/RAM-performance-2026-06-30.csv\":0<$(\".etfHomeMain\").length&&(t=\"./../assets/data/rex_data/RAM-performance-2026-06-30.csv\"),$.ajax({type:\"GET\",url:t,crossOrigin:!0,dataType:\"text\",success:So,error:xo})}function xo(){console.log(\"Failed to load performance file.\")}function So(t){var e,i=Zt.a.parse(t,{header:!0,dynamicTyp"
-    ]
-   }
-  }
- ],
- "FWD": [
+ "AB_SPEC": [
   {
    "url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html",
    "final": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html",
@@ -159,103 +17,213 @@
     "https://www.alliancebernstein.com/us/en-us/investments/resources/portfolio-analysis-services.html"
    ],
    "text": " AB Disruptors ETF | FWD Investments Products Mutual Funds ETFs Interval Funds Separately Managed Accounts CITs Multi-Asset Model Portfolios Closed-End Funds Variable Product Series Capabilities Equity Fixed Income Municipal Bonds Alternatives Retirement Plans Insurance Sub-Advised Tax-Advantaged Solutions Build a Better Path Explore AB’s framework for building durable portfolios in unpredictable markets. Learn More&nbsp; Insights Insights&nbsp; Economic Perspectives Investment Insights Podcasts Market Commentaries A Note from the Trading Desk Muniland Equities in Focus AB Market Views Capital Markets Outlook Disruptor Series Beyond Consensus Practice Management Advisor Institute &nbsp; Grow Your Business Connect with Clients Lead Your Team Practice Management The Hidden Psychology Behind Market FOMO Ken Haman The forces driving investor behavior are often hidden beneath the surface of rational decision-making. Learn More&nbsp; Resources Clients Account Login Literature &amp; Forms Tax Center Analysis Services Tools &amp; Education Education Hub Glossary of Financial Terms Bond Math Calculator Our Firm About Us Contact Us Contact Us AB Products | ETF AB Disruptors ETF Overview An actively managed strategy that takes a thematic approach to identify disruptive leaders across sectors and geographies and seeks long-term growth of capital About this Fund Seeks to outperform global growth equity markets by investing in innovative market leaders who are poised to disrupt their respe",
-   "js_hits": {
-    "https://players.brightcove.net/2197926677001/b46fe8e6-5cda-430a-99b2-ec23fa9db5ef_default/index.min.js": [
-     "p=!!e.sync;var v=false;var m;var g={body:undefined,headers:{},statusCode:0,method:c,url:d,rawRequest:o};if(\"json\"in e&&e.json!==false){v=true;h[\"accept\"]||h[\"Accept\"]||(h[\"Accept\"]=\"application/json\");if(c!==\"GET\"&&c!==\"HEAD\"){h[\"content-type\"]||h[\"Content-Type\"]||(h[\"Content-Type\"]=\"application/json\");f=JSON.stringify(e.json===true?f:e.json)",
-     "f(c!==\"GET\"&&c!==\"HEAD\"){h[\"content-type\"]||h[\"Content-Type\"]||(h[\"Content-Type\"]=\"application/json\");f=JSON.stringify(e.json===true?f:e.json)}}o.onreadystatechange=r;o.onload=s;o.onerror=a;o.onprogress=function(){};o.onabort=function(){l=true};o.ontimeout=a;o.open(c,d,!p,e.username,e.password);if(!p){o.withCredentials=!!e.withCredentials}if(!p&&e.timeout>0){m=setTimeout(function(){if(l)return;l=true;o.abort(\"timeout\");var e=new Error(\"XMLHttpRequest timeout\");e.code=\"ETIMEDOUT\";a(e)},e.timeout)}if(o.setRequestHeader){for(u in h){if(h.hasOwnProperty(u)){o.setRequestHeader(u,h[u])}}}else if(e.headers&&!wi(",
-     " registered using videojs.registerTech()'\")}this.tech_=new u(o);this.tech_.ready(tt(this,this.handleTechReady_),true);Yt.jsonToTextTracks(this.textTracksJson_||[],this.tech_);ha.forEach(function(e){r.on(r.tech_,e,function(t){return r[\"handleTech\"+bt(e)+\"_\"](t)})});Object.keys(pa).forEach(function(e){r.on(r.tech_,e,function(t){if(r.tech_.playbackRate()===0&&r.tech_.seeking()){r.queuedCallbacks_.push({callback:r[\"handleTech\"+pa[e]+\"",
-     "FOUND:\"SESSION_NOT_FOUND\",VIDEO_NOT_FOUND:\"VIDEO_NOT_FOUND\"};var Ae=function e(t,i){if(!i){i=\"production\"}return Ce[i]+\"/api/v1/accounts/\"+t+\"/sessions\"};var xe=function e(t){var i=t.statusCode,r=t.body;var n=null;if(i<400||i>499){return n}var a=r.error;var o=a.sub_code||a.code;switch(o){case je.MAX_CONCURRENCY:n={code:\"GSC_ERR_DENIED_"
-    ],
-    "https://945-JWO-928.mktoweb.com/js/forms2/js/forms2.min.js": [
-     "alidation.showError(i,c)}},G={type:s,data:A,dataType:r,url:m,success:D,error:F};l&&l!=location.hostname?b.postmessage&&b.json?v.send(G):(G.dataType=\"jsonp\",G.submitUrl+=\"?callback=?\",G.type=\"GET\",G.error=g,e.ajax(G)):(G.error=g,e.ajax(G))},V=function(b){if(y.submitButton){var c=y.submitButton.find(\"button\");c&&(b?(c.attr(\"disabled\",\"disabled\"),a.",
-     "b&&b(c),B(function(){if(a.action&&!l()&&!m()){var b=o.parse(a.action).hostname;b&&b!=location.hostname&&i.postmessage&&i.json&&p.init(\"//\"+b+t.formXDPath)}}),B(function(){n.emit(\"mktoFormReady\",c)})}},r=j&&j.profiling&&j.profiling.isEnabled,s=j&&j.knownLead&&\"custom\"==j.knownLead.type&&a.munchkinId;(s||r)&&(k++,\nC(a.Vid,a.munchkinId",
-     " a=ec.pop()||ya.expando+\"_\"+Lb.guid++;return this[a]=!0,a}}),ya.ajaxPrefilter(\"json jsonp\",function(b,c,d){var e,f,g,h=b.jsonp!==!1&&(fc.test(b.url)?\"url\":\"string\"==typeof b.data&&0===(b.contentType||\"\").indexOf(\"application/x-www-form-urlencoded\")&&fc.test(b.data)&&\"data\");return h||\"jsonp\"===b.dataTypes[0]?(e=b.jsonpCallback=sa(b.jsonpCallback)?",
-     "Type||\"\").indexOf(\"application/x-www-form-urlencoded\")&&fc.test(b.data)&&\"data\");return h||\"jsonp\"===b.dataTypes[0]?(e=b.jsonpCallback=sa(b.jsonpCallback)?b.jsonpCallback():b.jsonpCallback,h?b[h]=b[h].replace(fc,\"$1\"+e):b.jsonp!==!1&&(b.url+=(Mb.test(b.url)?\"&\":\"?\")+b.jsonp+\"=\"+e),b.converters[\"script json\"]=function(){return g||ya.error(e+\" was not called\"),g[0]},b.dataTypes[0]=\"json\",f=a[e],a[e]=function(){",
-     "b.dataTypes[0]?(e=b.jsonpCallback=sa(b.jsonpCallback)?b.jsonpCallback():b.jsonpCallback,h?b[h]=b[h].replace(fc,\"$1\"+e):b.jsonp!==!1&&(b.url+=(Mb.test(b.url)?\"&\":\"?\")+b.jsonp+\"=\"+e),b.converters[\"script json\"]=function(){return g||ya.error(e+\" was not called\"),g[0]},b.dataTypes[0]=\"json\",f=a[e],a[e]=function(){g=arguments},d.always(function(){void 0===f?ya",
-     "lback)?b.jsonpCallback():b.jsonpCallback,h?b[h]=b[h].replace(fc,\"$1\"+e):b.jsonp!==!1&&(b.url+=(Mb.test(b.url)?\"&\":\"?\")+b.jsonp+\"=\"+e),b.converters[\"script json\"]=function(){return g||ya.error(e+\" was not called\"),g[0]},b.dataTypes[0]=\"json\",f=a[e],a[e]=function(){g=arguments},d.always(function(){void 0===f?ya(a).removeProp(e)"
-    ],
-    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-base.lc-a5b5ccd6fa8d6d8fe2a74338b1359dc5-lc.min.js": [
-     "bde-header-language-selector\"),n=null,a=null,r=\"\",i=\"\",fetch(\"/content/dam/global/static-files/json-data/common/language.json\").then((function(e){if(!e.ok)throw new Error(\"Network response was not ok\");return e.json()})).then((function(o){if(n=dataSpec.lang,a=o[e]){var s=a.links;if(!s||s.length<2)console.log(\"\".concat(e,\" d",
-     "iles/json-data/common/language.json\").then((function(e){if(!e.ok)throw new Error(\"Network response was not ok\");return e.json()})).then((function(o){if(n=dataSpec.lang,a=o[e]){var s=a.links;if(!s||s.length<2)console.log(\"\".concat(e,\" do not have multiple language\"));else{for(var l=0;l<s.length;l++)if(s[l].id===n){r=s[l].shortName;break}for(var c=0;c<s.length;c++){var d=s[c],u=\"\";d.shortName===r&&(u=\"active\"),i+='<div",
-     "fetch(t);case 3:if((n=e.sent).ok){e.next=6;break}throw new Error(\"Network response was not ok\");case 6:return e.next=8,n.json();case 8:return a=e.sent,e.abrupt(\"return\",{html:decodeURIComponent(a.ablend.html.replace(/</g,\"<\").replace(/>/g,\">\")),options:a.ablend.options,errorMessage:a.ablend.errormessage,optionsTerms:a.ablend.optionsterms});case 12:e.prev=12,",
-     "ow=\"hidden\",t=document.createElement(\"div\"),e.next=4,i(\"/content/dam/global/static-files/json-data/us/ablend/ablendterms.json\");case 4:n=e.sent,a=o(n.options),t.id=\"ablendterms\",t.innerHTML=\"<div class='abde-modal-content-wrapper'></div>\\n      <div class=\\\"abde-modal abde-tandc-modal abde-lend-modal abde-modal-show\\\">\\n   ",
-     "fetch(t);case 3:if((n=e.sent).ok){e.next=6;break}throw new Error(\"Network response was not ok\");case 6:return e.next=8,n.json();case 8:return e.abrupt(\"return\",e.sent);case 11:e.prev=11,e.t0=e.catch(0),console.error(\"There was a problem with the API request:\",e.t0);case 14:case\"end\":return e.stop()}}),e,null,[[0,11]])})));return function(t){return e",
-     "taSpec.fundApiUrl}/v1/funds/${window.dataSpec.shareClassId}/inav`)\n    .then(function (response) {\n      return response.json();\n    })\n    .then(function (data) {\n      const iNavData = data[0];\n      const iNavTitle = `iNAV*: ${iNavData.currency} $${iNavData.inav}`;\n      const iNavDescription = formatInavDateTime(iNavData.datetime);\n      renderINav(iNavTitle, iNavDescription);\n    })\n    .catch(function (err) {\n      console.log('error: ' + err);\n    });\n}\n\nwindow.addEventListener('load', function () {\n  const inavDivs = document.getElementsByClassName('aus-inav');\n  if (inavDivs.length > 0) {\n    // Your document is loaded.\n"
-    ],
-    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-fund-detail.lc-04860f235db8163f5ed99ba4a1f284f7-lc.min.js": [
-     "alGrowth:\"hypotheticalGrowth\",navHistory:\"navHistory\",ratings:\"ratings\",yieldsAndDistributions:\"yieldsAndDistributions\",holdings:\"holdings\",returns:\"returns\",premiumDiscount:\"premiumDiscount\"},J={global:{global:[\"getTranslations\",\"getFundInfo\"]},\"mutual-funds\":{hero:[\"getNavDetail\",\"getShareClasses\",\"getProductDocs\"],factsFees",
-     "hypotheticalGrowth\",navHistory:\"navHistory\",ratings:\"ratings\",yieldsAndDistributions:\"yieldsAndDistributions\",holdings:\"holdings\",returns:\"returns\",premiumDiscount:\"premiumDiscount\"},J={global:{global:[\"getTranslations\",\"getFundInfo\"]},\"mutual-funds\":{hero:[\"getNavDetail\",\"getShareClasses\",\"getProductDocs\"],factsFeesExpenses:[",
-     "calGrowth\"],navHistory:[\"getNavHistory\"],ratings:[\"getRatings\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],holdings:[\"getHoldings\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],premiumDiscount:[\"getPremiumDiscount\"]},\"interval-funds\":{hero:[\"getNavDetail\",\"getShareClasses\",\"getProductDocs\"],factsFeesExpenses",
-     "calGrowth\"],navHistory:[\"getNavHistory\"],ratings:[\"getRatings\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],holdings:[\"getHoldings\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],premiumDiscount:[\"getPremiumDiscount\"]},\"managed-accounts\":{hero:[\"getProductDocs\"]},\"model-portfolio\":{hero:[\"getProductDocs\"]},\"cl",
-     "NavHistory\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],holdings:[\"getHoldings\"]},\"variable-product\":{hero:[\"getNavDetail\",\"getShareClasses\",\"getProductDocs\"],factsFeesExpenses:[\"getKeyFacts\",\"getFeesAndExpenses\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"]",
-     "\"getRiskMeasurements\"],hypotheticalGrowth:[\"getHypotheticalGrowth\"],navHistory:[\"getNavHistory\"],ratings:[\"getRatings\"],holdings:[\"getHoldings\"]},etf:{hero:[\"getNavDetail\",\"getProductDocs\"],factsFeesExpenses:[\"getKeyFacts\",\"getFeesAndExpenses\"],annualPerformance:[\"getAnnualPerformance\"],riskMeasurements:[\"getRiskMeasurements\"]"
-    ]
-   }
-  }
- ],
- "INFL": [
-  {
-   "url": "https://horizonkinetics.com/products/etf/infl/",
-   "final": "https://horizonkinetics.com/products/etf/infl/",
-   "status": 200,
-   "ctype": "text/html; charset=UTF-8",
-   "len": 249542,
-   "cands": [
-    "https://horizonkinetics.com/app/uploads/INFL-Portfolio-Positioning-Piece_Dec-2024_Final.pdf",
-    "https://horizonkinetics.com/products/etf/infl/#holdings",
-    "https://horizonkinetics.com/products/etf/infl/holdings",
-    "https://horizonkinetics.com/wp/wp-admin/admin-ajax.php?action=daily_holdings&ticker=INFL&prefix=Holdings"
-   ],
-   "text": " Inflation Beneficiaries ETF | Horizon Kinetics --> --> Menu What&#8217;s New Investment Philosophy Products Insights About Home / Products / Exchange Traded Funds / Inflation Beneficiaries ETF Inflation Beneficiaries ETF Overview Holdings Prices Performance Resources The Horizon Kinetics Inflation Beneficiaries ETF is an actively managed ETF that seeks long-term growth of capital in real (inflation-adjusted) terms. It seeks to achieve its investment objective by investing primarily in domestic and foreign equity securities of companies that are expected to benefit, either directly or indirectly, from rising prices of real assets (i.e., assets whose value is mainly derived from physical properties such as commodities) such as those whose revenues are expected to increase with inflation without corresponding increases in expenses. Data as of: 10/21/2026 Ticker INFL CUSIP 53656F623 ISIN US53656F6236 Fund Type Active Equity ETF Exchange NYSE Inception Date 1/11/2021 Expense Ratio 0.85% Typical Number of Holdings 20 to 60 Net Assets --> $1,549,431,285 Data as of: 10/22/2026 Daily Holdings % Net Assets 6.83% Name LandBridge Corp Ticker LB CUSIP 514952100 Shares Held 1,312,208 Market Value $105,803,331 % Net Assets 6.11% Name Wheaton Precious Metals Corp Ticker WPM CUSIP 962879102 Shares Held 716,703 Market Value $94,726,636 % Net Assets 5.39% Name PrairieSky Royalty Ltd Ticker PSK CN CUSIP BN320L4 Shares Held 3,226,372 Market Value $83,547,672 % Net Assets 5.35% Name Franco-Nevada",
    "grep": [
-    "position: relative;\n\theight: auto;\n}\n\n.videos-posts__video iframe {\n\tposition: relative;\n\theight: auto;\n\twidth: 100%;\n}\n/*\n.page-japn-data [data-tab=\"holdings\"],\n.page-japn-data .eft__date {\n\tdisplay: none;\n}\n*/\n\n/* \n.japn .eft__performance .hk__table-data .hk__table-key:nth-child(3)::after {\n\tcontent:'*'\n}\n */\n\t\t</style>\n\t\t\n</head>\n<body class=\"wp-singular page-template page-template-template-horizon-ki",
-    "eft__tabs hk__wrap\">\n    <a class=\"eft__tab eft__tab--active\" data-tab=\"overview\" href=\"#overview\">Overview</a>\n        <a class=\"eft__tab\" data-tab=\"holdings\" href=\"#holdings\">Holdings</a>\n            <a class=\"eft__tab\" data-tab=\"prices\" href=\"#prices\">Prices</a>\n            <a class=\"eft__tab\" data-tab=\"performance\" href=\"#performance\">Performance</a>\n        <a class=\"eft__tab\" data-tab=\"resources\" h",
-    "p\">\n    <a class=\"eft__tab eft__tab--active\" data-tab=\"overview\" href=\"#overview\">Overview</a>\n        <a class=\"eft__tab\" data-tab=\"holdings\" href=\"#holdings\">Holdings</a>\n            <a class=\"eft__tab\" data-tab=\"prices\" href=\"#prices\">Prices</a>\n            <a class=\"eft__tab\" data-tab=\"performance\" href=\"#performance\">Performance</a>\n        <a class=\"eft__tab\" data-tab=\"resources\" href=\"#resources\">",
-    " class=\"eft__tab eft__tab--active\" data-tab=\"overview\" href=\"#overview\">Overview</a>\n        <a class=\"eft__tab\" data-tab=\"holdings\" href=\"#holdings\">Holdings</a>\n            <a class=\"eft__tab\" data-tab=\"prices\" href=\"#prices\">Prices</a>\n            <a class=\"eft__tab\" data-tab=\"performance\" href=\"#performance\">Performance</a>\n        <a class=\"eft__tab\" data-tab=\"resources\" href=\"#resources\">Resources<",
-    "ss=\"hk__table-value\">0.85%</p>\n        </li>\n        \n                <li class=\"hk__table-row\">\n          <p class=\"hk__table-key\">Typical Number of Holdings</p>\n          <p class=\"hk__table-value\">20 to 60</p>\n        </li>\n        \n        \n        \n        \n        <li class=\"hk__table-row\">\n          <p class=\"hk__table-key\">Net Assets</p>\n          <!-- <p class=\"hk__table-value\"></p> -->\n        ",
-    "ue\"></p> -->\n                     <p class=\"hk__table-value\">$1,549,431,285</p>\n\n        </li>\n      </ul>\n    </div>\n\n\n\n\n      </div>\n\n\n  <!-- daily holdings: desktop -->\n    <div class=\"eft__section eft__holdings hk__wrap\">\n          <div class=\"hk__table hk__table--wide eft__mobile\">\n      <div>\n          <h6 class=\"eft__date\">Data as of: 10/22/2026</h6>\n          <h6 class=\"eft__date\">\n            <a",
-    "lue\">$1,549,431,285</p>\n\n        </li>\n      </ul>\n    </div>\n\n\n\n\n      </div>\n\n\n  <!-- daily holdings: desktop -->\n    <div class=\"eft__section eft__holdings hk__wrap\">\n          <div class=\"hk__table hk__table--wide eft__mobile\">\n      <div>\n          <h6 class=\"eft__date\">Data as of: 10/22/2026</h6>\n          <h6 class=\"eft__date\">\n            <a href=\"/wp/wp-admin/admin-ajax.php?action=daily_holdings",
-    "     <h6 class=\"eft__date\">Data as of: 10/22/2026</h6>\n          <h6 class=\"eft__date\">\n            <a href=\"/wp/wp-admin/admin-ajax.php?action=daily_holdings&ticker=INFL&prefix=Holdings\" style=\"color:#a88e69;display: flex;\n            justify-content: flex-start; align-items: center;\">\n\n            <svg xmlns=\"http://www.w3.org/2000/svg\" xml:space=\"preserve\" viewBox=\"0 0 128 128\" style=\"margin-right: 10",
-    "ata as of: 10/22/2026</h6>\n          <h6 class=\"eft__date\">\n            <a href=\"/wp/wp-admin/admin-ajax.php?action=daily_holdings&ticker=INFL&prefix=Holdings\" style=\"color:#a88e69;display: flex;\n            justify-content: flex-start; align-items: center;\">\n\n            <svg xmlns=\"http://www.w3.org/2000/svg\" xml:space=\"preserve\" viewBox=\"0 0 128 128\" style=\"margin-right: 10px;\" width=\"24px\" height=\"24",
-    " 1.8L108.2 47a6 6 0 0 1 1.8 4.2V73l4 4V51.3c0-2.7-1-5.2-3-7z\"/>\n            <path fill=\"#fff\" d=\"m114 77-4-4\"/>\n            </svg>\n\n            Daily Holdings\n            </a>\n          </h6>\n        </div>\n        <ul class=\"hk__table-data\">\n                                                  <li class=\"hk__table-row\">\n            <p class=\"hk__table-key\">% Net Assets</p>\n            <p class=\"hk__table-v",
-    "  </li>\n          <li class=\"hk__table-row\">\n            <p class=\"hk__table-key\">Name</p>\n            <p class=\"hk__table-value\">Miami International Holdings Inc</p>\n          </li>\n          <li class=\"hk__table-row\">\n            <p class=\"hk__table-key\">Ticker</p>\n            <p class=\"hk__table-value\">MIAX</p>\n          </li>\n          <li class=\"hk__table-row\">\n            <p class=\"hk__table-key\">C",
-    "\">Market Value</p>\n            <p class=\"hk__table-value\">$1,451</p>\n          </li>\n                            </ul>\n      </div>\n\n      <!-- daily holdings: mobile -->\n       \n        <div class=\"hk__table hk__table--wide eft__desktop \">\n          <div style=\"display: flex;justify-content: space-between; width:100%;\">\n            <h6 class=\"eft__date\">Data as of: 10/22/2026</h6>\n            <h6 class="
+    "\n  <link rel=\"mask-icon\" href=\"/etc.clientlibs/abde-commons/clientlibs/clientlib-commons/resources/images/safari-pinned-tab.svg\"/>\n  \n  \n<script>\n    dataSpec = {\n        \"baseDomain\": \"https://www.alliancebernstein.com\",\n        \"baseUrl\": \"https://www.alliancebernstein.com\",\n        \"solrAPIUrl\": \"https://searchapi.alliancebernstein.com/search\",\n        \"countryCode\": \"us\",\n        \"currentSegment\": \"18\",\n        \"currentSegmentName\": \"investments\",\n        \"fundApiUrl\": \"https://webapi.alliancebernstein.com\",\n        \"homePageUrl\": \"https://www.alliancebernstein.com/us/en-us/investments\",\n        \"insightsUrl\": \"https://www.alliancebernstein.com/us/en-us/investments/insights\",\n        \"shareClassId\": \"00039J509\",\n        \"lang\": \"en-us\",\n        \"noSegUrl\": \"/services/commons/nosegment.json\",\n        \"runmode\": \"publish\",\n        \"vehicle\": \"etf\",\n\t\t\"geoType\": \"onshore\",\n\t\t\"pageDateFormat\": \"MMMM dd yyyy\",\n\t\t\"loggedInHomePageUrl\": \"\",\n\t\t\"restrictedPage\": \"\",\n\t\t\"searchAPIUrl\": \"https://searchapi.alliancebernstein.com/v2\",\n\t\t\"searchRelevanceWeight\": \"0.0\"\n    };\n</script>\n\n\n\n\n\n\n\n\n\n\n\n    <script type=\"text/javascript\">\n        dataSpec.domains = { \"global\": \"https://www.alliancebernstein.com\",",
+    ": \"\",\n\t\t\"fundName\": \"\",\n\t\t\"currency\": \"\",\n\t\t\"shareClass\": \"\"\n\t},\n\t\"fundDetail\": {\n\t\t\"fund\" : {\n\t\t\t\"name\" : \"AB Disruptors ETF\",\n\t\t\t\"ID\" : \"64FN\",\n\t\t\t\"shareClassId\": \"00039J509\",\n            \"asset\" : \"equities\",\n            \"subasset\" : [],\n\t\t\t\"type\" : \"\",\n\t\t\t\"shareClass\" : \"equities\",\n\t\t\t\"vehicle\": \"etf\",\n\t\t\t\"geoType\": \"onshore\"\n\t\t},\n\t\t\"interactions\": {\n\t\t\t\"jumpNavName\": \"\",\n\t\t\t\"performanceTabName\": \"\",\n\t\t\t\"subSectionTabN",
+    "Metadata += '&fundID=' + digitalDataLayer.mData.fundDetail.fund.ID;\n        allianceMetadata += '&fundisin=' + digitalDataLayer.mData.fundDetail.fund.shareClassId;\n\t\tallianceMetadata += '&fundtype=' + digitalDataLayer.mData.fundDetail.fund.type;\n\t\tallianceMetadata += '&fundshareClass=' + digitalDataLayer.mData.fundDetail.fund.shareClass;\n\t}\n\n</script>\n\n\n\n\n\n\n<script type=\"text/javascript\">\nif (!digitalDataLaye"
    ]
   }
  ],
- "IDEQ": [
+ "AB_JS": [
   {
-   "url": "https://www.lazardassetmanagement.com/us/en_us/funds/list/etf",
-   "final": "https://www.lazardassetmanagement.com/us/en_us/funds/list/etf",
-   "status": 404,
-   "ctype": "text/html;charset=utf-8",
-   "len": 115435,
-   "cands": [],
-   "text": " 404 | Lazard Asset Management Cookie Settings Skip to Main Content Account --> Location Settings Audience type | Country location --> Login Signup --> Investment Solutions Research &amp; Insights Advisor Hub About Contact Back Investment Solutions Research &amp; Insights Advisor Hub About Asset Class Equities Fixed Income Multi-Asset Alternatives Real Assets How To Invest Mutual Funds Exchange-Traded Funds (ETFs) Closed-End Funds Offshore Funds Separate Accounts Featured Quantitative Strategies Emerging Markets Global Listed Infrastructure Japanese Equity Lazard Rathmore Lazard Enhanced Opportunities Portfolio Private Wealth Management Lazard Wealth About Us Careers Media Relations Asset Class Equities Learn how our equities teams identify the best opportunities to address clients&#39; needs. Explore how our culture of intellectual freedom enhances our offerings. Fixed Income In fixed income, we believe active management that seeks fundamentally sound investments is essential to delivering strong returns in different environments. Multi-Asset Our multi-asset approach combines dynamic asset allocation with bottom-up security selection, providing investors access to high-conviction views. Mutual Funds Lazard has built a suite of differentiated funds to help you find the investment solutions that best meet your needs. Exchange-Traded Funds (ETFs) Learn about the unique benefits of actively managed ETFs. Explore the offerings from Lazard Asset Management. Closed-End Funds Our cl",
-   "grep": []
-  }
- ],
- "BAFE": [
-  {
-   "url": "https://www.brownadvisory.com/us/funds",
-   "final": "https://www.brownadvisory.com/us/funds",
-   "status": 404,
-   "ctype": "text/html; charset=utf-8",
-   "len": 114932,
-   "cands": [],
-   "text": " 404 Sorry Not Found | Brown Advisory Skip to main content CLIENT LOGIN Select Your Region United States United Kingdom Europe Asia-Pacific Other Regions WHO WE ARE Our Firm Our Team Our DNA News and Press WHAT WE DO Thoughtful Investing Investment and Strategic Advisory for Individuals and Families for Family Offices for Endowments and Foundations Funds and Strategies for Financial Intermediaries for Institutions and Consultants Private Investment Advisory OCIO Sustainable Investing INSIGHTS CLIENT LOGIN Select Your Region United States United Kingdom Europe Asia-Pacific Other Regions Page Not Found We couldn't find your page Please use the navigation above or search tool below to find what you are looking for. Connect Contact Us Client Login Careers News and Press Firm Who We Are What We Do Our Team Insights Notices Disclosures Security Privacy Policy Accessibility Brown Advisory is an independent investment management and strategic advisory firm committed to delivering client-first investment performance, strategic advice and the highest level of service. The firm’s clients—including individuals, families, family offices, endowments, foundations, charities, institutions, consultants, and financial intermediaries—are served by over 1,000 colleagues worldwide, all of whom are equity owners of the firm. Abu Dhabi | Austin | Baltimore | Boston | Dallas | Delaware | Frankfurt | London | Miami | Nashville | New York | North Carolina | San Francisco | Singapore | Southern Califor",
-   "grep": []
-  }
- ],
- "NUGO": [
-  {
-   "url": "https://documents.nuveen.com/Documents/Nuveen/Default.aspx?uniqueId=NUGO-holdings",
-   "final": "https://documents.nuveen.com/Documents/Nuveen/Default.aspx?uniqueId=NUGO-holdings",
+   "url": "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-fund-detail.lc-04860f235db8163f5ed99ba4a1f284f7-lc.min.js",
+   "final": "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-fund-detail.lc-04860f235db8163f5ed99ba4a1f284f7-lc.min.js",
    "status": 200,
+   "ctype": "application/javascript;charset=utf-8",
+   "len": 1379396,
+   "cands": [
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/,`${e}.xlsx`",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/,dailyHoldingsTableParams:null}",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/,holdings:",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_chart-container__VSBOf",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_complete-holdings-row__3wi6w",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_download-btn-container__QmqIC",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_exports-heading-row__nYpzi",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_exports-row__2Hg7q",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_holdings-and-characteristics__Y+Kv+",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_holdings-download-btn__K9zOp",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_holdings-heading-row__X6ZYA",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_mobile-dropdown-container__GHNHh",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_portfolio-stats-heading-row__lLwH9",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_portfolio-stats-section__J7GGZ",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_quick-hide__CRMSM",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_quick-show__Yw8X0",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/HoldingsAndCharacteristics_tabs-container__py2rE",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/NumberOfHoldings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/OptionsHoldingsTable_heading-row__pJzWa",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/OptionsHoldingsTable_options-holdings-table__3EHh9",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/PortfolioInceptionDate",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/StrategyCharacteristicsTable_heading__LPCFh",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/TotalPortfolioYield",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/],holdings:[",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/`/v1/${s}/holdings`",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/a.dailyHoldings,s",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-fund-detail.lc-04860f235db8163f5ed99ba4a1f284f7-lc.min.js#holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/daily-holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/data-holding-id",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/data-portfolio-holding",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/e.totalPortfolioYield",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/e.totalPortfolioYieldAsOfDate",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/fd-holdings-and-characteristics",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/fd-no-data-holdings-and-characteristics",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/full-holdings-download-btn",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/fund-detail-holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/fund-detail-holdings-characteristics",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/holdings-download-btn",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/holdingsAndCharacteristics",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/i,n,Q.holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/jnHoldings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/model-portfolio",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/n.holdings.zesHoldings.asOfDate",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/options-holdings-table",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/r.portfolioInceptionDate",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-daily-holding-table-classification",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-daily-holding-table-header",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-daily-holding-table-total",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-asset-class-weightings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-characteristic-benchmark",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-characteristics",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-download-full-holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-header-characteristic",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-header-holding",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-header-percent",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-heading",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-holdings-holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-jumpNav-holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-keyFacts-NumberOfHoldings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-options-holdings-heading",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-options-holdings-name",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-options-holdings-net-assets-percent",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-options-holdings-ooc-id",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-options-holdings-position-type",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-options-holdings-units",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-options-holdings-value",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-portfolio-stats-complete-heading",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-portfolio-stats-heading",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-portfolio-stats-table-header",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/react-fd-totalPortfolioYield",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/t.numberOfHoldingsAsOfDate",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/t.totalPortfolioYieldAsOfDate",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/t=e.holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/t=h.holdings",
+    "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/t=n.holdings"
+   ],
+   "text": "!function(){var e={569:function(e,t,n){e.exports=n(36)},381:function(e,t,n){\"use strict\";var r=n(589),a=n(297),o=n(301),l=n(774),i=n(804),u=n(145),s=n(411),c=n(789),d=n(531),f=n(795),p=n(261);e.exports=function(e){return new Promise((function(t,n){var h,m=e.data,v=e.headers,g=e.responseType;function y(){e.cancelToken&&e.cancelToken.unsubscribe(h),e.signal&&e.signal.removeEventListener(\"abort\",h)}r.isFormData(m)&&r.isStandardBrowserEnv()&&delete v[\"Content-Type\"];var b=new XMLHttpRequest;if(e.auth){var w=e.auth.username||\"\",x=e.auth.password?unescape(encodeURIComponent(e.auth.password)):\"\";v.Authorization=\"Basic \"+btoa(w+\":\"+x)}var k=i(e.baseURL,e.url);function S(){if(b){var r=\"getAllResponseHeaders\"in b?u(b.getAllResponseHeaders()):null,o={data:g&&\"text\"!==g&&\"json\"!==g?b.response:b.responseText,status:b.status,statusText:b.statusText,headers:r,config:e,request:b};a((function(e){t(e),y()}),(function(e){n(e),y()}),o),b=null}}if(b.open(e.method.toUpperCase(),l(k,e.params,e.paramsSerializer),!0),b.timeout=e.timeout,\"onloadend\"in b?b.onloadend=S:b.onreadystatechange=function(){b&&4===b.readyState&&(0!==b.status||b.responseURL&&0===b.responseURL.indexOf(\"file:\"))&&setTimeout(S)},b.onabort=function(){b&&(n(new d(\"Request aborted\",d.ECONNABORTED,e,b)),b=null)},b.onerror=function(){n(new d(\"Network Error\",d.ERR_NETWORK,e,b,b)),b=null},b.ontimeout=function(){var t=e.timeout?\"timeout of \"+e.timeout+\"ms exceeded\":\"timeout exceeded\",r=e.transitional||c;e.timeoutErrorMessage&&(t=e.timeout",
+   "grep": [
+    "===n?void 0:n.length)<1?(null===(r=t[e].base)||void 0===r?void 0:r.length)>0&&t[e].base||e:t[e][a]:e},R=n(569),O=n.n(R),F=function(e,t){if(e){var n=e.fundApiUrl,r=I(n),a=A(r,t);return{baseUrl:z(e),requests:a}}return\"\"},I=function(e){return O().create({baseURL:e})},z=function(e){var t=e.countryCode,n=e.currentSegmentName,r=e.lang;return\"funds/\".concat(t,\"/\").concat(r,\"/\").concat(n)},M=function(e){var t=arguments.length>1&&v",
+    "owth:[\"getHypotheticalGrowth\"],navHistory:[\"getNavHistory\"],ratings:[\"getRatings\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],holdings:[\"getHoldings\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],premiumDiscount:[\"getPremiumDiscount\"]},\"interval-funds\":{hero:[\"getNavDetail\",\"getShareClasses\",\"getProductDocs\"],factsFeesExpenses:[\"getKeyFacts\",\"getFeesAndExpenses\"],annualPerformance:[\"getAnnualPerformance\"],riskMeasurements:[\"getRiskMeasurements\"],hypotheticalGrowth:[\"getHypotheticalGrowth\"],navHistory:[\"getNavHistory\"],ratings:[\"getRatings\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],holdings:[\"getHoldings\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],premiumDiscount:[\"getPremiumDiscount\"]},\"managed-accounts\":{hero:[\"getProductDocs\"]},\"model-portfolio\":{hero:[\"ge",
+    "owth:[\"getHypotheticalGrowth\"],navHistory:[\"getNavHistory\"],ratings:[\"getRatings\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],holdings:[\"getHoldings\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],premiumDiscount:[\"getPremiumDiscount\"]},\"managed-accounts\":{hero:[\"getProductDocs\"]},\"model-portfolio\":{hero:[\"getProductDocs\"]},\"closed-end-funds\":{hero:[\"getNavDetail\",\"getProductDocs\"],factsFeesExpenses:[\"getKeyFacts\",\"getFeesAndExpenses\"],annualPerformance:[\"getAnnualPerformance\"],hypotheticalGrowth:[\"getHypotheticalGrowth\"],navHistory:[\"getNavHistory\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],holdings:[\"getHoldings\"]},\"variable-product\":{hero:[\"getNavDetail\",\"getShareClasses\",\"getProductDocs\"],factsFeesExpenses:[\"getKey",
+    "\"],navHistory:[\"getNavHistory\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],holdings:[\"getHoldings\"]},\"variable-product\":{hero:[\"getNavDetail\",\"getShareClasses\",\"getProductDocs\"],factsFeesExpenses:[\"getKeyFacts\",\"getFeesAndExpenses\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],annualPerformance:[\"getAnnualPerformance\"],riskMeasurements:[\"getRiskMeasurements\"],hypotheticalGrowth:[\"getHypotheticalGrowth\"],navHistory:[\"getNavHistory\"],ratings:[\"getRatings\"],holdings:[\"getHoldings\"]},etf:{hero:[\"getNavDetail\",\"getProductDocs\"],factsFeesExpenses:[\"getKeyFacts\",\"getFeesAndExpenses\"],annualPerformance:[\"getAnnualPerformance\"],riskMeasurements:[\"getRiskMeasurements\"],hypotheticalGrowth:[\"getHypotheticalGrowth\"],navHistory:[\"getNavHistory\"]",
+    "owth:[\"getHypotheticalGrowth\"],navHistory:[\"getNavHistory\"],ratings:[\"getRatings\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],holdings:[\"getHoldings\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"],premiumDiscount:[\"getPremiumDiscount\"]},index:{hero:[\"getNavDetail\",\"getProductDocs\"],navHistory:[\"getNavHistory\"],yieldsAndDistributions:[\"getYields\",\"getDistributions\"],holdings:[\"getHoldings\"],returns:[\"getDailyReturns\",\"getCumulativeReturns\"]},\"standalone-non-fund\":{hero:[\"getNavDetail\",\"getShareClasses\",\"getCumulativeReturns\",\"getDistributions\",\"getProductDocs\"]}},tt=async(t,e,i)=>{const n=et(t,e,i);return n.length&&Promise.all(n.map(t=>t()))},et=(t,e,i)=>{var n;const r=it(t,i,e),o=(t.fdHeaderVariation,z(null===e||void 0===e?void 0:e.vehicle)),s=null===(n=J[o])||void 0===n?void 0:n[Q[",
+    "null===(n=J[o])||void 0===n?void 0:n[Q[i]];return s&&r?s.map(t=>r[t]):[]},it=(t,e,i)=>{const{REACT_APP_API_CONFIG_PATH:n}={REACT_APP_API_CONFIG_PATH:\"fundApiUrl\"},r=(t||{})[n],o=ot(r),s=st(t),a=at(o),l={};switch(e){case Q.global:l.getTranslations=async()=>a.get(\"/v2/translations/en-us\"),l.getFundInfo=async()=>a.get(`/v1/${s}`);break;case Q.hero:l.getNavDetail=async()=>a.get(`/v1/${s}/nav-detail`),l.getShareClasses=async()=>a.get(`/v1/${s}/shareclasse",
+    "ldsAndDistributions:l.getYields=async()=>a.get(`/v1/${s}/yields`),l.getDistributions=async()=>a.get(`/v1/${s}/distributions`);break;case Q.holdings:l.getHoldings=async()=>a.get(`/v1/${s}/holdings`);break;case Q.returns:l.getDailyReturns=async()=>a.get(`/v1/${s}/daily-returns`),l.getCumulativeReturns=async()=>a.get(`/v1/${s}/cumulative-returns`);break;case Q.premiumDiscount:l.getPremiumDiscount=async()=>a.get(`/v1/${s}/premium-discount?period=o",
+    "scount=async()=>a.get(`/v1/${s}/premium-discount?period=overall`)}return l},nt=(t,e)=>{const{REACT_APP_API_CONFIG_PATH:i}={REACT_APP_API_CONFIG_PATH:\"fundApiUrl\"},n=(t||{})[i],r=ot(n),o=st(t);return r.get(`/v1/${o}/historical-navs?freq=${e}`)},rt=async function(t,e){let i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"xls\";const{REACT_APP_API_CONFIG_PATH:n}={REACT_APP_API_CONFIG_PATH:\"fundApiUrl\"},r=(t||{})[n],o=ot(r),s=st(t),{d",
+    "async function(t,e){let i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"xls\";const{REACT_APP_API_CONFIG_PATH:n}={REACT_APP_API_CONFIG_PATH:\"fundApiUrl\"},r=(t||{})[n],o=ot(r),s=st(t),{data:a}=await o.get(`/v1/${s}/${i}?type=${e}`,{responseType:\"blob\"}),l=URL.createObjectURL(a),h=document.createElement(\"a\");h.href=l,h.setAttribute(\"download\",`${e}.xlsx`),document.body.appendChild(h),h.click(),document.body.removeChild(h),URL.revokeObjectURL(l)},ot=t=>Z().create({baseURL:t}),st=t=>{const{countryCode:e,currentSegmentName:i,shareClassId:n,lang:r}=t;return",
+    "h(console.error).finally(()=>u(!1)))},[a,i,n,l]);const p=(0,o().useCallback)(async t=>{const{REACT_APP_API_CONFIG_PATH:e}={REACT_APP_API_CONFIG_PATH:\"fundApiUrl\"},n=i[e],r=ot(n),o=st(i),a=at(r);u(!0);try{const e=await a.get(`/v1/${o}/premium-discount?period=${t}`);c({...Tn(e,s)})}catch(l){console.error(l)}finally{u(!1)}},[i,s]),f=(0,o().useMemo)(()=>({dataSet:h,isLoading:d,fetchDiscountDataByPeriod:p}),[h,d,p]);return(0,r().jsx)(Mn.Provide"
+   ]
+  }
+ ],
+ "ALGER_JS": [
+  {
+   "url": "https://www.alger.com/Style%20Library/Alger/js/product4.js",
+   "final": "https://www.alger.com/Style%20Library/Alger/js/product4.js",
+   "status": 200,
+   "ctype": "application/javascript",
+   "len": 221974,
+   "cands": [
+    "https://www.alger.com/Style%20Library/Alger/js/NoOfEquityHoldings",
+    "https://www.alger.com/Style%20Library/Alger/js/btnETFDailyHoldingsCSVLink",
+    "https://www.alger.com/Style%20Library/Alger/js/btnETFDailyHoldingsPDFLink",
+    "https://www.alger.com/Style%20Library/Alger/js/dataActiveHoldingsTop10",
+    "https://www.alger.com/Style%20Library/Alger/js/dataTopHoldings",
+    "https://www.alger.com/Style%20Library/Alger/js/product.data.ProductPortfolioExposure[0].pclsEffDate",
+    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataActiveHoldingsTop10[0].tahEffDate",
+    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataCharacteristics[0].pclsB1NoOfEquityHoldings",
+    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataHoldingsAll[0].alhEffDate",
+    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataHoldingsTop10",
+    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataHoldingsTop10[0].tthEffDate",
+    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataTop5HoldingsLongShort[0].tfhEffDate",
+    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataTop5HoldingsLongShort[i]",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#all-holdings",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#allHoldings",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataActiveHoldingsTop10",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataActiveHoldingsTop10-prefix",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataPortfolioExposure",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataPortfolioExposure-prefix",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataPortfolioExposure-tab",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#etf-daily-holdings",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#top-10-holdings",
+    "https://www.alger.com/Style%20Library/Alger/js/product4.js#top-active-holdings"
+   ],
+   "text": "Chart.defaults.global.customTooltips = function (tooltip) { // Tooltip Element var tooltipEl = $('#chartjs-tooltip'); // Hide if no tooltip if (!tooltip) { tooltipEl.css({ opacity: 0 }); return; } // Set caret Position tooltipEl.removeClass('above below'); tooltipEl.addClass(tooltip.yAlign); // Set Text tooltipEl.html(tooltip.text); // Find Y Location on page var top; if (tooltip.yAlign == 'above') { top = tooltip.y - tooltip.caretHeight - tooltip.caretPadding; } else { top = tooltip.y + tooltip.caretHeight + tooltip.caretPadding; } // Display, position, and set styles for font tooltipEl.css({ opacity: 1, left: tooltip.chart.canvas.offsetLeft + tooltip.x - 20 + 'px', top: tooltip.chart.canvas.offsetTop + top + 50 + 'px', fontFamily: tooltip.fontFamily, fontSize: tooltip.fontSize, fontStyle: tooltip.fontStyle, }); }; var $ = jQuery.noConflict(); var ppcCode = ''; var productShortName = ''; var productFullName = ''; var isMobile = false; var isMobileDevice = false; if ($(window).width() \"); $(\".mobile-product-snapshot\").html(' ' + $(\".snapshot-date\")[0].outerHTML + ' Fund Snapshot ' + $(\".fund-snapshot-data\")[0].outerHTML); //*ETF CR var mobileh3 = $(\"#all-section-summary > h3, #all-section-marketdata > h3, #all-section-performance > h3, #all-section-composition > div > h3, #all-section-attribution > h3, #all-section-management > div > h3, #all-section-risk > h3\"); mobileh3.find(\".arrow\").remove(); mobileh3.append(' '); mobileh3.unbind(\"click\"); //var $mt = $(\"#main-title\"); //",
+   "grep": [
+    "k();\r\n        setTimeout(product.resize, 500);\r\n\r\n        if (product.data.dataProductInformation.vehicleShortName == \"ISA\") {\r\n            var windowurl = window.location.href;\r\n            if (!windowurl.includes(\"&print=\")) {\r\n                if (isEmpty($.cookie(\"form-modal-confirm-2\"))) {\r\n                    $(\"#error-message\").show();\r\n                    $(\"#product-content\").hide();\r\n                    $(\"#cofirm",
+    "mation.vehicleShortName == \"ETF\") {\r\n            //*Trans-ETF Change\r\n            if (product.data.IsTransparent != 'Y') {\r\n                var windowurl = window.location.href;\r\n                if (!windowurl.includes(\"&print=\")) {\r\n                    if (isEmpty($.cookie(\"form-modal-confirm-etf\"))) {\r\n                        $(\"#error-message\").show();\r\n                        $(\"#error-message\").html('This ETF is diffe",
+    "\n                }\r\n            }\r\n        }\r\n\r\n        if (product.data.dataProductInformation.vehicleShortName == \"UCITS\") {\r\n            var windowurl = window.location.href;\r\n            if (!windowurl.includes(\"&print=\")) {\r\n                if (isEmpty($.cookie(\"form-modal-confirm\"))) {\r\n                    $(\"#error-message\").show();\r\n                    $(\"#product-content\").hide();\r\n                    $(\"#cofirm-b",
+    "nly for EDGE\r\nif (window.navigator.userAgent.indexOf(\"Edge\") > -1) {\r\n    console.log(\"EDGE CODE\");\r\n    $(document).ready(function () {\r\n        var url = window.location.href.toLowerCase();\r\n        if (url.indexOf(\"products.aspx\") > -1) {\r\n            var arrFrames = document.getElementsByTagName(\"iframe\");\r\n            for (i = 0; i < arrFrames.length; i++) {\r\n                if (!arrFrames.hasOwnProperty(i)) continue;\r\n            ",
+    "iFrame.src = iFrameUrl;\r\n                }\r\n            }\r\n        }\r\n    });\r\n    // code for\r\n}\r\nelse {\r\n    console.log(\"NOT EDGE CODE\");\r\n    var url = window.location.href.toLowerCase();\r\n    if (url.indexOf(\"products.aspx\") > -1) {\r\n        var arrFrames = document.getElementsByTagName(\"iframe\");\r\n        for (i = 0; i < arrFrames.length; i++) {\r\n            if (!arrFrames.hasOwnProperty(i)) continue;\r\n            var iFrame = arr"
+   ]
+  }
+ ],
+ "TROWE_JS": [
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/main.1b1e7bd5.chunk.js",
+   "final": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/main.1b1e7bd5.chunk.js",
+   "status": 403,
    "ctype": "text/html",
-   "len": 17310,
+   "len": 17617,
    "cands": [],
-   "text": " YOUR REQUEST HAS BEEN BLOCKED! Your Reference ID # is: 18.5e5ed617.1792676253.196606c6 Security Center Uh-oh. Your request was BLOCKED. Please contact us and refer to the Reference # below: 18.5e5ed617.1792676253.196606c6 &nbsp; 800-842-2252 We're here every weekday from 8 a.m. to 10 p.m. (ET) Search our site Try searching our site for your topic of interest using these simple tips and tricks: Spelling Make sure words are spelled correctly. Try again Search again using different words. Phrases Use quotes to search for exact phrase (for example, \"TIAA Annual Report 2015\"). Exclude words Use a hyphen to exclude words (for example, annuity-variable). "
+   "text": "ï»¿ T. Rowe Price Page Not Found For access to all of the T. Rowe Price websites, please use the following links. We're sorry, the page you requested could not be found. If you used a bookmark to access this page, the link is no longer active. Please go to the T. Rowe Price homepage and navigate to the desired page. If you continue to experience difficulty accessing pages on our website, you may need to delete your temporary internet files or adjust your browser settings. Choose your site: Enterprise Personal Investing Workplace Retirement Individual / SMSF Investors Institutional Investor / Consultant Financial Advisor / Intermediary Recordkeeping Sponsor / Consultant Thank you for investing with T. Rowe Price. Invest With Confidence Â® ",
+   "grep": [
+    "    motion-state=\"enabled\"\n                >\n                  <beacon-navigation\n                    id=\"main-al\"\n                    wordmark-href=\"https://www.troweprice.com\"\n                    beacon-aria-label=\"Main Site Navigation\"\n                    defer-until=\"defined\"\n                  >\n                  </beacon-navigation>\n                  <div id=\"a11y-skip-to-main-content\"></div>\n                </nav>\n  ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com\"\n                                variant=\"tertiary\"\n                              >\n                                Enterprise\n                                <beacon-icon\n                                  class=\" \"\n                                 ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/personal-investing/index.html \"\n                                variant=\"tertiary\"\n                              >\n                                Personal Investing\n                                <beacon-icon\n                                  class=\" \"\n                         ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/workplace/en/login.html\"\n                                variant=\"tertiary\"\n                              >\n                                Workplace Retirement\n                                <beacon-icon\n                                  class=\" \"\n                       ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/individual-investor/au/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Individual / SMSF Investors\n                                <beacon-icon\n                                  class=\" \"\n                ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/institutional/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Institutional Investor / Consultant\n                                <beacon-icon\n                                  class=\" \"\n        ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/financial-intermediary/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Financial Advisor / Intermediary\n                                <beacon-icon\n                                  class=\" \"\n           ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/retirement-plan-services/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Recordkeeping Sponsor / Consultant\n                                <beacon-icon\n                                  class=\" \"\n         "
+   ]
+  }
+ ],
+ "TROWE_JS15": [
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/15.83ffcb6d.chunk.js",
+   "final": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/15.83ffcb6d.chunk.js",
+   "status": 403,
+   "ctype": "text/html",
+   "len": 17617,
+   "cands": [],
+   "text": "ï»¿ T. Rowe Price Page Not Found For access to all of the T. Rowe Price websites, please use the following links. We're sorry, the page you requested could not be found. If you used a bookmark to access this page, the link is no longer active. Please go to the T. Rowe Price homepage and navigate to the desired page. If you continue to experience difficulty accessing pages on our website, you may need to delete your temporary internet files or adjust your browser settings. Choose your site: Enterprise Personal Investing Workplace Retirement Individual / SMSF Investors Institutional Investor / Consultant Financial Advisor / Intermediary Recordkeeping Sponsor / Consultant Thank you for investing with T. Rowe Price. Invest With Confidence Â® ",
+   "grep": [
+    "    motion-state=\"enabled\"\n                >\n                  <beacon-navigation\n                    id=\"main-al\"\n                    wordmark-href=\"https://www.troweprice.com\"\n                    beacon-aria-label=\"Main Site Navigation\"\n                    defer-until=\"defined\"\n                  >\n                  </beacon-navigation>\n                  <div id=\"a11y-skip-to-main-content\"></div>\n                </nav>\n  ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com\"\n                                variant=\"tertiary\"\n                              >\n                                Enterprise\n                                <beacon-icon\n                                  class=\" \"\n                                 ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/personal-investing/index.html \"\n                                variant=\"tertiary\"\n                              >\n                                Personal Investing\n                                <beacon-icon\n                                  class=\" \"\n                         ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/workplace/en/login.html\"\n                                variant=\"tertiary\"\n                              >\n                                Workplace Retirement\n                                <beacon-icon\n                                  class=\" \"\n                       ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/individual-investor/au/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Individual / SMSF Investors\n                                <beacon-icon\n                                  class=\" \"\n                ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/institutional/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Institutional Investor / Consultant\n                                <beacon-icon\n                                  class=\" \"\n        ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/financial-intermediary/us/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Financial Advisor / Intermediary\n                                <beacon-icon\n                                  class=\" \"\n           ",
+    "=\"left\"\n                                scale=\"normal\"\n                                link-target=\"_self\"\n                                link-href=\"https://www.troweprice.com/retirement-plan-services/en/home.html\"\n                                variant=\"tertiary\"\n                              >\n                                Recordkeeping Sponsor / Consultant\n                                <beacon-icon\n                                  class=\" \"\n         "
+   ]
+  }
+ ],
+ "AKRE_SRC": [
+  {
+   "url": "https://www.akrefund.com/etf",
+   "final": "https://www.akrefund.com/fund-summary/",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 324767,
+   "cands": [
+    "https://maps.google.com/maps/api/js?key=",
+    "https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13"
+   ],
+   "text": " Fund Summary - Akre Focus ETF Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Menu Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Search Search Fund Summary Investing involves risk. Principal loss is possible. The Fund is non-diversified, meaning it may focus its assets in fewer individual holdings than a diversified fund. Therefore, the Fund is more exposed to individual stock volatility than a diversified fund. In addition to large capitalization companies, the Fund invests in small- and medium- capitalization companies, which involve additional risks such as limited liquidity and greater volatility than larger capitalization companies. Download the prospectus. This fund is an actively-managed ETF that does not seek to replicate the performance of a specified index. To determine whether to buy or sell a security, the portfolio manager considers, among other things, various fund requirements and standards, along with economic conditions, alternative investments, interest rates and various credit metrics. If the portfolio manager considerations are inaccurate or misapplied, the fund’s performance may suffer. Exchange-Traded Funds (ETFs) are bought and sold through exchange trading at market price (not NAV ), and are not individually redeemed from the fund. Shares may ",
+   "grep": [
+    "o-lazy\"><strong>Investing involves risk. Principal loss is possible. The Fund is non-diversified, meaning it may focus its assets in fewer individual holdings than a diversified fund. Therefore, the Fund is more exposed to individual stock volatility than a diversified fund. In addition to large capitalization companies, the Fund invests in small- and medium- capitalization companies, which involve additional risks such as limited liquidity and greater volatility than larger capitalization companies. <a href=\"https://www.akrefund.com/documents-and-forms/\" target=\"_blank\" rel=\"noopener noreferrer\">Download the prospectus.</a></strong></p> <p>This fund is an actively-managed ETF that does not seek to "
+   ]
   }
  ]
 }
