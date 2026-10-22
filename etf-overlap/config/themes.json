@@ -1,0 +1,482 @@
+{
+ "TSM": {
+  "name": "Taiwan Semiconductor Manufactur",
+  "theme": "반도체",
+  "desc": "Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other…",
+  "auto": true
+ },
+ "GOOGL": {
+  "name": "Alphabet Inc.",
+  "theme": "인터넷 플랫폼",
+  "desc": "Alphabet Inc.",
+  "auto": true
+ },
+ "UNH": {
+  "name": "UnitedHealth Group Incorporated",
+  "theme": "건강보험",
+  "desc": "UnitedHealth Group Incorporated operates as a health care company in the United States and internationally.",
+  "auto": true
+ },
+ "SPCX": {
+  "name": "Space Exploration Technologies ",
+  "theme": "방산·항공우주",
+  "desc": "Space Exploration Technologies Corp.",
+  "auto": true
+ },
+ "AMZN": {
+  "name": "Amazon.com, Inc.",
+  "theme": "온라인 유통",
+  "desc": "Amazon.com, Inc.",
+  "auto": true
+ },
+ "META": {
+  "name": "Meta Platforms, Inc.",
+  "theme": "인터넷 플랫폼",
+  "desc": "Meta Platforms, Inc.",
+  "auto": true
+ },
+ "AVGO": {
+  "name": "Broadcom Inc.",
+  "theme": "반도체",
+  "desc": "Broadcom Inc.",
+  "auto": true
+ },
+ "PM": {
+  "name": "Philip Morris International Inc",
+  "theme": "담배",
+  "desc": "Philip Morris International Inc.",
+  "auto": true
+ },
+ "INTC": {
+  "name": "Intel Corporation",
+  "theme": "반도체",
+  "desc": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland,…",
+  "auto": true
+ },
+ "WDC": {
+  "name": "Western Digital Corporation",
+  "theme": "IT 하드웨어",
+  "desc": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology…",
+  "auto": true
+ },
+ "MSFT": {
+  "name": "Microsoft Corporation",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide.",
+  "auto": true
+ },
+ "AMD": {
+  "name": "Advanced Micro Devices, Inc.",
+  "theme": "반도체",
+  "desc": "Advanced Micro Devices, Inc.",
+  "auto": true
+ },
+ "ABT": {
+  "name": "Abbott Laboratories",
+  "theme": "의료기기",
+  "desc": "Abbott Laboratories, together with its subsidiaries, discovers, develops, manufactures, and sells health care products worldwide.",
+  "auto": true
+ },
+ "RCL": {
+  "name": "Royal Caribbean Cruises Ltd.",
+  "theme": "여행",
+  "desc": "Royal Caribbean Cruises Ltd.",
+  "auto": true
+ },
+ "LLY": {
+  "name": "Eli Lilly and Company",
+  "theme": "제약",
+  "desc": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and…",
+  "auto": true
+ },
+ "ASML": {
+  "name": "ASML Holding N.V. - New York Re",
+  "theme": "반도체 장비",
+  "desc": "ASML Holding N.V.",
+  "auto": true
+ },
+ "WFC": {
+  "name": "Wells Fargo & Company",
+  "theme": "은행",
+  "desc": "Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and…",
+  "auto": true
+ },
+ "KLAC": {
+  "name": "KLA Corporation",
+  "theme": "반도체 장비",
+  "desc": "KLA Corporation, together with its subsidiaries, provides process control and process-enabling solutions for manufacturing wafers, reticles/masks,…",
+  "auto": true
+ },
+ "AIR": {
+  "name": "AAR Corp.",
+  "theme": "방산·항공우주",
+  "desc": "AAR Corp.",
+  "auto": true
+ },
+ "CRM": {
+  "name": "Salesforce, Inc.",
+  "theme": "응용 SW",
+  "desc": "Salesforce, Inc.",
+  "auto": true
+ },
+ "GOOG": {
+  "name": "Alphabet Inc.",
+  "theme": "인터넷 플랫폼",
+  "desc": "Alphabet Inc.",
+  "auto": true
+ },
+ "RTX": {
+  "name": "RTX Corporation",
+  "theme": "방산·항공우주",
+  "desc": "RTX Corporation, an aerospace and defense company, provides systems and services for commercial, military, and government customers worldwide.",
+  "auto": true
+ },
+ "UNP": {
+  "name": "Union Pacific Corporation",
+  "theme": "철도",
+  "desc": "Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States.",
+  "auto": true
+ },
+ "ROP": {
+  "name": "Roper Technologies, Inc.",
+  "theme": "응용 SW",
+  "desc": "Roper Technologies, Inc.",
+  "auto": true
+ },
+ "MA": {
+  "name": "Mastercard Incorporated",
+  "theme": "결제·카드",
+  "desc": "Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and…",
+  "auto": true
+ },
+ "CRWD": {
+  "name": "CrowdStrike Holdings, Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "CrowdStrike Holdings, Inc.",
+  "auto": true
+ },
+ "TMO": {
+  "name": "Thermo Fisher Scientific Inc",
+  "theme": "진단·연구장비",
+  "desc": "Thermo Fisher Scientific Inc.",
+  "auto": true
+ },
+ "GE": {
+  "name": "GE Aerospace",
+  "theme": "방산·항공우주",
+  "desc": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric…",
+  "auto": true
+ },
+ "APD": {
+  "name": "Air Products and Chemicals, Inc",
+  "theme": "특수화학",
+  "desc": "Air Products and Chemicals, Inc.",
+  "auto": true
+ },
+ "DE": {
+  "name": "Deere & Company",
+  "theme": "Farm & Heavy Construction Machinery",
+  "desc": "Deere & Company engages in the manufacture and distribution of various equipment worldwide.",
+  "auto": true
+ },
+ "ACN": {
+  "name": "Accenture plc",
+  "theme": "IT 서비스",
+  "desc": "Accenture plc provides consulting and managed services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific.",
+  "auto": true
+ },
+ "MU": {
+  "name": "Micron Technology, Inc.",
+  "theme": "반도체",
+  "desc": "Micron Technology, Inc.",
+  "auto": true
+ },
+ "ANET": {
+  "name": "Arista Networks, Inc.",
+  "theme": "IT 하드웨어",
+  "desc": "Arista Networks, Inc.",
+  "auto": true
+ },
+ "STX": {
+  "name": "Seagate Technology Holdings PLC",
+  "theme": "IT 하드웨어",
+  "desc": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally.",
+  "auto": true
+ },
+ "BE": {
+  "name": "Bloom Energy Corporation",
+  "theme": "전력기기",
+  "desc": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and…",
+  "auto": true
+ },
+ "V": {
+  "name": "Visa Inc.",
+  "theme": "결제·카드",
+  "desc": "Visa Inc.",
+  "auto": true
+ },
+ "ELV": {
+  "name": "Elevance Health, Inc.",
+  "theme": "건강보험",
+  "desc": "Elevance Health, Inc., together with its subsidiaries, operates as a health benefits company in the United States.",
+  "auto": true
+ },
+ "GLW": {
+  "name": "Corning Incorporated",
+  "theme": "전자부품",
+  "desc": "Corning Incorporated operates in optical communications, display, specialty materials, automotive, and life sciences businesses in the United States, Canada,…",
+  "auto": true
+ },
+ "COP": {
+  "name": "ConocoPhillips",
+  "theme": "석유·가스 개발",
+  "desc": "ConocoPhillips explores for, produces, transports, and markets crude oil, bitumen, natural gas, liquefied natural gas (LNG), and natural gas liquids.",
+  "auto": true
+ },
+ "CSCO": {
+  "name": "Cisco Systems, Inc.",
+  "theme": "통신장비·네트워크",
+  "desc": "Cisco Systems, Inc.",
+  "auto": true
+ },
+ "OKTA": {
+  "name": "Okta, Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Okta, Inc.",
+  "auto": true
+ },
+ "SBUX": {
+  "name": "Starbucks Corporation",
+  "theme": "외식",
+  "desc": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally.",
+  "auto": true
+ },
+ "SAP": {
+  "name": "SAP  SE",
+  "theme": "응용 SW",
+  "desc": "SAP SE, together with its subsidiaries, provides enterprise application and business solutions worldwide.",
+  "auto": true
+ },
+ "TWLO": {
+  "name": "Twilio Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Twilio Inc., together with its subsidiaries, provides customer engagement platform solutions in the United States and internationally.",
+  "auto": true
+ },
+ "SKHY": {
+  "name": "SK hynix Inc.",
+  "theme": "반도체",
+  "desc": "SK hynix Inc.",
+  "auto": true
+ },
+ "HOOD": {
+  "name": "Robinhood Markets, Inc.",
+  "theme": "증권·자본시장",
+  "desc": "Robinhood Markets, Inc.",
+  "auto": true
+ },
+ "HPE": {
+  "name": "Hewlett Packard Enterprise Comp",
+  "theme": "통신장비·네트워크",
+  "desc": "Hewlett Packard Enterprise Company, together with its subsidiaries, develops intelligent solutions in the United States, the Americas, Europe, the Middle…",
+  "auto": true
+ },
+ "MDLZ": {
+  "name": "Mondelez International, Inc.",
+  "theme": "Confectioners",
+  "desc": "Mondelez International, Inc., through its subsidiaries, manufactures, markets, and sells snack food and beverage products in Latin America, North America,…",
+  "auto": true
+ },
+ "LRCX": {
+  "name": "Lam Research Corporation",
+  "theme": "반도체 장비",
+  "desc": "Lam Research Corporation designs, manufactures, markets, refurbishes, and services semiconductor processing equipment used in the fabrication of integrated…",
+  "auto": true
+ },
+ "SNOW": {
+  "name": "Snowflake Inc.",
+  "theme": "응용 SW",
+  "desc": "Snowflake Inc.",
+  "auto": true
+ },
+ "PANW": {
+  "name": "Palo Alto Networks, Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Palo Alto Networks, Inc.",
+  "auto": true
+ },
+ "PGR": {
+  "name": "Progressive Corporation (The)",
+  "theme": "Insurance - Property & Casualty",
+  "desc": "The Progressive Corporation operates as an insurance company in the United States.",
+  "auto": true
+ },
+ "LIN": {
+  "name": "Linde plc",
+  "theme": "특수화학",
+  "desc": "Linde plc operates as an industrial gas company worldwide.",
+  "auto": true
+ },
+ "TSLA": {
+  "name": "Tesla, Inc.",
+  "theme": "자동차",
+  "desc": "Tesla, Inc.",
+  "auto": true
+ },
+ "HD": {
+  "name": "Home Depot, Inc. (The)",
+  "theme": "주택 개보수 유통",
+  "desc": "The Home Depot, Inc.",
+  "auto": true
+ },
+ "SNDK": {
+  "name": "Sandisk Corporation",
+  "theme": "IT 하드웨어",
+  "desc": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East,…",
+  "auto": true
+ },
+ "LITE": {
+  "name": "Lumentum Holdings Inc.",
+  "theme": "통신장비·네트워크",
+  "desc": "Lumentum Holdings Inc.",
+  "auto": true
+ },
+ "NFLX": {
+  "name": "Netflix, Inc.",
+  "theme": "미디어·엔터",
+  "desc": "Netflix, Inc.",
+  "auto": true
+ },
+ "KO": {
+  "name": "Coca-Cola Company (The)",
+  "theme": "음료",
+  "desc": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally.",
+  "auto": true
+ },
+ "BAC": {
+  "name": "Bank of America Corporation",
+  "theme": "은행",
+  "desc": "Bank of America Corporation, through its subsidiaries, provides various financial products and services for individual consumers, small and middle-market…",
+  "auto": true
+ },
+ "VRTX": {
+  "name": "Vertex Pharmaceuticals Incorpor",
+  "theme": "바이오",
+  "desc": "Vertex Pharmaceuticals Incorporated operates as a biotechnology company in the United States, Europe, and internationally.",
+  "auto": true
+ },
+ "ABBV": {
+  "name": "AbbVie Inc.",
+  "theme": "제약",
+  "desc": "AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and…",
+  "auto": true
+ },
+ "SCHW": {
+  "name": "Charles Schwab Corporation (The",
+  "theme": "증권·자본시장",
+  "desc": "The Charles Schwab Corporation, together with its subsidiaries, operates as a savings and loan holding company that provides wealth management, securities…",
+  "auto": true
+ },
+ "JNJ": {
+  "name": "Johnson & Johnson",
+  "theme": "제약",
+  "desc": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare…",
+  "auto": true
+ },
+ "NOVOB": {
+  "name": "Novo Nordisk A/S B Common Stock Dkk.1",
+  "theme": "",
+  "desc": "",
+  "auto": true
+ },
+ "UBER": {
+  "name": "Uber Technologies, Inc.",
+  "theme": "응용 SW",
+  "desc": "Uber Technologies, Inc.",
+  "auto": true
+ },
+ "EOG": {
+  "name": "EOG Resources, Inc.",
+  "theme": "석유·가스 개발",
+  "desc": "EOG Resources, Inc., together with its subsidiaries, explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas in…",
+  "auto": true
+ },
+ "PLTR": {
+  "name": "Palantir Technologies Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Palantir Technologies Inc.",
+  "auto": true
+ },
+ "USB": {
+  "name": "U.S. Bancorp",
+  "theme": "지역은행",
+  "desc": "U.S.",
+  "auto": true
+ },
+ "MRNA": {
+  "name": "Moderna, Inc.",
+  "theme": "바이오",
+  "desc": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally.",
+  "auto": true
+ },
+ "BN": {
+  "name": "Brookfield Corporation",
+  "theme": "자산운용",
+  "desc": "Brookfield Corporation is a multi-asset manager focused on real estate, credit, renewable power and transition, infrastructure, venture capital, and private…",
+  "auto": true
+ },
+ "MRK": {
+  "name": "Merck & Company, Inc.",
+  "theme": "제약",
+  "desc": "Merck & Co., Inc.",
+  "auto": true
+ },
+ "HWM": {
+  "name": "Howmet Aerospace Inc.",
+  "theme": "방산·항공우주",
+  "desc": "Howmet Aerospace Inc.",
+  "auto": true
+ },
+ "TER": {
+  "name": "Teradyne, Inc.",
+  "theme": "반도체 장비",
+  "desc": "Teradyne, Inc.",
+  "auto": true
+ },
+ "WELL": {
+  "name": "Welltower Inc.",
+  "theme": "REIT - Healthcare Facilities",
+  "desc": "Welltower Inc., an S&P 500 company, is positioned at the center of the silver economy, focusing on rental housing for aging seniors across the United States,…",
+  "auto": true
+ },
+ "A000660.KS": {
+  "name": "Sk Hynix Inc Common Stock Krw5000.0",
+  "theme": "",
+  "desc": "",
+  "auto": true
+ },
+ "XOM": {
+  "name": "ExxonMobil Holdings Corporation",
+  "theme": "석유·가스",
+  "desc": "ExxonMobil Holdings Corporation engages in the exploration and production of crude oil and natural gas in the United States, Canada, and internationally.",
+  "auto": true
+ },
+ "AZO": {
+  "name": "AutoZone, Inc.",
+  "theme": "Auto Parts",
+  "desc": "AutoZone, Inc.",
+  "auto": true
+ },
+ "A005930.KS": {
+  "name": "Samsung Electronics Co Ltd Common Stock Krw100.0",
+  "theme": "",
+  "desc": "",
+  "auto": true
+ },
+ "CI": {
+  "name": "The Cigna Group",
+  "theme": "건강보험",
+  "desc": "The Cigna Group, together with its subsidiaries, provides insurance and related products and services in the United States.",
+  "auto": true
+ }
+}
