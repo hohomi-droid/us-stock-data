@@ -271,8 +271,9 @@
  "CSCO": {
   "name": "Cisco Systems, Inc.",
   "theme": "통신장비·네트워크",
-  "desc": "Cisco Systems, Inc.",
-  "auto": true
+  "desc": "Cisco Systems, Inc. designs, develops, and sells technologies to power, help, secure, and draw insights from the internet in the Americas, Europe, the Middle…",
+  "auto": true,
+  "v": 2
  },
  "OKTA": {
   "name": "Okta, Inc.",
@@ -395,7 +396,8 @@
   "name": "Coca-Cola Company (The)",
   "theme": "음료",
   "desc": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "BAC": {
   "name": "Bank of America Corporation",
@@ -701,8 +703,9 @@
  "8766.T": {
   "name": "TOKIO MARINE HOLDINGS INC",
   "theme": "Insurance - Property & Casualty",
-  "desc": "Tokio Marine Holdings, Inc.",
-  "auto": true
+  "desc": "Tokio Marine Holdings, Inc. engages in the non-life and life insurance, and financial and general businesses in Japan, the United States, and internationally.",
+  "auto": true,
+  "v": 2
  },
  "GLEN.L": {
   "name": "GLENCORE PLC ORD USD0.01",
@@ -775,7 +778,8 @@
   "name": "SAFRAN",
   "theme": "방산·항공우주",
   "desc": "Safran SA, together with its subsidiaries, engages in the aerospace and defense businesses in France, rest of Europe, the Americas, the Asia-Pacific, Africa,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "6501.T": {
   "name": "HITACHI",
@@ -831,7 +835,8 @@
   "name": "NatWest Group plc",
   "theme": "지역은행",
   "desc": "NatWest Group plc, together with its subsidiaries, provides banking and financial products and services in the United Kingdom and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "7182.T": {
   "name": "JAPAN POST BANK CO LTD",
@@ -888,13 +893,15 @@
   "name": "Texas Instruments Incorporated",
   "theme": "반도체",
   "desc": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, the…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "CNQ": {
   "name": "Canadian Natural Resources Limi",
   "theme": "석유·가스 개발",
   "desc": "Canadian Natural Resources Limited engages in the acquisition, exploration, development, production, marketing, and sale of crude oil, natural gas, and…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "2454.TW": {
   "name": "MEDIATEK INC",
@@ -906,8 +913,9 @@
  "2383.TW": {
   "name": "ELITE MATERIAL CO",
   "theme": "전자부품",
-  "desc": "Elite Material Co., Ltd.",
-  "auto": true
+  "desc": "Elite Material Co., Ltd. engages in the manufacturing and sales of copper clad laminates, electronic-industrial specialty chemical and raw materials, and…",
+  "auto": true,
+  "v": 2
  },
  "MELI": {
   "name": "MercadoLibre, Inc.",
@@ -940,6 +948,13 @@
   "name": "DELTA ELECTRONIC",
   "theme": "전자부품",
   "desc": "Delta Electronics, Inc., together with its subsidiaries, provides power and thermal management solutions in Mainland China, the United States, Taiwan,…",
+  "auto": true,
+  "v": 2
+ },
+ "NEE": {
+  "name": "NextEra Energy, Inc.",
+  "theme": "전력 유틸리티",
+  "desc": "NextEra Energy, Inc., through its subsidiaries, generates, stores, transmits, distributes, and sells electric power to retail and wholesale customers in North…",
   "auto": true,
   "v": 2
  }
