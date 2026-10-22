@@ -1,199 +1,49 @@
 {
- "ALGER_JS2": [
+ "AKRE_HOME": [
   {
-   "url": "https://www.alger.com/Style%20Library/Alger/js/product4.js",
-   "final": "https://www.alger.com/Style%20Library/Alger/js/product4.js",
-   "status": 200,
-   "ctype": "application/javascript",
-   "len": 221974,
-   "cands": [
-    "https://www.alger.com/Style%20Library/Alger/js/NoOfEquityHoldings",
-    "https://www.alger.com/Style%20Library/Alger/js/btnETFDailyHoldingsCSVLink",
-    "https://www.alger.com/Style%20Library/Alger/js/btnETFDailyHoldingsPDFLink",
-    "https://www.alger.com/Style%20Library/Alger/js/dataActiveHoldingsTop10",
-    "https://www.alger.com/Style%20Library/Alger/js/dataTopHoldings",
-    "https://www.alger.com/Style%20Library/Alger/js/product.data.ProductPortfolioExposure[0].pclsEffDate",
-    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataActiveHoldingsTop10[0].tahEffDate",
-    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataCharacteristics[0].pclsB1NoOfEquityHoldings",
-    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataHoldingsAll[0].alhEffDate",
-    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataHoldingsTop10",
-    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataHoldingsTop10[0].tthEffDate",
-    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataTop5HoldingsLongShort[0].tfhEffDate",
-    "https://www.alger.com/Style%20Library/Alger/js/product.data.dataTop5HoldingsLongShort[i]",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#all-holdings",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#allHoldings",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataActiveHoldingsTop10",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataActiveHoldingsTop10-prefix",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataPortfolioExposure",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataPortfolioExposure-prefix",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#dataPortfolioExposure-tab",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#etf-daily-holdings",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#top-10-holdings",
-    "https://www.alger.com/Style%20Library/Alger/js/product4.js#top-active-holdings"
-   ],
-   "text": "Chart.defaults.global.customTooltips = function (tooltip) { // Tooltip Element var tooltipEl = $('#chartjs-tooltip'); // Hide if no tooltip if (!tooltip) { tooltipEl.css({ opacity: 0 }); return; } // Set caret Position tooltipEl.removeClass('above below'); tooltipEl.addClass(tooltip.yAlign); // Set Text tooltipEl.html(tooltip.text); // Find Y Location on page var top; if (tooltip.yAlign == 'above') { top = tooltip.y - tooltip.caretHeight - tooltip.caretPadding; } else { top = tooltip.y + tooltip.caretHeight + tooltip.caretPadding; } // Display, position, and set styles for font tooltipEl.css({ opacity: 1, left: tooltip.chart.canvas.offsetLeft + tooltip.x - 20 + 'px', top: tooltip.chart.canvas.offsetTop + top + 50 + 'px', fontFamily: tooltip.fontFamily, fontSize: tooltip.fontSize, fontStyle: tooltip.fontStyle, }); }; var $ = jQuery.noConflict(); var ppcCode = ''; var productShortName = ''; var productFullName = ''; var isMobile = false; var isMobileDevice = false; if ($(window).width() \"); $(\".mobile-product-snapshot\").html(' ' + $(\".snapshot-date\")[0].outerHTML + ' Fund Snapshot ' + $(\".fund-snapshot-data\")[0].outerHTML); //*ETF CR var mobileh3 = $(\"#all-section-summary > h3, #all-section-marketdata > h3, #all-section-performance > h3, #all-section-composition > div > h3, #all-section-attribution > h3, #all-section-management > div > h3, #all-section-risk > h3\"); mobileh3.find(\".arrow\").remove(); mobileh3.append(' '); mobileh3.unbind(\"click\"); //var $mt = $(\"#main-title\"); //",
-   "grep": [
-    "e();\r\n                $(\"#iframe-wrapper\").css({ height: 1, overflow: \"hidden\" });\r\n                $(\"#error-loading-info\").hide();\r\n                product.data = message;\r\n                if (product.data.dataProductInformation.ppcCode == undefined || product.data.dataProductInformation.ppcCode == null || product.data.dataProductInformation.ppcCode == \"\") {\r\n                    $(\"#error-loading-info\").show("
-   ]
-  }
- ],
- "ALGER_PAGE": [
-  {
-   "url": "https://www.alger.com/Pages/Products.aspx?productCode=2495",
-   "final": "https://www.alger.com/Pages/Products.aspx?productCode=2495",
-   "status": 200,
-   "ctype": "text/html; charset=utf-8",
-   "len": 194401,
-   "cands": [
-    "https://www.alger.com/Pages/Products.aspx?productCode=2495#all-holdings",
-    "https://www.alger.com/Pages/Products.aspx?productCode=2495#portfolio-exposure",
-    "https://www.alger.com/Pages/Products.aspx?productCode=2495#top-10-holdings",
-    "https://www.alger.com/Pages/Products.aspx?productCode=2495#top-active-holdings",
-    "https://www.alger.com/Pages/all-holdings",
-    "https://www.alger.com/Pages/allHoldings",
-    "https://www.alger.com/Pages/dataActiveHoldingsTop10",
-    "https://www.alger.com/Pages/dataActiveHoldingsTop10-prefix",
-    "https://www.alger.com/Pages/dataActiveHoldingsTop10-suffix",
-    "https://www.alger.com/Pages/dataPortfolioExposure",
-    "https://www.alger.com/Pages/dataPortfolioExposure-prefix",
-    "https://www.alger.com/Pages/dataPortfolioExposure-suffix",
-    "https://www.alger.com/Pages/dataPortfolioExposure-tab",
-    "https://www.alger.com/Pages/dataTopHoldings-suffix",
-    "https://www.alger.com/Pages/etf-daily-holdings",
-    "https://www.alger.com/Pages/portfolio-exposure",
-    "https://www.alger.com/Pages/top-10-holdings",
-    "https://www.alger.com/Pages/top-active-holdings"
-   ],
-   "text": " Alger Concentrated Equity ETF - CNEQ | Alger --> Skip to main content Log In About Alger Our History Our Investment Approach Investment Team Careers Commitment to Sustainability Commitment to Culture &amp; Employees Charitable Giving We Remember Strategies Strategies Overview Asset Classes Vehicles Strategy Finder Large Cap Mid Cap Small/SMid Cap International Alternatives Specialty Focus Mutual Funds ETFs SMAs Institutional Separate Accounts UCITS Collective Investment Trusts Insights Insights Blogs Alger On the Money Alger On the Record Manager Commentary Capital Markets Outlook Retirement Solutions Viewpoints The Power of Focus Newsroom Press Releases In the News Contact Us Contact Us Please confirm your investment status to view this information. There has been an error in loading the information on this page. Please try refreshing the page or click here . Show UCITS modal Show ISA modal Show ETF modal Show ETF VIIV modal COMMENTARY FACT SHEET PROSPECTUS CONTACT US BUY Summary Market Data Performance Composition Attribution Risk Metrics Management --> --> Summary *ETF CR --> This ETF is different from traditional ETFs. This may create additional risks for your investment. Click here for additional important information. as of ? Fund Snapshot CUSIP Net Asset Value Offering Price Daily Change (NAV) YTD Total Return (NAV) --> Minimum Investment Annual Fund Operating Expenses Total - without Waiver Annual Fund Operating Expenses Total - with Waiver Investment Strategy - High",
-   "grep": [
-    "rev=5Lqy9H6hrf9iOkcRvgvLZQ\\u00253D\\u00253DTAG0\");RegisterSodDep(\"datepicker.js\", \"strings.js\");</script>\n<link type=\"text/xml\" rel=\"alternate\" href=\"/_vti_bin/spsdisco.aspx\" />\r\n            \r\n\r\n\t\r\n\r\n\t<meta property=\"og:title\" content=\"Alger | Investment Management\" />\r\n\t<meta name=\"description\" content=\"Alger Concentrated Equity ETF (CNEQ). Invests in a focused portfolio of 30 or fewer holdings consisting of companies ",
-    " \r\n\t\r\n            <!-- _lcid=\"1033\" _dal=\"1\" -->\r\n<!-- _LocalBinding -->\r\n\r\n<link rel=\"canonical\" href=\"https://www.alger.com:443/Pages/Products.aspx?productCode=2495\" />\r\n            \r\n            \r\n        <span id=\"DeltaSPWebPartManager\">\r\n            \r\n        </span>        \r\n        <!--<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />-->\r\n        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\r\n        \r\n          ",
-    "iv id=\"imgPrefetch\" style=\"display:none\">\r\n<img src=\"/_layouts/15/images/spcommon.png?rev=44\" />\r\n</div>\r\n<form method=\"post\" action=\"./Products.aspx?productCode=2495\" onsubmit=\"javascript:return WebForm_OnSubmit();\" id=\"aspnetForm\">\r\n<div class=\"aspNetHidden\">\r\n<input type=\"hidden\" name=\"_wpcmWpid\" id=\"_wpcmWpid\" value=\"\" />\r\n<input type=\"hidden\" name=\"wpcmVal\" id=\"wpcmVal\" value=\"\" />\r\n<input type=\"hidden\" name=\"MSOWebPartPage_PostbackSource\" id=\"MSOWebPartP"
-   ]
-  }
- ],
- "TROWE_ALT": [
-  {
-   "url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs.html",
-   "final": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs.html",
+   "url": "https://www.akrefund.com/",
+   "final": "https://www.akrefund.com/",
    "status": 200,
    "ctype": "text/html; charset=UTF-8",
-   "len": 224615,
+   "len": 394536,
    "cands": [
-    "https://www.troweprice.com/content/dam/fai/insights/portfolio-construction-pulse/pc-pulse-nav-image.png",
-    "https://www.troweprice.com/financial-intermediary/us/en/insights/portfolio-construction-pulse.html",
-    "https://www.troweprice.com/financial-intermediary/us/en/investments/model-portfolio-capabilities.html",
-    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/insights.html",
-    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/manager-review.html",
-    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/model-construction.html",
-    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/model-review.html",
-    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/overview.html"
+    "https://maps.google.com/maps/api/js?key=",
+    "https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13"
    ],
-   "text": " Active ETFs | T. Rowe Price Skip to Content Financial Advisors/Intermediaries Choose a site Enterprise Personal Investing Workplace Retirement Financial Advisors/Intermediaries Institutional Investors/Consultants Retirement Plan Sponsors/Consultants Oak Hill Advisors, L.P. (OHA) - External Site Close Localization Settings Current Selection Americas (2) Canada English United States English Asia Pacific (5) Australia English Hong Kong English 中文 Japan 日本語 New Zealand English Singapore English Europe (20) Austria English Belgium English Denmark English Estonia English Finland English France English Germany English Deutsch Iceland English Ireland English Italy English Italiano Latvia English Lithuania English Luxembourg English Netherlands English Norway English Portugal English Spain English Español Sweden English Switzerland English Deutsch United Kingdom English Preferred Website Contact Us Subscribe Search Close Search Search Account Account Subscriptions &amp; Settings Log Out Register Log in Products Close Products Mutual Funds Mutual Fund Finder U.S. Equity International Equity Fixed Income Multi-Asset Target Date Money Market Literature Separately Managed Accounts (SMAs) Overview SMA Finder U.S. Equity International Equity Fixed Income Multi-Asset Literature Model Portfolios Exchange-Traded Funds (ETFs) Overview ETF Finder U.S. Equity International Equity Fixed Income Literature Collective Investment Trusts (CITs) Overview CIT Finder U.S. Equity International Equity Fixe",
-   "grep": [
-    "      \n        \n        <h3 slot=\"heading\">\n            <a href=\"/financial-intermediary/us/en/investments/etfs/capital-appreciation-equity-etf.html\">TCAF</a></h3>\n        <div slot=\"description\" class=\"b-flow-space\">\n            <p><b>Capital Appreciation Equity ETF</b></p>\n<p>Large Blend</p>\n</div>\n        <div class=\"b-flow-space\" slot=\"footer\">\n            \n            \n  \n  \n\n\n            \n    \n ",
-    "etf.html\" link-href=\"/financial-intermediary/us/en/investments/etfs/capital-appreciation-equity-etf.html\" variant=\"tertiary\" slot=\"cta\">\n        View TCAF\n        \n    </fai-beacon-button>\n\n        \n    </div>\n\n        </div>\n        \n    </fai-beacon-tile>\n\n\n  \n\n\n\n\n\n        \n    </div>\n\n                            \n                            \n                        \n                            \n                 ",
-    "ts website each day a &quot;Proxy Portfolio&quot; designed to help trading in shares of the ETF. While the Proxy Portfolio includes some of the ETF's holdings, it is not the ETF's actual portfolio.</li>\n</ul>\n<p>The differences between this ETF and other ETFs may also have advantages. By keeping certain information about the ETF secret, this ETF may face less risk that other traders can predict or copy its investment strate",
-    "ansparent equity ETFs publish a daily Proxy Portfolio, a basket of securities designed to closely track the daily performance of the actual portfolio holdings. While the Proxy Portfolio includes some of the ETFs holdings, it is not the actual portfolio. Daily portfolio statistics will be provided as an indication of the similarities and differences between the Proxy Portfolio and the actual holdings. The Proxy Portfolio and other metrics, including Portfolio Overlap, are intended to provide investors and traders with enough information to encourage tra",
-    "ortfolio. Daily portfolio statistics will be provided as an indication of the similarities and differences between the Proxy Portfolio and the actual holdings. The Proxy Portfolio and other metrics, including Portfolio Overlap, are intended to provide investors and traders with enough information to encourage transactions that help keep the ETF's market price close to its net asset value (NAV). There is a risk that market prices will differ from the NAV, ETFs trading on the basis of a Proxy Portfolio may trade at a wider bid/ask spread than shares of E",
-    "ss of principal. As with all equity investments, the share price can fall because of weakness in the broad market, a particular industry, or specific holdings. Fixed income investing involves risks including, but not limited to, interest rate risk and credit risk. Active investing may have higher costs than passive investing and may underperform the broad market or passive peers with similar objectives. A fund that focuses its investments in specific industries or sectors is more susceptible to adverse developments affecting those industries and sector"
-   ]
-  },
+   "text": " Akre Focus ETF Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Menu Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Search Search The Akre Focus ETF: Now Trading on NYSE Arca As of October 27, 2025, Akre Capital has completed the conversion of the Akre Focus Fund to the Akre Focus ETF (ticker \"AKRE\"), one of the industry's largest single mutual fund-to-ETF conversions. The ETF is managed by the same investment team and continues to be guided by Akre Capital's “Three-Legged Stool” investment approach. The ETF structure delivers a more cost-effective, tax-efficient, and transparent vehicle for current and future shareholders. Read The Full Press Release Home Letter to Shareholders US Bank Direct Shareholder Transfer Instructions A Letter from the Investment Team Read Here Semi-Annual Investor Call Replay - May 7, 2025 Listen Here A Letter from the Investment Team Read Here Upcoming Semi-Annual Investor Call - November 19, 2025 A Letter from the Investment Team - February 6, 2026 Upcoming Semi-Annual Investor Call - November 11, 2026 Read the Akre Focus ETF Press Release Learn More About the Recently Launched Akre Focus ETF Akre Capital&#8217;s Three-Legged Stool Investment Approach Business Sustainable competitive advantages and the ability to compound free cash flow per",
+   "grep": []
+  }
+ ],
+ "AKRE_DOCS": [
   {
-   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TMSL",
-   "final": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TMSL",
+   "url": "https://www.akrefund.com/documents-and-forms/",
+   "final": "https://www.akrefund.com/documents-and-forms/",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 337478,
+   "cands": [
+    "https://maps.google.com/maps/api/js?key=",
+    "https://www.akrefund.com/documents/complete-holdings-april/",
+    "https://www.akrefund.com/documents/complete-holdings-october-31-2025/",
+    "https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13"
+   ],
+   "text": " Akre Focus ETF Documents - Akre Focus ETF Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Menu Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Search Search Fund Documents Before you invest with us, it is important that you have all the information you need to make your decision. The following documents, which include the Fund prospectus, provide additional information about our firm and how the Fund has performed over time. Fund Literature Factsheet &#8211; Q3 2026 Commentary – Q3 2026 Pitchbook &#8211; Q3 2026 Historical Performance Summary Prospectus Statutory Prospectus Statement of Additional Information Annual Financial Statements &#8211; July 31, 2026 Tailored Shareholder Report &#8211; Akre Focus ETF &#8211; July 31, 2026 Complete Holdings &#8211; April 30, 2026 Semi-Annual Financial Statements and Additional Information – January 31, 2026 Tailored Shareholder Report &#8211; Akre Focus ETF &#8211; January 31, 2026 Complete Holdings – October 31, 2025 Form N-PX – June 30, 2026 A Practical Guide to ETFs &nbsp; Fund Analytics REGISTER NOW Income &amp; Capital Gains HISTORICAL DISTRIBUTIONS The Akre Focus ETF is the successor to the Akre Focus Fund (the “Predecessor Fund”), which operated as a mutual fund.&nbsp; The Predecessor Fund commenced operations on August 3",
+   "grep": [
+    "=\"divider-wrap col-sm-12\"><div class=\"spb_divider thin spb_content_element \" style=\"margin-top:-10px;margin-bottom:0px\"></div> </div></section> <p><a href=\"https://www.akrefund.com/documents/complete-holdings-april/\" target=\"_blank\" rel=\"noopener noreferrer\">Complete Holdings &#8211; April 30, 2026</a></p> <section class=\"row \"><div class=\"divider-wrap col-sm-12\"><div class=\"spb_divider thin spb_content_element \" style=\"margin-top:-10px;margin-bottom:0px\"></div>",
+    "=\"divider-wrap col-sm-12\"><div class=\"spb_divider thin spb_content_element \" style=\"margin-top:-10px;margin-bottom:0px\"></div> </div></section> <p><a href=\"https://www.akrefund.com/documents/complete-holdings-october-31-2025/\" target=\"_blank\" rel=\"noopener\">Complete Holdings – October 31, 2025</a></p> <section class=\"row \"><div class=\"divider-wrap col-sm-12\"><div class=\"spb_divider thin spb_content_element \" style=\"margin-top:-10px;margin-bottom:0px\"></div> </div></sectio"
+   ]
+  }
+ ],
+ "TCAF_PAGE": [
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "final": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
    "status": 200,
    "ctype": "text/html",
    "len": 7857,
    "cands": [],
    "text": " You need to enable JavaScript to run this app. ",
-   "grep": [
-    "000000\"><link rel=\"stylesheet\" href=\"./static/fonts.css\"><link rel=\"stylesheet\" href=\"./static/icons.css\"><link rel=\"manifest\" href=\"./static/manifest.json\"><link rel=\"shortcut icon\" href=\"./static/favicon.ico\"><link rel=\"stylesheet\" href=\"./static/variables.css\"><link rel=\"stylesheet\" href=\"./static/unscoped-variables.css\"><link rel=\"stylesheet\" href=\"./static/fonts/beacon-fonts/fonts.css\"><link rel",
-    "ts/beacon-fonts/fonts.css\"><link rel=\"stylesheet\" href=\"./static/custom-beacon-styles.css\"><script type=\"text/javascript\" src=\"./static/js/runNavSetup.js\"></script><script type=\"text/javascript\" src=\"./static/js/jquery.min.js\"></script><script>window.metricsData={page:{lob:\"RET\",site:\"FUND_BOOK\"},user:{}}</script><script src=\"//assets.adobedtm.com/b6157d8f598e/f67a5831d15f/launch-8a447cb932cf.min.js\"",
-    "beacon-styles.css\"><script type=\"text/javascript\" src=\"./static/js/runNavSetup.js\"></script><script type=\"text/javascript\" src=\"./static/js/jquery.min.js\"></script><script>window.metricsData={page:{lob:\"RET\",site:\"FUND_BOOK\"},user:{}}</script><script src=\"//assets.adobedtm.com/b6157d8f598e/f67a5831d15f/launch-8a447cb932cf.min.js\"></script><meta name=\"google-site-verification\" content=\"hWulFUEqF8YzJu1",
-    "w.metricsData={page:{lob:\"RET\",site:\"FUND_BOOK\"},user:{}}</script><script src=\"//assets.adobedtm.com/b6157d8f598e/f67a5831d15f/launch-8a447cb932cf.min.js\"></script><meta name=\"google-site-verification\" content=\"hWulFUEqF8YzJu19DAnWbMpe7NwLEz3MgiAnCfBWHXg\"/></head><body class=\"fix-header\"><noscript>You need to enable JavaScript to run this app.</noscript><header class=\"sharednavheader\" id=\"aem-navbar\"",
-    "24\",254:\"87ebd6fc\",255:\"f7470d10\",256:\"147c7845\",257:\"2ca28ff8\",258:\"37e42cc5\",259:\"d812385b\",260:\"56f2a8b2\",261:\"efb96483\",262:\"fbed76e6\"}[e]+\".chunk.js\"}(e);var n=new Error;b=function(f){t.onerror=t.onload=null,clearTimeout(o);var c=d[e];if(0!==c){if(c){var a=f&&(\"load\"===f.type?\"missing\":f.type),b=f&&f.target&&f.target.src;n.message=\"Loading chunk \"+e+\" failed.\\n(\"+a+\": \"+b+\")\",n.name=\"ChunkLoadEr",
-    "ool\"]||[],n=t.push.bind(t);t.push=f,t=t.slice();for(var o=0;o<t.length;o++)f(t[o]);var u=n;c()}([])</script><script src=\"./static/js/15.83ffcb6d.chunk.js\"></script><script src=\"./static/js/main.1b1e7bd5.chunk.js\"></script></body></html>",
-    "0;o<t.length;o++)f(t[o]);var u=n;c()}([])</script><script src=\"./static/js/15.83ffcb6d.chunk.js\"></script><script src=\"./static/js/main.1b1e7bd5.chunk.js\"></script></body></html>"
-   ]
-  }
- ],
- "CHAT_DATA": [
-  {
-   "url": "https://www.roundhillinvestments.com/assets/js/app.js",
-   "final": "https://www.roundhillinvestments.com/assets/js/app.js",
-   "status": 200,
-   "ctype": "application/javascript",
-   "len": 1814350,
-   "cands": [
-    "https://cms.etc-webmaker.com/holdings/",
-    "https://www.roundhillinvestments.com/assets/assets/data/FilepointRoundhill.40RU.RU_DailyNAV.csv",
-    "https://www.roundhillinvestments.com/assets/assets/data/FilepointRoundhill.40RU.RU_MonthlyROR.csv",
-    "https://www.roundhillinvestments.com/assets/assets/data/rex_data/RAM-performance-2026-06-30.csv",
-    "https://www.roundhillinvestments.com/assets/assets/data/rh_filings/roundhill-fund-filings.csv",
-    "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_DailyNAV.csv",
-    "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Daily_Instrument_Pricing.csv",
-    "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_",
-    "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_QuarterlyROR.csv",
-    "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_SEC_Yields.csv",
-    "https://www.roundhillinvestments.com/assets/data/rex_data/RAM-performance-2026-06-30.csv",
-    "https://www.roundhillinvestments.com/assets/data/rex_data/REX_RAM_Holdings_",
-    "https://www.roundhillinvestments.com/assets/data/rex_data/REX_RAM_NAV_History.csv",
-    "https://www.roundhillinvestments.com/assets/js/.csv",
-    "https://www.roundhillinvestments.com/assets/js/.fund-Holdings-mobile",
-    "https://www.roundhillinvestments.com/assets/js/.fund-topTenHoldings-mobile",
-    "https://www.roundhillinvestments.com/assets/js/.holdingsDate",
-    "https://www.roundhillinvestments.com/assets/js/.holdingsDateN",
-    "https://www.roundhillinvestments.com/assets/js/.holdingsn",
-    "https://www.roundhillinvestments.com/assets/js/HOLDING",
-    "https://www.roundhillinvestments.com/assets/js/_Daily.csv",
-    "https://www.roundhillinvestments.com/assets/js/_Distribution_Calendar.csv",
-    "https://www.roundhillinvestments.com/assets/js/_ETF_Holdings_",
-    "https://www.roundhillinvestments.com/assets/js/app.js#fullHoldingsTablew",
-    "https://www.roundhillinvestments.com/assets/js/app.js#fullHoldingsTablex",
-    "https://www.roundhillinvestments.com/assets/js/app.js#fund-topTenHoldings",
-    "https://www.roundhillinvestments.com/assets/js/app.js#holdings",
-    "https://www.roundhillinvestments.com/assets/js/app.js#holdingsDate",
-    "https://www.roundhillinvestments.com/assets/js/app.js#holdingsModal",
-    "https://www.roundhillinvestments.com/assets/js/app.js#of-holdings",
-    "https://www.roundhillinvestments.com/assets/js/app.js#topTenHoldingsmvp",
-    "https://www.roundhillinvestments.com/assets/js/app.js#topTenHoldingsx"
-   ],
-   "text": "(i=>{var n={};function o(t){var e;return(n[t]||(e=n[t]={i:t,l:!1,exports:{}},i[t].call(e.exports,e,e.exports,o),e.l=!0,e)).exports}o.m=i,o.c=n,o.d=function(t,e,i){o.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:i})},o.r=function(t){\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(t,\"__esModule\",{value:!0})},o.t=function(e,t){if(1&t&&(e=o(e)),8&t)return e;if(4&t&&\"object\"==typeof e&&e&&e.__esModule)return e;var i=Object.create(null);if(o.r(i),Object.defineProperty(i,\"default\",{enumerable:!0,value:e}),2&t&&\"string\"!=typeof e)for(var n in e)o.d(i,n,function(t){return e[t]}.bind(null,n));return i},o.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(e,\"a\",e),e},o.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},o.p=\"\",o(o.s=152)})([function(t,hn,e){!function(an){var ln,t,e;function dn(t){return(dn=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&\"function\"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?\"symbol\":typeof t})(t)}t=\"undefined\"!=typeof window?window:this,e=function(x,j){function v(t){return\"function\"==typeof t&&\"number\"!=typeof t.nodeType&&\"function\"!=typeof t.item}function I(t){return null!=t&&t===t.window}var e=[],F=Object.getPrototypeOf,a=e.slice,H=e.flat?function(t){return e.flat.call(t)}:function(t){return e.concat.apply([],t)},R=e.push,_=e",
-   "grep": [
-    "))}if(f.sort(function(t,e){t=new Date(t[0]);return new Date(e[0])-t}),0!=m.length&&(_=m.slice(-1)[0],l=_[1],$.ajax({type:\"GET\",url:\"../../assets/data/FilepointRoundhill.40RU.RU_DailyNAV.csv\",crossOrigin:!0,dataType:\"text\",success:function(t){var e,i,n,o=l,r=Zt.a.parse(t,{header:!0,dynamicTyping:!1}),t=$(\".fundname\").attr(\"id\"),s=\"TSW\"==t?\"TSLW\":\"NVW\"==t?\"NVDW\":\"WPAY\"==t?\"TOPW\":\"DRAG\"==t?\"MAGC\":$(\".fundname\").attr(\"id\"),a=$(\"#calHisDist",
-    "e=\"0\"+e),n+(t=t.length<2?\"0\"+t:t)+e),t=\"RAM\"==Jt()(\".fundname\").attr(\"id\")?\"../../assets/data/rex_data/REX_RAM_Holdings_\"+n+\".csv\":\"../../assets/data/FilepointRoundhill.40RU.RU_Holdings_\"+i+\".csv\";Jt.a.ajax({type:\"GET\",url:t,dataType:\"text\",success:Co,error:Ao})}function Ao(t){++To<15&&Do()}function Co(t){var j,I,F,H,R,z,e=Jt()(\".fundname\").attr(\"id\"),i=\"BIGT\"==e?\"MAGS\":\"TSW\"==e?\"TSLW\":\"NVW\"==e?\"NVDW\":\"DRAG\"==e?\"MAGC\":\"WPAY\"==e?\"TOP",
-    "[_][4]+\"</td>\"),null==m[_][5]?b.append(\"<td>&nbsp;</td>\"):b.append(\"<td>\"+m[_][5]+\"</td>\"),Jt()(\"#fullHoldingsTablew\").append(b);else\"WEEK\"==i?Jt()(\"#fullHoldingsTablex\").dataTable({data:at,order:[[3,\"desc\"]],aoColumns:[{bSortable:!1},{bSortable:!1},{bSortable:!1},{bSortable:!0},{bSortable:!1},{bSortable:!1}],bPaginate:!1,bInfo:!1,searching:!1}):Jt()(\"#fullHoldingsTablex\").dataTable({data:r,order:[[3,\"desc\"]],aoColumns:[{bSortable:!1},{bSortable:!1},{bSortable:!1},{bSortable:!0},{bSortable:!1},{bSortable:!1}],bPaginate:!1,bInfo:!1,searching:!1});if(\"WEEK\"==i){for(var ft,mt=[],w=0;w<at.length;w++)\"Cash&Other\"!=at[w][0]&&(ft={index_weight:(v=at[w])[3].slice(0,-1),security_name:v[1],final_ticker:v[0],identifier:",
-    "v;v=Zt.a.parse(t,{header:!0,dynamicTyping:!1,skipEmptyLines:\"greedy\"}),Jt()(\".fundname\").attr(\"id\"),t=0<Jt()(\".etfHomeMain\").length?\"./../assets/data/FilepointRoundhill.40RU.RU_DailyNAV.csv\":\"../../assets/data/FilepointRoundhill.40RU.RU_DailyNAV.csv\",Jt.a.ajax({type:\"GET\",url:t,dataType:\"text\",success:function(t){var e,i=v,s=Zt.a.parse(t,{header:!0,dynamicTyping:!1,skipEmptyLines:\"greedy\"}),n=(s.data.push(i.data[0]),Jt()(\".fundname\").a",
-    "\"greedy\"}),Jt()(\".fundname\").attr(\"id\"),t=0<Jt()(\".etfHomeMain\").length?\"./../assets/data/FilepointRoundhill.40RU.RU_DailyNAV.csv\":\"../../assets/data/FilepointRoundhill.40RU.RU_DailyNAV.csv\",Jt.a.ajax({type:\"GET\",url:t,dataType:\"text\",success:function(t){var e,i=v,s=Zt.a.parse(t,{header:!0,dynamicTyping:!1,skipEmptyLines:\"greedy\"}),n=(s.data.push(i.data[0]),Jt()(\".fundname\").attr(\"id\")),o=\"BIGT\"==n?\"MAGS\":\"TSW\"==n?\"TSLW\":\"NVW\"==n?\"NVDW",
-    ".height();return i<e&&t<n},Jt()(document).ready(function(){var e,t;0<Jt()(\".etfHomeMain\").length&&(Po(),wo(),$.ajax({type:\"GET\",url:\"./../assets/data/FilepointRoundhill.40RU.RU_MonthlyROR.csv\",crossOrigin:!0,dataType:\"text\",success:vo,error:yo}),ao(\"alletfs\"),lo(7,\"alletfs\",2)),0<Jt()(\".soon-form-block\").length&&(Jt.a.validator.addMethod(\"emailval\",function(t,e){return this.optional(e)||/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:",
-    "==(t=\"DRAG\"==(t=$(\".premium\").attr(\"id\"))?\"MAGC\":t)?\"../../assets/data/rex_data/REX_RAM_NAV_History.csv\":0<$(\".big-etf\").length?\"../../../assets/data/FilepointRoundhill.40RU.RU_\"+t+\"_Daily.csv\":\"../../assets/data/FilepointRoundhill.40RU.RU_\"+t+\"_Daily.csv\",$.ajax({type:\"GET\",crossOrigin:!0,url:t,dataType:\"text\",success:function(t){for(var e=Zt.a.parse(t,{header:!0,dynamicTyping:!1,skipEmptyLines:!0}),i=[],n=[],o=0;o<e.data.",
-    "ts/data/rex_data/REX_RAM_NAV_History.csv\":0<$(\".big-etf\").length?\"../../../assets/data/FilepointRoundhill.40RU.RU_\"+t+\"_Daily.csv\":\"../../assets/data/FilepointRoundhill.40RU.RU_\"+t+\"_Daily.csv\",$.ajax({type:\"GET\",crossOrigin:!0,url:t,dataType:\"text\",success:function(t){for(var e=Zt.a.parse(t,{header:!0,dynamicTyping:!1,skipEmptyLines:!0}),i=[],n=[],o=0;o<e.data.length;o++)Date.parse(e.data[o][\"Rate Date\"]),e.data[o][\"Market",
-    "==(t=\"DRAG\"==(t=$(\".premium\").attr(\"id\"))?\"MAGC\":t)?\"../../assets/data/rex_data/REX_RAM_NAV_History.csv\":0<$(\".big-etf\").length?\"../../../assets/data/FilepointRoundhill.40RU.RU_\"+t+\"_Daily.csv\":\"../../assets/data/FilepointRoundhill.40RU.RU_\"+t+\"_Daily.csv\",$.ajax({type:\"GET\",url:t,crossOrigin:!0,dataType:\"text\",success:Mo,error:ko}),Do(),$.ajax({type:\"GET\",url:\"../../assets/data/FilepointRoundhill.40RU.RU_QuarterlyROR.csv\",",
-    "ts/data/rex_data/REX_RAM_NAV_History.csv\":0<$(\".big-etf\").length?\"../../../assets/data/FilepointRoundhill.40RU.RU_\"+t+\"_Daily.csv\":\"../../assets/data/FilepointRoundhill.40RU.RU_\"+t+\"_Daily.csv\",$.ajax({type:\"GET\",url:t,crossOrigin:!0,dataType:\"text\",success:Mo,error:ko}),Do(),$.ajax({type:\"GET\",url:\"../../assets/data/FilepointRoundhill.40RU.RU_QuarterlyROR.csv\",crossOrigin:!0,dataType:\"text\",success:_o,error:bo}),t=$(\".sola",
-    "40RU.RU_\"+t+\"_Daily.csv\",$.ajax({type:\"GET\",url:t,crossOrigin:!0,dataType:\"text\",success:Mo,error:ko}),Do(),$.ajax({type:\"GET\",url:\"../../assets/data/FilepointRoundhill.40RU.RU_QuarterlyROR.csv\",crossOrigin:!0,dataType:\"text\",success:_o,error:bo}),t=$(\".solactive\").attr(\"id\"),e=$(\".fundname\").attr(\"id\"),$.ajax({type:\"POST\",url:\"../../assets/php/solactivePerformanceBidAsk\"+t+\".php\",dataType:\"text\",success:function(t){console.log(t);t=JSON.p",
-    "ed(2)+\"%\"),$(\".\"+e+\"-median\").html(parseFloat(t.level).toFixed(2)+\"%\")},error:function(t){console.log(t)}}),$.ajax({type:\"GET\",url:\"../../assets/data/FilepointRoundhill.40RU.RU_SEC_Yields.csv\",crossOrigin:!0,dataType:\"text\",success:uo,error:co}),(0<Jt()(\".RAM-etf\").length?(Po(),wo):mo)(),0<Jt()(\".XX-etf\").length&&$.ajax({type:\"GET\",url:\"../../assets/data/FilepointRoundhill.40RU.RU_Daily_Instrument_Pricing.csv\",crossOrigin:!0,dataType:\"te"
-   ]
-  }
- ],
- "INFL_DATA": [
-  {
-   "url": "https://horizonkinetics.com/products/etf/infl/",
-   "final": "https://horizonkinetics.com/products/etf/infl/",
-   "status": 200,
-   "ctype": "text/html; charset=UTF-8",
-   "len": 249542,
-   "cands": [
-    "https://horizonkinetics.com/app/uploads/INFL-Portfolio-Positioning-Piece_Dec-2024_Final.pdf",
-    "https://horizonkinetics.com/products/etf/infl/#holdings",
-    "https://horizonkinetics.com/products/etf/infl/holdings",
-    "https://horizonkinetics.com/wp/wp-admin/admin-ajax.php?action=daily_holdings&ticker=INFL&prefix=Holdings"
-   ],
-   "text": " Inflation Beneficiaries ETF | Horizon Kinetics --> --> Menu What&#8217;s New Investment Philosophy Products Insights About Home / Products / Exchange Traded Funds / Inflation Beneficiaries ETF Inflation Beneficiaries ETF Overview Holdings Prices Performance Resources The Horizon Kinetics Inflation Beneficiaries ETF is an actively managed ETF that seeks long-term growth of capital in real (inflation-adjusted) terms. It seeks to achieve its investment objective by investing primarily in domestic and foreign equity securities of companies that are expected to benefit, either directly or indirectly, from rising prices of real assets (i.e., assets whose value is mainly derived from physical properties such as commodities) such as those whose revenues are expected to increase with inflation without corresponding increases in expenses. Data as of: 10/21/2026 Ticker INFL CUSIP 53656F623 ISIN US53656F6236 Fund Type Active Equity ETF Exchange NYSE Inception Date 1/11/2021 Expense Ratio 0.85% Typical Number of Holdings 20 to 60 Net Assets --> $1,549,431,285 Data as of: 10/22/2026 Daily Holdings % Net Assets 6.83% Name LandBridge Corp Ticker LB CUSIP 514952100 Shares Held 1,312,208 Market Value $105,803,331 % Net Assets 6.11% Name Wheaton Precious Metals Corp Ticker WPM CUSIP 962879102 Shares Held 716,703 Market Value $94,726,636 % Net Assets 5.39% Name PrairieSky Royalty Ltd Ticker PSK CN CUSIP BN320L4 Shares Held 3,226,372 Market Value $83,547,672 % Net Assets 5.35% Name Franco-Nevada",
-   "grep": [
-    "m: 0;\n    position: relative;\n\theight: auto;\n}\n\n.videos-posts__video iframe {\n\tposition: relative;\n\theight: auto;\n\twidth: 100%;\n}\n/*\n.page-japn-data [data-tab=\"holdings\"],\n.page-japn-data .eft__date {\n\tdisplay: none;\n}\n*/\n\n/* \n.japn .eft__performance .hk__table-data .hk__table-key:nth-child(3)::after {\n\tcontent:'*'\n}\n */\n\t\t</style>\n\t\t\n</head>\n<body class=\"wp-singular page-template page-template-template-horizon-kinetics-feeds template-horizon-kinetics-feeds page page-id-1373 page-child parent-pageid-1635 wp-theme-sageresources infl app-data index-data singular-data page-data page-1373-data page-infl-data template-horizon-kinetics-feeds-data\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\n  <!-- Google Tag Manager (noscript) -->\n  <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-T84J5XV\"\n      height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n  <!-- End Google Tag Manager (noscript) -->\n    <!-- <header class=\"\"> -->\n<header>\n  <div class=\"container\">\n\n    <nav class=\"nav\">\n        <a class=\"nav__logo\" href=\"https://horizonkinetics.com/\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Logos\" class=\"logo\" width=\"266.41\" height=\"59.424\" viewBox=\"0 0 199.804 44.565\" preserveAspectRatio=\"xMidYMid meet\">\n  <path d=\"M56.15 5.184a111.855 111.855 0 0113.64-2.698 112.945 112.945 0 00-14.923-.992A111.427 111.427 0 00.16 15.768C15.17 9.118 33.986 5.16 54.421 5.16c.58 0 1.153.018 1.728.023zM109.73 0a177.443 177.443 0 00-23.515 1.566 175.191 175.191 0 00-62.666 20.92c17.746-7.857 38.87-13.33 61.915-15.57A242.051 242.051 0 01107.6 5.796c.48-.002.954-.02 1.433-.02 33.577 0 64.389 6.782 88.506 18.083.617.205 1.24.4 1.854.606A175.598 175.598 0 00109.73 0zM0 43.94h.085a1.514 1.514 0 001.183-.355c.254-.271.271-.32.271-1.59v-6.712c0-1.589-.152-1.843-1.303-1.944V33H4.55v.338H4.48a1.414 1.414 0 00-1.166.355c-.253.287-.271.322-.27",
-    "iv class=\"eft__tabs hk__wrap\">\n    <a class=\"eft__tab eft__tab--active\" data-tab=\"overview\" href=\"#overview\">Overview</a>\n        <a class=\"eft__tab\" data-tab=\"holdings\" href=\"#holdings\">Holdings</a>\n            <a class=\"eft__tab\" data-tab=\"prices\" href=\"#prices\">Prices</a>\n            <a class=\"eft__tab\" data-tab=\"performance\" href=\"#performance\">Performance</a>\n        <a class=\"eft__tab\" data-tab=\"resources\" href=\"#resources\">Resources</a>\n  </div>\n\n  <div class=\"eft__section eft__section--active eft__overview hk__wrap\">\n            <p class=\"eft__info\">The Horizon Kinetics Inflation Beneficiaries ETF is an actively managed ETF that seeks long-term growth of capital in real (inflation-adjusted) terms. It seeks to achieve its investment objective by investing primarily in domestic and foreign equity securities of companies that are expected to benefit, either directly or indirectly, from rising prices of real assets (i.e., assets whose value is mainly derived from physical properties such as commodities) such as those whose revenues are expected to increase with inflation without corresponding increases in expenses.</p>\n    \n\n      <div class=\"hk__table hk__table--wide\">\n      <h6 class=\"eft__date\">Data as of: 10/21/2026</h6>\n      <ul class=\"hk__table-data\">\n                <li class=\"hk__table-row\">\n          <p class=\"hk__table-key\">Ticker</p>\n          <p class=\"hk__table-value\">INFL</p>\n        </li>\n        \n                <li class=\"hk__table-row\">\n                    <p class=\"hk__table-key\">CUSIP</p>\n                    <p class=\"hk__table-value\">53656F623</p>\n        </li>\n        \n                <li class=\"hk__table-row\">\n          <p class=\"hk__table-key\">ISIN</p>\n          <p class=\"hk__table-value\">US53656F6236</p>\n        </li>\n        \n                <li class=\"hk__table-row\">\n          <p class=\"hk__table-key\">Fund Type</p>\n          <p class=\"hk__table-value\">Act"
-   ]
+   "grep": []
   }
  ]
 }
