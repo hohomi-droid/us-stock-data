@@ -1,32 +1,650 @@
 {
- "note": "전세계 액티브 주식형 ETF 운용규모(AUM) 순. 제외: 레버리지·인버스, 단일종목, 옵션인컴·커버드콜, 버퍼, 채권·멀티에셋, 재간접, 체계적 팩터·인핸스드 인덱스(Dimensional·Avantis·Fidelity Enhanced·JPM Research Enhanced·iShares Rotation 등), 반투명(FBCG·FMAG·PVAL·TCHP). AUM 기준일 2026-10 (TradingView·CFRA·TWSE·운용사).",
+ "note": "전세계 액티브 주식형 ETF 운용규모(AUM) 순. 제외: 레버리지·인버스, 단일종목, 옵션인컴·커버드콜, 버퍼, 채권·멀티에셋, 재간접, 체계적 팩터·인핸스드 인덱스(Dimensional·Avantis·Fidelity Enhanced·JPM Research Enhanced·iShares Rotation 등), 반투명(FBCG·FMAG·PVAL·TCHP). AUM 기준일 2026-10 (TradingView·CFRA·TWSE·운용사). 50위 기준선 약 16.6억 달러(TGRT). DRAM(스왑 41%)·GRNY(퀀트 혼합)·USMC(퀀트)·TSPA/TCHP(반투명)도 제외.",
  "benchmarks": {
-  "SP500": {"id": "239726", "slug": "ishares-core-sp-500-etf"},
-  "R1000G": {"id": "239706", "slug": "ishares-russell-1000-growth-etf"},
-  "R1000V": {"id": "239708", "slug": "ishares-russell-1000-value-etf"},
-  "ACWI": {"id": "239600", "slug": "ishares-msci-acwi-etf"}
+  "SP500": {
+   "id": "239726",
+   "slug": "ishares-core-sp-500-etf"
+  },
+  "R1000G": {
+   "id": "239706",
+   "slug": "ishares-russell-1000-growth-etf"
+  },
+  "R1000V": {
+   "id": "239708",
+   "slug": "ishares-russell-1000-value-etf"
+  },
+  "ACWI": {
+   "id": "239600",
+   "slug": "ishares-msci-acwi-etf"
+  }
  },
  "etfs": [
-  {"ticker": "CGDV", "name": "Capital Group Dividend Value ETF", "market": "US", "aum_usd_bn": 39.76, "benchmark": "SP500", "source": {"type": "capital_group", "ticker": "CGDV"}},
-  {"ticker": "CGGR", "name": "Capital Group Growth ETF", "market": "US", "aum_usd_bn": 26.08, "benchmark": "SP500", "source": {"type": "capital_group", "ticker": "CGGR"}},
-  {"ticker": "BAI", "name": "iShares A.I. Innovation and Tech Active ETF", "market": "US", "aum_usd_bn": 13.06, "benchmark": "ACWI", "source": {"type": "ishares", "id": "339081", "slug": "ishares-a-i-innovation-and-tech-active-etf"}},
-  {"ticker": "CGUS", "name": "Capital Group Core Equity ETF", "market": "US", "aum_usd_bn": 12.25, "benchmark": "SP500", "source": {"type": "capital_group", "ticker": "CGUS"}},
-  {"ticker": "CGGO", "name": "Capital Group Global Growth Equity ETF", "market": "US", "aum_usd_bn": 11.86, "benchmark": "ACWI", "source": {"type": "capital_group", "ticker": "CGGO"}},
-  {"ticker": "JGRO", "name": "JPMorgan Active Growth ETF", "market": "US", "aum_usd_bn": 9.78, "benchmark": "R1000G", "source": {"type": "jpm", "cusip": "46654Q609"}},
-  {"ticker": "BLCR", "name": "iShares Large Cap Core Active ETF", "market": "US", "aum_usd_bn": 9.75, "benchmark": "SP500", "source": {"type": "ishares", "id": "333889", "slug": "ishares-large-cap-core-active-etf"}},
-  {"ticker": "00981A", "name": "主動統一台股增長 (UPAMC Taiwan Stock Growth Active)", "market": "TW", "aum_usd_bn": 8.44, "benchmark": null, "track": false, "source": {"type": "pending"}},
-  {"ticker": "TCAF", "name": "T. Rowe Price Capital Appreciation Equity ETF", "market": "US", "aum_usd_bn": 8.43, "benchmark": "SP500", "track": false, "source": {"type": "pending"}},
-  {"ticker": "JAVA", "name": "JPMorgan Active Value ETF", "market": "US", "aum_usd_bn": 7.35, "benchmark": "R1000V", "source": {"type": "jpm", "cusip": "46641Q167"}},
-  {"ticker": "SEQ", "name": "Sequoia ETF", "market": "US", "aum_usd_bn": 6.72, "benchmark": "SP500", "source": {"type": "sequoia"}},
-  {"ticker": "CGXU", "name": "Capital Group International Focus Equity ETF", "market": "US", "aum_usd_bn": 6.57, "benchmark": "ACWI", "source": {"type": "capital_group", "ticker": "CGXU"}},
-  {"ticker": "JGLO", "name": "JPMorgan Global Select Equity ETF", "market": "US", "aum_usd_bn": 6.33, "benchmark": "ACWI", "source": {"type": "jpm", "cusip": "46654Q740"}},
-  {"ticker": "ARKK", "name": "ARK Innovation ETF", "market": "US", "aum_usd_bn": 6.15, "benchmark": "R1000G", "source": {"type": "ark", "ticker": "ARKK"}},
-  {"ticker": "CNEQ", "name": "Alger Concentrated Equity ETF", "market": "US", "aum_usd_bn": 6.05, "benchmark": "R1000G", "track": false, "source": {"type": "pending"}},
-  {"ticker": "CGDG", "name": "Capital Group Dividend Growers ETF", "market": "US", "aum_usd_bn": 5.85, "benchmark": "ACWI", "source": {"type": "capital_group", "ticker": "CGDG"}},
-  {"ticker": "QLTY", "name": "GMO U.S. Quality ETF", "market": "US", "aum_usd_bn": 5.46, "benchmark": "SP500", "source": {"type": "gmo"}},
-  {"ticker": "00403A", "name": "主動統一升級50", "market": "TW", "aum_usd_bn": 4.01, "benchmark": null, "track": false, "source": {"type": "pending"}},
-  {"ticker": "00991A", "name": "主動復華未來50", "market": "TW", "aum_usd_bn": 2.16, "benchmark": null, "track": false, "source": {"type": "pending"}},
-  {"ticker": "426030", "name": "TIME 미국나스닥100액티브", "market": "KR", "aum_usd_bn": 1.72, "benchmark": "R1000G", "source": {"type": "timefolio", "idx": 2}},
-  {"ticker": "456600", "name": "TIME 글로벌AI인공지능액티브", "market": "KR", "aum_usd_bn": 1.36, "benchmark": "ACWI", "source": {"type": "timefolio", "idx": 6}}
+  {
+   "rank": 1,
+   "ticker": "CGDV",
+   "name": "Capital Group Dividend Value ETF",
+   "market": "US",
+   "aum_usd_bn": 39.76,
+   "benchmark": "SP500",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGDV"
+   }
+  },
+  {
+   "rank": 2,
+   "ticker": "CGGR",
+   "name": "Capital Group Growth ETF",
+   "market": "US",
+   "aum_usd_bn": 26.08,
+   "benchmark": "SP500",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGGR"
+   }
+  },
+  {
+   "rank": 3,
+   "ticker": "BAI",
+   "name": "iShares A.I. Innovation and Tech Active ETF",
+   "market": "US",
+   "aum_usd_bn": 13.06,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "ishares",
+    "id": "339081",
+    "slug": "ishares-a-i-innovation-and-tech-active-etf"
+   }
+  },
+  {
+   "rank": 4,
+   "ticker": "CGUS",
+   "name": "Capital Group Core Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 12.25,
+   "benchmark": "SP500",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGUS"
+   }
+  },
+  {
+   "rank": 5,
+   "ticker": "CGGO",
+   "name": "Capital Group Global Growth Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 11.86,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGGO"
+   }
+  },
+  {
+   "rank": 6,
+   "ticker": "JGRO",
+   "name": "JPMorgan Active Growth ETF",
+   "market": "US",
+   "aum_usd_bn": 9.78,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "jpm",
+    "cusip": "46654Q609"
+   }
+  },
+  {
+   "rank": 7,
+   "ticker": "BLCR",
+   "name": "iShares Large Cap Core Active ETF",
+   "market": "US",
+   "aum_usd_bn": 9.75,
+   "benchmark": "SP500",
+   "source": {
+    "type": "ishares",
+    "id": "333889",
+    "slug": "ishares-large-cap-core-active-etf"
+   }
+  },
+  {
+   "rank": 8,
+   "ticker": "00981A",
+   "name": "主動統一台股增長 (UPAMC Taiwan Stock Growth Active)",
+   "market": "TW",
+   "aum_usd_bn": 8.44,
+   "benchmark": null,
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 9,
+   "ticker": "TCAF",
+   "name": "T. Rowe Price Capital Appreciation Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 8.43,
+   "benchmark": "SP500",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 10,
+   "ticker": "JAVA",
+   "name": "JPMorgan Active Value ETF",
+   "market": "US",
+   "aum_usd_bn": 7.35,
+   "benchmark": "R1000V",
+   "source": {
+    "type": "jpm",
+    "cusip": "46641Q167"
+   }
+  },
+  {
+   "rank": 11,
+   "ticker": "SEQ",
+   "name": "Sequoia ETF",
+   "market": "US",
+   "aum_usd_bn": 6.72,
+   "benchmark": "SP500",
+   "source": {
+    "type": "sequoia"
+   }
+  },
+  {
+   "rank": 12,
+   "ticker": "CGXU",
+   "name": "Capital Group International Focus Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 6.57,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGXU"
+   }
+  },
+  {
+   "rank": 13,
+   "ticker": "JGLO",
+   "name": "JPMorgan Global Select Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 6.33,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "jpm",
+    "cusip": "46654Q740"
+   }
+  },
+  {
+   "rank": 14,
+   "ticker": "ARKK",
+   "name": "ARK Innovation ETF",
+   "market": "US",
+   "aum_usd_bn": 6.15,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "ark",
+    "ticker": "ARKK"
+   }
+  },
+  {
+   "rank": 15,
+   "ticker": "CNEQ",
+   "name": "Alger Concentrated Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 6.05,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 16,
+   "ticker": "CGDG",
+   "name": "Capital Group Dividend Growers ETF",
+   "market": "US",
+   "aum_usd_bn": 5.85,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGDG"
+   }
+  },
+  {
+   "rank": 17,
+   "ticker": "QLTY",
+   "name": "GMO U.S. Quality ETF",
+   "market": "US",
+   "aum_usd_bn": 5.46,
+   "benchmark": "SP500",
+   "source": {
+    "type": "gmo"
+   }
+  },
+  {
+   "rank": 18,
+   "ticker": "EAGL",
+   "name": "Eagle Capital Select Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 4.9,
+   "benchmark": "SP500",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 19,
+   "ticker": "AKRE",
+   "name": "Akre Focus ETF",
+   "market": "US",
+   "aum_usd_bn": 4.79,
+   "benchmark": "SP500",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 20,
+   "ticker": "JTEK",
+   "name": "JPMorgan U.S. Tech Leaders ETF",
+   "market": "US",
+   "aum_usd_bn": 4.44,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 21,
+   "ticker": "JIVE",
+   "name": "JPMorgan International Value ETF",
+   "market": "US",
+   "aum_usd_bn": 4.02,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 22,
+   "ticker": "00403A",
+   "name": "主動統一升級50",
+   "market": "TW",
+   "aum_usd_bn": 4.01,
+   "benchmark": null,
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 23,
+   "ticker": "IDEF",
+   "name": "iShares Defense Industrials Active ETF",
+   "market": "US",
+   "aum_usd_bn": 3.66,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 24,
+   "ticker": "CGMM",
+   "name": "Capital Group U.S. Small & Mid Cap ETF",
+   "market": "US",
+   "aum_usd_bn": 3.5,
+   "benchmark": null,
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGMM"
+   }
+  },
+  {
+   "rank": 25,
+   "ticker": "FWD",
+   "name": "AB Disruptors ETF",
+   "market": "US",
+   "aum_usd_bn": 3.25,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 26,
+   "ticker": "CGGE",
+   "name": "Capital Group Global Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 3.25,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGGE"
+   }
+  },
+  {
+   "rank": 27,
+   "ticker": "CGNG",
+   "name": "Capital Group New Geography Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 3.07,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGNG"
+   }
+  },
+  {
+   "rank": 28,
+   "ticker": "TMSL",
+   "name": "T. Rowe Price Small-Mid Cap ETF",
+   "market": "US",
+   "aum_usd_bn": 3.06,
+   "benchmark": null,
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 29,
+   "ticker": "FEGE",
+   "name": "First Eagle Global Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 2.65,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 30,
+   "ticker": "CGIC",
+   "name": "Capital Group International Core Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 2.55,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGIC"
+   }
+  },
+  {
+   "rank": 31,
+   "ticker": "NUGO",
+   "name": "Nuveen Growth Opportunities ETF",
+   "market": "US",
+   "aum_usd_bn": 2.45,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 32,
+   "ticker": "CGIE",
+   "name": "Capital Group International Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 2.44,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGIE"
+   }
+  },
+  {
+   "rank": 33,
+   "ticker": "BGIG",
+   "name": "Bahl & Gaynor Income Growth ETF",
+   "market": "US",
+   "aum_usd_bn": 2.21,
+   "benchmark": "R1000V",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 34,
+   "ticker": "00991A",
+   "name": "主動復華未來50",
+   "market": "TW",
+   "aum_usd_bn": 2.16,
+   "benchmark": null,
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 35,
+   "ticker": "ARKG",
+   "name": "ARK Genomic Revolution ETF",
+   "market": "US",
+   "aum_usd_bn": 2.16,
+   "benchmark": null,
+   "source": {
+    "type": "ark",
+    "ticker": "ARKG"
+   }
+  },
+  {
+   "rank": 36,
+   "ticker": "CGCV",
+   "name": "Capital Group Conservative Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 2.15,
+   "benchmark": "SP500",
+   "source": {
+    "type": "capital_group",
+    "ticker": "CGCV"
+   }
+  },
+  {
+   "rank": 37,
+   "ticker": "EMOP",
+   "name": "AB Emerging Markets Opportunities ETF",
+   "market": "US",
+   "aum_usd_bn": 2.05,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 38,
+   "ticker": "ALAI",
+   "name": "Alger AI Enablers & Adopters ETF",
+   "market": "US",
+   "aum_usd_bn": 2.04,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 39,
+   "ticker": "WCMI",
+   "name": "First Trust WCM International Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 2.03,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 40,
+   "ticker": "JPEF",
+   "name": "JPMorgan Equity Focus ETF",
+   "market": "US",
+   "aum_usd_bn": 2.01,
+   "benchmark": "SP500",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 41,
+   "ticker": "IDEQ",
+   "name": "Lazard International Dynamic Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 2.0,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 42,
+   "ticker": "LCAP",
+   "name": "Principal Capital Appreciation Select ETF",
+   "market": "US",
+   "aum_usd_bn": 1.9,
+   "benchmark": "SP500",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 43,
+   "ticker": "ARKW",
+   "name": "ARK Next Generation Technology ETF",
+   "market": "US",
+   "aum_usd_bn": 1.85,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 44,
+   "ticker": "ARKQ",
+   "name": "ARK Autonomous Technology & Robotics ETF",
+   "market": "US",
+   "aum_usd_bn": 1.8,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 45,
+   "ticker": "BAFE",
+   "name": "Brown Advisory Flexible Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 1.75,
+   "benchmark": "SP500",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 46,
+   "ticker": "426030",
+   "name": "TIME 미국나스닥100액티브",
+   "market": "KR",
+   "aum_usd_bn": 1.72,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "timefolio",
+    "idx": 2
+   }
+  },
+  {
+   "rank": 47,
+   "ticker": "JEMA",
+   "name": "JPMorgan ActiveBuilders Emerging Markets Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 1.7,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 48,
+   "ticker": "TOUS",
+   "name": "T. Rowe Price International Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 1.69,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 49,
+   "ticker": "CHAT",
+   "name": "Roundhill Generative AI & Technology ETF",
+   "market": "US",
+   "aum_usd_bn": 1.67,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  },
+  {
+   "rank": 50,
+   "ticker": "TGRT",
+   "name": "T. Rowe Price Growth ETF",
+   "market": "US",
+   "aum_usd_bn": 1.66,
+   "benchmark": "R1000G",
+   "source": {
+    "type": "pending"
+   },
+   "track": false
+  }
+ ],
+ "reserve": [
+  {
+   "ticker": "456600",
+   "name": "TIME 글로벌AI인공지능액티브",
+   "market": "KR",
+   "aum_usd_bn": 1.36,
+   "benchmark": "ACWI",
+   "source": {
+    "type": "timefolio",
+    "idx": 6
+   },
+   "track": false,
+   "note": "51위 이하 — 50위 안 ETF 수집 실패 시 대체"
+  },
+  {
+   "ticker": "INFL",
+   "name": "Horizon Kinetics Inflation Beneficiaries ETF",
+   "market": "US",
+   "aum_usd_bn": 1.6,
+   "benchmark": "SP500",
+   "source": {
+    "type": "pending"
+   },
+   "track": false,
+   "note": "51위 이하"
+  }
  ]
 }

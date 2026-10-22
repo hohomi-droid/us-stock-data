@@ -273,7 +273,8 @@ def main():
         "snapshots": len(snaps),
         "first_snapshot": snaps[0]["date"],
         "tracked_etfs": len(tracked),
-        "universe_etfs": len(uni),
+        "universe_etfs": len(universe["etfs"]),
+        "pending_etfs": [e["ticker"] for e in universe["etfs"] if not e.get("track", True)],
         "overlap_count": len(rows),
         "new_overlap_count": sum(1 for r in rows if r["new2w"] >= 2),
         "avg_return": round(sum(rets) / len(rets), 4) if rets else None,
@@ -285,8 +286,9 @@ def main():
                              if e in uni and v.get("asof") and v["asof"] < latest["date"][:10] and
                              (date.fromisoformat(latest["date"][:10]) - date.fromisoformat(v["asof"])).days > 4),
     }
-    etf_info = {t: {"name": e.get("name"), "aum": e.get("aum_usd_bn"), "market": e.get("market"),
-                    "asof": latest["etfs"].get(t, {}).get("asof")} for t, e in uni.items()}
+    etf_info = {e["ticker"]: {"name": e.get("name"), "aum": e.get("aum_usd_bn"), "market": e.get("market"),
+                              "rank": e.get("rank"), "tracked": e.get("track", True),
+                              "asof": latest["etfs"].get(e["ticker"], {}).get("asof")} for e in universe["etfs"]}
     out = {"summary": summary, "rows": rows, "etfs": etf_info,
            "params": {"window": WINDOW, "add_excess": ADD_EXCESS, "min_new_weight": MIN_NEW_WEIGHT}}
     (ROOT / "out").mkdir(exist_ok=True)

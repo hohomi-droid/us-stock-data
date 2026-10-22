@@ -147,6 +147,7 @@ details.method ul{margin:10px 0 0;padding-left:18px;color:var(--muted);display:g
   $('stamp').textContent = '기준 ' + S.generated + ' · 스냅샷 ' + S.snapshots + '일 (' + S.first_snapshot + '부터)';
   const notes = [];
   if (S.snapshots < 11) notes.push('<b>누적 ' + S.snapshots + '일차</b> — 최근 2주 신규 편입은 스냅샷이 11일 쌓이면 완전한 값이 됩니다. 그 전까지 신규 겹침 수는 실제보다 적게 나옵니다.');
+  if (S.pending_etfs && S.pending_etfs.length) notes.push('수집 경로 준비 중인 ETF ' + S.pending_etfs.length + '개(50위 안): ' + S.pending_etfs.map(esc).join(', '));
   if (S.missing_etfs && S.missing_etfs.length) notes.push('오늘 보유종목을 받지 못한 ETF ' + S.missing_etfs.length + '개: ' + S.missing_etfs.map(esc).join(', '));
   if (S.stale_etfs && S.stale_etfs.length) notes.push('공시가 4일 넘게 갱신되지 않은 ETF: ' + S.stale_etfs.map(esc).join(', '));
   if (notes.length){ $('notice').innerHTML = notes.join('<br>'); $('notice').hidden = false; }
