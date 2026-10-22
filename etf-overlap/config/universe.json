@@ -594,9 +594,10 @@
    "aum_usd_bn": 1.67,
    "benchmark": "R1000G",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "dated_csv",
+    "pattern": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{date:%m%d%Y}.csv",
+    "fund_filter": "CHAT"
+   }
   },
   {
    "rank": 49,

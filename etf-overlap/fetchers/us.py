@@ -503,7 +503,7 @@ def _parse_rows(rows):
     return {"asof": None, "units": None, "holdings": out}
 
 
-def dated_csv(pattern: str):
+def dated_csv(pattern: str, fund_filter: str | None = None):
     """URL에 날짜가 들어가는 보유 파일 (예: Bahl & Gaynor ..._{date:%Y-%m-%d}.csv) — 최근 7일 거슬러 시도."""
     from datetime import timedelta, timezone
     now = datetime.now(timezone(timedelta(hours=-5)))
@@ -512,7 +512,9 @@ def dated_csv(pattern: str):
         d = now - timedelta(days=back)
         url = pattern.format(date=d)
         try:
-            out = generic_table(url)
+            out = generic_table(url, fund_filter)
+            if not out["holdings"]:
+                raise ValueError("빈 표")
             out["asof"] = out["asof"] or d.strftime("%Y-%m-%d")
             return out
         except Exception as ex:  # noqa: BLE001

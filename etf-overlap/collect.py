@@ -43,7 +43,7 @@ def run_source(src: dict):
     if t == "fhtrust":
         return asia.fhtrust(src["id"])
     if t == "dated_csv":
-        return us.dated_csv(src["pattern"])
+        return us.dated_csv(src["pattern"], src.get("fund_filter"))
     if t == "ftportfolios":
         return us.ftportfolios(src["ticker"])
     if t == "ab":
