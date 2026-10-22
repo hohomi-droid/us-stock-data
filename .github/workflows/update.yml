@@ -1,0 +1,44 @@
+name: Update US stock data
+
+on:
+  schedule:
+    - cron: "30 22 * * 1-5"   # 평일 22:30 UTC (한국 07:30, 미국 장 마감 후)
+  workflow_dispatch: {}        # Actions 탭에서 수동 실행
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install --quiet yfinance pandas
+
+      - name: Get previous data (release "data")
+        run: |
+          mkdir -p data
+          gh release download data --dir data --pattern "*.csv.gz" || echo "no previous data - full download"
+          ls -la data
+
+      - name: Download / update
+        run: python scripts/fetch.py data
+
+      - name: Upload to release "data"
+        run: |
+          date -u +"%Y-%m-%d %H:%M UTC" > data/last_update.txt
+          gh release view data >/dev/null 2>&1 || gh release create data --title "US stock data" --notes "자동 갱신되는 미국 주가 데이터 (yfinance)"
+          gh release upload data data/us_daily_2016.csv.gz data/us_weekly_max.csv.gz data/last_update.txt --clobber
