@@ -1,0 +1,553 @@
+{
+ "TROWE": [
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "final": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "status": 200,
+   "ctype": "text/html",
+   "len": 7857,
+   "cands": [],
+   "text": " You need to enable JavaScript to run this app. "
+  },
+  {
+   "url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/tcaf.html",
+   "final": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/tcaf.html",
+   "status": 403,
+   "ctype": "text/html",
+   "len": 17617,
+   "cands": [],
+   "text": "ï»¿ T. Rowe Price Page Not Found For access to all of the T. Rowe Price websites, please use the following links. We're sorry, the page you requested could not be found. If you used a bookmark to access this page, the link is no longer active. Please go to the T. Rowe Price homepage and navigate to the desired page. If you continue to experience difficulty accessing pages on our website, you may need to delete your temporary internet files or adjust your browser settings. Choose your site: Enterprise Personal Investing Workplace Retirement Individual / SMSF Investors Institutional Investor / Consultant Financial Advisor / Intermediary Recordkeeping Sponsor / Consultant Thank you for investing with T. Rowe Price. Invest With Confidence Â® "
+  },
+  {
+   "url": "https://www.troweprice.com/content/dam/fai/Collections/DigitalAssets/etf/holdings/TCAF.csv",
+   "final": "https://www.troweprice.com/content/dam/fai/Collections/DigitalAssets/etf/holdings/TCAF.csv",
+   "status": 404,
+   "ctype": "text/html",
+   "len": 17617,
+   "cands": [],
+   "text": "ï»¿ T. Rowe Price Page Not Found For access to all of the T. Rowe Price websites, please use the following links. We're sorry, the page you requested could not be found. If you used a bookmark to access this page, the link is no longer active. Please go to the T. Rowe Price homepage and navigate to the desired page. If you continue to experience difficulty accessing pages on our website, you may need to delete your temporary internet files or adjust your browser settings. Choose your site: Enterprise Personal Investing Workplace Retirement Individual / SMSF Investors Institutional Investor / Consultant Financial Advisor / Intermediary Recordkeeping Sponsor / Consultant Thank you for investing with T. Rowe Price. Invest With Confidence Â® "
+  }
+ ],
+ "ALGER": [
+  {
+   "url": "https://www.alger.com/Pages/Products.aspx?productCode=2495",
+   "final": "https://www.alger.com/Pages/Products.aspx?productCode=2495",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 194401,
+   "cands": [
+    "https://www.alger.com/Pages/Products.aspx?productCode=2495#all-holdings",
+    "https://www.alger.com/Pages/Products.aspx?productCode=2495#portfolio-exposure",
+    "https://www.alger.com/Pages/Products.aspx?productCode=2495#top-10-holdings",
+    "https://www.alger.com/Pages/Products.aspx?productCode=2495#top-active-holdings",
+    "https://www.alger.com/Pages/all-holdings",
+    "https://www.alger.com/Pages/allHoldings",
+    "https://www.alger.com/Pages/dataActiveHoldingsTop10",
+    "https://www.alger.com/Pages/dataActiveHoldingsTop10-prefix",
+    "https://www.alger.com/Pages/dataActiveHoldingsTop10-suffix",
+    "https://www.alger.com/Pages/dataPortfolioExposure",
+    "https://www.alger.com/Pages/dataPortfolioExposure-prefix",
+    "https://www.alger.com/Pages/dataPortfolioExposure-suffix",
+    "https://www.alger.com/Pages/dataPortfolioExposure-tab",
+    "https://www.alger.com/Pages/dataTopHoldings-suffix",
+    "https://www.alger.com/Pages/etf-daily-holdings",
+    "https://www.alger.com/Pages/portfolio-exposure",
+    "https://www.alger.com/Pages/top-10-holdings",
+    "https://www.alger.com/Pages/top-active-holdings"
+   ],
+   "text": " Alger Concentrated Equity ETF - CNEQ | Alger --> Skip to main content Log In About Alger Our History Our Investment Approach Investment Team Careers Commitment to Sustainability Commitment to Culture &amp; Employees Charitable Giving We Remember Strategies Strategies Overview Asset Classes Vehicles Strategy Finder Large Cap Mid Cap Small/SMid Cap International Alternatives Specialty Focus Mutual Funds ETFs SMAs Institutional Separate Accounts UCITS Collective Investment Trusts Insights Insights Blogs Alger On the Money Alger On the Record Manager Commentary Capital Markets Outlook Retirement Solutions Viewpoints The Power of Focus Newsroom Press Releases In the News Contact Us Contact Us Please confirm your investment status to view this information. There has been an error in loading the information on this page. Please try refreshing the page or click here . Show UCITS modal Show ISA modal Show ETF modal Show ETF VIIV modal COMMENTARY FACT SHEET PROSPECTUS CONTACT US BUY Summary Market Data Performance Composition Attribution Risk Metrics Management --> --> Summary *ETF CR --> This ETF is different from traditional ETFs. This may create additional risks for your investment. Click here for additional important information. as of ? Fund Snapshot CUSIP Net Asset Value Offering Price Daily Change (NAV) YTD Total Return (NAV) --> Minimum Investment Annual Fund Operating Expenses Total - without Waiver Annual Fund Operating Expenses Total - with Waiver Investment Strategy - High"
+  },
+  {
+   "url": "https://www.alger.com/Pages/ETF.aspx",
+   "final": "https://www.alger.com/Pages/ETF.aspx",
+   "status": 404,
+   "ctype": "text/html; charset=utf-8",
+   "len": 653,
+   "cands": [],
+   "text": " File Not Found "
+  }
+ ],
+ "EAGL": [
+  {
+   "url": "https://www.eaglecap.com/eagl-etf-daily-holdings",
+   "final": "https://www.eaglecap.com/eagl-etf-daily-holdings",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 47014,
+   "cands": [
+    "https://cdn.prod.website-files.com/6a4b827439ea98143673d4ea/6a591276fd0fdeb2ec11041d_eagle-etf-holdings-v1.0.1.js",
+    "https://www.eaglecap.com/.fk-holdings-hero",
+    "https://www.eaglecap.com/daily-holdings-",
+    "https://www.eaglecap.com/daily-holdings-cusip",
+    "https://www.eaglecap.com/daily-holdings-item-template",
+    "https://www.eaglecap.com/daily-holdings-name",
+    "https://www.eaglecap.com/daily-holdings-shares",
+    "https://www.eaglecap.com/daily-holdings-ticker",
+    "https://www.eaglecap.com/daily-holdings-weight",
+    "https://www.eaglecap.com/eagl-etf#portfolio",
+    "https://www.eaglecap.com/eagle-etf-holdings-align",
+    "https://www.eaglecap.com/fk-holdings-as-of",
+    "https://www.eaglecap.com/fk-holdings-asof",
+    "https://www.eaglecap.com/fk-holdings-body",
+    "https://www.eaglecap.com/fk-holdings-cell",
+    "https://www.eaglecap.com/fk-holdings-disclosure",
+    "https://www.eaglecap.com/fk-holdings-disclosure-body",
+    "https://www.eaglecap.com/fk-holdings-disclosure-heading",
+    "https://www.eaglecap.com/fk-holdings-heading",
+    "https://www.eaglecap.com/fk-holdings-headline",
+    "https://www.eaglecap.com/fk-holdings-hero",
+    "https://www.eaglecap.com/fk-holdings-hero-stack",
+    "https://www.eaglecap.com/fk-holdings-main",
+    "https://www.eaglecap.com/fk-holdings-row",
+    "https://www.eaglecap.com/fk-holdings-section",
+    "https://www.eaglecap.com/fk-holdings-table",
+    "https://www.eaglecap.com/fk-holdings-table-head",
+    "https://www.eaglecap.com/fk-page-etf-holdings"
+   ],
+   "text": " EAGL ETF Daily Holdings | Eagle Capital Management About Eagle Eagle Equity Strategy Eagle ETF Quarterly Letters Open navigation menu View strategy The Eagle Difference History Team Investment Philosophy Outcomes Vehicle Documents Overview ETF Details Portfolio Premium / Discount Fund Documents Latest Letter Archive Additional Insights Eagle Capital Select Equity ETF EAGL Back to ETF page Daily Holdings as of — Name Ticker Shares CUSIP Weight Security Name — — — — Disclosures and important information Holdings and Allocations are subject to change. There is no guarantee the Fund continues to invest in the securities referenced. Before investing, please carefully consider the Fund’s investment objectives, risks, charges, and expenses. The prospectus contains this and other important information about the Fund and a free hard-copy of the prospectus can be obtained by calling 833-782-2211. Please read carefully before investing. The Eagle Capital Select Equity ETF is distributed by Foreside Fund Services, LLC Investing involves risk. Principal loss is possible. As an ETF, the Fund may trade at a premium or discount to NAV. Shares of any ETF are bought and sold at market price (not NAV) and are not individually redeemed from the Fund. Brokerage commissions will reduce returns. The Fund is an ETF, which is a fund that trades like other publicly-traded securities. As a result of the ETF structure, the Fund is exposed to additional trading and transactional risks, limited authorize"
+  },
+  {
+   "url": "https://www.eaglecap.com/eagl-etf",
+   "final": "https://www.eaglecap.com/eagl-etf",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 78823,
+   "cands": [
+    "https://www.eaglecap.com/eagl-etf#portfolio",
+    "https://www.eaglecap.com/eagl-etf-daily-holdings",
+    "https://www.eaglecap.com/etf-details-number-of-holdings",
+    "https://www.eaglecap.com/fk-etf-holdings-cta",
+    "https://www.eaglecap.com/fk-etf-holdings-disclaimer",
+    "https://www.eaglecap.com/fk-etf-holdings-link",
+    "https://www.eaglecap.com/fk-etf-portfolio-asof",
+    "https://www.eaglecap.com/fk-etf-portfolio-band",
+    "https://www.eaglecap.com/fk-etf-portfolio-cols",
+    "https://www.eaglecap.com/fk-etf-portfolio-header",
+    "https://www.eaglecap.com/fk-etf-portfolio-title",
+    "https://www.eaglecap.com/portfolio",
+    "https://www.eaglecap.com/top-ten-holdings-date"
+   ],
+   "text": " EAGL ETF | Eagle Capital Management About Eagle Eagle Equity Strategy Eagle ETF Quarterly Letters Open navigation menu View strategy The Eagle Difference History Team Investment Philosophy Outcomes Vehicle Documents Overview ETF Details Portfolio Premium / Discount Fund Documents Latest Letter Archive Additional Insights Eagle Capital Select Equity ETF EAGL Overview ETF Details Portfolio Premium / Discount Fund Document Strategy Overview Eagle Capital’s North Star is Buying Undervalued Companies with Unrecognized Long-Term Growth Potential Eagle Capital Select Equity ETF is an actively-managed, concentrated portfolio of primarily large-cap companies selected using Eagle Capital’s time-tested investment philosophy and disciplined approach. The ETF seeks to generate investment returns superior to U.S. equity markets. The benefits of the ETF may include, but aren’t limited to, its simplicity, liquidity, potential for greater tax efficiency, and ease of use in asset allocation. Eagle Capital is the investment adviser to the ETF. Quarterly Fact Sheet Quarterly Commentary ETF Details — NAV as of — — / — Daily NAV Change EAGL ETF — Ticker EAGL Listing Exchange NYSE Arca Inception Date 03/21/2024 Benchmark Index S &amp; P 500 Number of Holdings — Dividend Frequency Annually Custodian Bank of New York Mellon CUSIP 88339Y102 Market Data — NAV — Premium/Discount to NAV — Market Price — Median 30-Day Bid/Ask Spread* — Shares Outstanding — Total Assets — Gross Expense Ratio 0.81% Net Exp"
+  }
+ ],
+ "AKRE": [
+  {
+   "url": "https://www.akrefund.com/",
+   "final": "https://www.akrefund.com/",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 394536,
+   "cands": [
+    "https://maps.google.com/maps/api/js?key=",
+    "https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13"
+   ],
+   "text": " Akre Focus ETF Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Menu Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Search Search The Akre Focus ETF: Now Trading on NYSE Arca As of October 27, 2025, Akre Capital has completed the conversion of the Akre Focus Fund to the Akre Focus ETF (ticker \"AKRE\"), one of the industry's largest single mutual fund-to-ETF conversions. The ETF is managed by the same investment team and continues to be guided by Akre Capital's “Three-Legged Stool” investment approach. The ETF structure delivers a more cost-effective, tax-efficient, and transparent vehicle for current and future shareholders. Read The Full Press Release Home Letter to Shareholders US Bank Direct Shareholder Transfer Instructions A Letter from the Investment Team Read Here Semi-Annual Investor Call Replay - May 7, 2025 Listen Here A Letter from the Investment Team Read Here Upcoming Semi-Annual Investor Call - November 19, 2025 A Letter from the Investment Team - February 6, 2026 Upcoming Semi-Annual Investor Call - November 11, 2026 Read the Akre Focus ETF Press Release Learn More About the Recently Launched Akre Focus ETF Akre Capital&#8217;s Three-Legged Stool Investment Approach Business Sustainable competitive advantages and the ability to compound free cash flow per"
+  },
+  {
+   "url": "https://www.akrefund.com/etf",
+   "final": "https://www.akrefund.com/fund-summary/",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 324767,
+   "cands": [
+    "https://maps.google.com/maps/api/js?key=",
+    "https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13"
+   ],
+   "text": " Fund Summary - Akre Focus ETF Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Menu Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Search Search Fund Summary Investing involves risk. Principal loss is possible. The Fund is non-diversified, meaning it may focus its assets in fewer individual holdings than a diversified fund. Therefore, the Fund is more exposed to individual stock volatility than a diversified fund. In addition to large capitalization companies, the Fund invests in small- and medium- capitalization companies, which involve additional risks such as limited liquidity and greater volatility than larger capitalization companies. Download the prospectus. This fund is an actively-managed ETF that does not seek to replicate the performance of a specified index. To determine whether to buy or sell a security, the portfolio manager considers, among other things, various fund requirements and standards, along with economic conditions, alternative investments, interest rates and various credit metrics. If the portfolio manager considerations are inaccurate or misapplied, the fund’s performance may suffer. Exchange-Traded Funds (ETFs) are bought and sold through exchange trading at market price (not NAV ), and are not individually redeemed from the fund. Shares may "
+  },
+  {
+   "url": "https://akrecapital.com/ways-to-invest/etf/",
+   "final": "https://www.akrecapital.com/ways-to-invest/etf/",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 204519,
+   "cands": [
+    "https://maps.google.com/maps/api/js?key=AIzaSyAbT1wq4KcKjE35T-J5nSYOQ_g2KtXwWFc"
+   ],
+   "text": " The Akre Focus ETF | Akre Capital Management Investment Process Overview The Power of Compounding Our Investment Philosophy Independent Thinking Discerning Opportunities Ways to Invest Overview Exchange-Traded Fund Private Investment Funds Our Thinking About Akre CONTACT US FORM ADV Menu Investment Process The Power of Compounding Our Investment Philosophy Independent Thinking Discerning Opportunities Ways to Invest Exchange-Traded Fund Private Investment Funds Our Thinking About Akre Contact Us Form ADV Search Search Akre Focus ETF The Akre Focus ETF (ticker “AKRE”) is the successor to the Akre Focus Fund, a mutual fund that commenced operations on August 31, 2009. The Akre Focus ETF has net assets of approximately $4.5 billion as of September 30, 2026. AKRE is non-diversified and maintains a focused portfolio of investments. &nbsp; LEARN MORE AT AKREFUND.COM You are leaving the Akre Capital Management, LLC, website and entering the Akre Focus ETF website. OK Investing involves risk. Principal loss is possible. The Fund is non-diversified, meaning it may focus its assets in fewer individual holdings than a diversified fund. Therefore, the Fund is more exposed to individual stock volatility than a diversified fund. In addition to large capitalization companies, the Fund invests in small- and medium- capitalization companies, which involve additional risks such as limited liquidity and greater volatility than larger capitalization companies. Download the prospectus. This fund"
+  }
+ ],
+ "AB": [
+  {
+   "url": "https://www.alliancebernstein.com/us/en-us/investments/etfs/fwd-ab-disruptors-etf.html",
+   "final": "https://www.alliancebernstein.com/us/en-us/investments/etfs/fwd-ab-disruptors-etf.html",
+   "status": 404,
+   "ctype": "text/html;charset=utf-8",
+   "len": 67075,
+   "cands": [
+    "https://www.alliancebernstein.com/content/alliancebernstein/us/en-us/investments/multi-asset-model-portfolios.html",
+    "https://www.alliancebernstein.com/content/alliancebernstein/us/en-us/investments/resources/portfolio-analysis-services.html",
+    "https://www.alliancebernstein.com/us/en-us/investments/multi-asset-model-portfolios.html",
+    "https://www.alliancebernstein.com/us/en-us/investments/resources/portfolio-analysis-services.html"
+   ],
+   "text": " Resource Not Found (404) &#124; AB Investments Products Mutual Funds ETFs Interval Funds Separately Managed Accounts CITs Multi-Asset Model Portfolios Closed-End Funds Variable Product Series Capabilities Equity Fixed Income Municipal Bonds Alternatives Retirement Plans Insurance Sub-Advised Tax-Advantaged Solutions Build a Better Path Explore AB’s framework for building durable portfolios in unpredictable markets. Learn More&nbsp; Insights Insights&nbsp; Economic Perspectives Investment Insights Podcasts Market Commentaries A Note from the Trading Desk Muniland Equities in Focus AB Market Views Capital Markets Outlook Disruptor Series Beyond Consensus Practice Management Advisor Institute &nbsp; Grow Your Business Connect with Clients Lead Your Team Practice Management The Hidden Psychology Behind Market FOMO Ken Haman The forces driving investor behavior are often hidden beneath the surface of rational decision-making. Learn More&nbsp; Resources Clients Account Login Literature &amp; Forms Tax Center Analysis Services Tools &amp; Education Education Hub Glossary of Financial Terms Bond Math Calculator Our Firm About Us Contact Us Contact Us AB Errors | Resource Not Found (404) &nbsp; We couldn&#39;t find that page. The page you were looking for doesn&#39;t exist. You may have mistyped the address or the page may have moved. www.alliancebernstein.com&nbsp; &nbsp; Investments Literature &amp; Forms Tax Center Insights Practice Management Retirement Plans About Us Careers Con"
+  },
+  {
+   "url": "https://www.alliancebernstein.com/us/en-us/investments/etfs.html",
+   "final": "https://www.alliancebernstein.com/us/en-us/investments/etfs.html",
+   "status": 200,
+   "ctype": "text/html;charset=utf-8",
+   "len": 130037,
+   "cands": [
+    "https://www.alliancebernstein.com/content/alliancebernstein/us/en-us/investments/multi-asset-model-portfolios.html",
+    "https://www.alliancebernstein.com/content/alliancebernstein/us/en-us/investments/resources/portfolio-analysis-services.html",
+    "https://www.alliancebernstein.com/us/en-us/investments/multi-asset-model-portfolios.html",
+    "https://www.alliancebernstein.com/us/en-us/investments/resources/portfolio-analysis-services.html"
+   ],
+   "text": " Active ETFs &#124; AB Investments Products Mutual Funds ETFs Interval Funds Separately Managed Accounts CITs Multi-Asset Model Portfolios Closed-End Funds Variable Product Series Capabilities Equity Fixed Income Municipal Bonds Alternatives Retirement Plans Insurance Sub-Advised Tax-Advantaged Solutions Build a Better Path Explore AB’s framework for building durable portfolios in unpredictable markets. Learn More&nbsp; Insights Insights&nbsp; Economic Perspectives Investment Insights Podcasts Market Commentaries A Note from the Trading Desk Muniland Equities in Focus AB Market Views Capital Markets Outlook Disruptor Series Beyond Consensus Practice Management Advisor Institute &nbsp; Grow Your Business Connect with Clients Lead Your Team Practice Management The Hidden Psychology Behind Market FOMO Ken Haman The forces driving investor behavior are often hidden beneath the surface of rational decision-making. Learn More&nbsp; Resources Clients Account Login Literature &amp; Forms Tax Center Analysis Services Tools &amp; Education Education Hub Glossary of Financial Terms Bond Math Calculator Our Firm About Us Contact Us Contact Us AB Active ETFs AB Active ETFs Just Added Investment Insights Thematic Equity Investing in a World of Disruption and Realignment Learn More Just Added Investment Insights The Evolving Nature of Equity Quality in the Age of AI Learn More &nbsp; &nbsp; &nbsp; About Our ETFs Funds Our Team ETF Insights Contact Us &nbsp; Active ETFs Designed to Fit Your "
+  }
+ ],
+ "FEGE": [
+  {
+   "url": "https://www.firsteagle.com/fund/FEGE",
+   "final": "https://www.firsteagle.com/fund/FEGE",
+   "status": 404,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 2292671,
+   "cands": [
+    "https://www.firsteagle.com/funds/private-credit-fund-fepcf"
+   ],
+   "text": " Page not found | First Eagle Investments Skip to main content Individual Investors Select an Investor Type & then a Country Financial Professionals Financial Professionals include financial advisors, RIAs, retail wholesalers, wirehouses, etc. Financial Professionals Americas United States United States (change) Agree to this attestation Visit Site Don’t Agree/Leave Asia Pacific Singapore Singapore (change) Important Disclosure for Singaporean Accredited Investors Information displayed on this website is only directed at “Institutional Investors” (within the meaning of the Singapore Securities and Futures Act) and is not suitable for individual investors. If you are uncertain about whether you are an Institutional Investor under the laws of Singapore, then you should consult your legal adviser. By selecting “Agree to this attestation” below, you confirm that if you are accessing this website from Singapore, you qualify as an “Institutional Investor” (within the meaning of the Singapore Securities and Futures Act). We use cookies to improve your experience on our website. To accept cookies, click Accept. For more information, visit the EU Privacy Policy . Agree to this attestation Visit Site Don’t Agree/Leave Rest of World Global Site Global Site (change) Agree to this attestation Visit Site Don’t Agree/Leave Europe Austria Austria (change) Important Disclosure for UK/EEA Regulated Financial Professionals The material on this website is for professional investors only. Please "
+  }
+ ],
+ "NUGO": [
+  {
+   "url": "https://www.nuveen.com/en-us/exchange-traded-funds/nuveen-growth-opportunities-etf",
+   "final": "https://www.nuveen.com/en-us/exchange-traded-funds/nuveen-growth-opportunities-etf",
+   "status": 200,
+   "ctype": "text/html",
+   "len": 17308,
+   "cands": [],
+   "text": " YOUR REQUEST HAS BEEN BLOCKED! Your Reference ID # is: 18.86f92917.1792675349.1445469 Security Center Uh-oh. Your request was BLOCKED. Please contact us and refer to the Reference # below: 18.86f92917.1792675349.1445469 &nbsp; 800-842-2252 We're here every weekday from 8 a.m. to 10 p.m. (ET) Search our site Try searching our site for your topic of interest using these simple tips and tricks: Spelling Make sure words are spelled correctly. Try again Search again using different words. Phrases Use quotes to search for exact phrase (for example, \"TIAA Annual Report 2015\"). Exclude words Use a hyphen to exclude words (for example, annuity-variable). "
+  }
+ ],
+ "BGIG": [
+  {
+   "url": "https://www.bahl-gaynor.com/etfs/bgig/",
+   "final": "https://www.bahl-gaynor.com/etf/bgig/",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 243068,
+   "cands": [
+    "https://www.bahl-gaynor.com/etf/bgig/#top-holdings",
+    "https://www.bahl-gaynor.com/etf/bgig/etf-holdings-table",
+    "https://www.bahl-gaynor.com/etf/bgig/show-all-holdings",
+    "https://www.bahl-gaynor.com/etf/bgig/top-holdings",
+    "https://www.bahl-gaynor.com/wp-content/uploads/2026/04/BGIG-Q3-Holdings.pdf",
+    "https://www.bahl-gaynor.com/wp-content/uploads/2026/08/BGIG-Q1-Holdings.pdf",
+    "https://www.bahl-gaynor.com/wp-content/uploads/etf_holdings_csv/BGIG_holdings_2026-10-22.csv"
+   ],
+   "text": " Bahl &amp; Gaynor Income Growth ETF - Bahl &amp; Gaynor Skip to content STRATEGIES ACTIVE ETFs INSIGHTS TEAM ABOUT US CONTACT US CLIENT LOGIN STRATEGIES ACTIVE ETFs INSIGHTS TEAM ABOUT US CONTACT US CLIENT LOGIN STRATEGIES ACTIVE ETFs INSIGHTS TEAM ABOUT US CONTACT US CLIENT LOGIN Bahl &amp; Gaynor Income Growth ETF Large-Cap Equity Income Focus BGIG Strategy Goals Fund Profile Market Data Returns Top Holdings Distributions Fund Documents Bahl &amp; Gaynor Is a Premier, Independent Investment Firm Focused on Dividend Growth Investing Alongside Innovative, Trusted Client Service Active Fundamental Investors Specialized Focus on Dividend Equities Independent Since 1990 Aligned Owner-Principal Investment Committee Targeted Client Outcomes Current &amp; Consistent Income Growth Downside Risk Protection Seeks Alpha Generation Fact Card Prospectus Fund Profile 10/21/2026 Ticker BGIG Exchange NYSE Expense Ratio 0.45% Inception Date 09/14/2023 # of Stocks 49 CUSIP 26922B527 Market Data 10/21/2026 Shares Outstanding 61,142,547 Total Net Assets $2,244M Closing Price $36.68 Ticker BGIG NAV $36.70 30 Day Sec Yield * 2.05% Premium / Discount -0.05% Median 30-day Spread 0.06% Returns Month-End (as of 09/30/2026) Quarter-End (as of 09/30/2026) &nbsp; YTD 1 Month 3 Months 6 Months 1 Year 3 Years Since Inception BGIG NAV 10.07% -3.84% -1.69% 6.61% 11.10% 16.37% 14.11% BGIG Market Price 10.13% -3.79% -1.61% 6.64% 11.16% 16.41% 14.14% S&amp;P 500 TR 12.75% -0.35% 2.30% 17.85% 15.74% 22.89% 20."
+  },
+  {
+   "url": "https://bgetfs.com/bgig/",
+   "error": "ConnectionError: HTTPSConnectionPool(host='bgetfs.com', port=443): Max retries exceeded with url: /bgig/ (Caused by NameResolutionError(\"HTTPSConnection(host='bgetfs.com', port=443): Failed to resolve 'bgetfs.com' ([Errno -2] Name or service not known)\"))"
+  }
+ ],
+ "WCMI": [
+  {
+   "url": "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI",
+   "final": "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 220832,
+   "cands": [
+    "http://twitter.com/ftportfolios",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=166ca601-aa7c-4b28-8809-7d7340257de9",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=1dec34ba-199d-4f42-a4f7-bd47ff19bfd1",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=29636bd6-c497-417d-b64f-15c4dcec1156",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=68c16eab-ff3e-47e4-9c7d-bcbd19e6fb35",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=71680725-0617-4811-938e-f986cdbbd325",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=a09d264b-843c-42fc-8a24-fe8665ec7f39",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=b363655b-cc73-4f42-a7b1-4c1e00306c7c",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=bf504690-a2d8-46ca-b255-a79ab7a14af0",
+    "https://www.ftportfolios.com/Common/ContentFileLoader.aspx?ContentGUID=e40d8f3f-7081-4b95-9f3d-13ef9558f09b",
+    "https://www.ftportfolios.com/Content/CaliforniaPrivacyPolicy",
+    "https://www.ftportfolios.com/Content/CustomWealthSolutions",
+    "https://www.ftportfolios.com/Content/FirstTrustFundsPrivacyPolicy",
+    "https://www.ftportfolios.com/Retail/Etf/&#39;ctl00$ContentPlaceHolder1$HoldingsListing$lnkExportToExcel&#39;,&#39;&#39;",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_FundNavigation1_lblPageHeader",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_FundNavigation1_pnlNavigation",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_FundNavigation1_rowNavigationLinks",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_FundNavigation1_tblNavigation",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_PrinterFriendlyBox_divPrinterFriendlyContainer",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_PrinterFriendlyBox_tblDocumentLinks",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_btnHiddenSelectForwardsSortColumn",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_btnHiddenSelectFuturesSortColumn",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_btnHiddenSelectSortColumn",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_btnHiddenSelectSwapsExposureColumn",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_divHoldingsListingDisclaimer",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_divHoldingsSubjectToChangeDisclaimer",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_lblHoldingsCount",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_lblHoldingsTitle",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_lnkExportToExcel",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_pnlMainContentContainer",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_txtSelectedColumnHeader",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_txtSelectedForwardsColumnHeader",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_txtSelectedFuturesColumnHeader",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_txtSelectedSwapsExposureColumnHeader",
+    "https://www.ftportfolios.com/Retail/Etf/ContentPlaceHolder1_HoldingsListing_upHoldings",
+    "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI",
+    "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI&amp;Print=Y",
+    "https://www.ftportfolios.com/Retail/Etf/ctl00$ContentPlaceHolder1$HoldingsListing$btnHiddenSelectForwardsSortColumn",
+    "https://www.ftportfolios.com/Retail/Etf/ctl00$ContentPlaceHolder1$HoldingsListing$btnHiddenSelectFuturesSortColumn",
+    "https://www.ftportfolios.com/Retail/Etf/ctl00$ContentPlaceHolder1$HoldingsListing$btnHiddenSelectSortColumn",
+    "https://www.ftportfolios.com/Retail/Etf/ctl00$ContentPlaceHolder1$HoldingsListing$btnHiddenSelectSwapsExposureColumn",
+    "https://www.ftportfolios.com/Retail/Etf/ctl00$ContentPlaceHolder1$HoldingsListing$txtSelectedColumnHeader",
+    "https://www.ftportfolios.com/Retail/Etf/ctl00$ContentPlaceHolder1$HoldingsListing$txtSelectedForwardsColumnHeader",
+    "https://www.ftportfolios.com/Retail/Etf/ctl00$ContentPlaceHolder1$HoldingsListing$txtSelectedFuturesColumnHeader",
+    "https://www.ftportfolios.com/Retail/Etf/ctl00$ContentPlaceHolder1$HoldingsListing$txtSelectedSwapsExposureColumnHeader",
+    "https://www.ftportfolios.com/Retail/Etf/hlPortfolioManagerList",
+    "https://www.ftportfolios.com/Retail/Etf/tctl00$ContentPlaceHolder1$HoldingsListing$upHoldings",
+    "https://www.ftportfolios.com/Retail/PortfolioManagers/PortfolioManagersList.aspx",
+    "https://www.ftportfolios.com/Retail/StructuredProducts/StructuredProductsMain.aspx",
+    "https://www.ftportfolios.com/Retail/TaxReporting/FundTaxCenter.aspx?FundType=CEF",
+    "https://www.ftportfolios.com/Retail/TaxReporting/FundTaxCenter.aspx?FundType=ETF",
+    "https://www.ftportfolios.com/Retail/TaxReporting/FundTaxCenter.aspx?FundType=MF",
+    "https://www.ftportfolios.com/Retail/TaxReporting/UITTaxCenter.aspx",
+    "https://www.ftportfolios.com/Retail/VA/VASummary.aspx?ProductCode=FTACSI",
+    "https://www.ftportfolios.com/Retail/VA/VASummary.aspx?ProductCode=FTAIDCSI",
+    "https://www.ftportfolios.com/Retail/VA/VASummary.aspx?ProductCode=FTCSHI",
+    "https://www.ftportfolios.com/Retail/VA/VASummary.aspx?ProductCode=FTDJDI",
+    "https://www.ftportfolios.com/Retail/VA/VASummary.aspx?ProductCode=FTDWTCI",
+    "https://www.ftportfolios.com/Retail/VA/VASummary.aspx?ProductCode=FTGSTI",
+    "https://www.ftportfolios.com/Retail/VA/VASummary.aspx?ProductCode=FTMII",
+    "https://www.ftportfolios.com/Retail/cef/ceflist.aspx",
+    "https://www.ftportfolios.com/Retail/dp/TrustSeriesLandingPage.aspx?PortfolioGroupID=106018",
+    "https://www.ftportfolios.com/Retail/dp/TrustSeriesLandingPage.aspx?PortfolioGroupID=97795",
+    "https://www.ftportfolios.com/Retail/dp/durationsearch.aspx",
+    "https://www.ftportfolios.com/Retail/dp/home.aspx",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=ALL",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Asset",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Equity",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=EquityIncome",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Global",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Hybrid",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Income",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Sector",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Target",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Taxable",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Taxfree",
+    "https://www.ftportfolios.com/Retail/dp/search.aspx?Type=Theme",
+    "https://www.ftportfolios.com/Retail/dp/sectorstylesearch.aspx",
+    "https://www.ftportfolios.com/Retail/dp/stocksymbolsearch.aspx",
+    "https://www.ftportfolios.com/Retail/etf/TargetOutcomeDigitalReturnFundList.aspx"
+   ],
+   "text": " First Trust WCM International Equity ETF (WCMI) Home Logon FTA Investment Managers Blog Subscribe About Us Contact Us Search by Ticker, Keyword or CUSIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; Unit Trusts Search Available Portfolios All Available Portfolios Upcoming Deposits Recent Deposits Asset Allocation Portfolios All Equity Portfolios Sector Portfolios Target Strategy Portfolios Industry/Theme/Specialty Portfolios Global/International Portfolios Hybrid Portfolios Target Outcome UITs® All Income Portfolios Equity Income Portfolios Taxable Income Portfolios Tax-free Income Portfolios Advanced Portfolio Searches Primary Trust Listing Trust Listing by Maturity Search by Style or Sector Search by Stock Search by Portfolio Statistics Other Unit Trust Information CUSIP Information (PDF) UIT Tax Center ETFs Available Exchange-Traded Funds All Exchange-Traded Funds --Actively Managed Funds Active Factor Alternative Equity Income Hybrid Income International Managed Volatility Sector & Industry Size/Style Specialty Target Outcome Funds&reg; Tax-free Fixed Income Taxable Fixed Income Thematic --Alternative Funds --Dorsey Wright Strategies --Income Funds Equity Income Hybrid Income Target Income Funds&reg; Taxable Fixed Income Tax-free Fixed Income --Sector & Industry Funds Consumer&nbsp;Discretionary&nbsp; Consumer&nbsp;Staples Energy Financials Health Industrials Materials Real&nbsp;Estate Technology Utilities --Size/Style Funds Large&nbsp;Cap&nbsp;&nbsp; Mid&nbsp;"
+  }
+ ],
+ "IDEQ": [
+  {
+   "url": "https://www.lazardassetmanagement.com/us/en_us/funds/list/etf/lazard-international-dynamic-equity-etf/F44017",
+   "final": "https://www.lazardassetmanagement.com/us/en_us/funds/list/etf/lazard-international-dynamic-equity-etf/F44017",
+   "status": 404,
+   "ctype": "text/html;charset=utf-8",
+   "len": 115435,
+   "cands": [],
+   "text": " 404 | Lazard Asset Management Cookie Settings Skip to Main Content Account --> Location Settings Audience type | Country location --> Login Signup --> Investment Solutions Research &amp; Insights Advisor Hub About Contact Back Investment Solutions Research &amp; Insights Advisor Hub About Asset Class Equities Fixed Income Multi-Asset Alternatives Real Assets How To Invest Mutual Funds Exchange-Traded Funds (ETFs) Closed-End Funds Offshore Funds Separate Accounts Featured Quantitative Strategies Emerging Markets Global Listed Infrastructure Japanese Equity Lazard Rathmore Lazard Enhanced Opportunities Portfolio Private Wealth Management Lazard Wealth About Us Careers Media Relations Asset Class Equities Learn how our equities teams identify the best opportunities to address clients&#39; needs. Explore how our culture of intellectual freedom enhances our offerings. Fixed Income In fixed income, we believe active management that seeks fundamentally sound investments is essential to delivering strong returns in different environments. Multi-Asset Our multi-asset approach combines dynamic asset allocation with bottom-up security selection, providing investors access to high-conviction views. Mutual Funds Lazard has built a suite of differentiated funds to help you find the investment solutions that best meet your needs. Exchange-Traded Funds (ETFs) Learn about the unique benefits of actively managed ETFs. Explore the offerings from Lazard Asset Management. Closed-End Funds Our cl"
+  }
+ ],
+ "LCAP": [
+  {
+   "url": "https://www.principalam.com/us/fund/lcap",
+   "final": "https://www.principalam.com/us/fund/lcap",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 382928,
+   "cands": [
+    "https://api.assetmgmt.principalam.com/public/files?key=LCAP.xlsx",
+    "https://www.principalam.com/us/fund/fd-holdings-section",
+    "https://www.principalam.com/us/fund/fd-holdings-wrapper",
+    "https://www.principalam.com/us/fund/fund-holdings",
+    "https://www.principalam.com/us/fund/fund-holdings-heading",
+    "https://www.principalam.com/us/fund/fund-portfolio-characteristics",
+    "https://www.principalam.com/us/fund/lcap#fund-holdings",
+    "https://www.principalam.com/us/fund/lcap#fund-portfolio-characteristics",
+    "https://www.principalam.com/us/fund/lcap#portfolio-mgmt",
+    "https://www.principalam.com/us/fund/panel_portfolio_characteristics_analysis",
+    "https://www.principalam.com/us/fund/panel_portfolio_characteristics_sector",
+    "https://www.principalam.com/us/fund/pgi-holdings-container",
+    "https://www.principalam.com/us/fund/pgi-portfolio-container",
+    "https://www.principalam.com/us/fund/portfolio-mgmt",
+    "https://www.principalam.com/us/fund/portfolio_characteristics_analysis_data",
+    "https://www.principalam.com/us/fund/tab_portfolio_characteristics_analysis",
+    "https://www.principalam.com/us/fund/tab_portfolio_characteristics_sector",
+    "https://www.principalam.com/us/investment-strategies/asset-allocation/principal-fintech-enabled-portfolios"
+   ],
+   "text": " LCAP | Principal Capital Appreciation Select ETF | Principal Asset Management Skip to main content Select your region and profile Select your region and profile * Indicates required field Select your region * United States Asia Ex Japan Australia Canada Europe Japan Latin America Middle East Select your role * Financial professional Institutional investor Individual investor I advise or manage investments on behalf of clients or a firm. I invest or consult on behalf of an institution. I manage and invest my own money. Principal Global Investors, LLC (“Principal Global Investors”) is pleased to provide this website to you subject to your acknowledgement and acceptance of the following Terms of Use. If you disagree with these Terms of Use, you must not use this website. This website is intended to be made available only to persons and entities residing in the United States. If you do not reside in the United States, please select your appropriate location from the region drop down menu. License to Use Website Unless otherwise stated, Principal Global Investors and/or its licensors own the intellectual property rights in the website and material on the website. Subject to the license below, all these intellectual property rights are reserved. You may view, download for caching purposes only, and print content from the website for your own personal use, subject to the restrictions set out below and elsewhere in these Terms of Use. You may not (a) republish material from this web"
+  }
+ ],
+ "BAFE": [
+  {
+   "url": "https://www.brownadvisory.com/us/brown-advisory-flexible-equity-etf",
+   "final": "https://www.brownadvisory.com/us/brown-advisory-flexible-equity-etf",
+   "status": 404,
+   "ctype": "text/html; charset=utf-8",
+   "len": 115019,
+   "cands": [],
+   "text": " 404 Sorry Not Found | Brown Advisory Skip to main content CLIENT LOGIN Select Your Region United States United Kingdom Europe Asia-Pacific Other Regions WHO WE ARE Our Firm Our Team Our DNA News and Press WHAT WE DO Thoughtful Investing Investment and Strategic Advisory for Individuals and Families for Family Offices for Endowments and Foundations Funds and Strategies for Financial Intermediaries for Institutions and Consultants Private Investment Advisory OCIO Sustainable Investing INSIGHTS CLIENT LOGIN Select Your Region United States United Kingdom Europe Asia-Pacific Other Regions Page Not Found We couldn't find your page Please use the navigation above or search tool below to find what you are looking for. Connect Contact Us Client Login Careers News and Press Firm Who We Are What We Do Our Team Insights Notices Disclosures Security Privacy Policy Accessibility Brown Advisory is an independent investment management and strategic advisory firm committed to delivering client-first investment performance, strategic advice and the highest level of service. The firm’s clients—including individuals, families, family offices, endowments, foundations, charities, institutions, consultants, and financial intermediaries—are served by over 1,000 colleagues worldwide, all of whom are equity owners of the firm. Abu Dhabi | Austin | Baltimore | Boston | Dallas | Delaware | Frankfurt | London | Miami | Nashville | New York | North Carolina | San Francisco | Singapore | Southern Califor"
+  },
+  {
+   "url": "https://www.brownadvisoryfunds.com/etfs/bafe",
+   "final": "https://www.brownadvisory.com/mf",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 114779,
+   "cands": [],
+   "text": " Brown Advisory | Mutual Funds | Brown Advisory Skip to main content CLIENT LOGIN Select Your Region United States United Kingdom Europe Asia-Pacific Other Regions HOW TO INVEST RESOURCES INTERNATIONAL INVESTORS ABOUT BROWN ADVISORY CLIENT LOGIN Select Your Region United States United Kingdom Europe Asia-Pacific Other Regions Block &nbsp; &nbsp; Mutual Funds A disciplined, research-driven approach to investing We offer a broad range of actively managed equity and fixed income investment solutions. Our approach is grounded in bottom-up fundamental research, high-conviction ideas, and a focus on long-term, risk-adjusted returns. Our culture and equity ownership structure help us attract and retain professionals who share these beliefs, while our repeatable investment process ensures consistency and discipline across strategies. Block Loading... Block &nbsp; &nbsp; Fund in Focus Brown Advisory Tax-Exempt Bond Fund Institutional Shares Named 2026 LSEG Lipper Fund Award Winner Best Fund over 3 Years among Intermediate Municipal Debt Funds. Recognized for a disciplined, research-driven approach to municipal bond investing and a focus on risk-aware outcomes. View Fund The Brown Advisory Tax-Exempt Bond Fund Institutional Shares received the 2026 LSEG Lipper Fund Award for Best Fund over 3 Years in the Intermediate Municipal Debt Fund category, based on risk-adjusted performance for the three-year period ended November 30, 2025. The Fund was evaluated among 49 funds in the category. "
+  }
+ ],
+ "CHAT": [
+  {
+   "url": "https://www.roundhillinvestments.com/etf/chat/",
+   "final": "https://www.roundhillinvestments.com/etf/chat/",
+   "status": 200,
+   "ctype": "text/html",
+   "len": 122551,
+   "cands": [
+    "https://www.roundhillinvestments.com/assets/img/top-holdings/alphabet-logo.png",
+    "https://www.roundhillinvestments.com/assets/img/top-holdings/asml-logo.png",
+    "https://www.roundhillinvestments.com/assets/img/top-holdings/microsoft-logo.png",
+    "https://www.roundhillinvestments.com/assets/img/top-holdings/nvidia-logo.png",
+    "https://www.roundhillinvestments.com/assets/img/top-holdings/sk-hynix-logo.png",
+    "https://www.roundhillinvestments.com/assets/pdfs/CHAT_Q1_Holdings.pdf",
+    "https://www.roundhillinvestments.com/assets/pdfs/CHAT_Q3_Holdings.pdf",
+    "https://www.roundhillinvestments.com/assets/pdfs/Roundhill_CHAT_Voting_Table_2026.xlsx",
+    "https://www.roundhillinvestments.com/etf/chat/#holdings",
+    "https://www.roundhillinvestments.com/etf/chat/Holdings",
+    "https://www.roundhillinvestments.com/etf/chat/fullHoldingsTablex",
+    "https://www.roundhillinvestments.com/etf/chat/fund-Holdings-mobile",
+    "https://www.roundhillinvestments.com/etf/chat/fund-topTenHoldings",
+    "https://www.roundhillinvestments.com/etf/chat/fund-topTenHoldings-mobile",
+    "https://www.roundhillinvestments.com/etf/chat/holdings",
+    "https://www.roundhillinvestments.com/etf/chat/holdings-disclo",
+    "https://www.roundhillinvestments.com/etf/chat/holdings-disclosure",
+    "https://www.roundhillinvestments.com/etf/chat/holdings-link-holder",
+    "https://www.roundhillinvestments.com/etf/chat/holdingsDate",
+    "https://www.roundhillinvestments.com/etf/chat/holdingsModal",
+    "https://www.roundhillinvestments.com/etf/chat/of-holdings"
+   ],
+   "text": " AI ETF | Invest in Generative AI Stocks with CHAT | Roundhill Investments --> Invest --> Menu Our ETFs Thematic ETFs Growth-oriented themes & sectors BETZ CABZ CCML CHAT DRAM HUMN LOHA LYTE MAGC MAGS MARS MEME METV NCLD NERD OZEM UX WEED WeeklyPay&trade; ETFs Single stock exposure plus weekly distributions AAPW AMDW AMZW ARMW AVGW BABW BRKW COIW COSW GDXW GLDW GOOW HOOW METW MSFW MSTW NFLW NVDW PLTW TOPW TSLW TSYW UBEW UNHW Leveraged ETFs Amplified exposureÂ for sophisticated traders MAGX RAM XX Income ETFs Diversified income & yield-focused MAGY QDTE RDTE TPAY WEEK XDTE XPAY YBTC YETH Core ETFs Core Exposure for investors XBOX XDIV Explore all ETFs Thematic ETFs Growth-oriented themes & sectors BETZ CABZ CCML CHAT DRAM HUMN LOHA LYTE MAGC MAGS MARS MEME METV NCLD NERD OZEM UX WEED WeeklyPay&trade; ETFs Single stock exposure plus weekly distributions AAPW AMDW AMZW ARMW AVGW BABW BRKW COIW COSW GDXW GLDW GOOW HOOW METW MSFW MSTW NFLW NVDW PLTW TOPW TSLW TSYW UBEW UNHW Income ETFs Diversified income & yield-focused MAGY QDTE RDTE TPAY WEEK XDTE XPAY YBTC YETH Core ETFs Core Exposure for investors XBOX XDIV Leveraged ETFs Amplified exposure for sophisticated traders MAGX RAM XX Explore all ETFs Strategies WeeklyPay&trade; ETFs Magnificent Seven ETFs Prediction Markets Research About Us Contact Phone: 646.661.5441 Email: etfs@roundhillinvestments.com Follow us on social media Invest --> CHAT Generative AI & Technology ETF Overall Morningstar Ratingâ¢ (As of September 30, 2026)"
+  }
+ ],
+ "IDEF": [
+  {
+   "url": "https://www.ishares.com/us/products/343529/ishares-defense-industrials-active-etf/latest-holdings.csv",
+   "final": "https://www.ishares.com/us/products/343529/ishares-defense-industrials-active-etf/latest-holdings.csv",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 30217,
+   "head": "iShares Defense Industrials and Tech Active ETF\nFund Holdings as of,\"Oct 21, 2026\"\nInception Date,\"May 19, 2025\"\nShares Outstanding,\"122,020,000.00\"\nStock,\"-\"\nBond,\"-\"\nCash,\"-\"\nOther,\"-\"\n\nTicker,Name,Type,Sector,Asset Class,Market Value,Weight (%),Notional Value,Quantity,Price,Strike price,Location,Exchange,Currency,FX Rate,Market Currency,Accrual Date\n\"RTX\",\"RTX\",\"EQUITY\",\"Industrials\",\"Equity\",\"257,563,664.80\",\"6.94\",\"257,563,664.80\",\"1,344,278.00\",\"191.60\",\"-\",\"United States\",\"NYSE\",\"USD\",\"1.00\",\"USD\",\"-\"\n\"LMT\",\"LOCKHEED MARTIN\",\"EQUITY\",\"Industrials\",\"Equity\",\"172,957,948.08\",\"4.66\",\"172,9"
+  },
+  {
+   "url": "https://www.ishares.com/us/products/343529/",
+   "final": "https://www.ishares.com/us/products/343529/",
+   "status": 403,
+   "ctype": "text/html",
+   "len": 398,
+   "cands": [],
+   "text": " Access Denied Access Denied You don't have permission to access \"http&#58;&#47;&#47;www&#46;ishares&#46;com&#47;us&#47;products&#47;343529&#47;\" on this server. Reference&#32;&#35;18&#46;8cf92917&#46;1792675356&#46;1f58f26 https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8cf92917&#46;1792675356&#46;1f58f26 "
+  }
+ ],
+ "ARK": [
+  {
+   "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
+   "final": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
+   "status": 200,
+   "ctype": "application/octet-stream",
+   "len": 5919,
+   "head": "date,fund,company,ticker,cusip,shares,market value ($),weight (%)\r\n10/06/2026,ARKW,TESLA INC,TSLA,88160R101,\"448,379\",\"$169,814,578.67\",7.51%\r\n10/06/2026,ARKW,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"652,774\",\"$111,683,103.66\",4.94%\r\n10/06/2026,ARKW,NVIDIA CORP,NVDA,67066G104,\"415,897\",\"$99,357,793.30\",4.39%\r\n10/06/2026,ARKW,ROBINHOOD MARKETS INC - A,HOOD,770700102,\"868,349\",\"$99,087,304.39\",4.38%\r\n10/06/2026,ARKW,SHOPIFY INC - CLASS A,SHOP,82509L107,\"600,900\",\"$96,210,099.00\",4.26%\r\n10/06/2026,ARKW,META PLATFORMS INC-CLASS A,META,30303M102,\"128,440\",\"$95,289,636.00\",4.22%\r\n10/06/2026,ARKW"
+  },
+  {
+   "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+   "final": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+   "status": 200,
+   "ctype": "application/octet-stream",
+   "len": 5361,
+   "head": "date,fund,company,ticker,cusip,shares,market value ($),weight (%)\r\n10/22/2026,ARKQ,TESLA INC,TSLA,88160R101,\"565,749\",\"$218,645,016.03\",12.00%\r\n10/22/2026,ARKQ,SPACE EXPLORATION TECHN-CL A,SPCX,84615Q103,\"1,065,750\",\"$169,784,632.50\",9.32%\r\n10/22/2026,ARKQ,NVIDIA CORP,NVDA,67066G104,\"492,778\",\"$109,381,932.66\",6.01%\r\n10/22/2026,ARKQ,PALANTIR TECHNOLOGIES INC-A,PLTR,69608A108,\"478,140\",\"$96,450,400.80\",5.30%\r\n10/22/2026,ARKQ,KRATOS DEFENSE & SECURITY,KTOS,50077B207,\"2,249,112\",\"$87,130,598.88\",4.78%\r\n10/22/2026,ARKQ,ALPHABET INC-CL C,GOOG,02079K107,\"260,727\",\"$86,287,600.65\",4.74%\r\n10/22/2026,A"
+  },
+  {
+   "url": "https://www.ark-funds.com/funds/arkq",
+   "final": "https://www.ark-funds.com/funds/arkq",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 152833,
+   "cands": [
+    "https://www.ark-funds.com/api/fund/document-table/1001",
+    "https://www.ark-funds.com/api/fund/exposure-breakdown/1001",
+    "https://www.ark-funds.com/api/fund/hero-documents/1001",
+    "https://www.ark-funds.com/api/fund/holdings/1001?fundHoldingData=",
+    "https://www.ark-funds.com/api/fund/nav-historical-change/1001",
+    "https://www.ark-funds.com/api/fund/overview/1001",
+    "https://www.ark-funds.com/api/fund/premium-discount/1001",
+    "https://www.ark-funds.com/portfolio"
+   ],
+   "text": " ARKQ - Autonomous Technology & Robotics ETF by ARK Invest Skip to main content NEW FUND: ARKY, The ARK Active Autocallable Income ETF ARKY Is Available Now! Explore Now ✕ Looking For Our European Funds? Click Here Clear Show menu ETFs Disruptive Innovation Equities ACTIVELY MANAGED ETFs ARKK ARK Innovation ETF ARKQ ARK Autonomous Tech. & Robotics ETF ARKW ARK Next Generation Technology ETF ARKG ARK Genomic Revolution ETF ARKF ARK Blockchain & Fintech Innovation ETF ARKX ARK Space & Defense Innovation ETF INDEXED ETFs PRNT The 3D Printing ETF IZRL ARK Israel Innovative Technology ETF Structured Products EQUITY INCOME ETFs ARKY ARK Active Autocallable Income ETF DEFINED OUTCOME ETFs ARKD ARK DIET Q1 Buffer ETF ARKI ARK DIET Q2 Buffer ETF ARKE ARK DIET Q3 Buffer ETF ARKT ARK DIET Q4 Buffer ETF Digital Assets SUB-ADVISED ETFs ARKB ARK 21Shares Bitcoin ETF Fund Overview How To Invest Venture Fund ARK Venture Fund Portfolio How To Invest The ARK Venture Fund Has Invested In The Boring Company's Series D! Explore Now Private Funds ARK Digital Asset Revolutions Fund ARK Venture Fund: Seeking To Democratize Venture Capital Learn More Resources FUND RESEARCH Articles Videos Webinars Investment Opportunity Report RESOURCES Fund Documents Help Center Resources For Institutions ARK DIET Knowledge Base Big Ideas 2026: The Investment Opportunity Report Access Now About How To Invest About How To Invest Select Your Region CONTINUE TO U.S. SITE VISIT EUROPEAN SITE ARKQ ARK Autonomous Technol"
+  }
+ ],
+ "TW_UPAMC": [
+  {
+   "url": "https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode=49YTW",
+   "final": "https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode=49YTW",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 433532,
+   "cands": [
+    "data:application/vnd.ms-excel,",
+    "https://www.ezmoney.com.tw/ETF/Fund/.xls",
+    "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI",
+    "https://www.ezmoney.com.tw/ETF/Fund/application/vnd.ms-excel;charset=utf-8",
+    "https://www.ezmoney.com.tw/ETF/Fund/getAssetXLSNPOI",
+    "https://www.ezmoney.com.tw/ETF/Transaction/PCF",
+    "https://www.ezmoney.com.tw/ETF/Transaction/PCFInfo",
+    "urn:schemas-microsoft-com:office:excel"
+   ],
+   "text": " 統一投信輕鬆理財網 - 基金選統一，理財更輕鬆 Toggle navigation Toggle navigation Toggle navigation 統一投信 ETF專區首頁 | 回統一投信官網 | 粉絲團 | 官方帳號 | 聯絡我們 | 統一綜合證券 統一ETF系列基金 ETF Funds ETF基金總覽 最新消息 重要通知 基金行事曆 基金配息查詢 定期定額申購券商一覽 ETF交易資訊 Trans Info 即時預估淨值 即時預估淨值與市價比較 申購買回清單 追蹤差距 申贖費用資訊 常見問題 ETF電子服務 Ebill 申請ETF電子通知書 申請變更ETF收益分配銀行 ETF投資策略 Invest Strategy 什麼是ETF ETF與主動型基金比較 如何買賣ETF ETF交易策略 收益平準金專區 ETF基金淨值 國內主動式 | 國內被動式 | 海外主動式 | 海外被動式 日期 基金名稱 淨值 漲跌 漲跌幅 10/22 00981A 主動統一台股增長 27.88 -0.89 -3.09% 10/22 00403A 主動統一升級50 9.99 -0.30 -2.92% 日期 基金名稱 淨值 漲跌 漲跌幅 10/22 00939 統一台灣高息動能 25.13 0.04 0.16% 日期 基金名稱 淨值 漲跌 漲跌幅 10/21 00988A 主動統一全球創新 15.46 0.38 2.52% 10/21 00411A 主動統一前沿科技 10.16 0.33 3.36% 10/21 00987D 主動統一美債量化 9.9253 -0.0483 -0.48% 日期 基金名稱 淨值 漲跌 漲跌幅 10/21 00757 統一FANG+ 143.55 -0.07 -0.05% 10/21 00853B 統一美債10年Aa-A 26.4782 -0.1422 -0.53% 10/21 00931B 統一美債20年 12.9262 -0.0646 -0.50% 10/21 00966B 統一ESG投等債15+ 13.3810 -0.0765 -0.57% 10/21 009811 統一美國50 13.75 0.01 0.07% ETF追蹤指數行情 台灣股市 | 海外市場 日期 指數名稱 價格 漲跌 漲跌幅 10/22 特選臺灣上市上櫃高息動能指數 11562.34 21.40 0.19% *追蹤指數行情係與各ETF營業日同步 日期 指數名稱 價格 漲跌 漲跌幅 無資料 *追蹤指數行情係與各ETF營業日同步 日期 指數名稱 價格 漲跌 漲跌幅 10/21 NYSE FANG+ 18847.78 115.69 0.62% 10/21 彭博10年期以上Aa至A級美元優質公司債券指數 137.60 0.14 0.10% 10/21 彭博20年期(以上)美國公債指數 562.17 0.97 0.17% 10/21 彭博MSCI全球15年以上美元BBB永續公司債 131.96 0.11 0.08% 10/21 NYSE U.S. 50 指數 18845.21 132.07 0.71% *追蹤指數行情係與各ETF營業日同步 日期 指數名稱 價格 漲跌 漲跌幅 無資料 *追蹤指數行情係與各ETF營業日同步 ETF Funds 統一ETF系列基金 統一ETF系列 基金總覽 選擇其他基金： 請選擇基金 0\" v-bind:label=\"'===' + type.sTypeName + '==='\" style=\"background-color:#FFFFCC\"> {"
+  },
+  {
+   "url": "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI?fundCode=49YTW",
+   "final": "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI?fundCode=49YTW",
+   "status": 200,
+   "ctype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "len": 7979,
+   "head": "PK\u0003\u0004\u0014\u0000\u0000\b\b\u0000ӪV]ĿN@F\u0001\u0000\u0000�\u0004\u0000\u0000\u0013\u0000\u0000\u0000[Content_Types].xml��MN�0\u0010��\u0012y�\u0012\u0017\u0016\b��]\u0000[�\u0004\u00170���\u001a��3)��Xp$��$�E��\u001f�+˞���lE�|�\u0018�\u0017����\u0006_��b 2�:\u0018맥h��o�x4|YF���\u001eKQ\u0013�[)Q��\u0014\u0016!��I\u0015�S��4�Q陚��\u001a\f��\u000e��SN]�\u0018\r�RmC�Â�W�\u0004\r��n%�X�P16V+⹜{�\u0013\nv�\u001a�m�\u000b\u0016�LnE��\tk�\u0013�D�\u0006��J��\u001cˤ\tz�BDɆbw̖����\u0006�h\u001d[\n�\u001a\u00190y�HHd��N�\u000e\t�����s\u001f�l��;�ʫ�C�Fb�\u0012�gJ�\r��x�\t��\u001a�\\S���[��\r��A\u001f�\u000f�\u0016��5��ٯ�k���\u0014��(����M6��\"��Ɍ�\u0004\u0010`\u0000PK\u0003\u0004\u0014\u0000\u0000\b\b\u0000ӪV]1I�\u0011�\u0000\u0000\u0000�\u0002\u0000\u0000\u000b\u0000\u0000\u0000_rels/.rels��AN�0\u0010\u0005ЫX�7�\u0016�\u0010��\r��\u0010�\u0002ƞ$Vb�eO ��\u0005G�\nXB��*��.m��~��|�Xo'?�\u0017L�QPrY�R`0d]h�\u001c�Y���f����ȝ�Y������\u001d@6\u001dz�+�\u0018�KC�k.��BԦ�-ª�o �w��N��J��]J��\u0016�nj\u001ag���1��/�\u0012�Y�\u0016Y�i�WJ�3Q_�R)�4fuI\fN���"
+  }
+ ],
+ "TW_FH": [
+  {
+   "url": "https://www.fhtrust.com.tw/ETF/etf_detail/ETF23",
+   "final": "https://www.fhtrust.com.tw/ETF/etf_detail/ETF23",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 186580,
+   "cands": [
+    "https://www.fhtrust.com.tw/api/assetsExcel/ETF23/20261022"
+   ],
+   "text": " 基金淨值 | ETF 總覽 | 復華投信 很抱歉，您目前使用的瀏覽器無法支援瀏覽。 建議您使用其他瀏覽器軟體 Google Chrome、Firefox 以獲得最佳瀏覽體驗，謝謝您的配合。 相關說明 我如果不升級對於瀏覽上會有什麼影響？ 使用 IE 瀏覽器瀏覽本網站，可能部分網頁的呈現會有破圖或版面跑版的情況，某些網頁互動功能無法正確顯示與使用。 我要如何升級我的瀏覽器？ 請您點擊以下連結，下載並升級您的 IE 瀏覽器，或下載 Google Chrome、Firefox 瀏覽器。 Microsoft Edge Google Chrome Mozilla Firefox 復華證券投資信託股份有限公司 Chrome, Safari, Firefox ETF專區 ETF總覽 復華台灣未來50主動式ETF基金 00991A_主動復華未來50 006207_復華滬深 00650L_復華香港正2 00651R_復華香港反1 00710B_復華彭博非投等債 00711B_復華彭博新興債 00712_復華富時不動產 00731_復華富時高息低波 00758B_復華能源債 00759B_復華製藥債 00760B_復華新興企業債 00768B_復華20年美債 00789B_復華公司債A3 00791B_復華信用債1-5 00877_復華中國5G 00924_復華S&amp;P500成長 00929_復華台灣科技優息 00949_復華日本龍頭 00409A_主動復華全球50 00418A_主動復華台灣新星 00986D_主動復華金融債息 00991A_主動復華未來50 00998A_主動復華金融股息 006207_復華滬深 00650L_復華香港正2 00651R_復華香港反1 00710B_復華彭博非投等債 00711B_復華彭博新興債 00712_復華富時不動產 00731_復華富時高息低波 00758B_復華能源債 00759B_復華製藥債 00760B_復華新興企業債 00768B_復華20年美債 00789B_復華公司債A3 00791B_復華信用債1-5 00877_復華中國5G 00924_復華S&amp;P500成長 00929_復華台灣科技優息 00949_復華日本龍頭 00409A_主動復華全球50 00418A_主動復華台灣新星 00986D_主動復華金融債息 00991A_主動復華未來50 00998A_主動復華金融股息 主動式ETF 00991A 主動復華未來50 復華台灣未來50主動式ETF基金 (基金之配息來源可能為收益平準金) --> 淨值 16.59 2026/10/22 漲跌幅 / 漲跌 漲跌 / 漲跌幅 -0.55 -3.21% -0.55 風險 (註) RR4 prev next slide 1 to 6 of 6 基金淨值 績效表現 基金資產 申購買回清單 配息紀錄 基本資料 歷史淨值 資料查詢 到 資料查詢區間最長三年 查詢 日期 基本面額 (A) 收益平準金- 基金收入扣除應負擔費用(B1) 收益平準金- 因既有投資人申贖產生之收益平準金 (B2) ** 收益平準金- (B)* B=B1+B2 資本損益 平準金 (C)*** 淨值 (A+B+C) 單日 漲跌幅 累積 漲跌幅 2026 10/15 10 0.02 -0.01 0.01 收益平準金組成項目 日期： 2026/10/15 - 利息淨收入 (註) 0 - 股息淨收入 (註) 0.01 7.11 17.12 0.00% 0.00% 10/16 10 0.02 -0"
+  },
+  {
+   "url": "https://www.wantgoo.com/stock/etf/00991a/constituent",
+   "final": "https://www.wantgoo.com/stock/etf/00991a/constituent",
+   "status": 403,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 5764,
+   "cands": [
+    "https://www.wantgoo.com/stock/etf/00991a/constituent?__cf_chl_f_tk=APCoXcZt9fU8bOPuTxglTYEnGSyuXEXltUiLLoSk9ig-1792675361-1.0.1.1-r0DZHjRc0ggpvq78Vb5WopBglIjo2YpMu4adKU4ebtc",
+    "https://www.wantgoo.com/stock/etf/00991a/constituent?__cf_chl_rt_tk=APCoXcZt9fU8bOPuTxglTYEnGSyuXEXltUiLLoSk9ig-1792675361-1.0.1.1-r0DZHjRc0ggpvq78Vb5WopBglIjo2YpMu4adKU4ebtc",
+    "https://www.wantgoo.com/stock/etf/00991a/constituent?__cf_chl_tk=APCoXcZt9fU8bOPuTxglTYEnGSyuXEXltUiLLoSk9ig-1792675361-1.0.1.1-r0DZHjRc0ggpvq78Vb5WopBglIjo2YpMu4adKU4ebtc"
+   ],
+   "text": " Just a moment... Enable JavaScript and cookies to continue "
+  }
+ ],
+ "TWSE": [
+  {
+   "url": "https://www.twse.com.tw/zh/ETFortune/etfInfo/00981A",
+   "final": "https://www.twse.com.tw/zh/ETFortune/etfInfo/00981A",
+   "status": 200,
+   "ctype": "text/html;charset=utf-8",
+   "len": 31730,
+   "cands": [],
+   "text": " ETF商品 - 臺灣證券交易所｜ETF e添富 e添富精華站 ETFortune Highlights ETFortune ハイライト 跨境ETF專區 Cross-border ETF クロスボーダーETF 最新資訊 最新消息 商品分類資訊 分割/反分割預告表 配息資訊 投資篩選器 新種ETF哈燒專區 達人講BAR 投資練功房 重大消息 中文 ENGLISH 日本語 ETF商品 統一台股增長主動式ETF證券投資信託基金(基金之配息來源可能為收益平準金) 證券代號 00981A 證券簡稱 主動統一台股增長 證券類別 主動式ETF 發行公司 統一證券投資信託股份有限公司 基金經理人 陳釧瑤 標的指數 臺灣證券交易所發行量加權股價報酬指數 投資策略 本基金以「大型、創新、成長」為核心選股邏輯，鎖定台股市值前300大企業作為選股池，至少60%配置於大型股，精選具創新力、高成長性與獲利潛力的企業，運用主動且靈活的投資策略，致力追求長期資本利得，提升超額報酬機會。 主題/因子： 大型權值 資產規模(億元) 2746.75 &nbsp; 億元 受益人次(萬人) 93.99 &nbsp; 萬人 資料來源 集保結算所 盤後股價走勢圖 請選擇期間 至 成交值 成交量 月規模 配息狀況 收益分配 發放日 配息 （每1受益權益單位） 2026/10/13 0.63 2026/07/09 0.63 2026/04/10 0.41 歷史配息資訊詳見 證交所官網 淨值與折溢價 請選擇期間 至 分割/反分割預告表 停止買賣日期 分割(反分割) 恢復買賣日期 分割(反分割)比率(註1) 查無資料 註1 :分割(反分割)比率 = 分割（反分割）後受益權單位數/分割（反分割）前受益權單位數 績效走勢 一日 一週 一個月 三個月 六個月 一年 三年 五年 -2.39% -4.12% -6.50% 1.12% 9.12% 108.58% 0% 0% 資料日期：2026-10-22 資料來源：全曜財經資訊。由於資料更新可能存在時間差異，以上資訊僅供參考，不保證其正確性、即時性或完整性。 相關基金之最新資訊仍以各基金公司之公告為準。 公開說明書 財務報告書 臺灣證券交易所 110615 台北市信義路五段7號3樓、9至12樓、15樓 電話：(02)8101-3101 投資人服務中心專線：(02)2792-8188 關於e添富 使用條款 隱私權保護政策 聯絡我們 證交所首頁 Copyright &copy; 2023 TWSE. All rights reserved. &times; 關於e添富 e添富係一ETF的整合投資資訊平台。為方便投資人掌握投資脈動及ETF最新資訊，本網站整合市場上ETF相關資訊，藉此強化植入理財投資觀念，提供ETF一站式服務。 本站主要包含ETF投資的三大面向: 市場統計資訊：運用視覺化分析工具彙整投資人關心或需要的統計資訊，如ETF檔數、資產規模、成交狀況、配息月份及各項排名等。 投資趨勢及策略分享：邀請市場專家分享正確且不偏頗的投資趨勢及策略，破除投資誤解或迷思。 ETF投資篩選器：根據投資人的需求，透過篩選器的量化或質化指標，快速篩選出符合條件的ETF，找出符合自己投資策略的ETF。 本網站期以即時、優質、多元化之方向提昇對國內外投資大眾之服務，並做為您投資研究的參考，我們竭誠歡迎您的來訪，並請繼續給予支持與指教。 &times; 使用條款 認知與同意 臺灣證券交易所係依據本使用條款提供臺灣證券交易所e添富網站服務（以下簡稱本網站）。當您使用臺灣證券交易所e添"
+  }
+ ]
+}
