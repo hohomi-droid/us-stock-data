@@ -113,9 +113,9 @@
    "aum_usd_bn": 8.44,
    "benchmark": null,
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "ezmoney",
+    "code": "49YTW"
+   }
   },
   {
    "rank": 9,
@@ -231,9 +231,8 @@
    "aum_usd_bn": 4.9,
    "benchmark": "SP500",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "eagle"
+   }
   },
   {
    "rank": 19,
@@ -279,9 +278,9 @@
    "aum_usd_bn": 4.01,
    "benchmark": null,
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "ezmoney",
+    "code": "63YTW"
+   }
   },
   {
    "rank": 23,
@@ -361,18 +360,6 @@
   },
   {
    "rank": 29,
-   "ticker": "FEGE",
-   "name": "First Eagle Global Equity ETF",
-   "market": "US",
-   "aum_usd_bn": 2.65,
-   "benchmark": "ACWI",
-   "source": {
-    "type": "pending"
-   },
-   "track": false
-  },
-  {
-   "rank": 30,
    "ticker": "CGIC",
    "name": "Capital Group International Core Equity ETF",
    "market": "US",
@@ -384,7 +371,7 @@
    }
   },
   {
-   "rank": 31,
+   "rank": 30,
    "ticker": "NUGO",
    "name": "Nuveen Growth Opportunities ETF",
    "market": "US",
@@ -396,7 +383,7 @@
    "track": false
   },
   {
-   "rank": 32,
+   "rank": 31,
    "ticker": "CGIE",
    "name": "Capital Group International Equity ETF",
    "market": "US",
@@ -408,31 +395,31 @@
    }
   },
   {
-   "rank": 33,
+   "rank": 32,
    "ticker": "BGIG",
    "name": "Bahl & Gaynor Income Growth ETF",
    "market": "US",
    "aum_usd_bn": 2.21,
    "benchmark": "R1000V",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "dated_csv",
+    "pattern": "https://www.bahl-gaynor.com/wp-content/uploads/etf_holdings_csv/BGIG_holdings_{date:%Y-%m-%d}.csv"
+   }
   },
   {
-   "rank": 34,
+   "rank": 33,
    "ticker": "00991A",
    "name": "主動復華未來50",
    "market": "TW",
    "aum_usd_bn": 2.16,
    "benchmark": null,
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "fhtrust",
+    "id": "ETF23"
+   }
   },
   {
-   "rank": 35,
+   "rank": 34,
    "ticker": "ARKG",
    "name": "ARK Genomic Revolution ETF",
    "market": "US",
@@ -444,7 +431,7 @@
    }
   },
   {
-   "rank": 36,
+   "rank": 35,
    "ticker": "CGCV",
    "name": "Capital Group Conservative Equity ETF",
    "market": "US",
@@ -456,7 +443,7 @@
    }
   },
   {
-   "rank": 37,
+   "rank": 36,
    "ticker": "EMOP",
    "name": "AB Emerging Markets Opportunities ETF",
    "market": "US",
@@ -468,7 +455,7 @@
    "track": false
   },
   {
-   "rank": 38,
+   "rank": 37,
    "ticker": "ALAI",
    "name": "Alger AI Enablers & Adopters ETF",
    "market": "US",
@@ -480,19 +467,19 @@
    "track": false
   },
   {
-   "rank": 39,
+   "rank": 38,
    "ticker": "WCMI",
    "name": "First Trust WCM International Equity ETF",
    "market": "US",
    "aum_usd_bn": 2.03,
    "benchmark": "ACWI",
    "source": {
-    "type": "html_table",
-    "url": "https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=WCMI"
+    "type": "ftportfolios",
+    "ticker": "WCMI"
    }
   },
   {
-   "rank": 40,
+   "rank": 39,
    "ticker": "JPEF",
    "name": "JPMorgan Equity Focus ETF",
    "market": "US",
@@ -504,7 +491,7 @@
    }
   },
   {
-   "rank": 41,
+   "rank": 40,
    "ticker": "IDEQ",
    "name": "Lazard International Dynamic Equity ETF",
    "market": "US",
@@ -516,19 +503,19 @@
    "track": false
   },
   {
-   "rank": 42,
+   "rank": 41,
    "ticker": "LCAP",
    "name": "Principal Capital Appreciation Select ETF",
    "market": "US",
    "aum_usd_bn": 1.9,
    "benchmark": "SP500",
    "source": {
-    "type": "pending"
-   },
-   "track": false
+    "type": "generic",
+    "url": "https://api.assetmgmt.principalam.com/public/files?key=LCAP.xlsx"
+   }
   },
   {
-   "rank": 43,
+   "rank": 42,
    "ticker": "ARKW",
    "name": "ARK Next Generation Technology ETF",
    "market": "US",
@@ -540,7 +527,7 @@
    }
   },
   {
-   "rank": 44,
+   "rank": 43,
    "ticker": "ARKQ",
    "name": "ARK Autonomous Technology & Robotics ETF",
    "market": "US",
@@ -552,7 +539,7 @@
    }
   },
   {
-   "rank": 45,
+   "rank": 44,
    "ticker": "BAFE",
    "name": "Brown Advisory Flexible Equity ETF",
    "market": "US",
@@ -564,7 +551,7 @@
    "track": false
   },
   {
-   "rank": 46,
+   "rank": 45,
    "ticker": "426030",
    "name": "TIME 미국나스닥100액티브",
    "market": "KR",
@@ -576,7 +563,7 @@
    }
   },
   {
-   "rank": 47,
+   "rank": 46,
    "ticker": "JEMA",
    "name": "JPMorgan ActiveBuilders Emerging Markets Equity ETF",
    "market": "US",
@@ -588,7 +575,7 @@
    }
   },
   {
-   "rank": 48,
+   "rank": 47,
    "ticker": "TOUS",
    "name": "T. Rowe Price International Equity ETF",
    "market": "US",
@@ -600,7 +587,7 @@
    "track": false
   },
   {
-   "rank": 49,
+   "rank": 48,
    "ticker": "CHAT",
    "name": "Roundhill Generative AI & Technology ETF",
    "market": "US",
@@ -612,7 +599,7 @@
    "track": false
   },
   {
-   "rank": 50,
+   "rank": 49,
    "ticker": "TGRT",
    "name": "T. Rowe Price Growth ETF",
    "market": "US",
@@ -622,6 +609,18 @@
     "type": "pending"
    },
    "track": false
+  },
+  {
+   "ticker": "INFL",
+   "name": "Horizon Kinetics Inflation Beneficiaries ETF",
+   "market": "US",
+   "aum_usd_bn": 1.6,
+   "benchmark": "SP500",
+   "source": {
+    "type": "pending"
+   },
+   "track": false,
+   "rank": 50
   }
  ],
  "reserve": [
@@ -637,18 +636,56 @@
    },
    "track": false,
    "note": "51위 이하 — 50위 안 ETF 수집 실패 시 대체"
+  }
+ ],
+ "excluded": [
+  {
+   "ticker": "FEGE",
+   "name": "First Eagle Global Equity ETF",
+   "aum_usd_bn": 2.65,
+   "reason": "보유종목 월별 공시(일별 없음)"
   },
   {
-   "ticker": "INFL",
-   "name": "Horizon Kinetics Inflation Beneficiaries ETF",
-   "market": "US",
-   "aum_usd_bn": 1.6,
-   "benchmark": "SP500",
-   "source": {
-    "type": "pending"
-   },
-   "track": false,
-   "note": "51위 이하"
+   "ticker": "DRAM",
+   "name": "Roundhill Memory ETF",
+   "aum_usd_bn": 18.58,
+   "reason": "총수익스왑 비중 약 41%"
+  },
+  {
+   "ticker": "GRNY",
+   "name": "Fundstrat Granny Shots US Large Cap ETF",
+   "aum_usd_bn": 4.5,
+   "reason": "퀀트 스크린 혼합"
+  },
+  {
+   "ticker": "USMC",
+   "name": "Principal U.S. Mega-Cap ETF",
+   "aum_usd_bn": 5.1,
+   "reason": "퀀트 모델"
+  },
+  {
+   "ticker": "TSPA",
+   "name": "T. Rowe Price U.S. Equity Research ETF",
+   "aum_usd_bn": 4.7,
+   "reason": "반투명"
+  },
+  {
+   "ticker": "TCHP",
+   "name": "T. Rowe Price Blue Chip Growth ETF",
+   "aum_usd_bn": 2.2,
+   "reason": "반투명"
+  },
+  {
+   "ticker": "FBCG",
+   "name": "Fidelity Blue Chip Growth ETF",
+   "aum_usd_bn": 7.62,
+   "reason": "반투명"
+  },
+  {
+   "ticker": "PVAL",
+   "name": "Putnam Focused Large Cap Value ETF",
+   "aum_usd_bn": 15.12,
+   "reason": "반투명"
   }
  ]
 }

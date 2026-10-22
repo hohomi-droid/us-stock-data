@@ -344,8 +344,8 @@ def _cg_yahoo(tk: str, isin: str | None = None, country: str | None = None, name
 
 # ---------------------------------------------------------------- ARK
 ARK_FILES = {"ARKK": ["ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv"],
-             "ARKW": ["ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
-                      "ARK_NEXT_GENERATION_TECHNOLOGY_ETF_ARKW_HOLDINGS.csv"],
+             "ARKW": ["ARK_NEXT_GENERATION_TECHNOLOGY_ETF_ARKW_HOLDINGS.csv",
+                      "ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv"],
              "ARKG": ["ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv"],
              "ARKQ": ["ARK_AUTONOMOUS_TECH._%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
                       "ARK_AUTONOMOUS_TECHNOLOGY_%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
@@ -409,7 +409,7 @@ def generic_table(url: str, fund_filter: str | None = None):
                 if k in h:
                     return i
         return None
-    it, iname, ish, iw = find("ticker", "symbol", "stockticker"), find("name", "security", "description", "company"), \
+    it, iname, ish, iw = find("ticker", "symbol", "stockticker"), find("description", "security name", "name", "company"), \
         find("shares", "quantity", "shares/par"), find("weight", "% of net assets", "% net assets", "percent")
     idate, ifund = find("date", "as of"), find("account", "fund")
     asof = None
@@ -501,3 +501,76 @@ def _parse_rows(rows):
         out[y] = {"name": name.title(), "shares": sh, "weight": (num(rw[iw]) or 0.0) if iw is not None else 0.0,
                   "type": "equity", "yahoo": y}
     return {"asof": None, "units": None, "holdings": out}
+
+
+def dated_csv(pattern: str):
+    """URL에 날짜가 들어가는 보유 파일 (예: Bahl & Gaynor ..._{date:%Y-%m-%d}.csv) — 최근 7일 거슬러 시도."""
+    from datetime import timedelta, timezone
+    now = datetime.now(timezone(timedelta(hours=-5)))
+    last = None
+    for back in range(0, 8):
+        d = now - timedelta(days=back)
+        url = pattern.format(date=d)
+        try:
+            out = generic_table(url)
+            out["asof"] = out["asof"] or d.strftime("%Y-%m-%d")
+            return out
+        except Exception as ex:  # noqa: BLE001
+            last = ex
+    raise ValueError(f"날짜형 파일 없음: {last}")
+
+
+def eagle():
+    """Eagle Capital EAGL: 웹페이지가 쓰는 JSON (Basket Quantity = 주식 수)."""
+    r = S.get("https://emward-middleware-fea5fd912200.herokuapp.com/daily-holdings", timeout=40,
+              headers={"Origin": "https://www.eaglecap.com", "Referer": "https://www.eaglecap.com/"})
+    r.raise_for_status()
+    d = r.json()
+    rows = d if isinstance(d, list) else (d.get("data") or d.get("holdings") or d.get("rows") or [])
+    asof = d.get("basketEvaluationDate") if isinstance(d, dict) else None
+    units = None
+    if isinstance(d, dict):
+        for k in ("asOf", "asof", "date", "as_of", "Date"):
+            if d.get(k):
+                asof = iso(str(d[k])[:10]) or str(d[k])[:10]
+    out = {}
+    for h in rows:
+        tk = (h.get("Alternative Ticker") or h.get("Ticker") or "").strip()
+        sh = num(h.get("Basket Quantity") or h.get("Shares"))
+        if not tk or not sh or tk.upper() in ("CASH", "USD"):
+            continue
+        asof = asof or iso(str(h.get("Date") or h.get("Holdings Date") or h.get("As Of Date") or "")[:10])
+        name = h.get("Security Description") or tk
+        units = units or num(h.get("ETF Shares Outstanding"))
+        y = cg_yahoo(tk, None, None, name)
+        w = num(h.get("Constituent Weight (Base)")) or 0.0
+        out[y] = {"name": str(name).title(), "shares": sh, "weight": w, "type": "equity", "yahoo": y}
+    if out and sum(h["weight"] for h in out.values()) <= 1.5:
+        for h in out.values():
+            h["weight"] *= 100
+    return {"asof": asof, "units": units, "holdings": out}
+
+
+def ftportfolios(ticker: str):
+    """First Trust 보유 페이지(HTML) — 표가 중첩돼 있어 텍스트 행을 정규식으로 읽는다."""
+    import html as _html
+    r = S.get("https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx", params={"Ticker": ticker}, timeout=40)
+    r.raise_for_status()
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", r.text, flags=re.S)
+    cells = [_html.unescape(c).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", t, flags=re.S)]
+    cells = [re.sub(r"<[^>]+>", "", c).strip() for c in cells]
+    m = re.search(r"Holdings of the Fund as of (\d{1,2}/\d{1,2}/\d{4})", re.sub(r"<[^>]+>", " ", t))
+    asof = iso(m.group(1)) if m else None
+    out = {}
+    for i in range(len(cells) - 6):
+        name, ident, cusip, cls, sh, mv, w = cells[i:i + 7]
+        if not re.fullmatch(r"-?[\d,]+", sh) or not re.fullmatch(r"\(?\$[\d,.]+\)?", mv) or not w.endswith("%"):
+            continue
+        if ident.startswith("$") or cls == "Other":
+            continue
+        tk = ident.replace(".", " ") if re.fullmatch(r"[^ ]+\.[A-Z]{2}", ident) else ident
+        y = cg_yahoo(tk, None, None, name)
+        out[y] = {"name": name, "shares": num(sh), "weight": num(w) or 0.0, "type": "equity", "yahoo": y}
+    if not out:
+        raise ValueError("First Trust 보유 행을 찾지 못함")
+    return {"asof": asof, "units": None, "holdings": out}

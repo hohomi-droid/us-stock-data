@@ -38,6 +38,16 @@ def run_source(src: dict):
         return us.generic_table(src["url"], src.get("fund_filter"))
     if t == "html_table":
         return us.html_table(src["url"])
+    if t == "ezmoney":
+        return asia.ezmoney(src["code"])
+    if t == "fhtrust":
+        return asia.fhtrust(src["id"])
+    if t == "dated_csv":
+        return us.dated_csv(src["pattern"])
+    if t == "ftportfolios":
+        return us.ftportfolios(src["ticker"])
+    if t == "eagle":
+        return us.eagle()
     if t == "timefolio":
         return asia.timefolio(src["idx"])
     raise ValueError(f"알 수 없는 source type {t}")

@@ -54,3 +54,72 @@ def timefolio(idx: int):
         out[y] = {"name": name, "shares": sh, "weight": num(rw[iw]) if iw is not None else 0.0,
                   "type": "equity", "yahoo": y}
     return {"asof": asof or datetime.now().strftime("%Y-%m-%d"), "units": None, "holdings": out}
+
+
+def _tw_table(rows, asof_hint=None):
+    """대만 투신 엑셀: '股數' 헤더 행 아래가 종목표, 위쪽에 流通在外單位數/資料日期."""
+    units, asof = None, asof_hint
+    hdr_i = None
+    for i, rw in enumerate(rows):
+        cells = [str(c or "").strip() for c in rw]
+        joined = " ".join(cells)
+        m = re.search(r"(\d{3,4})[/.\-](\d{1,2})[/.\-](\d{1,2})", joined)
+        if m and ("日期" in joined) and not asof:
+            y = int(m.group(1))
+            y = y + 1911 if y < 1911 else y
+            asof = f"{y}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+        if "流通在外單位數" in joined:
+            vals = [num(c) for c in cells if num(c)]
+            if not vals and i + 1 < len(rows):
+                vals = [num(c) for c in rows[i + 1] if num(c)]
+            units = vals[0] if vals else units
+        if any(c in ("股數", "持股數", "股數(股)") for c in cells) and hdr_i is None:
+            hdr_i = i
+    if hdr_i is None:
+        raise ValueError("股數 헤더를 찾지 못함")
+    hdr = [str(c or "").strip() for c in rows[hdr_i]]
+    ic = next(i for i, h in enumerate(hdr) if "代號" in h or "代碼" in h)
+    iname = next((i for i, h in enumerate(hdr) if "名稱" in h), None)
+    ish = next(i for i, h in enumerate(hdr) if "股數" in h)
+    iw = next((i for i, h in enumerate(hdr) if "權重" in h or "比例" in h), None)
+    out = {}
+    for rw in rows[hdr_i + 1:]:
+        if not rw or ic >= len(rw):
+            continue
+        code = str(rw[ic] or "").strip()
+        sh = num(rw[ish]) if ish < len(rw) else None
+        if not code or not sh:
+            if out:
+                break
+            continue
+        if re.fullmatch(r"\d{4,6}[A-Z]?", code):
+            y = code + ".TW"
+        else:
+            y = cg_yahoo(code)
+        out[y] = {"name": str(rw[iname] or code).strip() if iname is not None else code, "shares": sh,
+                  "weight": num(rw[iw]) if iw is not None and iw < len(rw) else 0.0, "type": "equity", "yahoo": y}
+    return {"asof": asof, "units": units, "holdings": out}
+
+
+def ezmoney(fund_code: str):
+    """統一投信 (00981A=49YTW, 00403A=63YTW)."""
+    r = S.get("https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI", params={"fundCode": fund_code}, timeout=40,
+              headers={"Referer": f"https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode={fund_code}"})
+    r.raise_for_status()
+    return _tw_table(_table_from_bytes(r.content))
+
+
+def fhtrust(etf_id: str):
+    """復華投信 (00991A=ETF23): /api/assetsExcel/{id}/{yyyymmdd}, 최근 영업일까지 거슬러 시도."""
+    from datetime import timedelta, timezone
+    now = datetime.now(timezone(timedelta(hours=8)))
+    last = None
+    for back in range(0, 7):
+        d = now - timedelta(days=back)
+        r = S.get(f"https://www.fhtrust.com.tw/api/assetsExcel/{etf_id}/{d:%Y%m%d}", timeout=40)
+        if r.status_code == 200 and r.content[:2] == b"PK":
+            try:
+                return _tw_table(_table_from_bytes(r.content), d.strftime("%Y-%m-%d"))
+            except ValueError as ex:
+                last = ex
+    raise ValueError(f"復華 엑셀 없음 {last}")
