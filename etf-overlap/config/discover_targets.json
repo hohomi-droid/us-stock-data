@@ -1,11 +1,8 @@
 {
- "TROWE": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF", "follow_js": "https?://[a-zA-Z0-9.\\-]+(/[a-zA-Z0-9_\\-{}$.]+){1,8}|[\"'`]/[a-zA-Z0-9_\\-]+/(api|services|v[0-9])/[^\"'`]+"}],
- "ALGER": [{"url": "https://www.alger.com/Pages/Products.aspx?productCode=2495", "follow_js": "dataResAll|allHoldings|Holdings[A-Za-z]*\\.(json|csv|ashx|aspx)|_api/web/lists[^\"']*|\\.ashx[^\"']*"}],
- "AKRE": [{"url": "https://www.akrefund.com/etf", "tables": true, "follow_js": "\\.csv[^\"']*|holdings"}],
- "CHAT": [{"url": "https://www.roundhillinvestments.com/etf/chat/", "follow_js": "fullHoldingsTable|holdings[A-Za-z]*\\.(json|csv)|/assets/data/[^\"']+|Filepoint[^\"']+"}],
- "FWD": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html", "follow_js": "holding[A-Za-z]*|/api/[^\"']+|\\.json[^\"']*"}],
- "INFL": [{"url": "https://horizonkinetics.com/products/etf/infl/", "grep": "\\.csv|\\.xlsx|holding|Holding"}],
- "IDEQ": [{"url": "https://www.lazardassetmanagement.com/us/en_us/funds/list/etf", "grep": "IDEQ[^<]{0,200}|dynamic-equity[^\"']*"}],
- "BAFE": [{"url": "https://www.brownadvisory.com/us/funds", "grep": "BAFE[^<]{0,200}|flexible-equity-etf[^\"']*"}],
- "NUGO": [{"url": "https://documents.nuveen.com/Documents/Nuveen/Default.aspx?uniqueId=NUGO-holdings"}]
+ "AB_SPEC": [{"url": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html", "grep": "fundApiUrl[^,;]{0,200}|shareClassId[^,;]{0,120}|dataSpec\\s*=\\s*\\{[^}]{0,800}"}],
+ "AB_JS": [{"url": "https://www.alliancebernstein.com/etc.clientlibs/abde-us/clientlibs/clientlib-fund-detail.lc-04860f235db8163f5ed99ba4a1f284f7-lc.min.js", "grep": "getHoldings[^;]{0,400}|fundApiUrl[^;]{0,300}"}],
+ "ALGER_JS": [{"url": "https://www.alger.com/Style%20Library/Alger/js/product4.js", "grep": "url\\s*[:=][^,;]{0,250}|\\.ajax\\([^)]{0,300}|getJSON\\([^)]{0,300}|fetch\\([^)]{0,300}"}],
+ "TROWE_JS": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/main.1b1e7bd5.chunk.js", "grep": "baseURL[^,;]{0,200}|apiUrl[^,;]{0,200}|https?://[a-z0-9.\\-]*troweprice\\.com[^\"'`]{0,150}|/fund-research/[^\"'`]{0,120}|holdings[^\"'`]{0,120}"}],
+ "TROWE_JS15": [{"url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/static/js/15.83ffcb6d.chunk.js", "grep": "https?://[a-z0-9.\\-]*troweprice\\.com[^\"'`]{0,150}|holdings[A-Za-z]*\\?[^\"'`]{0,120}"}],
+ "AKRE_SRC": [{"url": "https://www.akrefund.com/etf", "grep": "(holdings|Holdings)[^<]{0,300}"}]
 }
