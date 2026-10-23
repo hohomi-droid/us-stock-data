@@ -938,7 +938,8 @@
   "name": "ASE TECHNOLOGY HOLDING CO LTD",
   "theme": "반도체",
   "desc": "ASE Technology Holding Co., Ltd., together with its subsidiaries, provides semiconductor manufacturing services in the United States, Taiwan, rest of Asia,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "105560.KS": {
   "name": "KBFinancialGroup",
