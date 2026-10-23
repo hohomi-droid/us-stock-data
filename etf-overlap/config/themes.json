@@ -830,7 +830,8 @@
   "name": "Amphenol Corporation",
   "theme": "전자부품",
   "desc": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "NWG": {
   "name": "NatWest Group plc",
@@ -887,8 +888,9 @@
  "012450.KS": {
   "name": "HANWHA AEROSPACE",
   "theme": "방산·항공우주",
-  "desc": "Hanwha Aerospace Co., Ltd.",
-  "auto": true
+  "desc": "Hanwha Aerospace Co., Ltd. engages in the development, production, and maintenance of aircraft engines worldwide.",
+  "auto": true,
+  "v": 2
  },
  "TXN": {
   "name": "Texas Instruments Incorporated",
@@ -963,6 +965,13 @@
   "name": "Astera Labs, Inc.",
   "theme": "반도체",
   "desc": "Astera Labs, Inc. designs, manufactures, and sells semiconductor-based connectivity solutions for cloud and AI infrastructure in Taiwan and the United States.",
+  "auto": true,
+  "v": 2
+ },
+ "BRK-B": {
+  "name": "Berkshire Hathaway Inc. New",
+  "theme": "보험",
+  "desc": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses.",
   "auto": true,
   "v": 2
  }
