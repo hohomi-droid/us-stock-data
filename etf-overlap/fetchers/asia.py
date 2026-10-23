@@ -17,10 +17,20 @@ def _kr_yahoo(code: str, market_hint: str | None = None) -> str:
 
 def timefolio(idx: int):
     """타임폴리오 구성종목 엑셀: https://timeetf.co.kr/pdf_excel.php?idx=N"""
-    r = S.get(f"https://timeetf.co.kr/pdf_excel.php?idx={idx}", timeout=30,
-              headers={"Referer": f"https://timeetf.co.kr/m11_view.php?idx={idx}"})
-    r.raise_for_status()
-    rows = _table_from_bytes(r.content)
+    # pdfDate 없이 받으면 '오늘' 기준 파일이 와서 주말·휴일엔 헤더만 있는 빈 표가 된다(2026-10-24 실패 원인).
+    # 오늘(KST)부터 7일 거슬러 데이터 행이 있는 첫 날짜를 쓴다.
+    from datetime import timedelta, timezone
+    today = datetime.now(timezone(timedelta(hours=9))).date()
+    rows, pdf_date = [], None
+    for back in range(0, 8):
+        d = (today - timedelta(days=back)).isoformat()
+        r = S.get(f"https://timeetf.co.kr/pdf_excel.php?idx={idx}&pdfDate={d}", timeout=30,
+                  headers={"Referer": f"https://timeetf.co.kr/m11_view.php?idx={idx}"})
+        r.raise_for_status()
+        rows = _table_from_bytes(r.content)
+        if len(rows) > 1:
+            pdf_date = d
+            break
     hdr_i = next(i for i, rw in enumerate(rows[:30])
                  if rw and any(str(c or "").strip() in ("종목명", "종목코드") for c in rw))
     hdr = [str(c or "").strip() for c in rows[hdr_i]]
@@ -53,7 +63,7 @@ def timefolio(idx: int):
             y = cg_yahoo(code)
         out[y] = {"name": name, "shares": sh, "weight": num(rw[iw]) if iw is not None else 0.0,
                   "type": "equity", "yahoo": y}
-    return {"asof": asof or datetime.now().strftime("%Y-%m-%d"), "units": None, "holdings": out}
+    return {"asof": asof or pdf_date or datetime.now().strftime("%Y-%m-%d"), "units": None, "holdings": out}
 
 
 def _tw_table(rows, asof_hint=None):

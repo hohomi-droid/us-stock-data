@@ -152,10 +152,10 @@
   "v": 2
  },
  "UNP": {
-  "name": "Union Pacific Corporation",
+  "name": "Union Pacific",
   "theme": "철도",
-  "desc": "Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States.",
-  "auto": true,
+  "desc": "미국 서부 23개 주에 화물 철도망을 운영하는 미국 최대 화물 철도 회사.",
+  "auto": false,
   "v": 2
  },
  "ROP": {
@@ -413,10 +413,10 @@
   "auto": true
  },
  "ABBV": {
-  "name": "AbbVie Inc.",
+  "name": "AbbVie",
   "theme": "제약",
-  "desc": "AbbVie Inc., a research-based biopharmaceutical company, engages in the research and development, manufacturing, commercializing, and sale of medicines and…",
-  "auto": true,
+  "desc": "면역질환 치료제 스카이리지·린보크와 보톡스 등 미용 제품을 파는 미국 대형 제약사.",
+  "auto": false,
   "v": 2
  },
  "SCHW": {
@@ -742,10 +742,10 @@
   "auto": true
  },
  "NET": {
-  "name": "Cloudflare, Inc.",
+  "name": "Cloudflare",
   "theme": "클라우드·인프라 SW",
-  "desc": "Cloudflare, Inc. operates as a cloud services provider that delivers a range of services to businesses worldwide.",
-  "auto": true,
+  "desc": "전 세계 엣지 네트워크로 웹 보안(DDoS 방어)·CDN·제로트러스트와 AI 추론 서비스를 제공하는 회사.",
+  "auto": false,
   "v": 2
  },
  "GEV": {

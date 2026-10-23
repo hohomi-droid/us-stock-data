@@ -72,5 +72,88 @@
    "수집 대기 ETF AKRE·TCAF 보유 파일 경로 탐색: 공개 페이지에 일별 파일 링크 없음 → discover_targets.json 에 akrefund.com·troweprice TCAF 페이지 추가(Actions discovery 결과 대기)"
   ],
   "summary": "상위 10개 보유 판정은 제3자 보유 페이지로 모두 일치, 가격 6종목 Yahoo 재확인 일치. 스냅샷이 2개(10/22·10/23)이고 대부분 ETF 공시일이 같아 GitHub 신규 겹침·매도 경고는 0 — Claude 조사의 대만 AI 하드웨어(奇鋐·欣興·金像電 등) 동시 매수는 아직 GitHub에 안 잡힘."
+ },
+ {
+  "date": "2026-10-24",
+  "github_generated": "2026-10-24",
+  "checked": 12,
+  "matched": 10,
+  "mismatched": 0,
+  "unverifiable": 2,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "ARK 10/22 38,110주 매수 보도 = GitHub 신규 겹침(ARKK·ARKW). 단 CGDV는 10/21 $501M 매도라 Capital Group 쪽은 순매도"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon.com",
+    "reason": "CGGR 10/19 $18.3M·CGGO 10/21 $48.9M 매수 보도, GitHub 점수 3위(14개 보유). 매수일이 수집 시작 전이라 GitHub 신규에는 안 잡힘"
+   },
+   {
+    "sym": "LLY",
+    "name": "Eli Lilly",
+    "reason": "CGGR 10/19·10/20 이틀 $36M 매수 보도, GitHub 13위(10개 보유)"
+   },
+   {
+    "sym": "MRNA",
+    "name": "Moderna",
+    "reason": "CGGO 10/21 $121.1M 매수 보도, GitHub는 CGGR 10/22 증가(2,377,043→2,551,068주) — 같은 운용사 두 ETF가 연달아 매수"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "1303.TW",
+    "name": "南亞 Nan Ya Plastics",
+    "reason": "10/21 대만 액티브 6개(00403A 포함) 동시 매수, 10/22에도 3개 추가 — 대만 ETF 공시일이 10/22에 멈춰 있어 GitHub 미반영"
+   },
+   {
+    "sym": "3231.TW",
+    "name": "緯創 Wistron",
+    "reason": "00981A 10/20 신규·10/21 추가, 00406A 등 신규 — 매수가 첫 스냅샷(10/22)에 이미 들어가 변화로 안 잡힘"
+   },
+   {
+    "sym": "3017.TW",
+    "name": "奇鋐 AVC",
+    "reason": "10/21 4개·10/22 2개 ETF 매수 보도, GitHub는 대만 ETF 10/23 공시 미수집"
+   },
+   {
+    "sym": "3037.TW",
+    "name": "欣興 Unimicron",
+    "reason": "10/21 4개·10/22 2개 ETF 매수, 00981A 2위 종목(7.88%)으로 상승"
+   },
+   {
+    "sym": "6213.TW",
+    "name": "聯茂 ITEQ",
+    "reason": "10/22 대만 액티브 3개 매수(보유 +28%) — 유니버스 ETF 보유 아님"
+   },
+   {
+    "sym": "PACB",
+    "name": "PacBio",
+    "reason": "ARK(ARKK·ARKG) 10/20~22 매일 매수 — 같은 운용사 매매, GitHub 신규 표시 없음(원인 내일 재확인)"
+   },
+   {
+    "sym": "XE",
+    "name": "X-Energy",
+    "reason": "ARKK·ARKQ 10/20·21 매수 — 같은 운용사"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "ACN",
+    "name": "Accenture",
+    "reason": "JTEK(2배 이상)·JPEF 10/22 증가 — 보도·제3자 자료로 근거 못 찾음. 10/22 주가 +7.7% 당일"
+   }
+  ],
+  "fixes": [
+   "426030(TIME 미국나스닥100액티브) 수집 실패 수정: pdfDate 없이 받으면 주말엔 빈 표 → 오늘(KST)부터 7일 거슬러 데이터 있는 날짜 사용, asof도 그 날짜로",
+   "'Cash & Other'(BGIG·CHAT)가 종목으로 집계돼 매도 경고 2건 중 1건이 현금이었음 → CASH_LIKE 에 CASH&OTHER 추가(매도 경고 2→1)",
+   "동점 순위가 실행마다 바뀌던 문제(set 순회 순서) → 보유 수·비중합·티커로 순서 고정",
+   "themes.json 상위 30 신규 진입 ABBV·NET·UNP 한국어 설명(auto:false)",
+   "discover_targets: AKRE 페이지 JS 안 csv 경로, TCAF JS API, ezmoney 00981A 엑셀 원본(공시일 정체 진단) 추가"
+  ],
+  "summary": "확인 12개 중 일치 10·확인불가 2(ACN 신규 매수, LRCX 매도 경고)·불일치 0. META 신규 겹침은 ARK 10/22 매수 보도와 주식 수까지 맞았고 TER 감소도 일치. 대만 액티브 ETF 공시일이 10/22에서 멈춰 10/21~22 대만 동시 매수(南亞·奇鋐·欣興)는 아직 GitHub에 안 잡힘."
  }
 ]

@@ -34,7 +34,7 @@ WINDOW = 10            # 최근 2주 = 10 거래일 스냅샷
 ADD_EXCESS = 0.03      # 보정 비율 대비 +3% 이상 주식 수 증가 → 능동 매수
 REDUCE_EXCESS = 0.03   # 보정 비율 대비 -3% 이하 → 능동 감소
 MIN_NEW_WEIGHT = 0.10  # 신규 편입 인정 최소 비중(%) — 먼지 포지션 제외
-CASH_LIKE = {"CASH", "USD", "KRW", "TWD", "EUR", "JPY", "GBP", "MONEY MARKET", "", "-"}
+CASH_LIKE = {"CASH", "CASH&OTHER", "CASH & OTHER", "USD", "KRW", "TWD", "EUR", "JPY", "GBP", "MONEY MARKET", "", "-"}
 
 
 # 같은 회사의 해외 상장(현지) 주식 ↔ 미국 ADR 을 하나로 합쳐 겹침을 센다
@@ -256,7 +256,9 @@ def main():
             "no_bench": sorted({x["etf"] for x in h} & no_bench_etfs),
         })
 
-    rows.sort(key=lambda r: (-r["score"], -r["new2w"]))
+    # 동점 순서는 set 순회(해시 시드)에 따라 실행마다 바뀌었다 → 보유 ETF 수·평균 비중·티커로 고정
+    rows.sort(key=lambda r: (-r["score"], -r["new2w"], -r["holders"],
+                             -sum(x["weight"] or 0 for x in r["holder_list"]), r["sym"]))
     for i, r in enumerate(rows, 1):
         r["rank"] = i
 
