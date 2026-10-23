@@ -231,7 +231,8 @@
   "name": "Seagate Technology Holdings PLC",
   "theme": "IT 하드웨어",
   "desc": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "BE": {
   "name": "Bloom Energy Corporation",
@@ -955,6 +956,13 @@
   "name": "NextEra Energy, Inc.",
   "theme": "전력 유틸리티",
   "desc": "NextEra Energy, Inc., through its subsidiaries, generates, stores, transmits, distributes, and sells electric power to retail and wholesale customers in North…",
+  "auto": true,
+  "v": 2
+ },
+ "ALAB": {
+  "name": "Astera Labs, Inc.",
+  "theme": "반도체",
+  "desc": "Astera Labs, Inc. designs, manufactures, and sells semiconductor-based connectivity solutions for cloud and AI infrastructure in Taiwan and the United States.",
   "auto": true,
   "v": 2
  }
