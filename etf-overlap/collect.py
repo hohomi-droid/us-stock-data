@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-from fetchers import us, asia  # noqa: E402
+from fetchers import us, asia, nport  # noqa: E402
 import store  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
@@ -49,6 +49,8 @@ def run_source(src: dict):
         return us.ftportfolios(src["ticker"])
     if t == "ab":
         return us.alliancebernstein(src["page"])
+    if t == "nport":
+        return nport.latest(src.get("ticker"))
     if t == "filepoint":
         return us.filepoint(src["url"])
     if t == "eagle":
@@ -74,7 +76,8 @@ def main():
                     raise ValueError("보유종목 0개")
                 d["asof"] = d.get("asof") or today
                 snap["etfs"][tk] = d
-                store.save(tk, d, "live", overwrite=True)
+                store.save(tk, d, "nport" if e["source"]["type"] == "nport" else "live",
+                           overwrite=e["source"]["type"] != "nport")
                 log["ok"].append(f'{tk}:{len(d["holdings"])}:{d.get("asof")}')
                 break
             except Exception as ex:  # noqa: BLE001

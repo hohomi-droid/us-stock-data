@@ -51,12 +51,12 @@
    "market": "US",
    "aum_usd_bn": 15.12,
    "benchmark": "R1000V",
-   "disclosure": "monthly",
+   "disclosure": "quarterly",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "PVAL"
    },
-   "track": false,
-   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
    "rank": 3
   },
   {
@@ -149,10 +149,11 @@
    "aum_usd_bn": 8.43,
    "benchmark": "SP500",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "TCAF"
    },
-   "track": false,
-   "disclosure": "daily"
+   "disclosure": "quarterly",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
   },
   {
    "ticker": "FBCG",
@@ -160,12 +161,12 @@
    "market": "US",
    "aum_usd_bn": 7.62,
    "benchmark": "R1000G",
-   "disclosure": "monthly",
+   "disclosure": "quarterly",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "FBCG"
    },
-   "track": false,
-   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
    "rank": 11
   },
   {
@@ -240,10 +241,11 @@
    "aum_usd_bn": 6.05,
    "benchmark": "R1000G",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "CNEQ"
    },
-   "track": false,
-   "disclosure": "daily"
+   "disclosure": "quarterly",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
   },
   {
    "rank": 18,
@@ -303,10 +305,10 @@
    "benchmark": "SP500",
    "disclosure": "quarterly",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "TSPA"
    },
-   "track": false,
-   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
    "rank": 22
   },
   {
@@ -387,12 +389,11 @@
    "aum_usd_bn": 3.25,
    "benchmark": "R1000G",
    "source": {
-    "type": "ab",
-    "page": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html"
+    "type": "nport",
+    "ticker": "FWD"
    },
-   "track": false,
-   "note": "AB webapi 경로 확인 필요",
-   "disclosure": "daily"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "disclosure": "quarterly"
   },
   {
    "rank": 29,
@@ -428,10 +429,11 @@
    "aum_usd_bn": 3.06,
    "benchmark": null,
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "TMSL"
    },
-   "track": false,
-   "disclosure": "daily"
+   "disclosure": "quarterly",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
   },
   {
    "ticker": "FEGE",
@@ -439,12 +441,12 @@
    "market": "US",
    "aum_usd_bn": 2.65,
    "benchmark": "ACWI",
-   "disclosure": "monthly",
+   "disclosure": "quarterly",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "FEGE"
    },
-   "track": false,
-   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
    "rank": 32
   },
   {
@@ -468,10 +470,11 @@
    "aum_usd_bn": 2.45,
    "benchmark": "R1000G",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "NUGO"
    },
-   "track": false,
-   "disclosure": "daily"
+   "disclosure": "quarterly",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
   },
   {
    "rank": 35,
@@ -507,10 +510,10 @@
    "benchmark": "R1000G",
    "disclosure": "quarterly",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "TCHP"
    },
-   "track": false,
-   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
    "rank": 37
   },
   {
@@ -560,12 +563,11 @@
    "aum_usd_bn": 2.05,
    "benchmark": "ACWI",
    "source": {
-    "type": "ab",
-    "page": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-emerging-markets-opportunities-etf.html"
+    "type": "nport",
+    "ticker": "EMOP"
    },
-   "track": false,
-   "note": "AB webapi 경로 확인 필요",
-   "disclosure": "daily"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "disclosure": "quarterly"
   },
   {
    "rank": 42,
@@ -575,10 +577,11 @@
    "aum_usd_bn": 2.04,
    "benchmark": "R1000G",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "ALAI"
    },
-   "track": false,
-   "disclosure": "daily"
+   "disclosure": "quarterly",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
   },
   {
    "rank": 43,
@@ -614,10 +617,11 @@
    "aum_usd_bn": 2.0,
    "benchmark": "ACWI",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "IDEQ"
    },
-   "track": false,
-   "disclosure": "daily"
+   "disclosure": "quarterly",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
   },
   {
    "rank": 46,
@@ -666,10 +670,11 @@
    "aum_usd_bn": 1.75,
    "benchmark": "SP500",
    "source": {
-    "type": "pending"
+    "type": "nport",
+    "ticker": "BAFE"
    },
-   "track": false,
-   "disclosure": "daily"
+   "disclosure": "quarterly",
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
   },
   {
    "rank": 50,

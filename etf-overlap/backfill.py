@@ -23,7 +23,7 @@ import requests
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-from fetchers import us  # noqa: E402
+from fetchers import us, nport  # noqa: E402
 from collect import run_source  # noqa: E402
 import store  # noqa: E402
 
@@ -207,9 +207,19 @@ def main():
                 do_native(e, dates, log)
             elif t in PROBES and do_probe(e, dates, log, live_asof):
                 pass
-            if len(log["saved"]) < 3:
+            if len(log["saved"]) < 3 and t != "nport":
                 log["strategy"] = (log["strategy"] or "") + "+wayback"
                 do_wayback(e, dates, log)
+            if e.get("market") == "US":
+                try:
+                    n = 0
+                    for d in nport.history(tk, count=3):
+                        if d["asof"] >= (dates[0] - timedelta(days=75)).isoformat() and store.save(tk, d, "nport"):
+                            log["saved"].append(d["asof"])
+                            n += 1
+                    log["nport"] = n
+                except Exception as ex:  # noqa: BLE001
+                    log["errors"].append(f"nport: {type(ex).__name__}: {str(ex)[:150]}")
         except Exception:  # noqa: BLE001
             log["errors"].append(traceback.format_exc()[-300:])
         log["saved"] = sorted(set(log["saved"]))

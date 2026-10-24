@@ -206,6 +206,9 @@ def main():
     t = date.fromisoformat(today)
     cut_long = (t - timedelta(days=LONG_DAYS)).isoformat()
     cut_short = (t - timedelta(days=SHORT_DAYS)).isoformat()
+    cut_gap = (t - timedelta(days=LONG_DAYS + 45)).isoformat()
+    cut_short_gap = (t - timedelta(days=SHORT_DAYS + 5)).isoformat()
+    disc = {e["ticker"]: e.get("disclosure", "daily") for e in universe["etfs"]}
 
     # 1) ETF별 공시 순서대로 비교 → 이벤트
     events = defaultdict(lambda: defaultdict(list))  # sym -> etf -> [(asof, kind)]
@@ -230,7 +233,7 @@ def main():
                 ea["units"] = eb["units"] = None  # 출처가 다르면 좌수 비교 대신 공통 비율 사용
             ea["asof"], eb["asof"] = a, b
             for s_, kind in diff_etf(ea, eb).items():
-                events[s_][etf].append((b, kind))
+                events[s_][etf].append((b, kind, a))
 
     # 2) 현재 초과 보유
     holders = defaultdict(list)
@@ -258,16 +261,19 @@ def main():
         add_long, add_short, sells = {}, {}, set()
         for etf, evs in per.items():
             evs = sorted(evs)
-            buys = [(d, k) for d, k in evs if k in ("new", "add") and d >= cut_long]
+            quarterly = disc.get(etf) == "quarterly"
+            # 2달: 2달 안 공시에서 확인(직전 비교 공시가 너무 오래되면 2달 밖 매수일 수 있어 제외, 분기 공시 ETF는 예외)
+            buys = [(d, k, a) for d, k, a in evs if k in ("new", "add") and d >= cut_long and (quarterly or a >= cut_gap)]
             if buys and etf in holds_now[s_]:
-                last_sell = max((d for d, k in evs if k in ("reduce", "exit")), default="")
-                if last_sell < buys[-1][0] or last_sell < buys[0][0]:
+                last_sell = max((d for d, k, a in evs if k in ("reduce", "exit")), default="")
+                if last_sell < buys[-1][0]:
                     add_long[etf] = buys[0]
-                sb = [(d, k) for d, k in buys if d >= cut_short]
+                # 2주: 2주 안 공시 + 직전 공시도 2주 무렵(간격이 길면 언제 샀는지 2주로 특정 못 함)
+                sb = [x for x in buys if x[0] >= cut_short and x[2] >= cut_short_gap]
                 if sb and last_sell < sb[-1][0]:
                     add_short[etf] = sb[0]
             last = evs[-1] if evs else None
-            if last and last[1] in ("reduce", "exit") and last[0] >= cut_short:
+            if last and last[1] in ("reduce", "exit") and last[0] >= cut_short and last[2] >= cut_short_gap:
                 sells.add(etf)
         h = holders.get(s_, [])
         if len(add_long) < 2 and len(sells) < 2:
@@ -289,7 +295,7 @@ def main():
             "ret": None if ret is None or math.isnan(ret) else round(ret, 4),
             "theme": th.get("theme", ""), "desc": th.get("desc", ""),
             "holder_list": sorted(h, key=lambda x: -x["weight"]),
-            "new_list": [{"etf": k, "kind": v[1], "date": v[0], "recent": k in add_short}
+            "new_list": [{"etf": k, "kind": v[1], "date": v[0], "prev": v[2], "recent": k in add_short}
                          for k, v in sorted(add_long.items(), key=lambda kv: kv[1][0], reverse=True)],
             "no_bench": sorted({x["etf"] for x in h} & no_bench_etfs),
         })
@@ -306,7 +312,6 @@ def main():
             theme_cnt[r["theme"]] += 1
     top_theme = max(theme_cnt.items(), key=lambda kv: kv[1]) if theme_cnt else ("", 0)
     rets = [r["ret"] for r in rows if r["ret"] is not None and r["add2m"] >= 2]
-    disc = {e["ticker"]: e.get("disclosure", "daily") for e in universe["etfs"]}
     stale = []
     for etf, (asof, _) in latest.items():
         lim = {"daily": 5, "monthly": 45, "quarterly": 120}.get(disc.get(etf, "daily"), 5)
