@@ -1,71 +1,58 @@
 {
- "ISH_AJAX": [
+ "SEC_SUB": [
   {
-   "url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1467271812596.ajax?fileType=csv&fileName=BAI_holdings&dataType=fund&asOfDate=20260930",
-   "final": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1467271812596.ajax?fileType=csv&fileName=BAI_holdings&dataType=fund&asOfDate=20260930",
-   "status": 200,
-   "ctype": "text/csv;charset=UTF-8",
-   "len": 1429173,
-   "head": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" prefix=\"og: http://ogp.me/ns#\" lang=\"en-US\" xml:lang=\"en-US\">\n<head>\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-6106f6cd76c8326c2a117fe4eb2a0415.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-41de37f76d784e01a65ac03b22135e84.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-b6feda2cd47bf59ae7a0b618606b35f6.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-3fcef6a381027d174cf5881898a17f4."
-  },
-  {
-   "url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1467271812596.ajax?fileType=csv&fileName=BAI_holdings&dataType=fund",
-   "final": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1467271812596.ajax?fileType=csv&fileName=BAI_holdings&dataType=fund",
-   "status": 200,
-   "ctype": "text/csv;charset=UTF-8",
-   "len": 1429155,
-   "head": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" prefix=\"og: http://ogp.me/ns#\" lang=\"en-US\" xml:lang=\"en-US\">\n<head>\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-6106f6cd76c8326c2a117fe4eb2a0415.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-41de37f76d784e01a65ac03b22135e84.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-b6feda2cd47bf59ae7a0b618606b35f6.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-3fcef6a381027d174cf5881898a17f4."
-  },
-  {
-   "url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/latest-holdings.csv?asOfDate=20260930",
-   "final": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/latest-holdings.csv?asOfDate=20260930",
-   "status": 200,
-   "ctype": "text/plain; charset=utf-8",
-   "len": 9616,
-   "head": "iShares A.I. Innovation and Tech Active ETF\nFund Holdings as of,\"Oct 22, 2026\"\nInception Date,\"Oct 21, 2024\"\nShares Outstanding,\"310,600,000.00\"\nStock,\"-\"\nBond,\"-\"\nCash,\"-\"\nOther,\"-\"\n\nTicker,Name,Sector,Asset Class,Market Value,Weight (%),Notional Value,Quantity,Price,Location,Exchange,Currency,FX Rate,Market Currency,Accrual Date\n\"MU\",\"MICRON TECHNOLOGY\",\"Information Technology\",\"Equity\",\"753,538,189.02\",\"6.03\",\"753,538,189.02\",\"879,798.00\",\"856.49\",\"United States\",\"NASDAQ\",\"USD\",\"1.00\",\"USD\",\"-\"\n\"NVDA\",\"NVIDIA\",\"Information Technology\",\"Equity\",\"718,672,295.89\",\"5.75\",\"718,672,295.89\",\"3,386"
-  },
-  {
-   "url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1521942788811.ajax?fileType=xls&fileName=iShares-A-I-Innovation-and-Tech-Active-ETF_fund&dataType=fund&asOfDate=20260930",
-   "final": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1521942788811.ajax?fileType=xls&fileName=iShares-A-I-Innovation-and-Tech-Active-ETF_fund&dataType=fund&asOfDate=20260930",
-   "status": 200,
-   "ctype": "application/vnd.ms-excel;charset=UTF-8",
-   "len": 1429208,
-   "head": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" prefix=\"og: http://ogp.me/ns#\" lang=\"en-US\" xml:lang=\"en-US\">\n<head>\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-6106f6cd76c8326c2a117fe4eb2a0415.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-41de37f76d784e01a65ac03b22135e84.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-b6feda2cd47bf59ae7a0b618606b35f6.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-3fcef6a381027d174cf5881898a17f4."
-  }
- ],
- "ARKIO": [
-  {
-   "url": "https://arkfunds.io/api/v2/etf/holdings?symbol=ARKK&date_from=2026-09-01&date_to=2026-09-05",
-   "final": "https://arkfunds.io/api/v2/etf/holdings?symbol=ARKK&date_from=2026-09-01&date_to=2026-09-05",
+   "url": "https://data.sec.gov/submissions/CIK0001868244.json",
+   "final": "https://data.sec.gov/submissions/CIK0001868244.json",
    "status": 200,
    "ctype": "application/json",
-   "len": 37520,
-   "cands": [
-    "https://arkfunds.io/api/v2/etf/holdings"
-   ],
-   "head": "{\"symbol\":\"ARKK\",\"date_from\":\"2026-09-01\",\"date_to\":\"2026-09-05\",\"holdings\":[{\"fund\":\"ARKK\",\"date\":\"2026-09-01\",\"ticker\":\"TSLA\",\"company\":\"TESLA INC\",\"cusip\":\"88160R101\",\"shares\":1665805,\"market_value\":612932949.75,\"share_price\":367.95,\"weight\":9.58,\"weight_rank\":1},{\"fund\":\"ARKK\",\"date\":\"2026-09-01\",\"ticker\":\"SPCX\",\"company\":\"SPACE EXPLORATION TECHN-CL A\",\"cusip\":\"84615Q103\",\"shares\":2733919,\"market_value\":392836821.11,\"share_price\":143.69,\"weight\":6.14,\"weight_rank\":2},{\"fund\":\"ARKK\",\"date\":\"2026-09-01\",\"ticker\":\"CRCL\",\"company\":\"CIRCLE INTERNET GROUP INC\",\"cusip\":\"172573107\",\"shares\":3822146,\"market_value\":365206050.3,\"share_price\":95.55,\"weight\":5.71,\"weight_rank\":3},{\"fund\":\"ARKK\",\"date\":\"2026-09-01\",\"ticker\":\"TEM\",\"company\":\"TEMPUS AI INC-CL A\",\"cusip\":\"88023B103\",\"shares\":5463322,\"market_value\":344462452.1,\"share_price\":63.05,\"weight\":5.38,\"weight_rank\":4},{\"fund\":\"ARKK\",\"date\":\"2026-09-01\",\"ticker\":\"COIN\",\"company\":\"COINBASE GLOBAL INC -CLASS A\",\"cusip\":\"19260Q107\",\"shares\":1611123,\"market_value\":303084458.76,\"share_price\":188.12,\"weight\":4.74,\"weight_rank\":5},{\"fund\":\"ARKK\",\"date\":\"2026-09-01\",\"ticker\":\"CRSP\",\"company\":\"CRISPR THERAPEUTICS AG\",\"cusip\":\"H17182108\",\"shares\":5251785,\"market_value\":299246709.3,\"share_price\":56.98,\"weight\":4.68,\"weight_rank\":6},{\"fund\":\"ARKK\",\"date\":\"2026-09-01\",\"ticker\":\"HOOD\",\"company\":\"ROBINHOOD MARKETS INC - A\",\"cusip\":\"770700102\",\"shares\":2236108,\"market_value\":234366479.48,\"share_price\":104.81,\"weight\":3.66,\"weight_rank\":7},{\"fund\":"
+   "len": 2442,
+   "cands": [],
+   "head": "{\"cik\":\"0001868244\",\"entityType\":\"other\",\"sic\":\"\",\"sicDescription\":\"\",\"ownerOrg\":\"\",\"insiderTransactionForOwnerExists\":1,\"insiderTransactionForIssuerExists\":0,\"name\":\"Davis Sarah R.\",\"tickers\":[],\"exchanges\":[],\"ein\":null,\"lei\":null,\"description\":\"\",\"website\":\"\",\"investorWebsite\":\"\",\"category\":\"\",\"fiscalYearEnd\":null,\"stateOfIncorporation\":\"\",\"stateOfIncorporationDescription\":\"\",\"addresses\":{\"mailing\":{\"street1\":\"FOUR LIMITED PARKWAY EAST\",\"street2\":null,\"city\":\"REYNOLDSBURG\",\"stateOrCountry\":\"OH\",\"zipCode\":\"43068\",\"stateOrCountryDescription\":\"OH\",\"isForeignLocation\":0,\"foreignStateTerritory\":null,\"country\":null,\"countryCode\":null},\"business\":{\"street1\":null,\"street2\":null,\"city\":null,\"stateOrCountry\":null,\"zipCode\":null,\"stateOrCountryDescription\":null,\"isForeignLocation\":null,\"foreignStateTerritory\":null,\"country\":null,\"countryCode\":null}},\"phone\":null,\"flags\":\"\",\"formerNames\":[],\"filings\":{\"recent\":{\"accessionNumber\":[\"0001225208-26-006042\",\"0001193125-26-113156\",\"0001225208-25-006137\",\"0001225208-24-006868\",\"0001225208-23-006621\",\"0001225208-22-007503\",\"0000950103-21-012001\",\"0000950103-21-010666\"],\"filingDate\":[\"2026-06-15\",\"2026-03-18\",\"2025-06-23\",\"2024-06-14\",\"2023-06-07\",\"2022-06-01\",\"2021-08-05\",\"2021-07-19\"],\"reportDate\":[\"2026-06-11\",\"2026-03-18\",\"2025-06-18\",\"2024-06-13\",\"2023-05-25\",\"2022-05-27\",\"2021-08-03\",\"2021-07-19\"],\"acceptanceDateTime\":[\"2026-06-15T20:28:43.000Z\",\"2026-03-18T15:54:34.000Z\",\"2025-06-23T20:07:16.000Z\",\"2024-06-14T21:20:23.000Z\",\"2023-06-07T"
+  }
+ ],
+ "SEC_BROWSE": [
+  {
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=capital+group+dividend+value&type=NPORT-P&dateb=&owner=include&count=10&output=atom",
+   "final": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=capital+group+dividend+value&type=NPORT-P&dateb=&owner=include&count=10&output=atom",
+   "status": 200,
+   "ctype": "application/atom+xml",
+   "len": 15700,
+   "head": "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>\n  <feed xmlns=\"http://www.w3.org/2005/Atom\">\n    <author>\n      <email>webmaster@sec.gov</email>\n      <name>Webmaster</name>\n    </author>\n    <company-info>\n      <addresses>\n        <address type=\"mailing\">\n          <city>LOS ANGELES</city>\n          <state>CA</state>\n          <street1>333 SOUTH HOPE STREET, 55TH FLOOR</street1>\n          <zip>90071</zip>\n        </address>\n        <address type=\"business\">\n          <city>IRVINE</city>\n          <phone>(213) 486-9200</phone>\n          <state>CA</state>\n          <street1>6455 IRVINE CENTER DRI"
+  }
+ ],
+ "SEC_EFTS": [
+  {
+   "url": "https://efts.sec.gov/LATEST/search-index?q=%22Capital%20Group%20Dividend%20Value%20ETF%22&forms=NPORT-P",
+   "final": "https://efts.sec.gov/LATEST/search-index?q=%22Capital%20Group%20Dividend%20Value%20ETF%22&forms=NPORT-P",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 55840,
+   "cands": [],
+   "head": "{\"took\":611,\"timed_out\":false,\"_shards\":{\"total\":50,\"successful\":50,\"skipped\":0,\"failed\":0},\"hits\":{\"total\":{\"value\":534,\"relation\":\"eq\"},\"max_score\":17.254883,\"hits\":[{\"_index\":\"edgar_file\",\"_id\":\"0001752724-22-234610:NPORT_CGW4_89359011_0822.htm\",\"_score\":17.254883,\"_source\":{\"ciks\":[\"0001870128\"],\"period_ending\":\"2022-08-31\",\"file_num\":[\"811-23736\"],\"display_names\":[\"Capital Group Dividend Value ETF  (CIK 0001870128)\"],\"xsl\":null,\"sequence\":2,\"root_forms\":[\"NPORT-P\"],\"file_date\":\"2022-10-25\",\"biz_states\":[\"CA\"],\"sics\":[],\"form\":\"NPORT-P\",\"adsh\":\"0001752724-22-234610\",\"film_num\":[\"221328297\"],\"biz_locations\":[\"Irvine, CA\"],\"file_type\":\"NPORT-EX\",\"file_description\":null,\"inc_states\":[\"DE\"],\"items\":[]}},{\"_index\":\"edgar_file\",\"_id\":\"0001752724-25-095557:NPORT_CGW4_32163727_0225.htm\",\"_score\":17.074043,\"_source\":{\"ciks\":[\"0001870128\"],\"period_ending\":\"2025-02-28\",\"file_num\":[\"811-23736\"],\"display_names\":[\"Capital Group Dividend Value ETF  (CIK 0001870128)\"],\"xsl\":null,\"sequence\":\"3\",\"root_forms\":[\"NPORT-P\"],\"file_date\":\"2025-04-28\",\"biz_states\":[\"CA\"],\"sics\":[],\"form\":\"NPORT-P\",\"adsh\":\"0001752724-25-095557\",\"film_num\":[\"25879599\"],\"biz_locations\":[\"Irvine, CA\"],\"file_type\":\"NPORT-EX\",\"file_description\":null,\"inc_states\":[\"DE\"],\"items\":[]}},{\"_index\":\"edgar_file\",\"_id\":\"0001752724-24-092384:NPORT_CGW4_31377473_0224.htm\",\"_score\":17.055277,\"_source\":{\"ciks\":[\"0001870128\"],\"period_ending\":\"2024-02-29\",\"file_num\":[\"811-23736\"],\"display_names\":[\"Capital Group Dividend Value ETF  (C"
   }
  ],
  "SEC_MF": [
   {
    "url": "https://www.sec.gov/files/company_tickers_mf.json",
    "final": "https://www.sec.gov/files/company_tickers_mf.json",
-   "status": 403,
-   "ctype": "text/html",
-   "len": 1925,
-   "cands": [],
-   "text": " SEC.gov | Request Rate Threshold Exceeded U.S. Securities and Exchange Commission Automated access to our sites must comply with SEC.gov's Privacy and Security Policy. Please visit www.sec.gov/developer for more developer resources and Fair Access guidelines. Please visit www.sec.gov/privacy for more information on Privacy Policy. Reference ID: 0.aa423917.1792805600.6bcd6f6c ",
-   "grep": []
-  }
- ],
- "AKRE": [
-  {
-   "url": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv",
-   "final": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv",
    "status": 200,
-   "ctype": "application/octet-stream",
-   "len": 3083,
-   "head": "Date,Account,StockTicker,CUSIP,SecurityName,Shares,Price,MarketValue,Weightings,NetAssets,SharesOutstanding,CreationUnits,MoneyMarketFlag\r\n10/26/2026,AKRE,2299955D CN,BR52TP7,Constellation Software Inc/Canada,628500.00000000,0.000000,0.00,0.00%,4958939147.51,82990075,8299.010000000000,\r\n10/26/2026,AKRE,8AMMF0JA0,8AMMF0JA0,US BANK MMDA - USBGFS 9 09/01/2037,189063898.44000000,100.000000,189063898.44,3.81%,4958939147.51,82990075,8299.010000000000,Y\r\n10/26/2026,AKRE,BN,11271J107,Brookfield Corp,7885326.00000000,37.970000,299405828.22,6.04%,4958939147.51,82990075,8299.010000000000,\r\n10/26/2026,AKR"
+   "ctype": "application/json",
+   "len": 1236153,
+   "cands": [
+    "https://www.sec.gov/files/CPCFX",
+    "https://www.sec.gov/files/DPCFX",
+    "https://www.sec.gov/files/PCFAX",
+    "https://www.sec.gov/files/PCFCX",
+    "https://www.sec.gov/files/PCFDX",
+    "https://www.sec.gov/files/PCFEX",
+    "https://www.sec.gov/files/PCFIX",
+    "https://www.sec.gov/files/SPCF"
+   ],
+   "head": "{\"fields\":[\"cik\",\"seriesId\",\"classId\",\"symbol\"],\"data\":[[2110,\"S000009184\",\"C000024954\",\"LACAX\"],[2110,\"S000009184\",\"C000024956\",\"LIACX\"],[2110,\"S000009184\",\"C000024957\",\"ACRNX\"],[2110,\"S000009184\",\"C000122736\",\"CRBRX\"],[2110,\"S000009184\",\"C000122737\",\"CRBYX\"],[2110,\"S000009184\",\"C000251059\",\"ACRSX\"],[2110,\"S000009185\",\"C000024958\",\"LAIAX\"],[2110,\"S000009185\",\"C000024961\",\"ACINX\"],[2110,\"S000009185\",\"C000097733\",\"CAIRX\"],[2110,\"S000009185\",\"C000122739\",\"CCYIX\"],[2110,\"S000009185\",\"C000251060\",\"CCIDX\"],[2110,\"S000009188\",\"C000024970\",\"LAFAX\"],[2110,\"S000009188\",\"C000024973\",\"ACFFX\"],[2110,\"S000009188\",\"C000122746\",\"CRIRX\"],[2110,\"S000009188\",\"C000122747\",\"CSIRX\"],[2110,\"S000009188\",\"C000251061\",\"ACFEX\"],[2110,\"S000009189\",\"C000024974\",\"CTFAX\"],[2110,\"S000009189\",\"C000024976\",\"CTFDX\"],[2110,\"S000009189\",\"C000024977\",\"COTZX\"],[2110,\"S000009189\",\"C000122750\",\"CQTRX\"],[2110,\"S000009189\",\"C000122751\",\"CYYYX\"],[2110,\"S000009189\",\"C000251062\",\"COTDX\"],[2110,\"S000033621\",\"C000103324\",\"CAEAX\"],[2110,\"S000033621\",\"C000103327\",\"CAEZX\"],[2646,\"S000008760\",\"C000023849\",\"IIBPX\"],[2646,\"S000008760\",\"C000028784\",\"IPIIX\"],[2646,\"S000008760\",\"C000028785\",\"IPISX\"],[2646,\"S000008760\",\"C000074893\",\"IIBTX\"],[2663,\"S000008702\",\"C000023718\",\"IVMXX\"],[2664,\"S000008703\",\"C000028787\",\"IAVGX\"],[2664,\"S000008703\",\"C000028788\",\"IIVGX\"],[2664,\"S000008703\",\"C000028789\",\"ISVGX\"],[2664,\"S000008703\",\"C000074892\",\"IGISX\"],[2691,\"S000006806\",\"C000018428\",\"LAFFX\"],[2691,\"S000006806\",\"C000018430\",\"LAFCX\"],[2691,\"S0",
+   "grep": [
+    "952\",\"C000224590\",\"CGVHX\"],[1785360,\"S000066955\",\"C000215520\",\"CUSEX\"],[1786958,\"S000067043\",\"C000215714\",\"FOBXX\"],[1795351,\"S000067974\",\"C000217970\",\"TCHP\"],[1795351,\"S000067975\",\"C000217971\",\"TDVG\"],[1795351,\"S000067976\",\"C000217972\",\"TEQI\"],[1795351,\"S000067977\",\"C000217973\",\"TGRW\"],[1795351,\"S000071604\",\"C000226980\",\"TSPA\"],[1795351,\"S000072797\",\"C000229338\",\"TAGG\"],[1795351,\"S000072798\",\"C000229339",
+    "085084\",\"C000249948\",\"CGHM\"],[1870117,\"S000085085\",\"C000249949\",\"CGUI\"],[1870117,\"S000092698\",\"C000260733\",\"CGHY\"],[1870128,\"S000074249\",\"C000231858\",\"CGDV\"],[1870130,\"S000074248\",\"C000231857\",\"CGXU\"],[1872253,\"S000074017\",\"C000231342\",\"MFADX\"],[1872253,\"S000074017\",\"C000231343\",\"MFLDX\"],[1872253,\"S000074018\",\"C000231344\",\"MRESX\"],[1872253,\"S000074018\",\"C000234136\",\"MRASX\"],[1872253,\"S000075258\",\"C00023"
+   ]
   }
  ]
 }
