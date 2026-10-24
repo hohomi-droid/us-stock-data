@@ -1,424 +1,90 @@
 {
- "AKRE_HOME": [
+ "AKRE": [
   {
-   "url": "https://www.akrefund.com/",
-   "final": "https://www.akrefund.com/",
+   "url": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv",
+   "final": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv",
    "status": 200,
-   "ctype": "text/html; charset=UTF-8",
-   "len": 395527,
-   "cands": [
-    "https://maps.google.com/maps/api/js?key=",
-    "https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13"
-   ],
-   "text": " Akre Focus ETF Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Menu Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Search Search The Akre Focus ETF: Now Trading on NYSE Arca As of October 27, 2025, Akre Capital has completed the conversion of the Akre Focus Fund to the Akre Focus ETF (ticker \"AKRE\"), one of the industry's largest single mutual fund-to-ETF conversions. The ETF is managed by the same investment team and continues to be guided by Akre Capital's “Three-Legged Stool” investment approach. The ETF structure delivers a more cost-effective, tax-efficient, and transparent vehicle for current and future shareholders. Read The Full Press Release Home Letter to Shareholders US Bank Direct Shareholder Transfer Instructions A Letter from the Investment Team Read Here Semi-Annual Investor Call Replay - May 7, 2025 Listen Here A Letter from the Investment Team Read Here Upcoming Semi-Annual Investor Call - November 19, 2025 A Letter from the Investment Team - February 6, 2026 Upcoming Semi-Annual Investor Call - November 11, 2026 Read the Akre Focus ETF Press Release Learn More About the Recently Launched Akre Focus ETF Akre Capital&#8217;s Three-Legged Stool Investment Approach Business Sustainable competitive advantages and the ability to compound free cash flow per",
-   "grep": [
-    "038;generated=1764711495&#038;ver=1.25.0\"></script><template data-nitro-marker-id=\"popup-maker-site-js\"></template> <script id=\"csv-to-array-js\" src=\"https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13\"></script><template data-nitro-marker-id=\"csv-to-array-js\"></template> <template data-nitro-marker-id=\"site-scritps-js\"></template> <script id=\"equalheights-js\" src=\"https://www.akrefund.com/wp-content/plugins/swift-framework/includes/page-builder/f"
-   ],
-   "js_hits": {}
+   "ctype": "application/octet-stream",
+   "len": 3083,
+   "head": "Date,Account,StockTicker,CUSIP,SecurityName,Shares,Price,MarketValue,Weightings,NetAssets,SharesOutstanding,CreationUnits,MoneyMarketFlag\r\n10/26/2026,AKRE,2299955D CN,BR52TP7,Constellation Software Inc/Canada,628500.00000000,0.000000,0.00,0.00%,4958939147.51,82990075,8299.010000000000,\r\n10/26/2026,AKRE,8AMMF0JA0,8AMMF0JA0,US BANK MMDA - USBGFS 9 09/01/2037,189063898.44000000,100.000000,189063898.44,3.81%,4958939147.51,82990075,8299.010000000000,Y\r\n10/26/2026,AKRE,BN,11271J107,Brookfield Corp,7885326.00000000,37.970000,299405828.22,6.04%,4958939147.51,82990075,8299.010000000000,\r\n10/26/2026,AKR"
   }
  ],
- "AKRE_SUMMARY": [
+ "NUGO_D": [
   {
-   "url": "https://www.akrefund.com/fund-summary/",
-   "final": "https://www.akrefund.com/fund-summary/",
-   "status": 200,
-   "ctype": "text/html; charset=UTF-8",
-   "len": 325747,
-   "cands": [
-    "https://maps.google.com/maps/api/js?key=",
-    "https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13"
-   ],
-   "text": " Fund Summary - Akre Focus ETF Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Menu Fund Summary About Akre Investment Process Our Thinking Our Team Press Documents Contact Us Individual Investors Financial Professionals Media Relations Search Search Fund Summary Investing involves risk. Principal loss is possible. The Fund is non-diversified, meaning it may focus its assets in fewer individual holdings than a diversified fund. Therefore, the Fund is more exposed to individual stock volatility than a diversified fund. In addition to large capitalization companies, the Fund invests in small- and medium- capitalization companies, which involve additional risks such as limited liquidity and greater volatility than larger capitalization companies. Download the prospectus. This fund is an actively-managed ETF that does not seek to replicate the performance of a specified index. To determine whether to buy or sell a security, the portfolio manager considers, among other things, various fund requirements and standards, along with economic conditions, alternative investments, interest rates and various credit metrics. If the portfolio manager considerations are inaccurate or misapplied, the fund’s performance may suffer. Exchange-Traded Funds (ETFs) are bought and sold through exchange trading at market price (not NAV ), and are not individually redeemed from the fund. Shares may ",
-   "grep": [
-    "px\"> <p><strong>Investing involves risk. Principal loss is possible. The Fund is non-diversified, meaning it may focus its assets in fewer individual holdings than a diversified fund. Therefore, the Fund is more exposed to individual stock volatility than a diversified fund. In addition to large capitalization companies, the Fund invests in small- and medium- capitalization companies, which involve additional risks such as limited liquidity and greater volatility than larger capitalization companies. <a href=\"https://www.akrefund.com/documents-and-forms/\" target=\"_blank\" rel=\"noopener noreferrer\">Down",
-    "038;generated=1764711495&#038;ver=1.25.0\"></script><template data-nitro-marker-id=\"popup-maker-site-js\"></template> <script id=\"csv-to-array-js\" src=\"https://www.akrefund.com/wp-content/themes/cardinal-child/jquery.csv-0.71.min.js?ver=1.1.13\"></script><template data-nitro-marker-id=\"csv-to-array-js\"></template> <template data-nitro-marker-id=\"site-scritps-js\"></template> <script id=\"wp-emoji-settings\" type=\"application/json\">\n{\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\","
-   ],
-   "js_hits": {}
-  }
- ],
- "TCAF_PAGE": [
-  {
-   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
-   "final": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "url": "https://documents.nuveen.com/Documents/Nuveen/Default.aspx?uniqueId=60255fd8-3b85-407b-a5e3-87f489eecee5",
+   "final": "https://documents.nuveen.com/Documents/Nuveen/Default.aspx?uniqueId=60255fd8-3b85-407b-a5e3-87f489eecee5",
    "status": 200,
    "ctype": "text/html",
-   "len": 7857,
+   "len": 17310,
    "cands": [],
-   "text": " You need to enable JavaScript to run this app. ",
-   "grep": [],
-   "js_hits": {}
+   "text": " YOUR REQUEST HAS BEEN BLOCKED! Your Reference ID # is: 18.886d3e17.1792805469.5b75ab39 Security Center Uh-oh. Your request was BLOCKED. Please contact us and refer to the Reference # below: 18.886d3e17.1792805469.5b75ab39 &nbsp; 800-842-2252 We're here every weekday from 8 a.m. to 10 p.m. (ET) Search our site Try searching our site for your topic of interest using these simple tips and tricks: Spelling Make sure words are spelled correctly. Try again Search again using different words. Phrases Use quotes to search for exact phrase (for example, \"TIAA Annual Report 2015\"). Exclude words Use a hyphen to exclude words (for example, annuity-variable). "
   }
  ],
- "EZMONEY_00981A": [
+ "BAFE": [
   {
-   "url": "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI?fundCode=49YTW",
-   "final": "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI?fundCode=49YTW",
+   "url": "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/bottom-container.html",
+   "final": "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/bottom-container",
    "status": 200,
-   "ctype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-   "len": 7980,
-   "head": "PK\u0003\u0004\u0014\u0000\u0000\b\b\u0000�=X]ĿN@F\u0001\u0000\u0000�\u0004\u0000\u0000\u0013\u0000\u0000\u0000[Content_Types].xml��MN�0\u0010��\u0012y�\u0012\u0017\u0016\b��]\u0000[�\u0004\u00170���\u001a��3)��Xp$��$�E��\u001f�+˞���lE�|�\u0018�\u0017����\u0006_��b 2�:\u0018맥h��o�x4|YF���\u001eKQ\u0013�[)Q��\u0014\u0016!��I\u0015�S��4�Q陚��\u001a\f��\u000e��SN]�\u0018\r�RmC�Â�W�\u0004\r��n%�X�P16V+⹜{�\u0013\nv�\u001a�m�\u000b\u0016�LnE��\tk�\u0013�D�\u0006��J��\u001cˤ\tz�BDɆbw̖����\u0006�h\u001d[\n�\u001a\u00190y�HHd��N�\u000e\t�����s\u001f�l��;�ʫ�C�Fb�\u0012�gJ�\r��x�\t��\u001a�\\S���[��\r��A\u001f�\u000f�\u0016��5��ٯ�k���\u0014��(����M6��\"��Ɍ�\u0004\u0010`\u0000PK\u0003\u0004\u0014\u0000\u0000\b\b\u0000�=X]1I�\u0011�\u0000\u0000\u0000�\u0002\u0000\u0000\u000b\u0000\u0000\u0000_rels/.rels��AN�0\u0010\u0005ЫX�7�\u0016�\u0010��\r��\u0010�\u0002ƞ$Vb�eO ��\u0005G�\nXB��*��.m��~��|�Xo'?�\u0017L�QPrY�R`0d]h�\u001c�Y���f����ȝ�Y������\u001d@6\u001dz�+�\u0018�KC�k.��BԦ�-ª�o �w��N��J��]J��\u0016�nj\u001ag���1��/�\u0012�Y�\u0016Y�i�WJ�3Q_�R)�4fuI\fN���",
-   "xlsx": [
-    [
-     "資料日期：115/10/22",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "None",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "基金資產",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "淨資產",
-     "NTD 266,539,154,533",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "流通在外單位數",
-     "9,561,209,000",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "每單位淨值",
-     "NTD 27.88",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "None",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "項目",
-     "金額",
-     "權重",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "期貨(名目本金)",
-     "NTD 6,278,577,200",
-     "2.36%",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "股票",
-     "NTD 255,360,801,115",
-     "95.81%",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "None",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "項目",
-     "金額",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "現金",
-     "NTD 7,616,656,889",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "期貨保證金",
-     "NTD 1,865,167,429",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "附買回債券",
-     "NTD 3,455,070,371",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "應收付證券款",
-     "NTD -2,224,934,847",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "None",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "期貨(名目本金)",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "期貨代號",
-     "期貨名稱",
-     "持股權重",
-     "口數",
-     "契約年月",
-     "None"
-    ],
-    [
-     "TX",
-     "台指期貨",
-     "2.36%",
-     "679",
-     "2026/11",
-     "None"
-    ],
-    [
-     "None",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "股票",
-     "None",
-     "None",
-     "None",
-     "None",
-     "None"
-    ],
-    [
-     "股票代號",
-     "股票名稱",
-     "股數",
-     "持股權重",
-     "None",
-     "None"
-    ],
-    [
-     "2330",
-     "台積電",
-     "12,671,000",
-     "11.34%",
-     "None",
-     "None"
-    ],
-    [
-     "2383",
-     "台光電",
-     "4,328,000",
-     "8.23%",
-     "None",
-     "None"
-    ],
-    [
-     "3037",
-     "欣興",
-     "19,689,000",
-     "8.01%",
-     "None",
-     "None"
-    ],
-    [
-     "2454",
-     "聯發科",
-     "5,143,000",
-     "7.74%",
-     "None",
-     "None"
-    ],
-    [
-     "3017",
-     "奇鋐",
-     "6,457,000",
-     "7.62%",
-     "None",
-     "None"
-    ],
-    [
-     "3653",
-     "健策",
-     "2,512,000",
-     "5.72%",
-     "None",
-     "None"
-    ],
-    [
-     "6223",
-     "旺矽",
-     "2,504,000",
-     "4.59%",
-     "None",
-     "None"
-    ],
-    [
-     "2327",
-     "國巨*",
-     "23,519,000",
-     "4.47%",
-     "None",
-     "None"
-    ],
-    [
-     "2308",
-     "台達電",
-     "7,582,000",
-     "4.44%",
-     "None",
-     "None"
-    ],
-    [
-     "8046",
-     "南電",
-     "8,937,000",
-     "4.24%",
-     "None",
-     "None"
-    ],
-    [
-     "2345",
-     "智邦",
-     "6,331,000",
-     "4.22%",
-     "None",
-     "None"
-    ],
-    [
-     "6274",
-     "台燿",
-     "7,224,000",
-     "3.85%",
-     "None",
-     "None"
-    ],
-    [
-     "2303",
-     "聯電",
-     "79,618,000",
-     "3.75%",
-     "None",
-     "None"
-    ],
-    [
-     "2368",
-     "金像電",
-     "6,899,000",
-     "2.89%",
-     "None",
-     "None"
-    ],
-    [
-     "3443",
-     "創意",
-     "852,000",
-     "2.42%",
-     "None",
-     "None"
-    ],
-    [
-     "6669",
-     "緯穎",
-     "3,281,561",
-     "2.27%",
-     "None",
-     "None"
-    ],
-    [
-     "3711",
-     "日月光投控",
-     "8,895,000",
-     "2.18%",
-     "None",
-     "None"
-    ],
-    [
-     "3665",
-     "貿聯-KY",
-     "2,887,848",
-     "2.03%",
-     "None",
-     "None"
-    ],
-    [
-     "5274",
-     "信驊",
-     "201,900",
-     "1.21%",
-     "None",
-     "None"
-    ],
-    [
-     "6805",
-     "富世達",
-     "919,000",
-     "0.81%",
-     "None",
-     "None"
-    ],
-    [
-     "2449",
-     "京元電子",
-     "6,587,450",
-     "0.65%",
-     "None",
-     "None"
-    ],
-    [
-     "8996",
-     "高力",
-     "981,000",
-     "0.57%",
-     "None",
-     "None"
+   "ctype": "text/html",
+   "len": 23158,
+   "cands": [
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/holdings",
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/holdingsDate",
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/holdingscsv",
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/number-holdings",
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/top-holdings"
+   ],
+   "text": " Home | Brown Advisory PERFORMANCE Monthly (As of XX/XX/XXXX and is updated monthly) Period 1 Month 3 Month YTD 1 Year Since Inception 11/18/2024 NAV Market S&P 500Â® Index Quarterly (As of XX/XX/XXXX and is updated quarterly) Period 1 Month 3 Month YTD 1 Year Since Inception 11/18/2024 NAV Market S&P 500Â® Index Expense Ratio 1 : 0.54% Past performance is not indicative of future results. ForÂ the most recent performance information, please call 1-877-876-6383. Source: SEI. Fund net assets are as of the last day of the month or quarter. Performance data quoted represents past performance, which is no guarantee of future results, and current performance may be lower or higher than the figures shown. Investment returns and principal value will fluctuate and Fund shares, when redeemed, may be worth more or less than their original cost. Returns are based on Market Price or NAV, assume the reinvestment of all distributions and the deduction of all Fund expenses. Performance would have been lower if expenses had not been waived in various periods. Returns for periods of less than one year are not annualized. Gross Expense Ratio reflects the total annual operating expenses for the share class shown, prior to the deduction of any waiver or reimbursement. Actual expenses may be higher and may impact portfolio returns. Net Expense Ratio reflects total expenses after any fee waivers, implemented expense caps or reimbursements. If a fund has contractual fee waivers, expense caps and/or",
+   "grep": []
+  }
+ ],
+ "BAFE_JS": [
+  {
+   "url": "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/",
+   "final": "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/",
+   "status": 200,
+   "ctype": "text/html",
+   "len": 27828,
+   "cands": [
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/holdings",
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/holdingsDate",
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/holdingscsv",
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/number-holdings",
+    "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/top-holdings"
+   ],
+   "text": " Home | Brown Advisory Flexible Equity ETF (As of XX/XX/XXXX and is updated daily) NAV TBD Premium / Discount TBD Shares Outstanding 100 Closing Price TBD 30-Day Median Spread TBD AUM 1 TBD View Fund Past performance is not indicative of future results. Principal value and investment returns will fluctuate, and investors' shares, when redeemed, may be worth more or less than the original cost. Returns are based on Market Price or NAV, assume the reinvestment of all distributions and the deduction of all Fund expenses. Performance would have been lower if expenses had not been waived in various periods. For monthly and quarterly performance information, please call 1-877-876-6383. All investments involve risk, including possible loss of principal. Please see each product's web page for specific details regarding investment objective, risks, performance, and other important information. Review this information carefully before you make any investment decision. NAV column shows daily price and daily price change. 1 Source: SEI as of XX/XX/XXXX and is updated monthly. PERFORMANCE Monthly (As of XX/XX/XXXX and is updated monthly) Period 1 Month 3 Month YTD 1 Year Since Inception 11/18/2024 NAV Market S&P 500 Â® Index Quarterly (As of XX/XX/XXXX and is updated quarterly) Period 1 Month 3 Month YTD 1 Year Since Inception 11/18/2024 NAV Market S&P 500 Â® Index Expense Ratio 1 : 0.54% Past performance is not indicative of future results. ForÂ the most recent performance information, p",
+   "js_hits": {
+    "https://brownadvisory.filepoint.live/assets/js/app.js?version=6": [
+     "1).toString(),r=n.getFullYear().toString(),i.length<2&&(i=\"0\"+i),o.length<2&&(o=\"0\"+o),o+i+r);$.ajax({type:\"GET\",url:t+\"assets/data/SEI_Brown_Tradedate_Holdings_\"+s+\".txt\",dataType:\"text\",success:Y,error:w})}function w(){++k<15&&S()}function Y(t){var e=M.a.parse(t,{header:!0,dynamicTyping:!1}),n=$(\"#holdings\").data(\"ticker\"),i=e.data[0].date;$(\".holdingsDate\"",
+     "f(t.preventDefault(),window.navigator.msSaveOrOpenBlob){var e=new Blob([h]);window.navigator.msSaveOrOpenBlob(e,p+\"_Fund_Holdings_\"+c+\".csv\")}else{var n=document.createElement(\"a\");n.href=\"data:attachment/csv,\"+encodeURIComponent(h),n.target=\"_blank\",n.download=p+\"_Fund_Holdings_\"+c+\".csv\",document.body.appendChild(n),n.click()}",
+     " n=document.createElement(\"a\");n.href=\"data:attachment/csv,\"+encodeURIComponent(h),n.target=\"_blank\",n.download=p+\"_Fund_Holdings_\"+c+\".csv\",document.body.appendChild(n),n.click()}})}function T(){var t=$(\"#page-top\").data(\"root\");$.ajax({type:\"GET\",url:t+\"assets/php/gethistpremiumfilescsv.php\",crossOrigin:!0,dataType:\"text\",succ",
+     "nth()+1).toString(),t.getFullYear().toString(),e.length<2&&(e=\"0\"+e),n.length<2&&(n=\"0\"+n),h.a.ajax({type:\"GET\",url:\"../assets/data/temp_Brown_Advisory_sectors.xml\",dataType:\"xml\",success:P,error:O})}function O(){++A<15&&H()}function P(t){var e,n=h()(t).find(\"Recordset\")[0].childNodes,i=h()(\".fund-page\").attr(\"data-fundid\");if(console.log(i),h()(\"#sector-date\")"
     ]
-   ]
+   }
+  }
+ ],
+ "TCHP": [
+  {
+   "url": "https://individual.troweprice.com/staticFiles/gcFiles/pdf/phbcxq3.pdf",
+   "final": "https://individual.troweprice.com/staticFiles/gcFiles/pdf/phbcxq3.pdf",
+   "status": 200,
+   "ctype": "application/pdf",
+   "len": 129902,
+   "head": "%PDF-1.7\r\n%����\r\n1 0 obj\r\n<</Type/Catalog/Pages 2 0 R/Lang(en) /StructTreeRoot 14 0 R/MarkInfo<</Marked true>>/Metadata 1036 0 R/ViewerPreferences 1037 0 R>>\r\nendobj\r\n2 0 obj\r\n<</Type/Pages/Count 2/Kids[ 4 0 R 12 0 R] >>\r\nendobj\r\n3 0 obj\r\n<</CreationDate(D:20261011143516-04'00') /ModDate(D:20261011143516-04'00') /Producer(��\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000�\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000�\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005) /Creator(��\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000�\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000�\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005) >>\r\nendobj\r\n4 0 obj\r\n<</Type/Page/Parent 2 0 R/Resources<</ExtGState<</GS6 6 0 R/GS9 9 0 R>>/Font<</F1 7 0 R/F2 10 0 R>",
+   "pdf_pages": 2,
+   "pdf_text": "T. Rowe Price Blue Chip Growth ETF TCHP 09/30/2026\n(Unaudited)\nPortfolio of Investments\nInvestments in Securities Coupon % Maturity Shares/Par Value ($) % of Net Assets\nAdvanced Micro Devices 133,280 81,535,373 3.734%\nAlphabet Class A 348,003 119,740,872 5.484%\nAlphabet Class C 380,200 129,549,348 5.933%\nAmazon.com 295,966 73,739,929 3.377%\nAmphenol 118,633 10,000,762 0.458%\nApple 331,178 110,288,898 5.051%\nApplied Materials 73,399 37,534,781 1.719%\nASML Holding 17,243 31,238,626 1.431%\nBooking Holdings 109,974 17,915,864 0.821%\nBroadcom 335,990 117,996,328 5.404%\nCarvana 1,046,687 65,459,805 2.998%\nCaterpillar 16,677 13,521,545 0.619%\nCerebras Systems 5,928 1,053,109 0.048%\nCharles Schwab 65,446 6,396,692 0.293%\nChubb 59,491 19,349,448 0.886%\nCintas 24,969 4,870,453 0.223%\nConstellation Energy 31,325 7,957,177 0.364%\nCrowdstrike Holdings 68,660 18,177,735 0.832%\nDanaher 47,839 10,598,730 0.485%\nDatadog 24,334 6,663,866 0.305%\nDoorDash 40,207 7,379,995 0.338%\nEli Lilly 56,684 65,587,923 3.004%\nGE 111,971 34,967,424 1.601%\nGE Vernova 20,209 19,208,452 0.880%\nGoldman Sachs 7,734 6,963,384 0.319%\nHEICO 15,647 4,743,857 0.217%\nHowmet Aerospace 30,557 6,911,382 0.317%\nIntuitive Surgical 48,827 19,854,523 0.909%\nLam Research 123,034 40,417,899 1.851%\nLinde 14,480 6,872,932 0.315%\nMarsh & McLennan 46,588 7,953,969 0.364%\nMarvell Technology 73,591 19,443,478 0.890%\nMasterCard 72,650 40,064,296 1.835%\nMedline 52,766 1,830,980 0.084%\nMeta Platforms 132,589 96,150,891 4.403%\nMicron Technology 29,952 31,902,175 1.461%\nMicrosoft 249,412 127,923,415 5.859%\nMonolithic Power Systems 11,145 15,014,767 0.688%\nMoody's 5,815 2,640,766 0.121%\nMorgan Stanley 53,474 10,057,390 0.461%\nNetflix 436,363 30,362,138 1.391%\nNVIDIA 1,687,802 385,460,221 17.653%\nOld Dominion Freight Line 26,291 4,570,427 0.209%\nOracle 113,374 15,566,250 0.713%\nPalantir Technologies 37,079 6,935,627 0.318%\nRoper Technologies 16,947 5,921,451 0.271%\nRoss Stores 51,723 12,072,148 0.553%\nSea, ADR 88,236 8,590,657 0.393%\nServiceNow 109,259 14,641,799 0.671%\nShopify 125,766 18,651,098 0.854%\nSK hynix, ADR 114,978 21,173,199 0.970%\nSpace Exploration Technologies 51,374 7,750,282 0.355%\nState Street Institutional US Government Money Market Fund 3,815,191 3,815,191 0.175%\nStryker 14,305 3,939,454 0.180%\nSynopsys 11,062 4,811,306 0.220%\nTaiwan Semiconductor Manufacturing, ADR 47,052 21,464,652 0.983%\nTE Connectivity 2,026 427,648 0.020%\nTesla 132,075 46,861,531 2.146%\nTexas Instruments 60,949 17,071,205 0.782%\nThermo Fisher Scientific 19,944 13,463,197 0.617%\nTJX 61,573 8,146,724 0.373%\nT-Mobile US 69,819 11,386,083 0.521%\nTransdigm Group 4,408 4,772,101 0.219%\nUnitedHealth Group 29,610 10,869,239 0.498%\nVisa 152,231 54,701,165 2.505%\nPage 1 of 2\nTotal Investments in Securities 2,182,904,030\nNET ASSETS 2,183,523,924\nNET ASSET VALUE PER SHARE\nBlue Chip Growth ETF Shares 51.34\n($2,182,524,521 / 42,515,000 Shares Outstanding)\nADR American Depository Receipts\nADS American Depository Shares\nAR Auction Rate se"
+  }
+ ],
+ "TSPA": [
+  {
+   "url": "https://individual.troweprice.com/staticFiles/gcFiles/pdf/phsrxq3.pdf",
+   "final": "https://individual.troweprice.com/staticFiles/gcFiles/pdf/phsrxq3.pdf",
+   "status": 200,
+   "ctype": "application/pdf",
+   "len": 263193,
+   "head": "%PDF-1.7\r\n%����\r\n1 0 obj\r\n<</Type/Catalog/Pages 2 0 R/Lang(en) /StructTreeRoot 22 0 R/MarkInfo<</Marked true>>/Metadata 4234 0 R/ViewerPreferences 4235 0 R>>\r\nendobj\r\n2 0 obj\r\n<</Type/Pages/Count 6/Kids[ 4 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R] >>\r\nendobj\r\n3 0 obj\r\n<</CreationDate(D:20261011150214-04'00') /ModDate(D:20261011150214-04'00') /Producer(��\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000�\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000�\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005) /Creator(��\u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000�\u0000 \u0000E\u0000x\u0000c\u0000e\u0000l\u0000�\u0000 \u0000f\u0000o\u0000r\u0000 \u0000M\u0000i\u0000c\u0000r\u0000o\u0000s\u0000o\u0000f\u0000t\u0000 \u00003\u00006\u00005) >>\r\nendobj\r\n4 0 obj\r\n<</Type/Page/Parent 2 0 R/Resources<</ExtGState<</GS6 6 0 R/GS9 9 0 R>",
+   "pdf_pages": 6,
+   "pdf_text": "T. Rowe Price U.S. Equity Research ETF TSPA 09/30/2026\n(Unaudited)\nPortfolio of Investments\nInvestments in Securities Coupon % Maturity Shares/Par Value ($) % of Net Assets\n3M 14,300 2,347,345 0.051%\nAbbott Laboratories 141,979 14,031,785 0.305%\nAbbVie 115,305 30,162,635 0.656%\nAccenture 8,111 1,487,314 0.032%\nAdvanced Micro Devices 141,124 86,334,018 1.876%\nAgilent Technologies 7,900 1,361,249 0.030%\nAgnico Eagle Mines 30,313 5,555,464 0.121%\nAirbnb 38,290 6,151,289 0.134%\nAlbemarle 25,712 2,719,815 0.059%\nAlexandria Real Estate, REIT 8,500 403,410 0.009%\nAlliant Energy 97,782 6,189,601 0.135%\nAllstate 35,208 7,811,247 0.170%\nAlphabet Class A 340,076 117,013,350 2.543%\nAlphabet Class C 431,700 147,097,458 3.197%\nAltria Group 66,238 4,460,467 0.097%\nAmazon.com 696,499 173,532,726 3.771%\nAmeren 35,366 3,514,673 0.076%\nAmerican Express 16,655 5,064,786 0.110%\nAmerican International Group 95,975 7,142,460 0.155%\nAmerican Water Works 13,000 1,683,110 0.037%\nAMETEK 5,400 1,337,742 0.029%\nAmgen 45,693 19,260,056 0.419%\nAmphenol 295,352 24,898,174 0.541%\nAnalog Devices 39,165 15,537,147 0.338%\nAon 38,788 10,735,355 0.233%\nApi 94,678 3,654,571 0.079%\nApollo Global Management 41,565 4,824,034 0.105%\nApple 977,560 325,547,031 7.075%\nApplied Materials 60,510 30,943,604 0.672%\nAppLovin 12,542 3,642,573 0.079%\nAres Management 30,523 3,545,857 0.077%\nArista Networks 130,143 26,495,813 0.576%\nAtmos Energy 22,405 3,505,038 0.076%\nAutodesk 12,348 2,580,732 0.056%\nAutoZone 1,788 5,060,076 0.110%\nAxis Capital Holdings 39,785 3,747,747 0.081%\nAxon Enterprise 10,498 4,435,615 0.096%\nBaker Hughes 83,255 4,570,700 0.099%\nBall 53,616 3,004,104 0.065%\nBank of America 355,048 19,325,263 0.420%\nBank of New York Mellon 75,773 10,959,049 0.238%\nBecton, Dickinson & Company 11,000 1,969,000 0.043%\nBerkshire Hathaway CL B 87,513 43,577,098 0.947%\nBiogen 6,400 1,445,632 0.031%\nBlackrock 11,722 12,405,275 0.270%\nBlackstone 17,752 1,989,822 0.043%\nBlock 170,459 12,533,850 0.272%\nBloom Energy 28,200 7,810,836 0.170%\nBoeing 80,935 15,057,957 0.327%\nBooking Holdings 63,603 10,361,565 0.225%\nBooz Allen Hamilton 31,699 2,200,545 0.048%\nBoston Scientific 16,669 727,602 0.016%\nBrightSpring Health Services 40,761 2,313,187 0.050%\nBristol-Myers Squibb 194,151 12,115,022 0.263%\nBroadcom 328,018 115,196,641 2.504%\nBurlington Stores 3,400 908,446 0.020%\nBXP, REIT 27,653 1,689,875 0.037%\nCanadian National Railway 47,257 5,618,857 0.122%\nCapital One Financial 67,759 13,082,230 0.284%\nCardinal Health 19,646 4,371,235 0.095%\nCarrier Global 71,497 3,922,325 0.085%\nCarvana 102,714 6,423,734 0.140%\nCaterpillar 28,877 23,413,183 0.509%\nCboe Global Markets 6,324 1,740,934 0.038%\nCBRE Group 24,950 3,205,327 0.070%\nPage 1 of 6\nCDW Corp/DE 5,800 743,328 0.016%\nCencora 24,062 7,224,616 0.157%\nCentene 42,461 2,637,677 0.057%\nCF Industries 18,820 2,168,064 0.047%\nCharles River Laboratories International 14,230 4,197,992 0.091%\nCharles Schwab 147,477 14,414,402 0.313%\nChevron 153,336 31,312,745 0.681%\nChipot"
   }
  ]
 }
