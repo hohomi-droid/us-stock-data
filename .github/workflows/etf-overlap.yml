@@ -39,10 +39,15 @@ jobs:
           python-version: "3.12"
 
       - name: Install
-        run: pip install --quiet requests openpyxl yfinance lxml pandas
+        run: pip install --quiet requests openpyxl yfinance lxml pandas pdfplumber
 
       - name: Collect holdings
         run: python collect.py
+
+      - name: SEC N-PORT refresh (morning run)
+        if: github.event.schedule == '5 22 * * 1-5' || github.event_name == 'workflow_dispatch'
+        run: python backfill.py nport
+        continue-on-error: true
 
       - name: Prices
         run: python prices.py 6mo

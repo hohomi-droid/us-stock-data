@@ -21,7 +21,8 @@ _MF = None
 _NAMES = None
 STOP = {"INC", "CORP", "CORPORATION", "CO", "LTD", "LIMITED", "PLC", "SA", "NV", "AG", "SE", "THE", "HOLDINGS",
         "HOLDING", "GROUP", "COMPANY", "COMMON", "STOCK", "ORD", "SHS", "SHARES", "ADR", "SPONSORED", "SPON",
-        "REG", "NEW", "USD", "LP", "LLC", "TRUST", "BHD", "TBK", "ASA", "AB", "OYJ", "SPA", "NPV", "PAR", "VALUE"}
+        "REG", "NEW", "USD", "LP", "LLC", "TRUST", "BHD", "TBK", "ASA", "AB", "OYJ", "SPA", "NPV", "PAR", "VALUE",
+        "AND", "OF", "REIT", "ETF", "CAP", "A", "B", "C"}
 
 
 def _get(url, **kw):
@@ -37,37 +38,62 @@ def _get(url, **kw):
     return r
 
 
+def _toks(name: str):
+    up = (name or "").upper().replace("&", " AND ")
+    m = re.search(r"\bCL(?:ASS)?\.?\s+([A-C])\b", up)
+    cls = m.group(1) if m else ""
+    t = re.sub(r"[^A-Z0-9 ]", " ", up)
+    toks = [w for w in t.split() if w not in STOP and w not in ("CL", "CLASS")]
+    return toks, cls
+
+
 def norm(name: str) -> str:
-    t = re.sub(r"[^A-Z0-9 ]", " ", (name or "").upper().replace("&", " AND "))
-    toks = [w for w in t.split() if w not in STOP]
-    cls = ""
-    m = re.search(r"\bCL(?:ASS)?\s+([A-C])\b", (name or "").upper())
-    if m:
-        cls = " " + m.group(1)
-        toks = [w for w in toks if w not in ("CL", "CLASS", m.group(1))]
-    return " ".join(toks[:3]) + cls
+    toks, cls = _toks(name)
+    return " ".join(toks[:3]) + (" " + cls if cls else "")
+
+
+def name_keys(name: str):
+    toks, cls = _toks(name)
+    keys = []
+    if cls:
+        keys.append(" ".join(toks[:3]) + " " + cls)
+        keys.append(" ".join(toks[:2]) + " " + cls)
+    keys.append(" ".join(toks[:3]))
+    keys.append(" ".join(toks[:2]))
+    return [k for k in keys if k.strip()]
 
 
 def name_index():
-    """다른 ETF 보유 파일(티커 있는 것)에서 회사명 → 심볼."""
+    """다른 ETF 보유 파일(티커 있는 것)에서 회사명 → 심볼. 겹치는 키는 버린다."""
     global _NAMES
     if _NAMES is not None:
         return _NAMES
-    idx = {}
+    idx, dup = {}, set()
     for d in (ROOT / "data" / "history").glob("*"):
         files = sorted(d.glob("*.json"))
         if not files:
             continue
         e = json.loads(files[-1].read_text(encoding="utf-8"))
-        if e.get("src") == "nport":
+        if e.get("src") in ("nport", "trowe_pdf"):
             continue
         for sym, v in (e.get("holdings") or {}).items():
             nm = v[2] if isinstance(v, list) and len(v) > 2 else (v.get("name") if isinstance(v, dict) else "")
-            k = norm(nm)
-            if k and k not in idx:
-                idx[k] = sym
+            for k in name_keys(nm):
+                if k in idx and idx[k] != sym:
+                    dup.add(k)
+                idx.setdefault(k, sym)
+    for k in dup:
+        idx.pop(k, None)
     _NAMES = idx
     return idx
+
+
+def lookup_name(name: str):
+    idx = name_index()
+    for k in name_keys(name):
+        if k in idx:
+            return idx[k]
+    return None
 
 
 def series_of(ticker: str):
@@ -107,7 +133,6 @@ def parse_primary(xml_bytes: bytes, series_id: str | None = None):
             sid = el.text.strip()
     if series_id and sid and sid != series_id:
         return None
-    names = name_index()
     out = {}
     for inv in root.iter():
         if _local(inv.tag) != "invstOrSec":
@@ -133,7 +158,7 @@ def parse_primary(xml_bytes: bytes, series_id: str | None = None):
         if tk and tk not in ("N/A", "NONE", "000000000"):
             sym = cg_yahoo(tk, isin, None, name)
         if not sym:
-            sym = names.get(norm(name)) or names.get(norm(f.get("title") or ""))
+            sym = lookup_name(name) or lookup_name(f.get("title") or "")
         if not sym:
             continue
         cur = out.get(sym)
@@ -145,29 +170,118 @@ def parse_primary(xml_bytes: bytes, series_id: str | None = None):
     return {"asof": asof, "units": None, "holdings": out}
 
 
-def history(ticker: str, count: int = 4):
+def _xml_from_index(href: str):
+    """filing index 페이지에서 N-PORT XML 문서 주소."""
+    txt = _get(href).text
+    links = re.findall(r'href="(/Archives/edgar/data/[^"]+\.xml)"', txt)
+    links = [l for l in links if "xsl" not in l.lower()]
+    pri = [l for l in links if "primary_doc" in l]
+    pick = (pri or links or [None])[0]
+    return "https://www.sec.gov" + pick if pick else None
+
+
+def _efts_filings(name: str, count: int):
+    q = {"q": f'"{name}"', "forms": "NPORT-P"}
+    d = _get("https://efts.sec.gov/LATEST/search-index", params=q).json()
+    hits = (d.get("hits") or {}).get("hits") or []
+    seen, out = set(), []
+    for h in sorted(hits, key=lambda x: (x.get("_source") or {}).get("period_ending") or "", reverse=True):
+        src = h.get("_source") or {}
+        acc = h["_id"].split(":")[0]
+        if acc in seen or not src.get("ciks"):
+            continue
+        seen.add(acc)
+        cik = str(int(src["ciks"][0]))
+        out.append(f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}/{acc}-index.htm")
+        if len(out) >= count:
+            break
+    return out
+
+
+def history(ticker: str, count: int = 4, fund_name: str | None = None):
     """최근 NPORT-P 보유 목록들 (오래된 것부터)."""
     s = series_of(ticker)
-    if not s:
+    sid = None
+    if s:
+        cik, sid = s
+        hrefs = filings(sid, count=count + 2)[:count]
+    elif fund_name:
+        hrefs = _efts_filings(fund_name, count + 4)
+    else:
         raise ValueError(f"SEC 펀드 목록에 {ticker} 없음")
-    cik, sid = s
     res = []
-    for href in filings(sid, count=count + 2)[:count]:
-        m = re.search(r"/data/(\d+)/(\d{18})/", href) or re.search(r"/data/(\d+)/(\d+)/", href)
-        if not m:
-            continue
-        base = f"https://www.sec.gov/Archives/edgar/data/{m.group(1)}/{m.group(2)}/primary_doc.xml"
+    for href in hrefs:
         try:
-            d = parse_primary(_get(base).content, sid)
+            xml = _xml_from_index(href)
+            if not xml:
+                continue
+            raw = _get(xml).content
+            if fund_name and not sid:
+                m = re.search(rb"<seriesName>([^<]+)</seriesName>", raw)
+                if m and norm(m.group(1).decode("utf-8", "replace")) != norm(fund_name):
+                    continue
+            d = parse_primary(raw, sid)
         except Exception:  # noqa: BLE001
             continue
         if d and d["holdings"] and d["asof"]:
             res.append(d)
-    return sorted(res, key=lambda x: x["asof"])
+        if len(res) >= count:
+            break
+    uniq = {}
+    for d in res:
+        uniq[d["asof"]] = d
+    return sorted(uniq.values(), key=lambda x: x["asof"])
 
 
-def latest(ticker: str):
-    h = history(ticker, count=1)
+def latest(ticker: str, fund_name: str | None = None):
+    h = history(ticker, count=1, fund_name=fund_name)
     if not h:
         raise ValueError("N-PORT 없음")
     return h[-1]
+
+
+def trowe_pdf(code: str, quarter: int):
+    """T. Rowe Price 분기 전체 보유 PDF (staticFiles/gcFiles/pdf/{code}q{n}.pdf): 회사명·주식 수·비중."""
+    import io
+    import pdfplumber
+    r = S.get(f"https://individual.troweprice.com/staticFiles/gcFiles/pdf/{code}q{quarter}.pdf", timeout=60)
+    r.raise_for_status()
+    if r.content[:4] != b"%PDF":
+        raise ValueError("PDF 아님")
+    text = []
+    with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+        for pg in pdf.pages:
+            text.append(pg.extract_text() or "")
+    text = "\n".join(text)
+    m = re.search(r"\b(\d{2})/(\d{2})/(\d{4})\b", text)
+    asof = f"{m.group(3)}-{m.group(1)}-{m.group(2)}" if m else None
+    out = {}
+    for ln in text.splitlines():
+        mm = re.match(r"^(.+?)\s+([\d,]+)\s+([\d,]+)\s+(\d+\.\d+)%$", ln.strip())
+        if not mm:
+            continue
+        name, sh, w = mm.group(1), num(mm.group(2)), num(mm.group(4))
+        if re.search(r"Total|Money Market|Reserve Investment|Cash", name, flags=re.I):
+            continue
+        sym = lookup_name(name)
+        if not sym or not sh:
+            continue
+        cur = out.get(sym)
+        if cur:
+            cur["shares"] += sh
+            cur["weight"] += w or 0
+        else:
+            out[sym] = {"name": name, "shares": sh, "weight": w or 0.0, "type": "equity", "yahoo": sym}
+    return {"asof": asof, "units": None, "holdings": out}
+
+
+def trowe_history(code: str):
+    res = []
+    for q in (1, 2, 3, 4):
+        try:
+            d = trowe_pdf(code, q)
+            if d["asof"] and d["holdings"]:
+                res.append(d)
+        except Exception:  # noqa: BLE001
+            continue
+    return sorted(res, key=lambda x: x["asof"])

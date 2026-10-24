@@ -33,7 +33,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install
-        run: pip install --quiet requests openpyxl yfinance lxml pandas
+        run: pip install --quiet requests openpyxl yfinance lxml pandas pdfplumber
       - name: Backfill
         run: |
           ARGS="${{ github.event.inputs.days || '' }} ${{ github.event.inputs.etfs || '' }}"

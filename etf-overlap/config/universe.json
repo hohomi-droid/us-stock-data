@@ -30,7 +30,8 @@
     "type": "capital_group",
     "ticker": "CGDV"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 2,
@@ -43,7 +44,8 @@
     "type": "capital_group",
     "ticker": "CGGR"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "ticker": "PVAL",
@@ -54,10 +56,12 @@
    "disclosure": "quarterly",
    "source": {
     "type": "nport",
-    "ticker": "PVAL"
+    "ticker": "PVAL",
+    "name": "Putnam Focused Large Cap Value ETF"
    },
    "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
-   "rank": 3
+   "rank": 3,
+   "issuer": "Putnam"
   },
   {
    "rank": 4,
@@ -72,7 +76,8 @@
     "slug": "ishares-a-i-innovation-and-tech-active-etf",
     "ticker": "BAI"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "iShares"
   },
   {
    "rank": 5,
@@ -85,7 +90,8 @@
     "type": "capital_group",
     "ticker": "CGUS"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 6,
@@ -98,7 +104,8 @@
     "type": "capital_group",
     "ticker": "CGGO"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 7,
@@ -111,7 +118,8 @@
     "type": "jpm",
     "cusip": "46654Q609"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "JPMorgan"
   },
   {
    "rank": 8,
@@ -126,7 +134,8 @@
     "slug": "ishares-large-cap-core-active-etf",
     "ticker": "BLCR"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "iShares"
   },
   {
    "rank": 9,
@@ -139,7 +148,8 @@
     "type": "ezmoney",
     "code": "49YTW"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "統一投信"
   },
   {
    "rank": 10,
@@ -150,10 +160,12 @@
    "benchmark": "SP500",
    "source": {
     "type": "nport",
-    "ticker": "TCAF"
+    "ticker": "TCAF",
+    "name": "T. Rowe Price Capital Appreciation Equity ETF"
    },
    "disclosure": "quarterly",
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "issuer": "T. Rowe Price"
   },
   {
    "ticker": "FBCG",
@@ -164,10 +176,12 @@
    "disclosure": "quarterly",
    "source": {
     "type": "nport",
-    "ticker": "FBCG"
+    "ticker": "FBCG",
+    "name": "Fidelity Blue Chip Growth ETF"
    },
    "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
-   "rank": 11
+   "rank": 11,
+   "issuer": "Fidelity"
   },
   {
    "rank": 12,
@@ -180,7 +194,8 @@
     "type": "jpm",
     "cusip": "46641Q167"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "JPMorgan"
   },
   {
    "rank": 13,
@@ -192,7 +207,8 @@
    "source": {
     "type": "sequoia"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Sequoia"
   },
   {
    "rank": 14,
@@ -205,7 +221,8 @@
     "type": "capital_group",
     "ticker": "CGXU"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 15,
@@ -218,7 +235,8 @@
     "type": "jpm",
     "cusip": "46654Q740"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "JPMorgan"
   },
   {
    "rank": 16,
@@ -231,7 +249,8 @@
     "type": "ark",
     "ticker": "ARKK"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "ARK"
   },
   {
    "rank": 17,
@@ -242,10 +261,12 @@
    "benchmark": "R1000G",
    "source": {
     "type": "nport",
-    "ticker": "CNEQ"
+    "ticker": "CNEQ",
+    "name": "Alger Concentrated Equity ETF"
    },
    "disclosure": "quarterly",
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "issuer": "Alger"
   },
   {
    "rank": 18,
@@ -258,7 +279,8 @@
     "type": "capital_group",
     "ticker": "CGDG"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 19,
@@ -270,7 +292,8 @@
    "source": {
     "type": "gmo"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "GMO"
   },
   {
    "rank": 20,
@@ -282,7 +305,8 @@
    "source": {
     "type": "eagle"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Eagle"
   },
   {
    "rank": 21,
@@ -295,7 +319,8 @@
     "type": "filepoint",
     "url": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Akre"
   },
   {
    "ticker": "TSPA",
@@ -305,11 +330,12 @@
    "benchmark": "SP500",
    "disclosure": "quarterly",
    "source": {
-    "type": "nport",
-    "ticker": "TSPA"
+    "type": "trowe_pdf",
+    "code": "phsrx"
    },
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
-   "rank": 22
+   "note": "T. Rowe 분기 전체 보유 PDF",
+   "rank": 22,
+   "issuer": "T. Rowe Price"
   },
   {
    "rank": 23,
@@ -322,7 +348,8 @@
     "type": "jpm",
     "cusip": "46654Q732"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "JPMorgan"
   },
   {
    "rank": 24,
@@ -335,7 +362,8 @@
     "type": "jpm",
     "cusip": "46654Q757"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "JPMorgan"
   },
   {
    "rank": 25,
@@ -348,7 +376,8 @@
     "type": "ezmoney",
     "code": "63YTW"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "統一投信"
   },
   {
    "rank": 26,
@@ -366,7 +395,8 @@
     ],
     "ticker": "IDEF"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "iShares"
   },
   {
    "rank": 27,
@@ -379,7 +409,8 @@
     "type": "capital_group",
     "ticker": "CGMM"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 28,
@@ -390,10 +421,12 @@
    "benchmark": "R1000G",
    "source": {
     "type": "nport",
-    "ticker": "FWD"
+    "ticker": "FWD",
+    "name": "AB Disruptors ETF"
    },
    "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
-   "disclosure": "quarterly"
+   "disclosure": "quarterly",
+   "issuer": "AllianceBernstein"
   },
   {
    "rank": 29,
@@ -406,7 +439,8 @@
     "type": "capital_group",
     "ticker": "CGGE"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 30,
@@ -419,7 +453,8 @@
     "type": "capital_group",
     "ticker": "CGNG"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 31,
@@ -430,10 +465,12 @@
    "benchmark": null,
    "source": {
     "type": "nport",
-    "ticker": "TMSL"
+    "ticker": "TMSL",
+    "name": "T. Rowe Price Small-Mid Cap ETF"
    },
    "disclosure": "quarterly",
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "issuer": "T. Rowe Price"
   },
   {
    "ticker": "FEGE",
@@ -444,10 +481,12 @@
    "disclosure": "quarterly",
    "source": {
     "type": "nport",
-    "ticker": "FEGE"
+    "ticker": "FEGE",
+    "name": "First Eagle Global Equity ETF"
    },
    "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
-   "rank": 32
+   "rank": 32,
+   "issuer": "First"
   },
   {
    "rank": 33,
@@ -460,7 +499,8 @@
     "type": "capital_group",
     "ticker": "CGIC"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 34,
@@ -471,10 +511,12 @@
    "benchmark": "R1000G",
    "source": {
     "type": "nport",
-    "ticker": "NUGO"
+    "ticker": "NUGO",
+    "name": "Nuveen Growth Opportunities ETF"
    },
    "disclosure": "quarterly",
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "issuer": "Nuveen"
   },
   {
    "rank": 35,
@@ -487,7 +529,8 @@
     "type": "capital_group",
     "ticker": "CGIE"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 36,
@@ -500,7 +543,8 @@
     "type": "dated_csv",
     "pattern": "https://www.bahl-gaynor.com/wp-content/uploads/etf_holdings_csv/BGIG_holdings_{date:%Y-%m-%d}.csv"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Bahl"
   },
   {
    "ticker": "TCHP",
@@ -510,11 +554,12 @@
    "benchmark": "R1000G",
    "disclosure": "quarterly",
    "source": {
-    "type": "nport",
-    "ticker": "TCHP"
+    "type": "trowe_pdf",
+    "code": "phbcx"
    },
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
-   "rank": 37
+   "note": "T. Rowe 분기 전체 보유 PDF",
+   "rank": 37,
+   "issuer": "T. Rowe Price"
   },
   {
    "rank": 38,
@@ -527,7 +572,8 @@
     "type": "fhtrust",
     "id": "ETF23"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "主動復華未來50"
   },
   {
    "rank": 39,
@@ -540,7 +586,8 @@
     "type": "ark",
     "ticker": "ARKG"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "ARK"
   },
   {
    "rank": 40,
@@ -553,7 +600,8 @@
     "type": "capital_group",
     "ticker": "CGCV"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Capital Group"
   },
   {
    "rank": 41,
@@ -564,10 +612,12 @@
    "benchmark": "ACWI",
    "source": {
     "type": "nport",
-    "ticker": "EMOP"
+    "ticker": "EMOP",
+    "name": "AB Emerging Markets Opportunities ETF"
    },
    "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
-   "disclosure": "quarterly"
+   "disclosure": "quarterly",
+   "issuer": "AllianceBernstein"
   },
   {
    "rank": 42,
@@ -578,10 +628,12 @@
    "benchmark": "R1000G",
    "source": {
     "type": "nport",
-    "ticker": "ALAI"
+    "ticker": "ALAI",
+    "name": "Alger AI Enablers & Adopters ETF"
    },
    "disclosure": "quarterly",
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "issuer": "Alger"
   },
   {
    "rank": 43,
@@ -594,7 +646,8 @@
     "type": "ftportfolios",
     "ticker": "WCMI"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "First"
   },
   {
    "rank": 44,
@@ -607,7 +660,8 @@
     "type": "jpm",
     "cusip": "46654Q781"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "JPMorgan"
   },
   {
    "rank": 45,
@@ -618,10 +672,12 @@
    "benchmark": "ACWI",
    "source": {
     "type": "nport",
-    "ticker": "IDEQ"
+    "ticker": "IDEQ",
+    "name": "Lazard International Dynamic Equity ETF"
    },
    "disclosure": "quarterly",
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "issuer": "Lazard"
   },
   {
    "rank": 46,
@@ -634,7 +690,8 @@
     "type": "generic",
     "url": "https://api.assetmgmt.principalam.com/public/files?key=LCAP.xlsx"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "Principal"
   },
   {
    "rank": 47,
@@ -647,7 +704,8 @@
     "type": "ark",
     "ticker": "ARKW"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "ARK"
   },
   {
    "rank": 48,
@@ -660,7 +718,8 @@
     "type": "ark",
     "ticker": "ARKQ"
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "ARK"
   },
   {
    "rank": 49,
@@ -671,10 +730,12 @@
    "benchmark": "SP500",
    "source": {
     "type": "nport",
-    "ticker": "BAFE"
+    "ticker": "BAFE",
+    "name": "Brown Advisory Flexible Equity ETF"
    },
    "disclosure": "quarterly",
-   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)"
+   "note": "SEC N-PORT 분기 공시 기준(운용사 일일 파일 경로 미확보)",
+   "issuer": "Brown"
   },
   {
    "rank": 50,
@@ -687,7 +748,8 @@
     "type": "timefolio",
     "idx": 2
    },
-   "disclosure": "daily"
+   "disclosure": "daily",
+   "issuer": "타임폴리오"
   }
  ],
  "reserve": [
@@ -701,7 +763,8 @@
    "source": {
     "type": "jpm",
     "cusip": "46641Q266"
-   }
+   },
+   "issuer": "JPMorgan"
   },
   {
    "rank": 47,
@@ -713,7 +776,8 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "issuer": "T. Rowe Price"
   },
   {
    "rank": 48,
@@ -726,7 +790,8 @@
     "type": "dated_csv",
     "pattern": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_{date:%m%d%Y}.csv",
     "fund_filter": "CHAT"
-   }
+   },
+   "issuer": "Roundhill"
   },
   {
    "rank": 49,
@@ -738,7 +803,8 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "issuer": "T. Rowe Price"
   },
   {
    "ticker": "INFL",
@@ -750,7 +816,8 @@
     "type": "pending"
    },
    "track": false,
-   "rank": 50
+   "rank": 50,
+   "issuer": "Horizon"
   },
   {
    "ticker": "456600",
@@ -763,7 +830,8 @@
     "idx": 6
    },
    "track": false,
-   "note": "51위 이하 — 50위 안 ETF 수집 실패 시 대체"
+   "note": "51위 이하 — 50위 안 ETF 수집 실패 시 대체",
+   "issuer": "타임폴리오"
   }
  ],
  "excluded": [

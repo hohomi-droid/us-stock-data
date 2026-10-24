@@ -187,9 +187,24 @@ def do_wayback(e, dates, log):
         time.sleep(1.0)
 
 
+def nport_step(e, dates, log):
+    tk = e["ticker"]
+    quarterly = e["source"]["type"] == "nport"
+    try:
+        n = 0
+        for d in nport.history(tk, count=3, fund_name=e.get("name")):
+            if (quarterly or d["asof"] >= (dates[0] - timedelta(days=75)).isoformat()) and store.save(tk, d, "nport"):
+                log["saved"].append(d["asof"])
+                n += 1
+        log["nport"] = n
+    except Exception as ex:  # noqa: BLE001
+        log["errors"].append(f"nport: {type(ex).__name__}: {str(ex)[:150]}")
+
+
 def main():
     days = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 66
-    only = {a for a in sys.argv[1:] if not a.isdigit()}
+    nport_only = "nport" in sys.argv[1:]
+    only = {a for a in sys.argv[1:] if not a.isdigit() and a != "nport"}
     universe = json.loads((ROOT / "config" / "universe.json").read_text(encoding="utf-8"))
     dates = weekdays(days)
     out = {"run": datetime.now(KST).isoformat(timespec="seconds"), "days": days, "etfs": {}}
@@ -201,6 +216,15 @@ def main():
         live = sorted(p.stem for p in (store.HIST / tk).glob("*.json"))
         live_asof = live[-1] if live else None
         t0 = time.time()
+        if nport_only:
+            if e.get("market") == "US" and t != "trowe_pdf":
+                nport_step(e, dates, log)
+            if t == "trowe_pdf":
+                for d in nport.trowe_history(e["source"]["code"]):
+                    if store.save(tk, d, "trowe_pdf"):
+                        log["saved"].append(d["asof"])
+            out["etfs"][tk] = log
+            continue
         try:
             if t in NATIVE:
                 log["strategy"] = "native"
@@ -210,16 +234,12 @@ def main():
             if len(log["saved"]) < 3 and t != "nport":
                 log["strategy"] = (log["strategy"] or "") + "+wayback"
                 do_wayback(e, dates, log)
-            if e.get("market") == "US":
-                try:
-                    n = 0
-                    for d in nport.history(tk, count=3):
-                        if d["asof"] >= (dates[0] - timedelta(days=75)).isoformat() and store.save(tk, d, "nport"):
-                            log["saved"].append(d["asof"])
-                            n += 1
-                    log["nport"] = n
-                except Exception as ex:  # noqa: BLE001
-                    log["errors"].append(f"nport: {type(ex).__name__}: {str(ex)[:150]}")
+            if t == "trowe_pdf":
+                for d in nport.trowe_history(e["source"]["code"]):
+                    if store.save(tk, d, "trowe_pdf"):
+                        log["saved"].append(d["asof"])
+            elif e.get("market") == "US":
+                nport_step(e, dates, log)
         except Exception:  # noqa: BLE001
             log["errors"].append(traceback.format_exc()[-300:])
         log["saved"] = sorted(set(log["saved"]))
@@ -230,7 +250,7 @@ def main():
         out["etfs"][tk] = log
         print(tk, log["strategy"], "saved", len(log["saved"]), "history", log["history"], flush=True)
     (ROOT / "out").mkdir(exist_ok=True)
-    (ROOT / "out" / "backfill_log.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    (ROOT / "out" / ("nport_log.json" if nport_only else "backfill_log.json")).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 if __name__ == "__main__":

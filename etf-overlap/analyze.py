@@ -285,22 +285,24 @@ def main():
         p1, d1 = latest_price(prices, yahoo)
         ret = (p1 / p0 - 1) if (p0 and p1) else None
         th = themes.get(s_, {})
+        iss = {e["ticker"]: e.get("issuer", e["ticker"]) for e in universe["etfs"]}
         rows.append({
             "sym": s_, "name": th.get("name") or m["name"], "yahoo": yahoo,
             "holders": len(h), "holds_all": len(holds_now[s_]),
             "add2m": len(add_long), "add2w": len(add_short),
+            "add2m_iss": len({iss.get(k, k) for k in add_long}), "add2w_iss": len({iss.get(k, k) for k in add_short}),
             "new2w": len(add_short), "score": len(add_short) * 100 + len(add_long),
             "sell_warn": len(sells) >= 2, "sells": sorted(sells),
             "p0": p0, "d0": first_d, "p1": p1, "d1": d1,
             "ret": None if ret is None or math.isnan(ret) else round(ret, 4),
             "theme": th.get("theme", ""), "desc": th.get("desc", ""),
             "holder_list": sorted(h, key=lambda x: -x["weight"]),
-            "new_list": [{"etf": k, "kind": v[1], "date": v[0], "prev": v[2], "recent": k in add_short}
+            "new_list": [{"etf": k, "kind": v[1], "date": v[0], "prev": v[2], "recent": k in add_short, "issuer": iss.get(k, k)}
                          for k, v in sorted(add_long.items(), key=lambda kv: kv[1][0], reverse=True)],
             "no_bench": sorted({x["etf"] for x in h} & no_bench_etfs),
         })
 
-    rows.sort(key=lambda r: (-r["add2w"], -r["add2m"], -r["holders"],
+    rows.sort(key=lambda r: (-r["add2w"], -r["add2w_iss"], -r["add2m"], -r["add2m_iss"], -r["holders"],
                              -sum(x["weight"] or 0 for x in r["holder_list"]), r["sym"]))
     for i, r in enumerate(rows, 1):
         r["rank"] = i
@@ -339,7 +341,7 @@ def main():
         "stale_etfs": sorted(stale),
     }
     etf_info = {e["ticker"]: {"name": e.get("name"), "aum": e.get("aum_usd_bn"), "market": e.get("market"),
-                              "rank": e.get("rank"), "tracked": e.get("track", True),
+                              "rank": e.get("rank"), "tracked": e.get("track", True), "issuer": e.get("issuer"),
                               "disclosure": e.get("disclosure", "daily"),
                               "asof": latest.get(e["ticker"], (None,))[0],
                               "history_from": coverage.get(e["ticker"], {}).get("first"),

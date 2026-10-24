@@ -50,7 +50,9 @@ def run_source(src: dict):
     if t == "ab":
         return us.alliancebernstein(src["page"])
     if t == "nport":
-        return nport.latest(src.get("ticker"))
+        return nport.latest(src.get("ticker"), src.get("name"))
+    if t == "trowe_pdf":
+        return nport.trowe_history(src["code"])[-1]
     if t == "filepoint":
         return us.filepoint(src["url"])
     if t == "eagle":
@@ -76,8 +78,9 @@ def main():
                     raise ValueError("보유종목 0개")
                 d["asof"] = d.get("asof") or today
                 snap["etfs"][tk] = d
-                store.save(tk, d, "nport" if e["source"]["type"] == "nport" else "live",
-                           overwrite=e["source"]["type"] != "nport")
+                st = e["source"]["type"]
+                store.save(tk, d, st if st in ("nport", "trowe_pdf") else "live",
+                           overwrite=st not in ("nport", "trowe_pdf"))
                 log["ok"].append(f'{tk}:{len(d["holdings"])}:{d.get("asof")}')
                 break
             except Exception as ex:  # noqa: BLE001

@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 HIST = ROOT / "data" / "history"
-KEEP_DAYS = 120
+KEEP_DAYS = 220
 
 
 def compact(holdings: dict) -> dict:
