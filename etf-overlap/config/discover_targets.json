@@ -1,8 +1,9 @@
 {
- "AKRE": [{"url": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv"}],
- "NUGO_D": [{"url": "https://documents.nuveen.com/Documents/Nuveen/Default.aspx?uniqueId=60255fd8-3b85-407b-a5e3-87f489eecee5"}],
- "BAFE": [{"url": "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/bottom-container.html", "grep": "assets/data/[^\"']+|\\.csv[^\"']*"}],
- "BAFE_JS": [{"url": "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/", "follow_js": "assets/data/[^\"'`]+|_Holdings[^\"'`]*"}],
- "TCHP": [{"url": "https://individual.troweprice.com/staticFiles/gcFiles/pdf/phbcxq3.pdf"}],
- "TSPA": [{"url": "https://individual.troweprice.com/staticFiles/gcFiles/pdf/phsrxq3.pdf"}]
+ "ISH_AJAX": [{"url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1467271812596.ajax?fileType=csv&fileName=BAI_holdings&dataType=fund&asOfDate=20260930"},
+              {"url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1467271812596.ajax?fileType=csv&fileName=BAI_holdings&dataType=fund"},
+              {"url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/latest-holdings.csv?asOfDate=20260930"},
+              {"url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1521942788811.ajax?fileType=xls&fileName=iShares-A-I-Innovation-and-Tech-Active-ETF_fund&dataType=fund&asOfDate=20260930"}],
+ "ARKIO": [{"url": "https://arkfunds.io/api/v2/etf/holdings?symbol=ARKK&date_from=2026-09-01&date_to=2026-09-05"}],
+ "SEC_MF": [{"url": "https://www.sec.gov/files/company_tickers_mf.json", "grep": "\"(CGDV|JGRO|TCHP|PVAL|FBCG|CNEQ|AKRE)\""}],
+ "AKRE": [{"url": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv"}]
 }

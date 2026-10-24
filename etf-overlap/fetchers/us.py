@@ -26,6 +26,7 @@ def ref_now(tz_hours: int = 0):
     return datetime.now(_tz(_td(hours=tz_hours)))
 
 
+SEC_UA = "etf-overlap research hohomi-droid@users.noreply.github.com"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
       "Accept": "*/*"}
 S = requests.Session()

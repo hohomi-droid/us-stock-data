@@ -9,6 +9,7 @@ from urllib.parse import urljoin
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 from fetchers.us import S  # noqa: E402
+from fetchers import us  # noqa: E402
 
 PAT = re.compile(r"""["'(]([^"'()\s<>]*(?:holding|Holding|HOLDING|\.csv|\.xlsx|\.xls|/api/|portfolio|Portfolio|constituent|pcf|PCF|NPOI|Excel|excel)[^"'()\s<>]*)["')]""")
 
@@ -23,7 +24,8 @@ def main():
             if isinstance(u, dict):
                 grep, tables, follow, u = u.get("grep"), u.get("tables", False), u.get("follow_js"), u["url"]
             try:
-                r = S.get(u, timeout=30, allow_redirects=True)
+                hdr = {"User-Agent": us.SEC_UA} if "sec.gov" in u else None
+                r = S.get(u, timeout=30, allow_redirects=True, headers=hdr)
                 ct = r.headers.get("content-type", "")
                 item = {"url": u, "final": r.url, "status": r.status_code, "ctype": ct, "len": len(r.content)}
                 if "html" in ct or "javascript" in ct or "json" in ct:
