@@ -1,0 +1,742 @@
+{
+ "run": "2026-10-24T10:13:05+09:00",
+ "days": 66,
+ "etfs": {
+  "CGDV": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 2,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "CGGR": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "BAI": {
+   "type": "ishares",
+   "strategy": "native+wayback",
+   "saved": [],
+   "errors": [
+    "2026-08-19: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-20: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-21: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-24: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-25: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-26: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-27: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-28: ValueError: iShares CSV 헤더를 찾지 못함"
+   ],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 48,
+   "history": {
+    "n": 3,
+    "first": "2026-10-20",
+    "last": "2026-10-22"
+   }
+  },
+  "CGUS": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 3,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "CGGO": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 2,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "JGRO": {
+   "type": "jpm",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)",
+    "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 4,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "BLCR": {
+   "type": "ishares",
+   "strategy": "native+wayback",
+   "saved": [],
+   "errors": [
+    "2026-08-19: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-20: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-21: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-24: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-25: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-26: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-27: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-28: ValueError: iShares CSV 헤더를 찾지 못함"
+   ],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 45,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "00981A": {
+   "type": "ezmoney",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y/%m/%d → 2026-10-22 (no)",
+    "specificDate:%Y/%m/%d → 2026-10-22 (no)",
+    "date:%Y%m%d → 2026-10-22 (no)",
+    "sDate:%Y/%m/%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 4,
+   "history": {
+    "n": 1,
+    "first": "2026-10-22",
+    "last": "2026-10-22"
+   }
+  },
+  "JAVA": {
+   "type": "jpm",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)",
+    "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 4,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "SEQ": {
+   "type": "sequoia",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 3,
+    "first": "2026-10-22",
+    "last": "2026-10-24"
+   }
+  },
+  "CGXU": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "JGLO": {
+   "type": "jpm",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)",
+    "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 3,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "ARKK": {
+   "type": "ark",
+   "strategy": "+wayback",
+   "saved": [
+    "2026-10-01"
+   ],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 1,
+   "sec": 2,
+   "history": {
+    "n": 3,
+    "first": "2026-10-01",
+    "last": "2026-10-22"
+   }
+  },
+  "CGDG": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 3,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "QLTY": {
+   "type": "gmo",
+   "strategy": "+wayback",
+   "saved": [
+    "2026-08-14",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-24",
+    "2026-08-28",
+    "2026-08-31",
+    "2026-09-04",
+    "2026-09-10",
+    "2026-09-14",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-30",
+    "2026-10-02",
+    "2026-10-07"
+   ],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 17,
+   "sec": 27,
+   "history": {
+    "n": 18,
+    "first": "2026-08-14",
+    "last": "2026-10-23"
+   }
+  },
+  "EAGL": {
+   "type": "eagle",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "JTEK": {
+   "type": "jpm",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)",
+    "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 3,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "JIVE": {
+   "type": "jpm",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)",
+    "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 6,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "00403A": {
+   "type": "ezmoney",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y/%m/%d → 2026-10-22 (no)",
+    "specificDate:%Y/%m/%d → 2026-10-22 (no)",
+    "date:%Y%m%d → 2026-10-22 (no)",
+    "sDate:%Y/%m/%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 3,
+   "history": {
+    "n": 1,
+    "first": "2026-10-22",
+    "last": "2026-10-22"
+   }
+  },
+  "IDEF": {
+   "type": "ishares",
+   "strategy": "native+wayback",
+   "saved": [],
+   "errors": [
+    "2026-08-19: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-20: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-21: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-24: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-25: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-26: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-27: ValueError: iShares CSV 헤더를 찾지 못함",
+    "2026-08-28: ValueError: iShares CSV 헤더를 찾지 못함"
+   ],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 69,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "CGMM": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "CGGE": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 2,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "CGNG": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "CGIC": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 2,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "CGIE": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 2,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "BGIG": {
+   "type": "dated_csv",
+   "strategy": "native+wayback",
+   "saved": [],
+   "errors": [
+    "2026-08-19: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
+    "2026-08-20: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
+    "2026-08-21: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
+    "2026-08-24: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
+    "2026-08-25: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
+    "2026-08-26: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
+    "2026-08-27: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
+    "2026-08-28: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함"
+   ],
+   "probe": [],
+   "sec": 59,
+   "history": {
+    "n": 2,
+    "first": "2026-10-22",
+    "last": "2026-10-23"
+   }
+  },
+  "00991A": {
+   "type": "fhtrust",
+   "strategy": "native",
+   "saved": [
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+   ],
+   "errors": [],
+   "probe": [],
+   "sec": 32,
+   "history": {
+    "n": 44,
+    "first": "2026-08-19",
+    "last": "2026-10-22"
+   }
+  },
+  "ARKG": {
+   "type": "ark",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "CGCV": {
+   "type": "capital_group",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%m/%d/%Y → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "WCMI": {
+   "type": "ftportfolios",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "JPEF": {
+   "type": "jpm",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-22 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-22 (no)",
+    "effectiveDate:%Y-%m-%d → 2026-10-22 (no)",
+    "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 3,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "LCAP": {
+   "type": "generic",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [
+    "date:%Y-%m-%d → 2026-10-23 (no)",
+    "asOfDate:%Y-%m-%d → 2026-10-23 (no)",
+    "asofdate:%m/%d/%Y → 2026-10-23 (no)"
+   ],
+   "wayback_captures": 0,
+   "sec": 3,
+   "history": {
+    "n": 2,
+    "first": "2026-10-22",
+    "last": "2026-10-23"
+   }
+  },
+  "ARKW": {
+   "type": "ark",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 0,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "ARKQ": {
+   "type": "ark",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 1,
+   "history": {
+    "n": 2,
+    "first": "2026-10-21",
+    "last": "2026-10-22"
+   }
+  },
+  "426030": {
+   "type": "timefolio",
+   "strategy": "native",
+   "saved": [
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+   ],
+   "errors": [],
+   "probe": [],
+   "sec": 28,
+   "history": {
+    "n": 44,
+    "first": "2026-08-19",
+    "last": "2026-10-23"
+   }
+  }
+ }
+}

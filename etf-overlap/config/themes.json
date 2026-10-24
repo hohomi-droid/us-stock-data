@@ -490,8 +490,9 @@
  "TER": {
   "name": "Teradyne, Inc.",
   "theme": "반도체 장비",
-  "desc": "Teradyne, Inc.",
-  "auto": true
+  "desc": "Teradyne, Inc. engages in the design, development, manufacture, and sale of automated test systems and robotics products in the United States, Asia Pacific,…",
+  "auto": true,
+  "v": 2
  },
  "WELL": {
   "name": "Welltower Inc.",
@@ -626,7 +627,8 @@
   "name": "NVIDIA Corporation",
   "theme": "반도체",
   "desc": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "MCD": {
   "name": "McDonald's Corporation",
@@ -818,7 +820,8 @@
   "name": "Natera, Inc.",
   "theme": "진단·연구장비",
   "desc": "Natera, Inc., a diagnostics company, engages in the development and commercialization of molecular testing services worldwide.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "ENGI.PA": {
   "name": "ENGIE",
