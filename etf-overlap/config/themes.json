@@ -390,8 +390,9 @@
  "NFLX": {
   "name": "Netflix, Inc.",
   "theme": "미디어·엔터",
-  "desc": "Netflix, Inc.",
-  "auto": true
+  "desc": "Netflix, Inc. provides entertainment services worldwide. The company offers television (TV) series, documentaries, feature films, games, and live programming…",
+  "auto": true,
+  "v": 2
  },
  "KO": {
   "name": "Coca-Cola Company (The)",
@@ -976,6 +977,76 @@
   "name": "Berkshire Hathaway Inc. New",
   "theme": "보험",
   "desc": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses.",
+  "auto": true,
+  "v": 2
+ },
+ "RKLB": {
+  "name": "Rocket Lab Corporation",
+  "theme": "방산·항공우주",
+  "desc": "Rocket Lab Corporation, a space company, provides launch services and space systems solutions in the United States, Canada, Japan, and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "XE": {
+  "name": "X-Energy, Inc.",
+  "theme": "산업기계",
+  "desc": "X-Energy, Inc. designs and develops nuclear reactor technology.",
+  "auto": true,
+  "v": 2
+ },
+ "RXRX": {
+  "name": "Recursion Pharmaceuticals, Inc.",
+  "theme": "바이오",
+  "desc": "Recursion Pharmaceuticals, Inc., a clinical-stage biotechnology company, engages in the decoding biology and chemistry by integrating technological…",
+  "auto": true,
+  "v": 2
+ },
+ "NTLA": {
+  "name": "Intellia Therapeutics, Inc.",
+  "theme": "바이오",
+  "desc": "Intellia Therapeutics, Inc. operates as a clinical-stage genome editing company focused on developing potentially curative therapeutics using…",
+  "auto": true,
+  "v": 2
+ },
+ "CAP.PA": {
+  "name": "CAPGEMINI",
+  "theme": "IT 서비스",
+  "desc": "Capgemini SE, together with its subsidiaries, provides consulting, digital transformation, technology, and engineering services primarily in North America,…",
+  "auto": true,
+  "v": 2
+ },
+ "XYZ": {
+  "name": "Block, Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Block, Inc., together with its subsidiaries, builds ecosystems focused on commerce and financial products and services in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "BEAM": {
+  "name": "Beam Therapeutics Inc.",
+  "theme": "바이오",
+  "desc": "Beam Therapeutics Inc., a biotechnology company, engages in the development of precision genetic medicines for patients suffering from serious diseases in the…",
+  "auto": true,
+  "v": 2
+ },
+ "VCYT": {
+  "name": "Veracyte, Inc.",
+  "theme": "진단·연구장비",
+  "desc": "Veracyte, Inc. operates as a diagnostics company in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "ACHR": {
+  "name": "Archer Aviation Inc.",
+  "theme": "방산·항공우주",
+  "desc": "Archer Aviation Inc., together with its subsidiaries, designs and develops aircraft and related technologies and services for commercial and defense sectors…",
+  "auto": true,
+  "v": 2
+ },
+ "P": {
+  "name": "Everpure, Inc.",
+  "theme": "IT 하드웨어",
+  "desc": "Everpure, Inc. provides data storage and management technologies, products, and services in the United States and internationally.",
   "auto": true,
   "v": 2
  }

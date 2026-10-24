@@ -1,5 +1,5 @@
 {
- "run": "2026-10-24T10:13:05+09:00",
+ "run": "2026-10-24T10:36:59+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -14,7 +14,8 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 2,
+   "nport": 0,
+   "sec": 4,
    "history": {
     "n": 2,
     "first": "2026-10-21",
@@ -33,30 +34,39 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 1,
+   "nport": 0,
+   "sec": 2,
    "history": {
     "n": 2,
     "first": "2026-10-21",
     "last": "2026-10-22"
    }
   },
-  "BAI": {
-   "type": "ishares",
-   "strategy": "native+wayback",
+  "PVAL": {
+   "type": "nport",
+   "strategy": null,
    "saved": [],
    "errors": [
-    "2026-08-19: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-20: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-21: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-24: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-25: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-26: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-27: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-28: ValueError: iShares CSV 헤더를 찾지 못함"
+    "nport: ValueError: SEC 펀드 목록에 PVAL 없음"
+   ],
+   "probe": [],
+   "sec": 0,
+   "history": {
+    "n": 0,
+    "first": null,
+    "last": null
+   }
+  },
+  "BAI": {
+   "type": "ishares",
+   "strategy": "+wayback",
+   "saved": [],
+   "errors": [
+    "nport: ValueError: SEC 펀드 목록에 BAI 없음"
    ],
    "probe": [],
    "wayback_captures": 0,
-   "sec": 48,
+   "sec": 1,
    "history": {
     "n": 3,
     "first": "2026-10-20",
@@ -75,7 +85,8 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 3,
+   "nport": 0,
+   "sec": 2,
    "history": {
     "n": 2,
     "first": "2026-10-21",
@@ -94,7 +105,8 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 2,
+   "nport": 0,
+   "sec": 3,
    "history": {
     "n": 2,
     "first": "2026-10-21",
@@ -104,7 +116,9 @@
   "JGRO": {
    "type": "jpm",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-06-30"
+   ],
    "errors": [],
    "probe": [
     "date:%Y-%m-%d → 2026-10-22 (no)",
@@ -113,30 +127,24 @@
     "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 4,
+   "nport": 1,
+   "sec": 6,
    "history": {
-    "n": 2,
-    "first": "2026-10-21",
+    "n": 3,
+    "first": "2026-06-30",
     "last": "2026-10-22"
    }
   },
   "BLCR": {
    "type": "ishares",
-   "strategy": "native+wayback",
+   "strategy": "+wayback",
    "saved": [],
    "errors": [
-    "2026-08-19: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-20: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-21: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-24: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-25: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-26: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-27: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-28: ValueError: iShares CSV 헤더를 찾지 못함"
+    "nport: ValueError: SEC 펀드 목록에 BLCR 없음"
    ],
    "probe": [],
    "wayback_captures": 0,
-   "sec": 45,
+   "sec": 1,
    "history": {
     "n": 2,
     "first": "2026-10-21",
@@ -155,17 +163,51 @@
     "sDate:%Y/%m/%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 4,
+   "sec": 5,
    "history": {
     "n": 1,
     "first": "2026-10-22",
     "last": "2026-10-22"
    }
   },
+  "TCAF": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
+   }
+  },
+  "FBCG": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-07-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-07-31",
+    "last": "2026-07-31"
+   }
+  },
   "JAVA": {
    "type": "jpm",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-06-30"
+   ],
    "errors": [],
    "probe": [
     "date:%Y-%m-%d → 2026-10-22 (no)",
@@ -174,10 +216,11 @@
     "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
+   "nport": 1,
    "sec": 4,
    "history": {
-    "n": 2,
-    "first": "2026-10-21",
+    "n": 3,
+    "first": "2026-06-30",
     "last": "2026-10-22"
    }
   },
@@ -185,7 +228,9 @@
    "type": "sequoia",
    "strategy": "+wayback",
    "saved": [],
-   "errors": [],
+   "errors": [
+    "nport: ValueError: SEC 펀드 목록에 SEQ 없음"
+   ],
    "probe": [],
    "wayback_captures": 0,
    "sec": 1,
@@ -207,7 +252,8 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 1,
+   "nport": 0,
+   "sec": 5,
    "history": {
     "n": 2,
     "first": "2026-10-21",
@@ -217,7 +263,9 @@
   "JGLO": {
    "type": "jpm",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-07-31"
+   ],
    "errors": [],
    "probe": [
     "date:%Y-%m-%d → 2026-10-22 (no)",
@@ -226,27 +274,88 @@
     "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 3,
+   "nport": 1,
+   "sec": 6,
    "history": {
-    "n": 2,
-    "first": "2026-10-21",
+    "n": 3,
+    "first": "2026-07-31",
     "last": "2026-10-22"
    }
   },
   "ARKK": {
    "type": "ark",
-   "strategy": "+wayback",
+   "strategy": "native",
    "saved": [
-    "2026-10-01"
+    "2026-07-31",
+    "2026-08-18",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-02",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-19",
+    "2026-10-20"
    ],
    "errors": [],
    "probe": [],
-   "wayback_captures": 1,
-   "sec": 2,
+   "nport": 1,
+   "sec": 3,
    "history": {
-    "n": 3,
-    "first": "2026-10-01",
+    "n": 48,
+    "first": "2026-07-31",
     "last": "2026-10-22"
+   }
+  },
+  "CNEQ": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
    }
   },
   "CGDG": {
@@ -261,7 +370,8 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 3,
+   "nport": 0,
+   "sec": 2,
    "history": {
     "n": 2,
     "first": "2026-10-21",
@@ -271,28 +381,12 @@
   "QLTY": {
    "type": "gmo",
    "strategy": "+wayback",
-   "saved": [
-    "2026-08-14",
-    "2026-08-20",
-    "2026-08-21",
-    "2026-08-24",
-    "2026-08-28",
-    "2026-08-31",
-    "2026-09-04",
-    "2026-09-10",
-    "2026-09-14",
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-30",
-    "2026-10-02",
-    "2026-10-07"
-   ],
+   "saved": [],
    "errors": [],
    "probe": [],
    "wayback_captures": 17,
-   "sec": 27,
+   "nport": 0,
+   "sec": 40,
    "history": {
     "n": 18,
     "first": "2026-08-14",
@@ -302,24 +396,63 @@
   "EAGL": {
    "type": "eagle",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-06-30"
+   ],
    "errors": [],
    "probe": [
     "date:%Y-%m-%d → 2026-10-22 (no)",
     "asOfDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 1,
+   "nport": 1,
+   "sec": 3,
+   "history": {
+    "n": 3,
+    "first": "2026-06-30",
+    "last": "2026-10-22"
+   }
+  },
+  "AKRE": {
+   "type": "filepoint",
+   "strategy": "+wayback",
+   "saved": [
+    "2026-07-31",
+    "2026-10-15"
+   ],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 1,
+   "nport": 1,
+   "sec": 4,
    "history": {
     "n": 2,
-    "first": "2026-10-21",
-    "last": "2026-10-22"
+    "first": "2026-07-31",
+    "last": "2026-10-15"
+   }
+  },
+  "TSPA": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
    }
   },
   "JTEK": {
    "type": "jpm",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-06-30"
+   ],
    "errors": [],
    "probe": [
     "date:%Y-%m-%d → 2026-10-22 (no)",
@@ -328,17 +461,20 @@
     "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 3,
+   "nport": 1,
+   "sec": 5,
    "history": {
-    "n": 2,
-    "first": "2026-10-21",
+    "n": 3,
+    "first": "2026-06-30",
     "last": "2026-10-22"
    }
   },
   "JIVE": {
    "type": "jpm",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-07-31"
+   ],
    "errors": [],
    "probe": [
     "date:%Y-%m-%d → 2026-10-22 (no)",
@@ -347,10 +483,11 @@
     "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
+   "nport": 1,
    "sec": 6,
    "history": {
-    "n": 2,
-    "first": "2026-10-21",
+    "n": 3,
+    "first": "2026-07-31",
     "last": "2026-10-22"
    }
   },
@@ -366,7 +503,7 @@
     "sDate:%Y/%m/%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 3,
+   "sec": 7,
    "history": {
     "n": 1,
     "first": "2026-10-22",
@@ -375,21 +512,14 @@
   },
   "IDEF": {
    "type": "ishares",
-   "strategy": "native+wayback",
+   "strategy": "+wayback",
    "saved": [],
    "errors": [
-    "2026-08-19: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-20: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-21: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-24: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-25: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-26: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-27: ValueError: iShares CSV 헤더를 찾지 못함",
-    "2026-08-28: ValueError: iShares CSV 헤더를 찾지 못함"
+    "nport: ValueError: SEC 펀드 목록에 IDEF 없음"
    ],
    "probe": [],
    "wayback_captures": 0,
-   "sec": 69,
+   "sec": 0,
    "history": {
     "n": 2,
     "first": "2026-10-21",
@@ -408,11 +538,26 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 1,
+   "nport": 0,
+   "sec": 6,
    "history": {
     "n": 2,
     "first": "2026-10-21",
     "last": "2026-10-22"
+   }
+  },
+  "FWD": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0,
+   "sec": 1,
+   "history": {
+    "n": 0,
+    "first": null,
+    "last": null
    }
   },
   "CGGE": {
@@ -427,6 +572,7 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
+   "nport": 0,
    "sec": 2,
    "history": {
     "n": 2,
@@ -446,11 +592,42 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 1,
+   "nport": 0,
+   "sec": 3,
    "history": {
     "n": 2,
     "first": "2026-10-21",
     "last": "2026-10-22"
+   }
+  },
+  "TMSL": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 19,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
+   }
+  },
+  "FEGE": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0,
+   "sec": 1,
+   "history": {
+    "n": 0,
+    "first": null,
+    "last": null
    }
   },
   "CGIC": {
@@ -465,11 +642,28 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
+   "nport": 0,
    "sec": 2,
    "history": {
     "n": 2,
     "first": "2026-10-21",
     "last": "2026-10-22"
+   }
+  },
+  "NUGO": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-07-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-07-31",
+    "last": "2026-07-31"
    }
   },
   "CGIE": {
@@ -484,6 +678,7 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
+   "nport": 0,
    "sec": 2,
    "history": {
     "n": 2,
@@ -493,30 +688,9 @@
   },
   "BGIG": {
    "type": "dated_csv",
-   "strategy": "native+wayback",
-   "saved": [],
-   "errors": [
-    "2026-08-19: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
-    "2026-08-20: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
-    "2026-08-21: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
-    "2026-08-24: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
-    "2026-08-25: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
-    "2026-08-26: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
-    "2026-08-27: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함",
-    "2026-08-28: ValueError: 날짜형 파일 없음: 보유 표 헤더를 찾지 못함"
-   ],
-   "probe": [],
-   "sec": 59,
-   "history": {
-    "n": 2,
-    "first": "2026-10-22",
-    "last": "2026-10-23"
-   }
-  },
-  "00991A": {
-   "type": "fhtrust",
    "strategy": "native",
    "saved": [
+    "2026-06-30",
     "2026-08-19",
     "2026-08-20",
     "2026-08-21",
@@ -530,6 +704,97 @@
     "2026-09-02",
     "2026-09-03",
     "2026-09-04",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 23,
+   "history": {
+    "n": 48,
+    "first": "2026-06-30",
+    "last": "2026-10-23"
+   }
+  },
+  "TCHP": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
+   }
+  },
+  "00991A": {
+   "type": "fhtrust",
+   "strategy": "native+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 35,
+   "history": {
+    "n": 44,
+    "first": "2026-08-19",
+    "last": "2026-10-22"
+   }
+  },
+  "ARKG": {
+   "type": "ark",
+   "strategy": "native",
+   "saved": [
+    "2026-07-31",
+    "2026-08-18",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
     "2026-09-07",
     "2026-09-08",
     "2026-09-09",
@@ -544,6 +809,8 @@
     "2026-09-22",
     "2026-09-23",
     "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
     "2026-09-29",
     "2026-09-30",
     "2026-10-01",
@@ -552,35 +819,22 @@
     "2026-10-06",
     "2026-10-07",
     "2026-10-08",
+    "2026-10-09",
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-19",
-    "2026-10-20",
-    "2026-10-21"
+    "2026-10-20"
    ],
    "errors": [],
    "probe": [],
-   "sec": 32,
+   "nport": 1,
+   "sec": 2,
    "history": {
-    "n": 44,
-    "first": "2026-08-19",
-    "last": "2026-10-22"
-   }
-  },
-  "ARKG": {
-   "type": "ark",
-   "strategy": "+wayback",
-   "saved": [],
-   "errors": [],
-   "probe": [],
-   "wayback_captures": 0,
-   "sec": 1,
-   "history": {
-    "n": 2,
-    "first": "2026-10-21",
+    "n": 48,
+    "first": "2026-07-31",
     "last": "2026-10-22"
    }
   },
@@ -596,31 +850,69 @@
     "effectiveDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 1,
+   "nport": 0,
+   "sec": 2,
    "history": {
     "n": 2,
     "first": "2026-10-21",
     "last": "2026-10-22"
    }
   },
+  "EMOP": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
+   }
+  },
+  "ALAI": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
+   }
+  },
   "WCMI": {
    "type": "ftportfolios",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-06-30"
+   ],
    "errors": [],
    "probe": [],
    "wayback_captures": 0,
-   "sec": 1,
+   "nport": 1,
+   "sec": 2,
    "history": {
-    "n": 2,
-    "first": "2026-10-21",
+    "n": 3,
+    "first": "2026-06-30",
     "last": "2026-10-22"
    }
   },
   "JPEF": {
    "type": "jpm",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-06-30"
+   ],
    "errors": [],
    "probe": [
     "date:%Y-%m-%d → 2026-10-22 (no)",
@@ -629,17 +921,36 @@
     "valuationDate:%Y-%m-%d → 2026-10-22 (no)"
    ],
    "wayback_captures": 0,
-   "sec": 3,
+   "nport": 1,
+   "sec": 5,
    "history": {
-    "n": 2,
-    "first": "2026-10-21",
+    "n": 3,
+    "first": "2026-06-30",
     "last": "2026-10-22"
+   }
+  },
+  "IDEQ": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
    }
   },
   "LCAP": {
    "type": "generic",
    "strategy": "+wayback",
-   "saved": [],
+   "saved": [
+    "2026-06-30"
+   ],
    "errors": [],
    "probe": [
     "date:%Y-%m-%d → 2026-10-23 (no)",
@@ -647,45 +958,20 @@
     "asofdate:%m/%d/%Y → 2026-10-23 (no)"
    ],
    "wayback_captures": 0,
+   "nport": 1,
    "sec": 3,
    "history": {
-    "n": 2,
-    "first": "2026-10-22",
+    "n": 3,
+    "first": "2026-06-30",
     "last": "2026-10-23"
    }
   },
   "ARKW": {
    "type": "ark",
-   "strategy": "+wayback",
-   "saved": [],
-   "errors": [],
-   "probe": [],
-   "wayback_captures": 0,
-   "sec": 0,
-   "history": {
-    "n": 2,
-    "first": "2026-10-21",
-    "last": "2026-10-22"
-   }
-  },
-  "ARKQ": {
-   "type": "ark",
-   "strategy": "+wayback",
-   "saved": [],
-   "errors": [],
-   "probe": [],
-   "wayback_captures": 0,
-   "sec": 1,
-   "history": {
-    "n": 2,
-    "first": "2026-10-21",
-    "last": "2026-10-22"
-   }
-  },
-  "426030": {
-   "type": "timefolio",
    "strategy": "native",
    "saved": [
+    "2026-07-31",
+    "2026-08-18",
     "2026-08-19",
     "2026-08-20",
     "2026-08-21",
@@ -698,7 +984,6 @@
     "2026-09-01",
     "2026-09-02",
     "2026-09-03",
-    "2026-09-04",
     "2026-09-07",
     "2026-09-08",
     "2026-09-09",
@@ -712,26 +997,110 @@
     "2026-09-21",
     "2026-09-22",
     "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
     "2026-09-28",
     "2026-09-29",
     "2026-09-30",
     "2026-10-01",
     "2026-10-02",
+    "2026-10-05"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 2,
+   "history": {
+    "n": 37,
+    "first": "2026-07-31",
+    "last": "2026-10-22"
+   }
+  },
+  "ARKQ": {
+   "type": "ark",
+   "strategy": "native",
+   "saved": [
+    "2026-07-31",
+    "2026-08-18",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-05",
     "2026-10-06",
     "2026-10-07",
     "2026-10-08",
+    "2026-10-09",
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-19",
-    "2026-10-20",
-    "2026-10-21"
+    "2026-10-20"
    ],
    "errors": [],
    "probe": [],
-   "sec": 28,
+   "nport": 1,
+   "sec": 2,
+   "history": {
+    "n": 48,
+    "first": "2026-07-31",
+    "last": "2026-10-22"
+   }
+  },
+  "BAFE": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-06-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1,
+   "sec": 1,
+   "history": {
+    "n": 1,
+    "first": "2026-06-30",
+    "last": "2026-06-30"
+   }
+  },
+  "426030": {
+   "type": "timefolio",
+   "strategy": "native+wayback",
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "wayback_captures": 0,
+   "sec": 30,
    "history": {
     "n": 44,
     "first": "2026-08-19",
