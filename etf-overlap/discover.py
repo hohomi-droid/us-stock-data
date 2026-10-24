@@ -41,6 +41,14 @@ def main():
                 if grep:
                     txt = r.content.decode("utf-8", "replace")
                     item["grep"] = [txt[max(0, m.start() - 150): m.end() + 250] for m in re.finditer(grep, txt)][:12]
+                if r.content[:4] == b"%PDF":
+                    try:
+                        import io, pdfplumber
+                        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+                            item["pdf_pages"] = len(pdf.pages)
+                            item["pdf_text"] = "\n".join((pg.extract_text() or "") for pg in pdf.pages[:2])[:3000]
+                    except Exception as ex:  # noqa: BLE001
+                        item["pdf_err"] = str(ex)[:200]
                 if r.content[:2] == b"PK":
                     try:
                         import io, openpyxl

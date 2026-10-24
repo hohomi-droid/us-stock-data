@@ -1,28 +1,8 @@
 {
- "AKRE_HOME": [
-  {
-   "url": "https://www.akrefund.com/",
-   "grep": "[^\"' ]{0,160}\\.csv[^\"' ]{0,40}|data-csv[^>]{0,200}",
-   "follow_js": "\\.csv|[Hh]oldings"
-  }
- ],
- "AKRE_SUMMARY": [
-  {
-   "url": "https://www.akrefund.com/fund-summary/",
-   "grep": "[^\"' ]{0,160}\\.csv[^\"' ]{0,40}|data-csv[^>]{0,200}|[Hh]oldings[^<]{0,200}",
-   "follow_js": "\\.csv"
-  }
- ],
- "TCAF_PAGE": [
-  {
-   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
-   "grep": "[^\"']*(holdings|Holdings)[^\"']{0,120}\\.(csv|xlsx|json)|/api/[^\"']+|fundId[^,]{0,40}",
-   "follow_js": "[Hh]oldings[A-Za-z/_\\-\\.]{0,80}|/api/[A-Za-z0-9/_\\-\\.]{3,120}"
-  }
- ],
- "EZMONEY_00981A": [
-  {
-   "url": "https://www.ezmoney.com.tw/ETF/Fund/AssetExcelNPOI?fundCode=49YTW"
-  }
- ]
+ "AKRE": [{"url": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv"}],
+ "NUGO_D": [{"url": "https://documents.nuveen.com/Documents/Nuveen/Default.aspx?uniqueId=60255fd8-3b85-407b-a5e3-87f489eecee5"}],
+ "BAFE": [{"url": "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/bottom-container.html", "grep": "assets/data/[^\"']+|\\.csv[^\"']*"}],
+ "BAFE_JS": [{"url": "https://brownadvisory.filepoint.live/brown-advisory-flexible-equity/", "follow_js": "assets/data/[^\"'`]+|_Holdings[^\"'`]*"}],
+ "TCHP": [{"url": "https://individual.troweprice.com/staticFiles/gcFiles/pdf/phbcxq3.pdf"}],
+ "TSPA": [{"url": "https://individual.troweprice.com/staticFiles/gcFiles/pdf/phsrxq3.pdf"}]
 }
