@@ -279,8 +279,9 @@
  "OKTA": {
   "name": "Okta, Inc.",
   "theme": "클라우드·인프라 SW",
-  "desc": "Okta, Inc.",
-  "auto": true
+  "desc": "Okta, Inc. operates as an identity partner in the United States and internationally.",
+  "auto": true,
+  "v": 2
  },
  "SBUX": {
   "name": "Starbucks Corporation",
@@ -318,7 +319,8 @@
   "name": "Hewlett Packard Enterprise Comp",
   "theme": "통신장비·네트워크",
   "desc": "Hewlett Packard Enterprise Company, together with its subsidiaries, develops intelligent solutions in the United States, the Americas, Europe, the Middle…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "MDLZ": {
   "name": "Mondelez International, Inc.",
@@ -424,7 +426,8 @@
   "name": "Charles Schwab Corporation (The",
   "theme": "증권·자본시장",
   "desc": "The Charles Schwab Corporation, together with its subsidiaries, operates as a savings and loan holding company that provides wealth management, securities…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "JNJ": {
   "name": "Johnson & Johnson",
@@ -479,14 +482,16 @@
  "MRK": {
   "name": "Merck & Company, Inc.",
   "theme": "제약",
-  "desc": "Merck & Co., Inc.",
-  "auto": true
+  "desc": "Merck & Co., Inc. operates as a healthcare company worldwide.",
+  "auto": true,
+  "v": 2
  },
  "HWM": {
   "name": "Howmet Aerospace Inc.",
   "theme": "방산·항공우주",
-  "desc": "Howmet Aerospace Inc.",
-  "auto": true
+  "desc": "Howmet Aerospace Inc. provides advanced engineered solutions for the aerospace and transportation industries in the United States, Japan, France, Germany, the…",
+  "auto": true,
+  "v": 2
  },
  "TER": {
   "name": "Teradyne, Inc.",
@@ -640,8 +645,9 @@
  "ENTG": {
   "name": "Entegris, Inc.",
   "theme": "반도체 장비",
-  "desc": "Entegris, Inc.",
-  "auto": true
+  "desc": "Entegris, Inc. provides advanced materials and process solutions for the semiconductor and other high-technology industries in North America, Taiwan, South…",
+  "auto": true,
+  "v": 2
  },
  "8035.T": {
   "name": "TOKYO ELECTRON",
@@ -654,7 +660,8 @@
   "name": "3M Company",
   "theme": "Conglomerates",
   "desc": "3M Company provides diversified technology services in the America, the Asia Pacific, Europe, the Middle East, Africa, and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "AIR.PA": {
   "name": "Airbus",
@@ -1047,6 +1054,97 @@
   "name": "Everpure, Inc.",
   "theme": "IT 하드웨어",
   "desc": "Everpure, Inc. provides data storage and management technologies, products, and services in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "CVX": {
+  "name": "Chevron Corporation",
+  "theme": "석유·가스",
+  "desc": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations.",
+  "auto": true,
+  "v": 2
+ },
+ "MPWR": {
+  "name": "Monolithic Power Systems, Inc.",
+  "theme": "반도체",
+  "desc": "Monolithic Power Systems, Inc. provides semiconductor-based power electronics solutions in China, Taiwan, South Korea, Southeast Asia, Europe, the United…",
+  "auto": true,
+  "v": 2
+ },
+ "TW": {
+  "name": "Tradeweb Markets Inc.",
+  "theme": "증권·자본시장",
+  "desc": "Tradeweb Markets Inc. builds and operates electronic marketplaces in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "AAPL": {
+  "name": "Apple Inc.",
+  "theme": "IT 하드웨어",
+  "desc": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "TDG": {
+  "name": "Transdigm Group Incorporated",
+  "theme": "방산·항공우주",
+  "desc": "TransDigm Group Incorporated designs, produces, and supplies aircraft components in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "NOW": {
+  "name": "ServiceNow, Inc.",
+  "theme": "응용 SW",
+  "desc": "ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Brazil, Europe, the Middle East and Africa, Asia Pacific, and…",
+  "auto": true,
+  "v": 2
+ },
+ "SPGI": {
+  "name": "S&P Global Inc.",
+  "theme": "금융데이터·거래소",
+  "desc": "S&P Global Inc., together with its subsidiaries, provides benchmarks, data, analytics, and workflow solutions in the global capital, energy and commodity, and…",
+  "auto": true,
+  "v": 2
+ },
+ "KTOS": {
+  "name": "Kratos Defense & Security Solut",
+  "theme": "방산·항공우주",
+  "desc": "Kratos Defense & Security Solutions, Inc., a technology company, provides technology, hardware, products, system, and software for the defense, national…",
+  "auto": true,
+  "v": 2
+ },
+ "KDP": {
+  "name": "Keurig Dr Pepper Inc.",
+  "theme": "음료",
+  "desc": "Keurig Dr Pepper Inc. owns, manufactures, and distributors beverages and single serve brewing systems in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "ABNB": {
+  "name": "Airbnb, Inc.",
+  "theme": "여행",
+  "desc": "Airbnb, Inc., together with its subsidiaries, operates a platform for stays, experiences, and services worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "AVAV": {
+  "name": "AeroVironment, Inc.",
+  "theme": "방산·항공우주",
+  "desc": "AeroVironment, Inc., a defense technology provider, designs, develops, produces, delivers, and supports a portfolio of robotic systems and related services…",
+  "auto": true,
+  "v": 2
+ },
+ "USBFS04": {
+  "name": "U.S. Bank Money Market Deposit Account 08/01/2031",
+  "theme": "",
+  "desc": "",
+  "auto": true,
+  "v": 2
+ },
+ "MRVL": {
+  "name": "Marvell Technology, Inc.",
+  "theme": "반도체",
+  "desc": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network…",
   "auto": true,
   "v": 2
  }
