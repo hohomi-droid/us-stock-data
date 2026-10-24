@@ -1,9 +1,6 @@
 {
- "ISH_AJAX": [{"url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1467271812596.ajax?fileType=csv&fileName=BAI_holdings&dataType=fund&asOfDate=20260930"},
-              {"url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1467271812596.ajax?fileType=csv&fileName=BAI_holdings&dataType=fund"},
-              {"url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/latest-holdings.csv?asOfDate=20260930"},
-              {"url": "https://www.ishares.com/us/products/339081/ishares-a-i-innovation-and-tech-active-etf/1521942788811.ajax?fileType=xls&fileName=iShares-A-I-Innovation-and-Tech-Active-ETF_fund&dataType=fund&asOfDate=20260930"}],
- "ARKIO": [{"url": "https://arkfunds.io/api/v2/etf/holdings?symbol=ARKK&date_from=2026-09-01&date_to=2026-09-05"}],
- "SEC_MF": [{"url": "https://www.sec.gov/files/company_tickers_mf.json", "grep": "\"(CGDV|JGRO|TCHP|PVAL|FBCG|CNEQ|AKRE)\""}],
- "AKRE": [{"url": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv"}]
+ "SEC_SUB": [{"url": "https://data.sec.gov/submissions/CIK0001868244.json"}],
+ "SEC_BROWSE": [{"url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=capital+group+dividend+value&type=NPORT-P&dateb=&owner=include&count=10&output=atom"}],
+ "SEC_EFTS": [{"url": "https://efts.sec.gov/LATEST/search-index?q=%22Capital%20Group%20Dividend%20Value%20ETF%22&forms=NPORT-P"}],
+ "SEC_MF": [{"url": "https://www.sec.gov/files/company_tickers_mf.json", "grep": "\"(CGDV|TCHP)\""}]
 }

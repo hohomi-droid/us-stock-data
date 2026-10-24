@@ -290,9 +290,9 @@
    "aum_usd_bn": 4.79,
    "benchmark": "SP500",
    "source": {
-    "type": "pending"
+    "type": "filepoint",
+    "url": "https://akre.filepoint.live/assets/data/FilepointAkre.40B4.B4_ETF_Holdings.csv"
    },
-   "track": false,
    "disclosure": "daily"
   },
   {

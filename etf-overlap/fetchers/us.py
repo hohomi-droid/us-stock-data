@@ -26,7 +26,7 @@ def ref_now(tz_hours: int = 0):
     return datetime.now(_tz(_td(hours=tz_hours)))
 
 
-SEC_UA = "etf-overlap research hohomi-droid@users.noreply.github.com"
+SEC_UA = "EtfOverlapResearch research@example.com"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
       "Accept": "*/*"}
 S = requests.Session()
@@ -371,6 +371,29 @@ ARK_FILES = {"ARKK": ["ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv"],
                       "ARK_AUTONOMOUS_TECH_%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv"]}
 
 
+def ark_history(ticker: str, d_from: str, d_to: str):
+    """arkfunds.io (ARK 일일 보유 파일 보관 API) — 기간 내 날짜별 보유 목록."""
+    r = S.get("https://arkfunds.io/api/v2/etf/holdings", params={"symbol": ticker, "date_from": d_from, "date_to": d_to},
+              timeout=60)
+    r.raise_for_status()
+    by = {}
+    for h in r.json().get("holdings") or []:
+        tk, sh = (h.get("ticker") or "").strip(), h.get("shares")
+        if not tk or not sh:
+            continue
+        y = cg_yahoo(tk, None, None, h.get("company"))
+        by.setdefault(h["date"], {})[y] = {"name": (h.get("company") or tk).title(), "shares": float(sh),
+                                           "weight": float(h.get("weight") or 0), "type": "equity", "yahoo": y}
+    out = []
+    from datetime import date as _d, timedelta as _td
+    for fd, hs in sorted(by.items()):
+        d = _d.fromisoformat(fd) - _td(days=1)  # 파일 날짜 = 다음 거래일 → 직전 평일
+        while d.weekday() >= 5:
+            d -= _td(days=1)
+        out.append({"asof": d.isoformat(), "units": None, "holdings": hs})
+    return out
+
+
 def ark(ticker: str):
     r = None
     for fn in ARK_FILES[ticker]:
@@ -526,6 +549,26 @@ def _parse_rows(rows):
         out[y] = {"name": name.title(), "shares": sh, "weight": (num(rw[iw]) or 0.0) if iw is not None else 0.0,
                   "type": "equity", "yahoo": y}
     return {"asof": None, "units": None, "holdings": out}
+
+
+def filepoint(url: str):
+    """Filepoint 호스팅 일일 보유 CSV (Akre 등): Date 열이 다음 거래일 → 직전 평일, SharesOutstanding=좌수."""
+    d = generic_table(url)
+    r = S.get(url, timeout=40)
+    rows = _table_from_bytes(r.content)
+    hdr = [str(c or "").strip().lower() for c in rows[0]]
+    if "sharesoutstanding" in hdr and len(rows) > 1:
+        d["units"] = num(rows[1][hdr.index("sharesoutstanding")])
+    if "date" in hdr and len(rows) > 1:
+        from datetime import date as _d, timedelta as _td
+        fd = iso(str(rows[1][hdr.index("date")]))
+        if fd:
+            x = _d.fromisoformat(fd) - _td(days=1)
+            while x.weekday() >= 5:
+                x -= _td(days=1)
+            d["asof"] = x.isoformat()
+    d["holdings"] = {k: v for k, v in d["holdings"].items() if not re.fullmatch(r"[0-9A-Z]{9}", k) or k.isalpha()}
+    return d
 
 
 def dated_csv(pattern: str, fund_filter: str | None = None):

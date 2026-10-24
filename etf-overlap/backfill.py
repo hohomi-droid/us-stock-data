@@ -28,7 +28,7 @@ from collect import run_source  # noqa: E402
 import store  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
-NATIVE = {"ishares", "timefolio", "fhtrust", "dated_csv"}
+NATIVE = {"timefolio", "fhtrust", "dated_csv", "ark"}
 PROBES = {
     "capital_group": [("date", "%Y-%m-%d"), ("asOfDate", "%Y-%m-%d"), ("asOfDate", "%m/%d/%Y"), ("effectiveDate", "%Y-%m-%d")],
     "jpm": [("date", "%Y-%m-%d"), ("asOfDate", "%Y-%m-%d"), ("effectiveDate", "%Y-%m-%d"), ("valuationDate", "%Y-%m-%d")],
@@ -99,6 +99,13 @@ def save(etf, d, tag, log):
 
 
 def do_native(e, dates, log):
+    if e["source"]["type"] == "ark":
+        try:
+            for d in us.ark_history(e["source"]["ticker"], dates[0].isoformat(), dates[-1].isoformat()):
+                save(e["ticker"], d, "backfill:arkfunds.io", log)
+        except Exception as ex:  # noqa: BLE001
+            log["errors"].append(f"arkfunds.io: {type(ex).__name__}: {str(ex)[:120]}")
+        return
     for d in dates:
         us.HIST_DATE = d
         try:

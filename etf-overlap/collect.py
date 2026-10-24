@@ -49,6 +49,8 @@ def run_source(src: dict):
         return us.ftportfolios(src["ticker"])
     if t == "ab":
         return us.alliancebernstein(src["page"])
+    if t == "filepoint":
+        return us.filepoint(src["url"])
     if t == "eagle":
         return us.eagle()
     if t == "timefolio":
