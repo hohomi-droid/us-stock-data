@@ -1,5 +1,5 @@
 {
- "note": "전세계 액티브 주식형 ETF 운용규모(AUM) 순. 제외: 레버리지·인버스, 단일종목, 옵션인컴·커버드콜, 버퍼, 채권·멀티에셋, 재간접, 체계적 팩터·인핸스드 인덱스(Dimensional·Avantis·Fidelity Enhanced·JPM Research Enhanced·iShares Rotation 등), 반투명(FBCG·FMAG·PVAL·TCHP). AUM 기준일 2026-10 (TradingView·CFRA·TWSE·운용사). 50위 기준선 약 16.6억 달러(TGRT). DRAM(스왑 41%)·GRNY(퀀트 혼합)·USMC(퀀트)·TSPA/TCHP(반투명)도 제외.",
+ "note": "전세계 액티브 주식형 ETF 운용규모(AUM) 순. 제외: 레버리지·인버스, 단일종목, 옵션인컴·커버드콜, 버퍼, 채권·멀티에셋, 재간접, 체계적 팩터·인핸스드 인덱스(Dimensional·Avantis·Fidelity Enhanced·JPM Research Enhanced·iShares Rotation 등), . AUM 기준일 2026-10 (TradingView·CFRA·TWSE·운용사). 50위 기준선 약 16.6억 달러(TGRT). DRAM(스왑 41%)·GRNY(퀀트 혼합)·USMC(퀀트)·TSPA/TCHP(반투명)도 제외. 2026-10-24: 공시 주기(매일·월별·분기)와 상관없이 공시하는 ETF 모두 포함으로 변경.",
  "benchmarks": {
   "SP500": {
    "id": "239726",
@@ -29,7 +29,8 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGDV"
-   }
+   },
+   "disclosure": "daily"
   },
   {
    "rank": 2,
@@ -41,10 +42,25 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGGR"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 3,
+   "ticker": "PVAL",
+   "name": "Putnam Focused Large Cap Value ETF",
+   "market": "US",
+   "aum_usd_bn": 15.12,
+   "benchmark": "R1000V",
+   "disclosure": "monthly",
+   "source": {
+    "type": "pending"
+   },
+   "track": false,
+   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "rank": 3
+  },
+  {
+   "rank": 4,
    "ticker": "BAI",
    "name": "iShares A.I. Innovation and Tech Active ETF",
    "market": "US",
@@ -53,11 +69,13 @@
    "source": {
     "type": "ishares",
     "id": "339081",
-    "slug": "ishares-a-i-innovation-and-tech-active-etf"
-   }
+    "slug": "ishares-a-i-innovation-and-tech-active-etf",
+    "ticker": "BAI"
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "ticker": "CGUS",
    "name": "Capital Group Core Equity ETF",
    "market": "US",
@@ -66,10 +84,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGUS"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "ticker": "CGGO",
    "name": "Capital Group Global Growth Equity ETF",
    "market": "US",
@@ -78,10 +97,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGGO"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "ticker": "JGRO",
    "name": "JPMorgan Active Growth ETF",
    "market": "US",
@@ -90,10 +110,11 @@
    "source": {
     "type": "jpm",
     "cusip": "46654Q609"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "ticker": "BLCR",
    "name": "iShares Large Cap Core Active ETF",
    "market": "US",
@@ -102,11 +123,13 @@
    "source": {
     "type": "ishares",
     "id": "333889",
-    "slug": "ishares-large-cap-core-active-etf"
-   }
+    "slug": "ishares-large-cap-core-active-etf",
+    "ticker": "BLCR"
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "ticker": "00981A",
    "name": "主動統一台股增長 (UPAMC Taiwan Stock Growth Active)",
    "market": "TW",
@@ -115,10 +138,11 @@
    "source": {
     "type": "ezmoney",
     "code": "49YTW"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "ticker": "TCAF",
    "name": "T. Rowe Price Capital Appreciation Equity ETF",
    "market": "US",
@@ -127,10 +151,25 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "disclosure": "daily"
   },
   {
-   "rank": 10,
+   "ticker": "FBCG",
+   "name": "Fidelity Blue Chip Growth ETF",
+   "market": "US",
+   "aum_usd_bn": 7.62,
+   "benchmark": "R1000G",
+   "disclosure": "monthly",
+   "source": {
+    "type": "pending"
+   },
+   "track": false,
+   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "rank": 11
+  },
+  {
+   "rank": 12,
    "ticker": "JAVA",
    "name": "JPMorgan Active Value ETF",
    "market": "US",
@@ -139,10 +178,11 @@
    "source": {
     "type": "jpm",
     "cusip": "46641Q167"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 11,
+   "rank": 13,
    "ticker": "SEQ",
    "name": "Sequoia ETF",
    "market": "US",
@@ -150,10 +190,11 @@
    "benchmark": "SP500",
    "source": {
     "type": "sequoia"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 12,
+   "rank": 14,
    "ticker": "CGXU",
    "name": "Capital Group International Focus Equity ETF",
    "market": "US",
@@ -162,10 +203,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGXU"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 13,
+   "rank": 15,
    "ticker": "JGLO",
    "name": "JPMorgan Global Select Equity ETF",
    "market": "US",
@@ -174,10 +216,11 @@
    "source": {
     "type": "jpm",
     "cusip": "46654Q740"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 14,
+   "rank": 16,
    "ticker": "ARKK",
    "name": "ARK Innovation ETF",
    "market": "US",
@@ -186,10 +229,11 @@
    "source": {
     "type": "ark",
     "ticker": "ARKK"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 15,
+   "rank": 17,
    "ticker": "CNEQ",
    "name": "Alger Concentrated Equity ETF",
    "market": "US",
@@ -198,10 +242,11 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "disclosure": "daily"
   },
   {
-   "rank": 16,
+   "rank": 18,
    "ticker": "CGDG",
    "name": "Capital Group Dividend Growers ETF",
    "market": "US",
@@ -210,10 +255,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGDG"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 17,
+   "rank": 19,
    "ticker": "QLTY",
    "name": "GMO U.S. Quality ETF",
    "market": "US",
@@ -221,10 +267,11 @@
    "benchmark": "SP500",
    "source": {
     "type": "gmo"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 18,
+   "rank": 20,
    "ticker": "EAGL",
    "name": "Eagle Capital Select Equity ETF",
    "market": "US",
@@ -232,10 +279,11 @@
    "benchmark": "SP500",
    "source": {
     "type": "eagle"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 19,
+   "rank": 21,
    "ticker": "AKRE",
    "name": "Akre Focus ETF",
    "market": "US",
@@ -244,10 +292,25 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "disclosure": "daily"
   },
   {
-   "rank": 20,
+   "ticker": "TSPA",
+   "name": "T. Rowe Price U.S. Equity Research ETF",
+   "market": "US",
+   "aum_usd_bn": 4.7,
+   "benchmark": "SP500",
+   "disclosure": "quarterly",
+   "source": {
+    "type": "pending"
+   },
+   "track": false,
+   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "rank": 22
+  },
+  {
+   "rank": 23,
    "ticker": "JTEK",
    "name": "JPMorgan U.S. Tech Leaders ETF",
    "market": "US",
@@ -256,10 +319,11 @@
    "source": {
     "type": "jpm",
     "cusip": "46654Q732"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 21,
+   "rank": 24,
    "ticker": "JIVE",
    "name": "JPMorgan International Value ETF",
    "market": "US",
@@ -268,10 +332,11 @@
    "source": {
     "type": "jpm",
     "cusip": "46654Q757"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 22,
+   "rank": 25,
    "ticker": "00403A",
    "name": "主動統一升級50",
    "market": "TW",
@@ -280,10 +345,11 @@
    "source": {
     "type": "ezmoney",
     "code": "63YTW"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 23,
+   "rank": 26,
    "ticker": "IDEF",
    "name": "iShares Defense Industrials Active ETF",
    "market": "US",
@@ -295,11 +361,13 @@
     "slug": [
      "ishares-defense-industrials-active-etf",
      "ishares-defense-industrials-and-tech-active-etf"
-    ]
-   }
+    ],
+    "ticker": "IDEF"
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 24,
+   "rank": 27,
    "ticker": "CGMM",
    "name": "Capital Group U.S. Small & Mid Cap ETF",
    "market": "US",
@@ -308,10 +376,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGMM"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 25,
+   "rank": 28,
    "ticker": "FWD",
    "name": "AB Disruptors ETF",
    "market": "US",
@@ -322,10 +391,11 @@
     "page": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-disruptors-etf.-.00039J509.html"
    },
    "track": false,
-   "note": "AB webapi 경로 확인 필요"
+   "note": "AB webapi 경로 확인 필요",
+   "disclosure": "daily"
   },
   {
-   "rank": 26,
+   "rank": 29,
    "ticker": "CGGE",
    "name": "Capital Group Global Equity ETF",
    "market": "US",
@@ -334,10 +404,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGGE"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 27,
+   "rank": 30,
    "ticker": "CGNG",
    "name": "Capital Group New Geography Equity ETF",
    "market": "US",
@@ -346,10 +417,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGNG"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 28,
+   "rank": 31,
    "ticker": "TMSL",
    "name": "T. Rowe Price Small-Mid Cap ETF",
    "market": "US",
@@ -358,10 +430,25 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "disclosure": "daily"
   },
   {
-   "rank": 29,
+   "ticker": "FEGE",
+   "name": "First Eagle Global Equity ETF",
+   "market": "US",
+   "aum_usd_bn": 2.65,
+   "benchmark": "ACWI",
+   "disclosure": "monthly",
+   "source": {
+    "type": "pending"
+   },
+   "track": false,
+   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "rank": 32
+  },
+  {
+   "rank": 33,
    "ticker": "CGIC",
    "name": "Capital Group International Core Equity ETF",
    "market": "US",
@@ -370,10 +457,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGIC"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 30,
+   "rank": 34,
    "ticker": "NUGO",
    "name": "Nuveen Growth Opportunities ETF",
    "market": "US",
@@ -382,10 +470,11 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "disclosure": "daily"
   },
   {
-   "rank": 31,
+   "rank": 35,
    "ticker": "CGIE",
    "name": "Capital Group International Equity ETF",
    "market": "US",
@@ -394,10 +483,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGIE"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 32,
+   "rank": 36,
    "ticker": "BGIG",
    "name": "Bahl & Gaynor Income Growth ETF",
    "market": "US",
@@ -406,10 +496,25 @@
    "source": {
     "type": "dated_csv",
     "pattern": "https://www.bahl-gaynor.com/wp-content/uploads/etf_holdings_csv/BGIG_holdings_{date:%Y-%m-%d}.csv"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 33,
+   "ticker": "TCHP",
+   "name": "T. Rowe Price Blue Chip Growth ETF",
+   "market": "US",
+   "aum_usd_bn": 2.19,
+   "benchmark": "R1000G",
+   "disclosure": "quarterly",
+   "source": {
+    "type": "pending"
+   },
+   "track": false,
+   "note": "월별·분기 공시 ETF — 공시 파일 수집 경로 확인 중",
+   "rank": 37
+  },
+  {
+   "rank": 38,
    "ticker": "00991A",
    "name": "主動復華未來50",
    "market": "TW",
@@ -418,10 +523,11 @@
    "source": {
     "type": "fhtrust",
     "id": "ETF23"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 34,
+   "rank": 39,
    "ticker": "ARKG",
    "name": "ARK Genomic Revolution ETF",
    "market": "US",
@@ -430,10 +536,11 @@
    "source": {
     "type": "ark",
     "ticker": "ARKG"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 35,
+   "rank": 40,
    "ticker": "CGCV",
    "name": "Capital Group Conservative Equity ETF",
    "market": "US",
@@ -442,10 +549,11 @@
    "source": {
     "type": "capital_group",
     "ticker": "CGCV"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 36,
+   "rank": 41,
    "ticker": "EMOP",
    "name": "AB Emerging Markets Opportunities ETF",
    "market": "US",
@@ -456,10 +564,11 @@
     "page": "https://www.alliancebernstein.com/us/en-us/investments/products/etf/equities/ab-emerging-markets-opportunities-etf.html"
    },
    "track": false,
-   "note": "AB webapi 경로 확인 필요"
+   "note": "AB webapi 경로 확인 필요",
+   "disclosure": "daily"
   },
   {
-   "rank": 37,
+   "rank": 42,
    "ticker": "ALAI",
    "name": "Alger AI Enablers & Adopters ETF",
    "market": "US",
@@ -468,10 +577,11 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "disclosure": "daily"
   },
   {
-   "rank": 38,
+   "rank": 43,
    "ticker": "WCMI",
    "name": "First Trust WCM International Equity ETF",
    "market": "US",
@@ -480,10 +590,11 @@
    "source": {
     "type": "ftportfolios",
     "ticker": "WCMI"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 39,
+   "rank": 44,
    "ticker": "JPEF",
    "name": "JPMorgan Equity Focus ETF",
    "market": "US",
@@ -492,10 +603,11 @@
    "source": {
     "type": "jpm",
     "cusip": "46654Q781"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 40,
+   "rank": 45,
    "ticker": "IDEQ",
    "name": "Lazard International Dynamic Equity ETF",
    "market": "US",
@@ -504,10 +616,11 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "disclosure": "daily"
   },
   {
-   "rank": 41,
+   "rank": 46,
    "ticker": "LCAP",
    "name": "Principal Capital Appreciation Select ETF",
    "market": "US",
@@ -516,10 +629,11 @@
    "source": {
     "type": "generic",
     "url": "https://api.assetmgmt.principalam.com/public/files?key=LCAP.xlsx"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 42,
+   "rank": 47,
    "ticker": "ARKW",
    "name": "ARK Next Generation Technology ETF",
    "market": "US",
@@ -528,10 +642,11 @@
    "source": {
     "type": "ark",
     "ticker": "ARKW"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 43,
+   "rank": 48,
    "ticker": "ARKQ",
    "name": "ARK Autonomous Technology & Robotics ETF",
    "market": "US",
@@ -540,10 +655,11 @@
    "source": {
     "type": "ark",
     "ticker": "ARKQ"
-   }
+   },
+   "disclosure": "daily"
   },
   {
-   "rank": 44,
+   "rank": 49,
    "ticker": "BAFE",
    "name": "Brown Advisory Flexible Equity ETF",
    "market": "US",
@@ -552,10 +668,11 @@
    "source": {
     "type": "pending"
    },
-   "track": false
+   "track": false,
+   "disclosure": "daily"
   },
   {
-   "rank": 45,
+   "rank": 50,
    "ticker": "426030",
    "name": "TIME 미국나스닥100액티브",
    "market": "KR",
@@ -564,8 +681,11 @@
    "source": {
     "type": "timefolio",
     "idx": 2
-   }
-  },
+   },
+   "disclosure": "daily"
+  }
+ ],
+ "reserve": [
   {
    "rank": 46,
    "ticker": "JEMA",
@@ -626,9 +746,7 @@
    },
    "track": false,
    "rank": 50
-  }
- ],
- "reserve": [
+  },
   {
    "ticker": "456600",
    "name": "TIME 글로벌AI인공지능액티브",
@@ -644,12 +762,6 @@
   }
  ],
  "excluded": [
-  {
-   "ticker": "FEGE",
-   "name": "First Eagle Global Equity ETF",
-   "aum_usd_bn": 2.65,
-   "reason": "보유종목 월별 공시(일별 없음)"
-  },
   {
    "ticker": "DRAM",
    "name": "Roundhill Memory ETF",
@@ -667,30 +779,6 @@
    "name": "Principal U.S. Mega-Cap ETF",
    "aum_usd_bn": 5.1,
    "reason": "퀀트 모델"
-  },
-  {
-   "ticker": "TSPA",
-   "name": "T. Rowe Price U.S. Equity Research ETF",
-   "aum_usd_bn": 4.7,
-   "reason": "반투명"
-  },
-  {
-   "ticker": "TCHP",
-   "name": "T. Rowe Price Blue Chip Growth ETF",
-   "aum_usd_bn": 2.2,
-   "reason": "반투명"
-  },
-  {
-   "ticker": "FBCG",
-   "name": "Fidelity Blue Chip Growth ETF",
-   "aum_usd_bn": 7.62,
-   "reason": "반투명"
-  },
-  {
-   "ticker": "PVAL",
-   "name": "Putnam Focused Large Cap Value ETF",
-   "aum_usd_bn": 15.12,
-   "reason": "반투명"
   }
  ]
 }

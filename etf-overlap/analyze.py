@@ -1,22 +1,20 @@
 """액티브 ETF 겹침 분석 엔진.
 
-입력: data/snapshots/YYYY-MM-DD.json (수집일별 보유종목 스냅샷)
-      config/universe.json (추적 ETF 목록, 벤치마크 매핑)
-      data/benchmark.json (벤치마크 구성 비중, 선택)
-      data/prices.json (종목별 일별 종가)
-      config/themes.json (종목별 핵심 테마·사업 설명 캐시)
+입력: data/history/<ETF>/<asof>.json (ETF별 공시일 보유종목; 백필·매일 수집 모두 여기에)
+      data/snapshots/YYYY-MM-DD.json (예전 수집본, 있으면 함께 읽음)
+      config/universe.json, data/benchmark.json, data/prices.json, config/themes.json
 출력: out/dashboard.json
 
 판정 규칙 (정확도 우선)
-- 자금 유입 보정: ETF 좌수(units) 변화율을 우선 사용, 없으면 기존 보유종목 주식 수
-  변화율의 중앙값을 '일괄 매수 비율'로 본다. 종목 주식 수 변화율이 이 비율보다
-  ADD_EXCESS 이상 높을 때만 '능동 매수'.
-- 신규 편입: 전일에 없던 종목이 비중 MIN_NEW_WEIGHT% 이상으로 등장.
-- 감소/제외: 보정 비율보다 REDUCE_EXCESS 이상 낮거나 사라진 경우.
-- 겹침 보유: 벤치마크 대비 초과 비중(active weight > 0)인 ETF만 센다.
-  벤치마크 자료가 없는 ETF는 보유 비중 자체로 센다(플래그 표시).
-- 겹침 점수 = 초과보유 ETF 수 + 2 × 최근 WINDOW 거래일 신규/능동매수 ETF 수
-- 동시 매도 경고: 최근 WINDOW 거래일 내 2개 이상 ETF가 감소·제외
+- 공시 주기와 상관없이(매일·월별·분기) ETF마다 공시일 순서로 앞 공시와 비교한다.
+- 편입 = 새로 등장(비중 MIN_NEW_WEIGHT% 이상) 또는 주식 수가 자금 유입 비율보다 ADD_EXCESS 넘게 증가.
+  자금 유입 비율 = ETF 좌수 변화율, 없으면 보유종목 대다수의 공통 주식 수 변화율.
+- 2달 편입 ETF = 최근 LONG_DAYS일 안 공시에서 편입했고 지금도 보유 중인 ETF.
+- 2주 편입 ETF = 그중 최근 SHORT_DAYS일 안 공시에서 편입했고 그 뒤 줄이지 않은 ETF.
+- 대상 종목 = 2달 편입 ETF가 2개 이상(겹침). 순위 = 2주 편입 ETF 수 → 2달 편입 ETF 수 → 보유 ETF 수.
+- 공시 당시 가격 = 2달 안 처음 편입이 확인된 공시일 종가, 현재가 = 최근 거래일 종가.
+- 보유 ETF 수 = 벤치마크보다 비중을 더 실은 ETF(벤치마크 자료 없으면 보유 자체).
+- 동시 매도 경고 = 최근 SHORT_DAYS일 안 2개 이상 ETF가 감소·제외.
 """
 from __future__ import annotations
 
@@ -24,13 +22,16 @@ import json
 import math
 import statistics
 from collections import defaultdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 SNAP_DIR = ROOT / "data" / "snapshots"
+HIST_DIR = ROOT / "data" / "history"
 
-WINDOW = 10            # 최근 2주 = 10 거래일 스냅샷
+LONG_DAYS = 61         # 최근 2달
+SHORT_DAYS = 14        # 최근 2주
+WINDOW = 10            # (호환용) 2주 ≈ 10거래일
 ADD_EXCESS = 0.03      # 보정 비율 대비 +3% 이상 주식 수 증가 → 능동 매수
 REDUCE_EXCESS = 0.03   # 보정 비율 대비 -3% 이하 → 능동 감소
 MIN_NEW_WEIGHT = 0.10  # 신규 편입 인정 최소 비중(%) — 먼지 포지션 제외
@@ -80,14 +81,37 @@ def load_json(p: Path, default):
         return default
 
 
-def load_snapshots():
-    snaps = []
+def expand(d: dict) -> dict:
+    """history 압축 형식 {sym: [shares, weight, name, yahoo?]} → 일반 형식."""
+    out = {}
+    for sym, v in (d or {}).items():
+        if isinstance(v, dict):
+            out[sym] = v
+        else:
+            out[sym] = {"shares": v[0], "weight": v[1], "name": v[2] if len(v) > 2 else sym,
+                        "yahoo": v[3] if len(v) > 3 and v[3] else sym, "type": "equity"}
+    return out
+
+
+def load_series():
+    """ETF별 {asof: {"units", "holdings", "src"}} — history 우선, 예전 스냅샷 보충."""
+    series = defaultdict(dict)
     for f in sorted(SNAP_DIR.glob("*.json")):
         snap = load_json(f, {})
-        for e in snap.get("etfs", {}).values():
-            e["holdings"] = canon_holdings(e.get("holdings", {}))
-        snaps.append(snap)
-    return [s for s in snaps if s.get("etfs")]
+        for etf, e in snap.get("etfs", {}).items():
+            asof = e.get("asof") or snap.get("date")
+            series[etf][asof] = {"units": e.get("units"), "holdings": canon_holdings(e.get("holdings", {})), "src": "live"}
+    if HIST_DIR.exists():
+        for d in HIST_DIR.iterdir():
+            if not d.is_dir():
+                continue
+            for f in d.glob("*.json"):
+                e = load_json(f, {})
+                if not e.get("holdings"):
+                    continue
+                series[d.name][f.stem] = {"units": e.get("units"), "holdings": canon_holdings(expand(e["holdings"])),
+                                          "src": e.get("src", "live")}
+    return series
 
 
 def is_stock(sym: str, h: dict) -> bool:
@@ -172,134 +196,159 @@ def main():
     bench = {k: {canon(s): w for s, w in v.items()} for k, v in load_json(ROOT / "data" / "benchmark.json", {}).items()}
     prices = load_json(ROOT / "data" / "prices.json", {})
     themes = load_json(ROOT / "config" / "themes.json", {})
-    snaps = load_snapshots()
-    if not snaps:
-        raise SystemExit("스냅샷 없음")
+    series = load_series()
+    series = {k: v for k, v in series.items() if k in uni and v}
+    if not series:
+        raise SystemExit("보유 이력 없음")
+    from datetime import datetime, timezone
+    kst_today = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
+    today = min(max(max(v) for v in series.values()), kst_today)
+    t = date.fromisoformat(today)
+    cut_long = (t - timedelta(days=LONG_DAYS)).isoformat()
+    cut_short = (t - timedelta(days=SHORT_DAYS)).isoformat()
 
-    latest = snaps[-1]
-    recent = snaps[-(WINDOW + 1):]
-
-    # 1) 최근 창 동안의 변화 이벤트
-    events = defaultdict(list)  # sym -> [(etf, kind, holdings_asof)]
-    for a, b in zip(recent, recent[1:]):
-        for etf, cur_e in b["etfs"].items():
-            if etf not in uni or etf not in a["etfs"]:
-                continue
-            for s, kind in diff_etf(a["etfs"][etf], cur_e).items():
-                events[s].append((etf, kind, cur_e.get("asof") or b["date"]))
-
-    # 2) 처음 관찰일(공시 당시 가격용)
+    # 1) ETF별 공시 순서대로 비교 → 이벤트
+    events = defaultdict(lambda: defaultdict(list))  # sym -> etf -> [(asof, kind)]
+    latest = {}
     first_seen = {}
     meta = {}
-    for snap in snaps:
-        for etf, e in snap["etfs"].items():
-            for s, h in e.get("holdings", {}).items():
-                if is_stock(s, h):
-                    first_seen.setdefault((etf, s), e.get("asof") or snap["date"])
-                    meta[s] = {"name": h.get("name", s), "yahoo": h.get("yahoo", s)}
+    coverage = {}
+    for etf, ser in series.items():
+        ds = sorted(ser)
+        latest[etf] = (ds[-1], ser[ds[-1]])
+        coverage[etf] = {"first": ds[0], "last": ds[-1], "n": len(ds)}
+        for d in ds:
+            for s_, h in ser[d]["holdings"].items():
+                if is_stock(s_, h):
+                    first_seen.setdefault((etf, s_), d)
+                    meta[s_] = {"name": h.get("name", s_), "yahoo": h.get("yahoo", s_)}
+        for a, b in zip(ds, ds[1:]):
+            if b < cut_long:
+                continue
+            ea, eb = dict(ser[a]), dict(ser[b])
+            if ser[a].get("src") != ser[b].get("src"):
+                ea["units"] = eb["units"] = None  # 출처가 다르면 좌수 비교 대신 공통 비율 사용
+            ea["asof"], eb["asof"] = a, b
+            for s_, kind in diff_etf(ea, eb).items():
+                events[s_][etf].append((b, kind))
 
-    # 3) 현재 초과 보유 집계
+    # 2) 현재 초과 보유
     holders = defaultdict(list)
+    holds_now = defaultdict(set)
     no_bench_etfs = set()
-    for etf, e in latest["etfs"].items():
-        if etf not in uni:
-            continue
+    for etf, (asof, e) in latest.items():
         bw = bench.get(uni[etf].get("benchmark") or "", None)
         if bw is None:
             no_bench_etfs.add(etf)
-        for s, h in e.get("holdings", {}).items():
-            if not is_stock(s, h):
+        for s_, h in e["holdings"].items():
+            if not is_stock(s_, h):
                 continue
-            meta.setdefault(s, {"name": h.get("name", s), "yahoo": h.get("yahoo", s)})
+            holds_now[s_].add(etf)
             w = h.get("weight") or 0.0
-            b_w = (bw or {}).get(s, 0.0) if bw is not None else None
+            b_w = bw.get(s_, 0.0) if bw is not None else None
             active = None if b_w is None else round(w - b_w, 3)
             if active is not None and active <= 0:
                 continue
-            holders[s].append({"etf": etf, "weight": round(w, 3), "active": active,
-                               "since": first_seen.get((etf, s))})
+            holders[s_].append({"etf": etf, "weight": round(w, 3), "active": active,
+                                "since": first_seen.get((etf, s_)), "asof": asof})
 
     rows = []
-    for s in set(holders) | set(events):
-        ev = events.get(s, [])
-        adds = {}
-        for etf, kind, asof in ev:
-            if kind in ("new", "add"):
-                adds.setdefault(etf, (kind, asof))
-        sells = {etf for etf, kind, _ in ev if kind in ("reduce", "exit")}
-        # 같은 창에서 샀다가 판 경우는 매수 집계에서 제외
-        net_adds = {k: v for k, v in adds.items() if k not in sells}
-        h = holders.get(s, [])
-        if len(h) < 2 and len(net_adds) < 2 and len(sells) < 2:
-            continue  # 겹침도 동시 매도도 아님
-        m = meta.get(s) or {"name": s, "yahoo": s}
+    for s_ in set(events) | set(holders):
+        per = events.get(s_, {})
+        add_long, add_short, sells = {}, {}, set()
+        for etf, evs in per.items():
+            evs = sorted(evs)
+            buys = [(d, k) for d, k in evs if k in ("new", "add") and d >= cut_long]
+            if buys and etf in holds_now[s_]:
+                last_sell = max((d for d, k in evs if k in ("reduce", "exit")), default="")
+                if last_sell < buys[-1][0] or last_sell < buys[0][0]:
+                    add_long[etf] = buys[0]
+                sb = [(d, k) for d, k in buys if d >= cut_short]
+                if sb and last_sell < sb[-1][0]:
+                    add_short[etf] = sb[0]
+            last = evs[-1] if evs else None
+            if last and last[1] in ("reduce", "exit") and last[0] >= cut_short:
+                sells.add(etf)
+        h = holders.get(s_, [])
+        if len(add_long) < 2 and len(sells) < 2:
+            continue
+        m = meta.get(s_) or {"name": s_, "yahoo": s_}
         yahoo = m["yahoo"]
-        if net_adds:
-            first_d = min(v[1] for v in net_adds.values())
-        else:
-            ds = [x["since"] for x in h if x["since"]]
-            first_d = min(ds) if ds else latest["date"]
-        p0, d0 = price_on(prices, yahoo, first_d)
+        first_d = min(v[0] for v in add_long.values()) if add_long else None
+        p0, d0 = price_on(prices, yahoo, first_d) if first_d else (None, None)
         p1, d1 = latest_price(prices, yahoo)
         ret = (p1 / p0 - 1) if (p0 and p1) else None
-        t = themes.get(s, {})
+        th = themes.get(s_, {})
         rows.append({
-            "sym": s, "name": t.get("name") or m["name"], "yahoo": yahoo,
-            "holders": len(h), "new2w": len(net_adds),
-            "score": len(h) + 2 * len(net_adds),
+            "sym": s_, "name": th.get("name") or m["name"], "yahoo": yahoo,
+            "holders": len(h), "holds_all": len(holds_now[s_]),
+            "add2m": len(add_long), "add2w": len(add_short),
+            "new2w": len(add_short), "score": len(add_short) * 100 + len(add_long),
             "sell_warn": len(sells) >= 2, "sells": sorted(sells),
-            "p0": p0, "d0": d0 or first_d, "p1": p1, "d1": d1,
+            "p0": p0, "d0": first_d, "p1": p1, "d1": d1,
             "ret": None if ret is None or math.isnan(ret) else round(ret, 4),
-            "theme": t.get("theme", ""), "desc": t.get("desc", ""),
+            "theme": th.get("theme", ""), "desc": th.get("desc", ""),
             "holder_list": sorted(h, key=lambda x: -x["weight"]),
-            "new_list": [{"etf": k, "kind": v[0], "date": v[1]} for k, v in sorted(net_adds.items(), key=lambda kv: kv[1][1])],
+            "new_list": [{"etf": k, "kind": v[1], "date": v[0], "recent": k in add_short}
+                         for k, v in sorted(add_long.items(), key=lambda kv: kv[1][0], reverse=True)],
             "no_bench": sorted({x["etf"] for x in h} & no_bench_etfs),
         })
 
-    # 동점 순서는 set 순회(해시 시드)에 따라 실행마다 바뀌었다 → 보유 ETF 수·평균 비중·티커로 고정
-    rows.sort(key=lambda r: (-r["score"], -r["new2w"], -r["holders"],
+    rows.sort(key=lambda r: (-r["add2w"], -r["add2m"], -r["holders"],
                              -sum(x["weight"] or 0 for x in r["holder_list"]), r["sym"]))
     for i, r in enumerate(rows, 1):
         r["rank"] = i
 
-    top = rows[:30]
+    top = [r for r in rows if r["add2m"] >= 2][:30]
     theme_cnt = defaultdict(int)
     for r in top:
         if r["theme"]:
             theme_cnt[r["theme"]] += 1
     top_theme = max(theme_cnt.items(), key=lambda kv: kv[1]) if theme_cnt else ("", 0)
-    rets = [r["ret"] for r in rows if r["ret"] is not None]
-    tracked = [e for e in latest["etfs"] if e in uni]
+    rets = [r["ret"] for r in rows if r["ret"] is not None and r["add2m"] >= 2]
+    disc = {e["ticker"]: e.get("disclosure", "daily") for e in universe["etfs"]}
+    stale = []
+    for etf, (asof, _) in latest.items():
+        lim = {"daily": 5, "monthly": 45, "quarterly": 120}.get(disc.get(etf, "daily"), 5)
+        if (t - date.fromisoformat(asof)).days > lim:
+            stale.append(etf)
+    full_long = [e for e, c in coverage.items() if c["first"] <= cut_long or
+                 (disc.get(e) != "daily" and c["n"] >= 2)]
     summary = {
-        "generated": latest["date"],
-        "snapshots": len(snaps),
-        "first_snapshot": snaps[0]["date"],
-        "tracked_etfs": len(tracked),
+        "generated": today,
+        "cut_long": cut_long, "cut_short": cut_short,
+        "snapshots": max(c["n"] for c in coverage.values()),
+        "first_snapshot": min(c["first"] for c in coverage.values()),
+        "tracked_etfs": len(series),
         "universe_etfs": len(universe["etfs"]),
+        "full_history_etfs": len(full_long),
+        "short_history_etfs": sorted(set(series) - set(full_long)),
         "pending_etfs": [e["ticker"] for e in universe["etfs"] if not e.get("track", True)],
-        "overlap_count": len(rows),
-        "new_overlap_count": sum(1 for r in rows if r["new2w"] >= 2),
+        "overlap_count": sum(1 for r in rows if r["add2m"] >= 2),
+        "new_overlap_count": sum(1 for r in rows if r["add2w"] >= 1 and r["add2m"] >= 2),
         "avg_return": round(sum(rets) / len(rets), 4) if rets else None,
         "sell_warn_count": sum(1 for r in rows if r["sell_warn"]),
         "top_theme": top_theme[0],
         "top_theme_share": round(top_theme[1] / len(top), 3) if top else 0,
-        "missing_etfs": sorted(set(uni) - set(tracked)),
-        "stale_etfs": sorted(e for e, v in latest["etfs"].items()
-                             if e in uni and v.get("asof") and v["asof"] < latest["date"][:10] and
-                             (date.fromisoformat(latest["date"][:10]) - date.fromisoformat(v["asof"])).days > 4),
+        "missing_etfs": sorted(set(uni) - set(series)),
+        "stale_etfs": sorted(stale),
     }
     etf_info = {e["ticker"]: {"name": e.get("name"), "aum": e.get("aum_usd_bn"), "market": e.get("market"),
                               "rank": e.get("rank"), "tracked": e.get("track", True),
-                              "asof": latest["etfs"].get(e["ticker"], {}).get("asof")} for e in universe["etfs"]}
+                              "disclosure": e.get("disclosure", "daily"),
+                              "asof": latest.get(e["ticker"], (None,))[0],
+                              "history_from": coverage.get(e["ticker"], {}).get("first"),
+                              "history_n": coverage.get(e["ticker"], {}).get("n")} for e in universe["etfs"]}
     out = {"summary": summary, "rows": rows, "etfs": etf_info,
-           "params": {"window": WINDOW, "add_excess": ADD_EXCESS, "min_new_weight": MIN_NEW_WEIGHT}}
+           "params": {"long_days": LONG_DAYS, "short_days": SHORT_DAYS, "window": WINDOW,
+                      "add_excess": ADD_EXCESS, "min_new_weight": MIN_NEW_WEIGHT}}
     (ROOT / "out").mkdir(exist_ok=True)
     (ROOT / "out" / "dashboard.json").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
     missing_theme = sorted({r["sym"] for r in rows[:60] if not r["theme"]})
     (ROOT / "out" / "missing_themes.json").write_text(json.dumps(
-        [{"sym": s, "name": next(r["name"] for r in rows if r["sym"] == s)} for s in missing_theme],
+        [{"sym": s_, "name": next(r["name"] for r in rows if r["sym"] == s_)} for s_ in missing_theme],
         ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"rows={len(rows)} tracked={len(tracked)} snaps={len(snaps)} missing_themes={len(missing_theme)}")
+    print(f"rows={len(rows)} tracked={len(series)} full_hist={len(full_long)} missing_themes={len(missing_theme)}")
 
 
 if __name__ == "__main__":

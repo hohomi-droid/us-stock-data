@@ -1,0 +1,58 @@
+name: ETF holdings backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "몇 일 전까지 채울지"
+        default: "66"
+      etfs:
+        description: "특정 ETF만 (공백 구분, 비우면 전체)"
+        default: ""
+  push:
+    branches: [main]
+    paths: ["etf-overlap/backfill.py", "etf-overlap/config/backfill_request.txt"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etf-overlap
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    defaults:
+      run:
+        working-directory: etf-overlap
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install --quiet requests openpyxl yfinance lxml pandas
+      - name: Backfill
+        run: |
+          ARGS="${{ github.event.inputs.days || '' }} ${{ github.event.inputs.etfs || '' }}"
+          if [ -z "${ARGS// }" ] && [ -f config/backfill_request.txt ]; then ARGS="$(cat config/backfill_request.txt)"; fi
+          python backfill.py $ARGS
+      - name: Prices
+        run: python prices.py 6mo
+      - name: Analyze
+        run: python analyze.py
+      - name: Themes
+        run: python themes.py && python analyze.py
+        continue-on-error: true
+      - name: Render
+        run: python render.py
+      - name: Commit
+        run: |
+          git config user.name "etf-overlap-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data out config/themes.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "ETF holdings backfill $(TZ=Asia/Seoul date +%F_%H%M)"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && break; sleep 10; done

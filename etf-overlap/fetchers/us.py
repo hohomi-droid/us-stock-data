@@ -15,6 +15,17 @@ from pathlib import Path
 
 import requests
 
+# 백필용: 과거 특정일 기준으로 받을 때 설정(date). None 이면 오늘.
+HIST_DATE = None
+
+
+def ref_now(tz_hours: int = 0):
+    from datetime import timedelta as _td, timezone as _tz
+    if HIST_DATE is not None:
+        return datetime(HIST_DATE.year, HIST_DATE.month, HIST_DATE.day, 18, 0, tzinfo=_tz(_td(hours=tz_hours)))
+    return datetime.now(_tz(_td(hours=tz_hours)))
+
+
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
       "Accept": "*/*"}
 S = requests.Session()
@@ -69,12 +80,17 @@ def is_equity(asset_class: str | None) -> bool:
 
 
 # ---------------------------------------------------------------- iShares
-def ishares(product_id: str, slug: str):
+def ishares(product_id: str, slug: str, ticker: str | None = None):
     slugs = slug if isinstance(slug, list) else [slug]
     r = None
     for sl in slugs:
-        for url in (f"https://www.ishares.com/us/products/{product_id}/{sl}/latest-holdings.csv",
-                    f"https://www.ishares.com/us/products/{product_id}/{sl}/1467271812596.ajax?fileType=csv&dataType=fund"):
+        base = f"https://www.ishares.com/us/products/{product_id}/{sl}"
+        if HIST_DATE is not None:
+            fn = f"&fileName={ticker}_holdings" if ticker else ""
+            urls = (f"{base}/1467271812596.ajax?fileType=csv{fn}&dataType=fund&asOfDate={HIST_DATE:%Y%m%d}",)
+        else:
+            urls = (f"{base}/latest-holdings.csv", f"{base}/1467271812596.ajax?fileType=csv&dataType=fund")
+        for url in urls:
             r = S.get(url, timeout=30)
             if r.status_code == 200 and b"Ticker," in r.content[:4000]:
                 break
@@ -373,7 +389,13 @@ def ark(ticker: str):
         y = cg_yahoo(tk)
         out[y] = {"name": row.get("company", tk).title(), "shares": sh,
                   "weight": num(row.get("weight (%)")) or 0.0, "type": "equity", "yahoo": y}
-    # ARK 파일 날짜는 '다음 거래일' 표기 → 그대로 기준일로 사용(전일 종가 반영 보유)
+    # ARK 파일 날짜는 '다음 거래일' 표기(전 거래일 장 마감 기준 보유) → 직전 평일을 기준일로
+    if asof:
+        from datetime import date as _d, timedelta as _td
+        d = _d.fromisoformat(asof) - _td(days=1)
+        while d.weekday() >= 5:
+            d -= _td(days=1)
+        asof = d.isoformat()
     return {"asof": asof, "units": None, "holdings": out}
 
 
@@ -508,7 +530,7 @@ def _parse_rows(rows):
 def dated_csv(pattern: str, fund_filter: str | None = None):
     """URL에 날짜가 들어가는 보유 파일 (예: Bahl & Gaynor ..._{date:%Y-%m-%d}.csv) — 최근 7일 거슬러 시도."""
     from datetime import timedelta, timezone
-    now = datetime.now(timezone(timedelta(hours=-5)))
+    now = ref_now(-5)
     last = None
     for back in range(0, 8):
         d = now - timedelta(days=back)

@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from datetime import datetime
 
-from .us import S, num, _table_from_bytes, iso, cg_yahoo
+from .us import S, num, _table_from_bytes, iso, cg_yahoo, ref_now
 
 
 def _kr_yahoo(code: str, market_hint: str | None = None) -> str:
@@ -20,7 +20,7 @@ def timefolio(idx: int):
     # pdfDate 없이 받으면 '오늘' 기준 파일이 와서 주말·휴일엔 헤더만 있는 빈 표가 된다(2026-10-24 실패 원인).
     # 오늘(KST)부터 7일 거슬러 데이터 행이 있는 첫 날짜를 쓴다.
     from datetime import timedelta, timezone
-    today = datetime.now(timezone(timedelta(hours=9))).date()
+    today = ref_now(9).date()
     rows, pdf_date = [], None
     for back in range(0, 8):
         d = (today - timedelta(days=back)).isoformat()
@@ -122,7 +122,7 @@ def ezmoney(fund_code: str):
 def fhtrust(etf_id: str):
     """復華投信 (00991A=ETF23): /api/assetsExcel/{id}/{yyyymmdd}, 최근 영업일까지 거슬러 시도."""
     from datetime import timedelta, timezone
-    now = datetime.now(timezone(timedelta(hours=8)))
+    now = ref_now(8)
     last = None
     for back in range(0, 7):
         d = now - timedelta(days=back)

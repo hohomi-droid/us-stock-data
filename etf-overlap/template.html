@@ -52,6 +52,7 @@ td.n,th.n{text-align:right;font-family:var(--f-num);font-variant-numeric:tabular
 .pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;font-weight:600;white-space:nowrap}
 .pill.new{background:var(--accent-soft);color:var(--accent)}
 .pill.sell{background:var(--warn-soft);color:var(--warn)}
+.plus{color:var(--accent);font-weight:700}
 .up{color:var(--up)} .down{color:var(--down)}
 .theme{font-size:12.5px;white-space:nowrap}
 .desc{font-size:12.5px;color:var(--muted);max-width:340px;min-width:220px}
@@ -101,19 +102,19 @@ details.method ul{margin:10px 0 0;padding-left:18px;color:var(--muted);display:g
   <section class="summary" id="summary" aria-label="요약"></section>
   <div class="controls">
     <div><span class="ctl-l">정렬</span><span class="seg" id="sortSeg">
-      <button id="s-score" data-v="score" aria-pressed="true">겹침 점수</button>
-      <button id="s-new" data-v="new" aria-pressed="false">신규 겹침</button>
-      <button id="s-ret" data-v="ret" aria-pressed="false">수익률</button></span></div>
+      <button id="s-w2" data-v="w2" aria-pressed="true">2주 편입순</button>
+      <button id="s-m2" data-v="m2" aria-pressed="false">2달 편입순</button>
+      <button id="s-ret" data-v="ret" aria-pressed="false">수익률순</button></span></div>
     <div><span class="ctl-l">필터</span><span class="seg" id="filtSeg">
       <button id="f-all" data-v="all" aria-pressed="true">전체</button>
-      <button id="f-new" data-v="new" aria-pressed="false">신규 겹침만</button>
+      <button id="f-w2" data-v="w2" aria-pressed="false">2주 편입 있음</button>
       <button id="f-sell" data-v="sell" aria-pressed="false">매도 경고</button></span></div>
   </div>
   <div class="tablebox">
     <table>
       <thead><tr>
-        <th class="n">순위</th><th>종목</th><th class="n">보유 ETF</th><th class="n">2주 신규</th>
-        <th class="n">공시 당시 가격</th><th class="n">현재가</th><th class="n">공시 이후</th><th>핵심 테마</th><th>사업 설명</th>
+        <th class="n">순위</th><th>종목</th><th class="n">보유 ETF<br><small>(+2주 편입)</small></th><th class="n">2달 편입<br><small>ETF 수</small></th>
+        <th class="n">첫 공시 가격</th><th class="n">현재가</th><th class="n">공시 이후</th><th>핵심 테마</th><th>사업 설명</th>
       </tr></thead>
       <tbody id="tb"></tbody>
     </table>
@@ -144,71 +145,74 @@ details.method ul{margin:10px 0 0;padding-left:18px;color:var(--muted);display:g
   const px = v => v == null ? '–' : (v >= 1000 ? v.toLocaleString('en-US',{maximumFractionDigits:0}) : v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}));
   const md = d => d ? d.slice(5).replace('-', '/') : '';
 
-  $('stamp').textContent = '기준 ' + S.generated + ' · 스냅샷 ' + S.snapshots + '일 (' + S.first_snapshot + '부터)';
+  $('stamp').textContent = '기준 ' + S.generated + ' · 2달 ' + md(S.cut_long) + '~ · 2주 ' + md(S.cut_short) + '~';
   const notes = [];
-  if (S.snapshots < 11) notes.push('<b>누적 ' + S.snapshots + '일차</b> — 최근 2주 신규 편입은 스냅샷이 11일 쌓이면 완전한 값이 됩니다. 그 전까지 신규 겹침 수는 실제보다 적게 나옵니다.');
+  if (S.short_history_etfs && S.short_history_etfs.length) notes.push('<b>2달 이력이 아직 다 차지 않은 ETF ' + S.short_history_etfs.length + '개</b> — 이력이 쌓이거나 과거 공시를 채우기 전까지 그 ETF의 2달 편입은 실제보다 적게 잡힙니다: ' + S.short_history_etfs.map(esc).join(', '));
   if (S.pending_etfs && S.pending_etfs.length) notes.push('수집 경로 준비 중인 ETF ' + S.pending_etfs.length + '개(50위 안): ' + S.pending_etfs.map(esc).join(', '));
   if (S.missing_etfs && S.missing_etfs.length) notes.push('오늘 보유종목을 받지 못한 ETF ' + S.missing_etfs.length + '개: ' + S.missing_etfs.map(esc).join(', '));
-  if (S.stale_etfs && S.stale_etfs.length) notes.push('공시가 4일 넘게 갱신되지 않은 ETF: ' + S.stale_etfs.map(esc).join(', '));
+  if (S.stale_etfs && S.stale_etfs.length) notes.push('공시가 평소 주기보다 늦어진 ETF: ' + S.stale_etfs.map(esc).join(', '));
   if (notes.length){ $('notice').innerHTML = notes.join('<br>'); $('notice').hidden = false; }
 
   const kpis = [
     ['추적 ETF', S.tracked_etfs, '대상 ' + S.universe_etfs + '개 중'],
-    ['겹침 종목', S.overlap_count, '2개 이상 ETF 초과보유'],
-    ['신규 겹침', S.new_overlap_count, '2주 내 2개+ ETF 매수'],
-    ['평균 수익률', pct(S.avg_return), '공시 이후', cls(S.avg_return)],
+    ['2달 편입 겹침', S.overlap_count, '2개+ ETF가 2달 안 편입'],
+    ['2주 편입 종목', S.new_overlap_count, '그중 2주 안 편입 있음'],
+    ['평균 수익률', pct(S.avg_return), '첫 공시가 대비', cls(S.avg_return)],
     ['동시 매도 경고', S.sell_warn_count, '2주 내 2개+ ETF 감소'],
     ['최대 테마 비중', S.top_theme_share ? Math.round(S.top_theme_share*100) + '%' : '–', S.top_theme || '상위 30종목 기준']
   ];
   $('summary').innerHTML = kpis.map(k => '<div class="kpi"><div class="l">' + k[0] + '</div><div class="v ' + (k[3]||'') + '">' + esc(k[1]) + '</div><div class="s">' + esc(k[2]) + '</div></div>').join('');
 
   $('rules').innerHTML = [
-    '신규 편입 = 새로 등장한 종목(비중 ' + D.params.min_new_weight + '% 이상) 또는 주식 수가 자금 유입 비율보다 ' + Math.round(D.params.add_excess*100) + '% 넘게 늘어난 종목',
+    '대상: 전세계 액티브 주식형 ETF 운용규모 상위 50개. 매일·월별·분기 등 공시 주기와 상관없이 공시하는 ETF는 모두 포함(체계적 팩터·인핸스드 인덱스·옵션인컴·스왑 위주 제외)',
+    '편입 = ETF가 앞 공시보다 새로 담은 종목(비중 ' + D.params.min_new_weight + '% 이상) 또는 주식 수를 자금 유입 비율보다 ' + Math.round(D.params.add_excess*100) + '% 넘게 늘린 종목',
     '자금 유입 비율 = ETF 좌수 변화율, 없으면 보유종목 대다수의 공통 주식 수 변화율',
-    '보유 ETF 수 = 벤치마크보다 비중을 더 실은 ETF만 집계(벤치마크 자료가 없는 ETF는 보유 자체로 집계)',
-    '겹침 점수 = 보유 ETF 수 + 2 × 최근 ' + D.params.window + '거래일 신규 편입 ETF 수 · 같은 기간에 샀다가 줄인 ETF는 신규에서 제외',
-    '공시 당시 가격 = 처음 편입이 확인된 보유 기준일의 종가 · 현재가 = 최근 거래일 종가',
-    '대상: 전세계 액티브 주식형 ETF 중 운용규모 상위 50개(체계적 팩터·인핸스드 인덱스·옵션인컴·반투명 제외)'
+    '2달 편입 ETF 수 = 최근 ' + D.params.long_days + '일 안 공시에서 편입했고 지금도 보유 중인 ETF 수 · 2개 이상인 종목만 표시',
+    '보유 ETF (+N) = 지금 벤치마크보다 비중을 더 실은 ETF 수, 괄호는 그중 최근 ' + D.params.short_days + '일 안 공시에서 편입한 ETF 수',
+    '순위 = 2주 편입 ETF 수 → 2달 편입 ETF 수 → 보유 ETF 수',
+    '첫 공시 가격 = 2달 안 처음 편입이 확인된 공시 기준일 종가 · 현재가 = 최근 거래일 종가'
   ].map(t => '<li>' + esc(t) + '</li>').join('');
   $('etfList').innerHTML = Object.entries(D.etfs).sort((a,b) => (b[1].aum||0) - (a[1].aum||0))
-    .map(([t,e]) => '<span class="' + (e.asof ? '' : 'miss') + '" title="' + esc(e.name) + ' · $' + (e.aum ?? '?') + 'B · 기준 ' + esc(e.asof || '없음') + '">' + esc(t) + '</span>').join('');
+    .map(([t,e]) => '<span class="' + (e.asof ? '' : 'miss') + '" title="' + esc(e.name) + ' · $' + (e.aum ?? '?') + 'B · ' + ({daily:'매일',monthly:'월별',quarterly:'분기'}[e.disclosure]||'') + ' 공시 · 최근 ' + esc(e.asof || '없음') + ' · 이력 ' + esc(e.history_from || '-') + '부터 ' + (e.history_n||0) + '회">' + esc(t) + '</span>').join('');
 
-  let sort = 'score', filt = 'all', open = null;
-  try { sort = localStorage.getItem('etf_sort') || sort; filt = localStorage.getItem('etf_filt') || filt; } catch(e){}
+  let sort = 'w2', filt = 'all', open = null;
+  try { sort = localStorage.getItem('etf_sort2') || sort; filt = localStorage.getItem('etf_filt2') || filt; } catch(e){}
+  if (!['w2','m2','ret'].includes(sort)) sort = 'w2';
+  if (!['all','w2','sell'].includes(filt)) filt = 'all';
 
   function render(){
-    let list = rows.slice();
-    if (filt === 'new') list = list.filter(r => r.new2w >= 2);
-    if (filt === 'sell') list = list.filter(r => r.sell_warn);
-    if (sort === 'new') list.sort((a,b) => b.new2w - a.new2w || b.score - a.score);
-    else if (sort === 'ret') list.sort((a,b) => (b.ret ?? -9) - (a.ret ?? -9));
-    else list.sort((a,b) => b.score - a.score || b.new2w - a.new2w);
+    let list = filt === 'sell' ? rows.filter(r => r.sell_warn) : rows.filter(r => r.add2m >= 2);
+    if (filt === 'w2') list = list.filter(r => r.add2w >= 1);
+    const base = (a,b) => a.rank - b.rank;
+    if (sort === 'm2') list.sort((a,b) => b.add2m - a.add2m || b.add2w - a.add2w || base(a,b));
+    else if (sort === 'ret') list.sort((a,b) => (b.ret ?? -9) - (a.ret ?? -9) || base(a,b));
+    else list.sort(base);
     if (!list.length){ $('tb').innerHTML = '<tr><td colspan="9" class="empty">조건에 맞는 종목이 없습니다.</td></tr>'; return; }
     $('tb').innerHTML = list.map(r => {
-      const badge = (r.new2w >= 2 ? ' <span class="pill new">신규 ' + r.new2w + '</span>' : '') + (r.sell_warn ? ' <span class="pill sell">매도 ' + r.sells.length + '</span>' : '');
+      const badge = r.sell_warn ? ' <span class="pill sell">매도 ' + r.sells.length + '</span>' : '';
       let h = '<tr class="row" tabindex="0" data-s="' + esc(r.sym) + '" aria-expanded="' + (open === r.sym) + '">' +
         '<td class="n">' + r.rank + '</td>' +
         '<td><span class="sym">' + esc(r.sym) + '</span>' + badge + '<span class="cname">' + esc(r.name) + '</span></td>' +
-        '<td class="n">' + r.holders + '</td><td class="n">' + r.new2w + '</td>' +
+        '<td class="n">' + r.holders + (r.add2w ? ' <span class="plus">(+' + r.add2w + ')</span>' : '') + '</td><td class="n">' + r.add2m + '</td>' +
         '<td class="n d">' + px(r.p0) + '<small>' + md(r.d0) + '</small></td>' +
         '<td class="n d">' + px(r.p1) + '<small>' + md(r.d1) + '</small></td>' +
         '<td class="n ' + cls(r.ret) + '">' + pct(r.ret) + '</td>' +
         '<td class="theme">' + esc(r.theme || '–') + '</td><td class="desc">' + esc(r.desc || '') + '</td></tr>';
       if (open === r.sym){
         const hl = r.holder_list.map(x => '<span class="t">' + esc(x.etf) + '</span><span class="x">' + esc((D.etfs[x.etf]||{}).name || '') + '</span><span class="w">' + x.weight.toFixed(2) + '%</span><span class="w">' + (x.active == null ? '·' : '+' + x.active.toFixed(2)) + '</span>').join('');
-        const nl = r.new_list.map(x => '<span class="t">' + esc(x.etf) + '</span><span class="x">' + (x.kind === 'new' ? '신규 편입' : '주식 수 증가') + '</span><span class="w">' + esc(x.date) + '</span><span></span>').join('');
+        const nl = r.new_list.map(x => '<span class="t">' + esc(x.etf) + '</span><span class="x">' + (x.kind === 'new' ? '신규 편입' : '주식 수 증가') + '</span><span class="w">' + esc(x.date) + '</span><span>' + (x.recent ? '<span class="pill new">2주</span>' : '') + '</span>').join('');
         const sl = r.sells.length ? '<h3 style="margin-top:12px">최근 2주 감소·제외</h3><div class="etfs">' + r.sells.map(s => '<span>' + esc(s) + '</span>').join('') + '</div>' : '';
         h += '<tr class="detail"><td colspan="9"><div class="dgrid">' +
           '<div><h3>보유 ETF ' + r.holder_list.length + '개 · 비중 · 벤치마크 초과분</h3><div class="dl">' + (hl || '<span class="x">없음</span>') + '</div></div>' +
-          '<div><h3>최근 2주 신규 편입 ETF</h3><div class="dl">' + (nl || '<span class="x">없음</span>') + '</div>' + sl + '</div>' +
+          '<div><h3>최근 2달 편입 ETF ' + r.new_list.length + '개 (2주 안 ' + r.add2w + '개)</h3><div class="dl">' + (nl || '<span class="x">없음</span>') + '</div>' + sl + '</div>' +
           '</div></td></tr>';
       }
       return h;
     }).join('');
   }
   function setSeg(id, v){ document.querySelectorAll('#' + id + ' button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === v)); }
-  $('sortSeg').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; sort = b.dataset.v; setSeg('sortSeg', sort); try{localStorage.setItem('etf_sort', sort)}catch(_){} render(); });
-  $('filtSeg').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; filt = b.dataset.v; setSeg('filtSeg', filt); try{localStorage.setItem('etf_filt', filt)}catch(_){} render(); });
+  $('sortSeg').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; sort = b.dataset.v; setSeg('sortSeg', sort); try{localStorage.setItem('etf_sort2', sort)}catch(_){} render(); });
+  $('filtSeg').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; filt = b.dataset.v; setSeg('filtSeg', filt); try{localStorage.setItem('etf_filt2', filt)}catch(_){} render(); });
   const toggle = tr => { const s = tr.dataset.s; open = open === s ? null : s; render(); };
   $('tb').addEventListener('click', e => { const tr = e.target.closest('tr.row'); if (tr) toggle(tr); });
   $('tb').addEventListener('keydown', e => { const tr = e.target.closest('tr.row'); if (tr && (e.key === 'Enter' || e.key === ' ')){ e.preventDefault(); toggle(tr); } });

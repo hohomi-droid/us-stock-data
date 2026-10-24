@@ -45,13 +45,14 @@ def fetch(sym: str, rng: str = "6mo"):
 
 def symbols_needed():
     syms = set()
-    for f in sorted((ROOT / "data" / "snapshots").glob("*.json"))[-70:]:
-        snap = json.loads(f.read_text(encoding="utf-8"))
-        for e in snap.get("etfs", {}).values():
-            for s, h in e.get("holdings", {}).items():
-                if h.get("yahoo"):
-                    syms.add(h["yahoo"])
-                    syms.add(CANON.get(h["yahoo"], h["yahoo"]))
+    hist = ROOT / "data" / "history"
+    for d in hist.glob("*"):
+        for f in sorted(d.glob("*.json"))[-70:]:
+            e = json.loads(f.read_text(encoding="utf-8"))
+            for s, v in (e.get("holdings") or {}).items():
+                y = (v[3] if isinstance(v, list) and len(v) > 3 and v[3] else s) if isinstance(v, list) else v.get("yahoo", s)
+                syms.add(y)
+                syms.add(CANON.get(y, y))
     return sorted(syms)
 
 

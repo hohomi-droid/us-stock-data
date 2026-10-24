@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
 from fetchers import us, asia  # noqa: E402
+import store  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
 
@@ -23,7 +24,7 @@ KST = timezone(timedelta(hours=9))
 def run_source(src: dict):
     t = src["type"]
     if t == "ishares":
-        return us.ishares(src["id"], src["slug"])
+        return us.ishares(src["id"], src["slug"], src.get("ticker"))
     if t == "jpm":
         return us.jpm(src["cusip"])
     if t == "capital_group":
@@ -69,7 +70,9 @@ def main():
                 d = run_source(e["source"])
                 if not d["holdings"]:
                     raise ValueError("보유종목 0개")
+                d["asof"] = d.get("asof") or today
                 snap["etfs"][tk] = d
+                store.save(tk, d, "live", overwrite=True)
                 log["ok"].append(f'{tk}:{len(d["holdings"])}:{d.get("asof")}')
                 break
             except Exception as ex:  # noqa: BLE001
@@ -97,13 +100,7 @@ def main():
         p.write_text(json.dumps(old, separators=(",", ":")), encoding="utf-8")
 
     (ROOT / "data" / "snapshots").mkdir(parents=True, exist_ok=True)
-    if snap["etfs"]:
-        (ROOT / "data" / "snapshots" / f"{today}.json").write_text(
-            json.dumps(snap, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    # 90일 넘은 스냅샷 정리
-    files = sorted((ROOT / "data" / "snapshots").glob("*.json"))
-    for f in files[:-90]:
-        f.unlink()
+    store.prune()
     (ROOT / "out").mkdir(exist_ok=True)
     (ROOT / "out" / "collect_log.json").write_text(json.dumps(log, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"ok={len(snap['etfs'])} fail={len(log['fail'])}")
