@@ -1091,5 +1091,54 @@
   "desc": "Airbnb, Inc., together with its subsidiaries, operates a platform for stays, experiences, and services worldwide.",
   "auto": true,
   "v": 2
+ },
+ "CVX": {
+  "name": "Chevron Corporation",
+  "theme": "석유·가스",
+  "desc": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations.",
+  "auto": true,
+  "v": 2
+ },
+ "AAPL": {
+  "name": "Apple Inc.",
+  "theme": "IT 하드웨어",
+  "desc": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "TDG": {
+  "name": "Transdigm Group Incorporated",
+  "theme": "방산·항공우주",
+  "desc": "TransDigm Group Incorporated designs, produces, and supplies aircraft components in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "KTOS": {
+  "name": "Kratos Defense & Security Solut",
+  "theme": "방산·항공우주",
+  "desc": "Kratos Defense & Security Solutions, Inc., a technology company, provides technology, hardware, products, system, and software for the defense, national…",
+  "auto": true,
+  "v": 2
+ },
+ "KDP": {
+  "name": "Keurig Dr Pepper Inc.",
+  "theme": "음료",
+  "desc": "Keurig Dr Pepper Inc. owns, manufactures, and distributors beverages and single serve brewing systems in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "AVAV": {
+  "name": "AeroVironment, Inc.",
+  "theme": "방산·항공우주",
+  "desc": "AeroVironment, Inc., a defense technology provider, designs, develops, produces, delivers, and supports a portfolio of robotic systems and related services…",
+  "auto": true,
+  "v": 2
+ },
+ "MRVL": {
+  "name": "Marvell Technology, Inc.",
+  "theme": "반도체",
+  "desc": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network…",
+  "auto": true,
+  "v": 2
  }
 }
