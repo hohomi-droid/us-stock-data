@@ -1,58 +1,50 @@
 {
- "SEC_SUB": [
+ "TW_ARCHIVE_LIST": [
   {
-   "url": "https://data.sec.gov/submissions/CIK0001868244.json",
-   "final": "https://data.sec.gov/submissions/CIK0001868244.json",
+   "url": "https://github.com/sarsadsl/etf_scratch/releases",
+   "final": "https://github.com/sarsadsl/etf_scratch/releases",
    "status": 200,
-   "ctype": "application/json",
-   "len": 2442,
+   "ctype": "text/html; charset=utf-8",
+   "len": 380474,
    "cands": [],
-   "head": "{\"cik\":\"0001868244\",\"entityType\":\"other\",\"sic\":\"\",\"sicDescription\":\"\",\"ownerOrg\":\"\",\"insiderTransactionForOwnerExists\":1,\"insiderTransactionForIssuerExists\":0,\"name\":\"Davis Sarah R.\",\"tickers\":[],\"exchanges\":[],\"ein\":null,\"lei\":null,\"description\":\"\",\"website\":\"\",\"investorWebsite\":\"\",\"category\":\"\",\"fiscalYearEnd\":null,\"stateOfIncorporation\":\"\",\"stateOfIncorporationDescription\":\"\",\"addresses\":{\"mailing\":{\"street1\":\"FOUR LIMITED PARKWAY EAST\",\"street2\":null,\"city\":\"REYNOLDSBURG\",\"stateOrCountry\":\"OH\",\"zipCode\":\"43068\",\"stateOrCountryDescription\":\"OH\",\"isForeignLocation\":0,\"foreignStateTerritory\":null,\"country\":null,\"countryCode\":null},\"business\":{\"street1\":null,\"street2\":null,\"city\":null,\"stateOrCountry\":null,\"zipCode\":null,\"stateOrCountryDescription\":null,\"isForeignLocation\":null,\"foreignStateTerritory\":null,\"country\":null,\"countryCode\":null}},\"phone\":null,\"flags\":\"\",\"formerNames\":[],\"filings\":{\"recent\":{\"accessionNumber\":[\"0001225208-26-006042\",\"0001193125-26-113156\",\"0001225208-25-006137\",\"0001225208-24-006868\",\"0001225208-23-006621\",\"0001225208-22-007503\",\"0000950103-21-012001\",\"0000950103-21-010666\"],\"filingDate\":[\"2026-06-15\",\"2026-03-18\",\"2025-06-23\",\"2024-06-14\",\"2023-06-07\",\"2022-06-01\",\"2021-08-05\",\"2021-07-19\"],\"reportDate\":[\"2026-06-11\",\"2026-03-18\",\"2025-06-18\",\"2024-06-13\",\"2023-05-25\",\"2022-05-27\",\"2021-08-03\",\"2021-07-19\"],\"acceptanceDateTime\":[\"2026-06-15T20:28:43.000Z\",\"2026-03-18T15:54:34.000Z\",\"2025-06-23T20:07:16.000Z\",\"2024-06-14T21:20:23.000Z\",\"2023-06-07T"
-  }
- ],
- "SEC_BROWSE": [
+   "text": " Releases · sarsadsl/etf_scratch · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer p"
+  },
   {
-   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=capital+group+dividend+value&type=NPORT-P&dateb=&owner=include&count=10&output=atom",
-   "final": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=capital+group+dividend+value&type=NPORT-P&dateb=&owner=include&count=10&output=atom",
+   "url": "https://github.com/sarsadsl/etf_scratch/tags",
+   "final": "https://github.com/sarsadsl/etf_scratch/tags",
    "status": 200,
-   "ctype": "application/atom+xml",
-   "len": 15700,
-   "head": "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>\n  <feed xmlns=\"http://www.w3.org/2005/Atom\">\n    <author>\n      <email>webmaster@sec.gov</email>\n      <name>Webmaster</name>\n    </author>\n    <company-info>\n      <addresses>\n        <address type=\"mailing\">\n          <city>LOS ANGELES</city>\n          <state>CA</state>\n          <street1>333 SOUTH HOPE STREET, 55TH FLOOR</street1>\n          <zip>90071</zip>\n        </address>\n        <address type=\"business\">\n          <city>IRVINE</city>\n          <phone>(213) 486-9200</phone>\n          <state>CA</state>\n          <street1>6455 IRVINE CENTER DRI"
-  }
- ],
- "SEC_EFTS": [
-  {
-   "url": "https://efts.sec.gov/LATEST/search-index?q=%22Capital%20Group%20Dividend%20Value%20ETF%22&forms=NPORT-P",
-   "final": "https://efts.sec.gov/LATEST/search-index?q=%22Capital%20Group%20Dividend%20Value%20ETF%22&forms=NPORT-P",
-   "status": 200,
-   "ctype": "application/json",
-   "len": 55840,
+   "ctype": "text/html; charset=utf-8",
+   "len": 244169,
    "cands": [],
-   "head": "{\"took\":611,\"timed_out\":false,\"_shards\":{\"total\":50,\"successful\":50,\"skipped\":0,\"failed\":0},\"hits\":{\"total\":{\"value\":534,\"relation\":\"eq\"},\"max_score\":17.254883,\"hits\":[{\"_index\":\"edgar_file\",\"_id\":\"0001752724-22-234610:NPORT_CGW4_89359011_0822.htm\",\"_score\":17.254883,\"_source\":{\"ciks\":[\"0001870128\"],\"period_ending\":\"2022-08-31\",\"file_num\":[\"811-23736\"],\"display_names\":[\"Capital Group Dividend Value ETF  (CIK 0001870128)\"],\"xsl\":null,\"sequence\":2,\"root_forms\":[\"NPORT-P\"],\"file_date\":\"2022-10-25\",\"biz_states\":[\"CA\"],\"sics\":[],\"form\":\"NPORT-P\",\"adsh\":\"0001752724-22-234610\",\"film_num\":[\"221328297\"],\"biz_locations\":[\"Irvine, CA\"],\"file_type\":\"NPORT-EX\",\"file_description\":null,\"inc_states\":[\"DE\"],\"items\":[]}},{\"_index\":\"edgar_file\",\"_id\":\"0001752724-25-095557:NPORT_CGW4_32163727_0225.htm\",\"_score\":17.074043,\"_source\":{\"ciks\":[\"0001870128\"],\"period_ending\":\"2025-02-28\",\"file_num\":[\"811-23736\"],\"display_names\":[\"Capital Group Dividend Value ETF  (CIK 0001870128)\"],\"xsl\":null,\"sequence\":\"3\",\"root_forms\":[\"NPORT-P\"],\"file_date\":\"2025-04-28\",\"biz_states\":[\"CA\"],\"sics\":[],\"form\":\"NPORT-P\",\"adsh\":\"0001752724-25-095557\",\"film_num\":[\"25879599\"],\"biz_locations\":[\"Irvine, CA\"],\"file_type\":\"NPORT-EX\",\"file_description\":null,\"inc_states\":[\"DE\"],\"items\":[]}},{\"_index\":\"edgar_file\",\"_id\":\"0001752724-24-092384:NPORT_CGW4_31377473_0224.htm\",\"_score\":17.055277,\"_source\":{\"ciks\":[\"0001870128\"],\"period_ending\":\"2024-02-29\",\"file_num\":[\"811-23736\"],\"display_names\":[\"Capital Group Dividend Value ETF  (C"
+   "text": " Tags · sarsadsl/etf_scratch · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platf"
   }
  ],
- "SEC_MF": [
+ "TW_ARCHIVE_00981A": [
   {
-   "url": "https://www.sec.gov/files/company_tickers_mf.json",
-   "final": "https://www.sec.gov/files/company_tickers_mf.json",
-   "status": 200,
-   "ctype": "application/json",
-   "len": 1236153,
-   "cands": [
-    "https://www.sec.gov/files/CPCFX",
-    "https://www.sec.gov/files/DPCFX",
-    "https://www.sec.gov/files/PCFAX",
-    "https://www.sec.gov/files/PCFCX",
-    "https://www.sec.gov/files/PCFDX",
-    "https://www.sec.gov/files/PCFEX",
-    "https://www.sec.gov/files/PCFIX",
-    "https://www.sec.gov/files/SPCF"
-   ],
-   "head": "{\"fields\":[\"cik\",\"seriesId\",\"classId\",\"symbol\"],\"data\":[[2110,\"S000009184\",\"C000024954\",\"LACAX\"],[2110,\"S000009184\",\"C000024956\",\"LIACX\"],[2110,\"S000009184\",\"C000024957\",\"ACRNX\"],[2110,\"S000009184\",\"C000122736\",\"CRBRX\"],[2110,\"S000009184\",\"C000122737\",\"CRBYX\"],[2110,\"S000009184\",\"C000251059\",\"ACRSX\"],[2110,\"S000009185\",\"C000024958\",\"LAIAX\"],[2110,\"S000009185\",\"C000024961\",\"ACINX\"],[2110,\"S000009185\",\"C000097733\",\"CAIRX\"],[2110,\"S000009185\",\"C000122739\",\"CCYIX\"],[2110,\"S000009185\",\"C000251060\",\"CCIDX\"],[2110,\"S000009188\",\"C000024970\",\"LAFAX\"],[2110,\"S000009188\",\"C000024973\",\"ACFFX\"],[2110,\"S000009188\",\"C000122746\",\"CRIRX\"],[2110,\"S000009188\",\"C000122747\",\"CSIRX\"],[2110,\"S000009188\",\"C000251061\",\"ACFEX\"],[2110,\"S000009189\",\"C000024974\",\"CTFAX\"],[2110,\"S000009189\",\"C000024976\",\"CTFDX\"],[2110,\"S000009189\",\"C000024977\",\"COTZX\"],[2110,\"S000009189\",\"C000122750\",\"CQTRX\"],[2110,\"S000009189\",\"C000122751\",\"CYYYX\"],[2110,\"S000009189\",\"C000251062\",\"COTDX\"],[2110,\"S000033621\",\"C000103324\",\"CAEAX\"],[2110,\"S000033621\",\"C000103327\",\"CAEZX\"],[2646,\"S000008760\",\"C000023849\",\"IIBPX\"],[2646,\"S000008760\",\"C000028784\",\"IPIIX\"],[2646,\"S000008760\",\"C000028785\",\"IPISX\"],[2646,\"S000008760\",\"C000074893\",\"IIBTX\"],[2663,\"S000008702\",\"C000023718\",\"IVMXX\"],[2664,\"S000008703\",\"C000028787\",\"IAVGX\"],[2664,\"S000008703\",\"C000028788\",\"IIVGX\"],[2664,\"S000008703\",\"C000028789\",\"ISVGX\"],[2664,\"S000008703\",\"C000074892\",\"IGISX\"],[2691,\"S000006806\",\"C000018428\",\"LAFFX\"],[2691,\"S000006806\",\"C000018430\",\"LAFCX\"],[2691,\"S0",
-   "grep": [
-    "952\",\"C000224590\",\"CGVHX\"],[1785360,\"S000066955\",\"C000215520\",\"CUSEX\"],[1786958,\"S000067043\",\"C000215714\",\"FOBXX\"],[1795351,\"S000067974\",\"C000217970\",\"TCHP\"],[1795351,\"S000067975\",\"C000217971\",\"TDVG\"],[1795351,\"S000067976\",\"C000217972\",\"TEQI\"],[1795351,\"S000067977\",\"C000217973\",\"TGRW\"],[1795351,\"S000071604\",\"C000226980\",\"TSPA\"],[1795351,\"S000072797\",\"C000229338\",\"TAGG\"],[1795351,\"S000072798\",\"C000229339",
-    "085084\",\"C000249948\",\"CGHM\"],[1870117,\"S000085085\",\"C000249949\",\"CGUI\"],[1870117,\"S000092698\",\"C000260733\",\"CGHY\"],[1870128,\"S000074249\",\"C000231858\",\"CGDV\"],[1870130,\"S000074248\",\"C000231857\",\"CGXU\"],[1872253,\"S000074017\",\"C000231342\",\"MFADX\"],[1872253,\"S000074017\",\"C000231343\",\"MFLDX\"],[1872253,\"S000074018\",\"C000231344\",\"MRESX\"],[1872253,\"S000074018\",\"C000234136\",\"MRASX\"],[1872253,\"S000075258\",\"C00023"
-   ]
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx",
+   "final": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx",
+   "status": 404,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 9,
+   "head": "Not Found"
+  },
+  {
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx",
+   "final": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx",
+   "status": 404,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 9,
+   "head": "Not Found"
+  }
+ ],
+ "TW_ARCHIVE_00991A": [
+  {
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00991A_%E5%BE%A9%E8%8F%AF%E6%8A%95%E4%BF%A1.xlsx",
+   "final": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00991A_%E5%BE%A9%E8%8F%AF%E6%8A%95%E4%BF%A1.xlsx",
+   "status": 404,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 9,
+   "head": "Not Found"
   }
  ]
 }
