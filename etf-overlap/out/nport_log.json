@@ -1,0 +1,430 @@
+{
+ "run": "2026-10-27T07:33:37+09:00",
+ "days": 66,
+ "etfs": {
+  "CGDV": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "CGGR": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "PVAL": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-11-28",
+    "2026-02-27"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 2
+  },
+  "BAI": {
+   "type": "ishares",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "CGUS": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "CGGO": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "JGRO": {
+   "type": "jpm",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "BLCR": {
+   "type": "ishares",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "00981A": {
+   "type": "ezmoney",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": []
+  },
+  "TCAF": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-12-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "FBCG": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-01-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "JAVA": {
+   "type": "jpm",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "SEQ": {
+   "type": "sequoia",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "CGXU": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "JGLO": {
+   "type": "jpm",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "ARKK": {
+   "type": "ark",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "CNEQ": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-12-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "CGDG": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "QLTY": {
+   "type": "gmo",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "EAGL": {
+   "type": "eagle",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "AKRE": {
+   "type": "filepoint",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "TSPA": {
+   "type": "trowe_pdf",
+   "strategy": null,
+   "saved": [
+    "2025-12-31"
+   ],
+   "errors": [],
+   "probe": []
+  },
+  "JTEK": {
+   "type": "jpm",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "JIVE": {
+   "type": "jpm",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "00403A": {
+   "type": "ezmoney",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": []
+  },
+  "IDEF": {
+   "type": "ishares",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "CGMM": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "FWD": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-02-28"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "CGGE": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "CGNG": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "TMSL": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-12-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "FEGE": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-11-30",
+    "2026-02-28"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 2
+  },
+  "CGIC": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "NUGO": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2026-01-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "CGIE": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "BGIG": {
+   "type": "dated_csv",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "TCHP": {
+   "type": "trowe_pdf",
+   "strategy": null,
+   "saved": [
+    "2025-12-31"
+   ],
+   "errors": [],
+   "probe": []
+  },
+  "00991A": {
+   "type": "fhtrust",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": []
+  },
+  "ARKG": {
+   "type": "ark",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "CGCV": {
+   "type": "capital_group",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "EMOP": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-11-30"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "ALAI": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-12-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "WCMI": {
+   "type": "ftportfolios",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "JPEF": {
+   "type": "jpm",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "IDEQ": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-12-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "LCAP": {
+   "type": "generic",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "ARKW": {
+   "type": "ark",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "ARKQ": {
+   "type": "ark",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": [],
+   "nport": 0
+  },
+  "BAFE": {
+   "type": "nport",
+   "strategy": null,
+   "saved": [
+    "2025-12-31"
+   ],
+   "errors": [],
+   "probe": [],
+   "nport": 1
+  },
+  "426030": {
+   "type": "timefolio",
+   "strategy": null,
+   "saved": [],
+   "errors": [],
+   "probe": []
+  }
+ }
+}

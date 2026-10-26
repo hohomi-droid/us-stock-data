@@ -581,8 +581,9 @@
  "ADI": {
   "name": "Analog Devices, Inc.",
   "theme": "반도체",
-  "desc": "Analog Devices, Inc.",
-  "auto": true
+  "desc": "Analog Devices, Inc. engages in the design, manufacture, testing, and marketing of integrated circuits (ICs), software, and subsystems products in the United…",
+  "auto": true,
+  "v": 2
  },
  "JPM": {
   "name": "JP Morgan Chase & Co.",
@@ -748,8 +749,9 @@
  "6098.T": {
   "name": "RECRUIT HOLDINGS CO LTD",
   "theme": "인터넷 플랫폼",
-  "desc": "Recruit Holdings Co., Ltd.",
-  "auto": true
+  "desc": "Recruit Holdings Co., Ltd. provides HR technology and business solutions that transforms the world of work.",
+  "auto": true,
+  "v": 2
  },
  "NET": {
   "name": "Cloudflare",
@@ -1138,6 +1140,104 @@
   "name": "Marvell Technology, Inc.",
   "theme": "반도체",
   "desc": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network…",
+  "auto": true,
+  "v": 2
+ },
+ "ISRG": {
+  "name": "Intuitive Surgical, Inc.",
+  "theme": "Medical Instruments & Supplies",
+  "desc": "Intuitive Surgical, Inc. develops, manufactures, and markets products that enable physicians and healthcare providers to enhance the quality of and access to…",
+  "auto": true,
+  "v": 2
+ },
+ "CDNS": {
+  "name": "Cadence Design Systems, Inc.",
+  "theme": "응용 SW",
+  "desc": "Cadence Design Systems, Inc. develops computational, AI-driven software, hardware, and silicon intellectual property products and solutions.",
+  "auto": true,
+  "v": 2
+ },
+ "BBAS3.SA": {
+  "name": "BRASIL      ON      NM",
+  "theme": "지역은행",
+  "desc": "Banco do Brasil S.A., together with its subsidiaries, provides banking products and services for individuals, companies, and public sectors in Brazil and…",
+  "auto": true,
+  "v": 2
+ },
+ "DIS": {
+  "name": "Walt Disney Company (The)",
+  "theme": "미디어·엔터",
+  "desc": "The Walt Disney Company operates as an entertainment company in Americas, Europe, and the Asia Pacific.",
+  "auto": true,
+  "v": 2
+ },
+ "RKT": {
+  "name": "Rocket Companies, Inc.",
+  "theme": "Mortgage Finance",
+  "desc": "Rocket Companies, Inc., a fintech company, engages in the mortgage, real estate, and personal finance businesses in the United States and Canada.",
+  "auto": true,
+  "v": 2
+ },
+ "CRDO": {
+  "name": "Credo Technology Group Holding ",
+  "theme": "반도체",
+  "desc": "Credo Technology Group Holding Ltd provides various high-speed connectivity solutions for optical and electrical Ethernet and PCIe applications in the United…",
+  "auto": true,
+  "v": 2
+ },
+ "DELL": {
+  "name": "Dell Technologies Inc.",
+  "theme": "IT 하드웨어",
+  "desc": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in…",
+  "auto": true,
+  "v": 2
+ },
+ "ETN": {
+  "name": "Eaton Corporation, PLC",
+  "theme": "산업기계",
+  "desc": "Eaton Corporation plc operates as a power management company in the United States, Canada, Latin America, Europe, and the Asia Pacific.",
+  "auto": true,
+  "v": 2
+ },
+ "SPOT": {
+  "name": "Spotify Technology S.A.",
+  "theme": "인터넷 플랫폼",
+  "desc": "Spotify Technology S.A., together with its subsidiaries, provides audio streaming subscription services worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "SNPS": {
+  "name": "Synopsys, Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Synopsys, Inc. provides design IP solutions in the semiconductor and electronics industries.",
+  "auto": true,
+  "v": 2
+ },
+ "KRMN": {
+  "name": "Karman Holdings Inc.",
+  "theme": "방산·항공우주",
+  "desc": "Karman Holdings Inc., through its subsidiary, engages in designing, testing, manufacturing, and sale of mission-critical systems in the United States.",
+  "auto": true,
+  "v": 2
+ },
+ "QCOM": {
+  "name": "QUALCOMM Incorporated",
+  "theme": "반도체",
+  "desc": "QUALCOMM Incorporated engages in the development and commercialization of foundational technologies for the wireless industry worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "ESTC": {
+  "name": "Elastic N.V.",
+  "theme": "응용 SW",
+  "desc": "Elastic N.V., a search artificial intelligence (AI) company, provides software platforms to run in hybrid, public or private clouds, and multi-cloud…",
+  "auto": true,
+  "v": 2
+ },
+ "VRT": {
+  "name": "Vertiv Holdings, LLC",
+  "theme": "전력기기",
+  "desc": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication…",
   "auto": true,
   "v": 2
  }
