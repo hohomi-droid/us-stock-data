@@ -7,7 +7,6 @@
   "BAI:48:2026-10-23",
   "CGUS:67:2026-10-23",
   "CGGO:99:2026-10-23",
-  "JGRO:135:2026-10-23",
   "BLCR:51:2026-10-23",
   "00981A:50:2026-10-22",
   "TCAF:63:2026-06-30",
@@ -56,5 +55,7 @@
   "bench:R1000V:867:2026-10-23",
   "bench:ACWI:2190:2026-10-23"
  ],
- "fail": {}
+ "fail": {
+  "JGRO": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+ }
 }
