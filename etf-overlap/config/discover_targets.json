@@ -1,6 +1,23 @@
 {
- "SEC_SUB": [{"url": "https://data.sec.gov/submissions/CIK0001868244.json"}],
- "SEC_BROWSE": [{"url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=capital+group+dividend+value&type=NPORT-P&dateb=&owner=include&count=10&output=atom"}],
- "SEC_EFTS": [{"url": "https://efts.sec.gov/LATEST/search-index?q=%22Capital%20Group%20Dividend%20Value%20ETF%22&forms=NPORT-P"}],
- "SEC_MF": [{"url": "https://www.sec.gov/files/company_tickers_mf.json", "grep": "\"(CGDV|TCHP)\""}]
+ "TW_ARCHIVE_LIST": [
+  {
+   "url": "https://github.com/sarsadsl/etf_scratch/releases"
+  },
+  {
+   "url": "https://github.com/sarsadsl/etf_scratch/tags"
+  }
+ ],
+ "TW_ARCHIVE_00981A": [
+  {
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx"
+  },
+  {
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx"
+  }
+ ],
+ "TW_ARCHIVE_00991A": [
+  {
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00991A_%E5%BE%A9%E8%8F%AF%E6%8A%95%E4%BF%A1.xlsx"
+  }
+ ]
 }

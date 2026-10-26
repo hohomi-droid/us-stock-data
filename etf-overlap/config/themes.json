@@ -236,9 +236,9 @@
  },
  "BE": {
   "name": "Bloom Energy Corporation",
-  "theme": "전력기기",
-  "desc": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and…",
-  "auto": true,
+  "theme": "연료전지 발전",
+  "desc": "고체산화물 연료전지(SOFC) 발전 설비를 만들어 데이터센터 등 현장에 전력을 공급한다.",
+  "auto": false,
   "v": 2
  },
  "V": {
@@ -272,15 +272,15 @@
  "CSCO": {
   "name": "Cisco Systems, Inc.",
   "theme": "통신장비·네트워크",
-  "desc": "Cisco Systems, Inc. designs, develops, and sells technologies to power, help, secure, and draw insights from the internet in the Americas, Europe, the Middle…",
-  "auto": true,
+  "desc": "기업·데이터센터용 스위치·라우터와 보안·협업 소프트웨어를 공급하는 네트워크 장비 1위 업체다.",
+  "auto": false,
   "v": 2
  },
  "OKTA": {
   "name": "Okta, Inc.",
-  "theme": "클라우드·인프라 SW",
-  "desc": "Okta, Inc. operates as an identity partner in the United States and internationally.",
-  "auto": true,
+  "theme": "신원인증 보안",
+  "desc": "기업 직원과 고객의 로그인·접근 권한을 관리하는 클라우드 신원인증(IAM) 소프트웨어를 제공한다.",
+  "auto": false,
   "v": 2
  },
  "SBUX": {
@@ -345,9 +345,9 @@
  },
  "PANW": {
   "name": "Palo Alto Networks, Inc.",
-  "theme": "클라우드·인프라 SW",
-  "desc": "Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan.",
-  "auto": true,
+  "theme": "사이버보안",
+  "desc": "네트워크 방화벽, 클라우드 보안, 보안 운영(SOC) 플랫폼을 파는 대형 사이버보안 기업이다.",
+  "auto": false,
   "v": 2
  },
  "PGR": {
@@ -456,9 +456,9 @@
  },
  "PLTR": {
   "name": "Palantir Technologies Inc.",
-  "theme": "클라우드·인프라 SW",
-  "desc": "Palantir Technologies Inc. builds and deploys software platforms for the intelligence community to assist in counterterrorism investigations and operations in…",
-  "auto": true,
+  "theme": "AI 데이터 분석 SW",
+  "desc": "정부·국방용 고담과 기업용 파운드리·AIP 플랫폼으로 대규모 데이터 분석과 AI 도입을 돕는 소프트웨어 회사다.",
+  "auto": false,
   "v": 2
  },
  "USB": {
@@ -515,8 +515,8 @@
  "XOM": {
   "name": "ExxonMobil Holdings Corporation",
   "theme": "석유·가스",
-  "desc": "ExxonMobil Holdings Corporation engages in the exploration and production of crude oil and natural gas in the United States, Canada, and internationally.",
-  "auto": true,
+  "desc": "세계 최대급 석유 메이저로 원유·가스 생산, 정유, 화학 사업을 함께 한다.",
+  "auto": false,
   "v": 2
  },
  "AZO": {
@@ -679,9 +679,9 @@
  },
  "DDOG": {
   "name": "Datadog, Inc.",
-  "theme": "응용 SW",
-  "desc": "Datadog, Inc. operates an observability and security platform for cloud applications in the United States and internationally.",
-  "auto": true,
+  "theme": "클라우드 모니터링 SW",
+  "desc": "클라우드 서버·애플리케이션·로그를 한 화면에서 감시하는 관측(observability)·보안 SaaS를 제공한다.",
+  "auto": false,
   "v": 2
  },
  "DASH": {
@@ -693,9 +693,9 @@
  },
  "CRWV": {
   "name": "CoreWeave, Inc.",
-  "theme": "클라우드·인프라 SW",
-  "desc": "CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States.",
-  "auto": true,
+  "theme": "AI 클라우드",
+  "desc": "엔비디아 GPU 중심의 데이터센터를 운영하며 AI 학습·추론용 연산 자원을 빌려주는 네오클라우드 업체다.",
+  "auto": false,
   "v": 2
  },
  "STAN.L": {
@@ -907,9 +907,9 @@
  },
  "TXN": {
   "name": "Texas Instruments Incorporated",
-  "theme": "반도체",
-  "desc": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, the…",
-  "auto": true,
+  "theme": "아날로그 반도체",
+  "desc": "산업·자동차용 아날로그·임베디드 반도체를 자체 공장(300mm)에서 만들어 파는 업체다.",
+  "auto": false,
   "v": 2
  },
  "CNQ": {
@@ -949,9 +949,9 @@
  },
  "3711.TW": {
   "name": "ASE TECHNOLOGY HOLDING CO LTD",
-  "theme": "반도체",
-  "desc": "ASE Technology Holding Co., Ltd., together with its subsidiaries, provides semiconductor manufacturing services in the United States, Taiwan, rest of Asia,…",
-  "auto": true,
+  "theme": "반도체 후공정",
+  "desc": "세계 최대 반도체 패키징·테스트(OSAT) 업체로 AI 칩용 첨단 패키징을 확대하고 있다.",
+  "auto": false,
   "v": 2
  },
  "105560.KS": {
@@ -984,30 +984,30 @@
  },
  "BRK-B": {
   "name": "Berkshire Hathaway Inc. New",
-  "theme": "보험",
-  "desc": "Berkshire Hathaway Inc., together with its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses.",
-  "auto": true,
+  "theme": "복합 지주사(보험)",
+  "desc": "워런 버핏의 버크셔 해서웨이로 보험(가이코 등), BNSF 철도, 전력·에너지와 다수 자회사·주식 투자를 보유한다.",
+  "auto": false,
   "v": 2
  },
  "RKLB": {
   "name": "Rocket Lab Corporation",
   "theme": "방산·항공우주",
-  "desc": "Rocket Lab Corporation, a space company, provides launch services and space systems solutions in the United States, Canada, Japan, and internationally.",
-  "auto": true,
+  "desc": "소형 발사체 일렉트론으로 위성 발사 서비스를 하고 위성 부품·시스템도 만들며, 중형 발사체 뉴트론을 개발 중이다.",
+  "auto": false,
   "v": 2
  },
  "XE": {
   "name": "X-Energy, Inc.",
-  "theme": "산업기계",
-  "desc": "X-Energy, Inc. designs and develops nuclear reactor technology.",
-  "auto": true,
+  "theme": "원자력(SMR)",
+  "desc": "고온가스로 방식의 소형 모듈 원자로(SMR) Xe-100과 전용 TRISO 연료를 개발한다.",
+  "auto": false,
   "v": 2
  },
  "RXRX": {
   "name": "Recursion Pharmaceuticals, Inc.",
-  "theme": "바이오",
-  "desc": "Recursion Pharmaceuticals, Inc., a clinical-stage biotechnology company, engages in the decoding biology and chemistry by integrating technological…",
-  "auto": true,
+  "theme": "AI 신약개발",
+  "desc": "자동화 실험과 AI 모델로 생물학·화학 데이터를 대량으로 만들어 신약 후보를 찾는 임상 단계 바이오 기업이다.",
+  "auto": false,
   "v": 2
  },
  "NTLA": {
@@ -1061,9 +1061,9 @@
  },
  "MPWR": {
   "name": "Monolithic Power Systems, Inc.",
-  "theme": "반도체",
-  "desc": "Monolithic Power Systems, Inc. provides semiconductor-based power electronics solutions in China, Taiwan, South Korea, Southeast Asia, Europe, the United…",
-  "auto": true,
+  "theme": "전력 반도체",
+  "desc": "AI 서버·자동차·산업용 기기에 들어가는 고효율 전력관리 반도체와 전원 모듈을 설계한다.",
+  "auto": false,
   "v": 2
  },
  "TW": {
@@ -1097,8 +1097,8 @@
  "CVX": {
   "name": "Chevron Corporation",
   "theme": "석유·가스",
-  "desc": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations.",
-  "auto": true,
+  "desc": "미국 2위 석유 메이저로 원유·LNG 생산(퍼미안·카자흐스탄 등)과 정유·화학 사업을 한다.",
+  "auto": false,
   "v": 2
  },
  "AAPL": {
@@ -1145,30 +1145,30 @@
  },
  "ISRG": {
   "name": "Intuitive Surgical, Inc.",
-  "theme": "Medical Instruments & Supplies",
-  "desc": "Intuitive Surgical, Inc. develops, manufactures, and markets products that enable physicians and healthcare providers to enhance the quality of and access to…",
-  "auto": true,
+  "theme": "수술 로봇",
+  "desc": "다빈치 수술 로봇 시스템과 관련 기구·소모품을 만들어 병원에 팔고, 설치 대수가 늘수록 소모품 매출이 쌓이는 구조다.",
+  "auto": false,
   "v": 2
  },
  "CDNS": {
   "name": "Cadence Design Systems, Inc.",
-  "theme": "응용 SW",
-  "desc": "Cadence Design Systems, Inc. develops computational, AI-driven software, hardware, and silicon intellectual property products and solutions.",
-  "auto": true,
+  "theme": "반도체 설계 SW",
+  "desc": "반도체 칩 설계에 쓰는 EDA 소프트웨어와 설계 IP, 검증용 하드웨어를 공급하는 양대 업체 중 하나다.",
+  "auto": false,
   "v": 2
  },
  "BBAS3.SA": {
   "name": "BRASIL      ON      NM",
-  "theme": "지역은행",
-  "desc": "Banco do Brasil S.A., together with its subsidiaries, provides banking products and services for individuals, companies, and public sectors in Brazil and…",
-  "auto": true,
+  "theme": "브라질 은행",
+  "desc": "브라질 정부가 최대주주인 대형 국영 은행으로 농업 대출·개인·기업 금융이 주력이다.",
+  "auto": false,
   "v": 2
  },
  "DIS": {
   "name": "Walt Disney Company (The)",
   "theme": "미디어·엔터",
-  "desc": "The Walt Disney Company operates as an entertainment company in Americas, Europe, and the Asia Pacific.",
-  "auto": true,
+  "desc": "디즈니·마블·픽사 콘텐츠, 디즈니+ 스트리밍, ESPN, 테마파크·크루즈 사업을 운영한다.",
+  "auto": false,
   "v": 2
  },
  "RKT": {

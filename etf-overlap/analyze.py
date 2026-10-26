@@ -143,6 +143,30 @@ def flow_ratio(prev: dict, cur: dict, units_prev, units_cur) -> float:
     return best
 
 
+SPIKE_FLOW = 0.10      # 좌수 정보 없는 ETF에서 하루 ±10% 넘는 일괄 변화가
+SPIKE_REVERT = 0.05    # 다음 공시에 ±5% 안으로 되돌아가면 → 그날 공시는 자료 오류(종목 일부만 배수 적용)로 보고 비교에서 뺀다
+
+
+def spike_dates(ser: dict, ds: list) -> set:
+    """예: arkfunds.io 2026-10-15 ARKK·ARKG — 대부분 종목 주식 수만 ×1.2/×1.9 됐다가 다음 날 원래대로.
+    그대로 비교하면 배수가 안 붙은 종목(NTLA 등)이 '감소→증가'로 잘못 잡힌다."""
+    bad = set()
+    for a, b, c in zip(ds, ds[1:], ds[2:]):
+        sa, sb, sc = ser[a], ser[b], ser[c]
+        if (sa.get("units") and sb.get("units")) or (sb.get("units") and sc.get("units")):
+            continue
+        pa = {s: h for s, h in sa["holdings"].items() if is_stock(s, h)}
+        pb = {s: h for s, h in sb["holdings"].items() if is_stock(s, h)}
+        pc = {s: h for s, h in sc["holdings"].items() if is_stock(s, h)}
+        if not (pa and pb and pc):
+            continue
+        f_ab = flow_ratio(pa, pb, None, None)
+        f_ac = flow_ratio(pa, pc, None, None)
+        if abs(f_ab - 1) > SPIKE_FLOW and abs(f_ac - 1) <= SPIKE_REVERT:
+            bad.add(b)
+    return bad
+
+
 def diff_etf(prev_e: dict, cur_e: dict):
     """한 ETF의 전일→당일 변화 판정. 반환: {sym: 'new'|'add'|'reduce'|'exit'}"""
     prev = {s: h for s, h in prev_e.get("holdings", {}).items() if is_stock(s, h)}
@@ -216,8 +240,13 @@ def main():
     first_seen = {}
     meta = {}
     coverage = {}
+    spikes = {}
     for etf, ser in series.items():
         ds = sorted(ser)
+        bad = spike_dates(ser, ds)
+        if bad:
+            spikes[etf] = bad
+            ds = [d for d in ds if d not in bad]
         latest[etf] = (ds[-1], ser[ds[-1]])
         coverage[etf] = {"first": ds[0], "last": ds[-1], "n": len(ds)}
         for d in ds:
@@ -339,6 +368,7 @@ def main():
         "top_theme_share": round(top_theme[1] / len(top), 3) if top else 0,
         "missing_etfs": sorted(set(uni) - set(series)),
         "stale_etfs": sorted(stale),
+        "spike_snapshots": {k: sorted(v) for k, v in sorted(spikes.items())},
     }
     etf_info = {e["ticker"]: {"name": e.get("name"), "aum": e.get("aum_usd_bn"), "market": e.get("market"),
                               "rank": e.get("rank"), "tracked": e.get("track", True), "issuer": e.get("issuer"),
