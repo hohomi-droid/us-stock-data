@@ -1,33 +1,36 @@
 {
- "run": "2026-10-27T07:33:37+09:00",
+ "run": "2026-10-28T07:36:16+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "CGGR": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "PVAL": {
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-11-28",
     "2026-02-27"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 1
   },
   "BAI": {
    "type": "ishares",
@@ -40,18 +43,22 @@
   "CGUS": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "CGGO": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "JGRO": {
    "type": "jpm",
@@ -115,10 +122,12 @@
   "CGXU": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "JGLO": {
    "type": "jpm",
@@ -149,10 +158,12 @@
   "CGDG": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "QLTY": {
    "type": "gmo",
@@ -221,10 +232,12 @@
   "CGMM": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "FWD": {
    "type": "nport",
@@ -239,18 +252,22 @@
   "CGGE": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "CGNG": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "TMSL": {
    "type": "nport",
@@ -276,10 +293,12 @@
   "CGIC": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "NUGO": {
    "type": "nport",
@@ -294,10 +313,12 @@
   "CGIE": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "BGIG": {
    "type": "dated_csv",
@@ -334,10 +355,12 @@
   "CGCV": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-08-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "EMOP": {
    "type": "nport",

@@ -287,7 +287,8 @@
   "name": "Starbucks Corporation",
   "theme": "외식",
   "desc": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "SAP": {
   "name": "SAP  SE",
@@ -471,7 +472,8 @@
   "name": "Moderna, Inc.",
   "theme": "바이오",
   "desc": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "BN": {
   "name": "Brookfield Corporation",
@@ -504,7 +506,8 @@
   "name": "Welltower Inc.",
   "theme": "REIT - Healthcare Facilities",
   "desc": "Welltower Inc., an S&P 500 company, is positioned at the center of the silver economy, focusing on rental housing for aging seniors across the United States,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "A000660.KS": {
   "name": "Sk Hynix Inc Common Stock Krw5000.0",
@@ -737,7 +740,8 @@
   "name": "Barrick Mining Corporation",
   "theme": "금광",
   "desc": "Barrick Mining Corporation engages in the exploration, development, production, and sale of mineral properties.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "SAN": {
   "name": "Banco Santander, S.A. Sponsored",
@@ -824,7 +828,8 @@
   "name": "Ryanair Holdings plc",
   "theme": "항공",
   "desc": "Ryanair Holdings plc, together with its subsidiaries, engages in the provision of scheduled-passenger airline services in Ireland, Italy, Spain, the United…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "NTRA": {
   "name": "Natera, Inc.",
@@ -837,7 +842,8 @@
   "name": "ENGIE",
   "theme": "Utilities - Diversified",
   "desc": "Engie SA engages in renewables and decentralized and low-carbon energy networks in France, Europe, North America, Asia, the Middle East, Oceania, South…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "APH": {
   "name": "Amphenol Corporation",
@@ -863,7 +869,8 @@
   "name": "LVMH",
   "theme": "Luxury Goods",
   "desc": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne, together with its subsidiaries, operates as a luxury goods company worldwide.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "0700.HK": {
   "name": "TENCENT",
@@ -1245,6 +1252,76 @@
   "name": "信驊科技",
   "theme": "",
   "desc": "",
+  "auto": true,
+  "v": 2
+ },
+ "CME": {
+  "name": "CME Group Inc.",
+  "theme": "금융데이터·거래소",
+  "desc": "CME Group Inc., together with its subsidiaries, operates contract markets for the trading of futures and options on futures contracts worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "ATO": {
+  "name": "Atmos Energy Corporation",
+  "theme": "Utilities - Regulated Gas",
+  "desc": "Atmos Energy Corporation, together with its subsidiaries, engages in the regulated natural gas distribution, and pipeline and storage businesses in the United…",
+  "auto": true,
+  "v": 2
+ },
+ "AZN": {
+  "name": "AstraZeneca PLC",
+  "theme": "제약",
+  "desc": "AstraZeneca PLC, a biopharmaceutical company, focuses on the discovery, development, manufacture, and commercialization of prescription medicines.",
+  "auto": true,
+  "v": 2
+ },
+ "EL.PA": {
+  "name": "ESSILORLUXOTTICA",
+  "theme": "Medical Instruments & Supplies",
+  "desc": "EssilorLuxottica Société anonyme designs, manufactures, and distributes ophthalmic lenses, frames, sunglasses, and instruments and equipment in North America,…",
+  "auto": true,
+  "v": 2
+ },
+ "MDLN": {
+  "name": "Medline Inc.",
+  "theme": "Medical Instruments & Supplies",
+  "desc": "Medline Inc. manufactures med-surg products serving the hospital, surgery centers, physician offices, post-acute facilities, and nursing home sites of care in…",
+  "auto": true,
+  "v": 2
+ },
+ "COF": {
+  "name": "Capital One Financial Corporati",
+  "theme": "결제·카드",
+  "desc": "Capital One Financial Corporation operates as the financial services holding company for the Capital One, National Association, which engages in the provision…",
+  "auto": true,
+  "v": 2
+ },
+ "NOC": {
+  "name": "Northrop Grumman Corporation",
+  "theme": "방산·항공우주",
+  "desc": "Northrop Grumman Corporation operates as an aerospace and defense technology company in the United States, Asia/Pacific, Europe, and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "3653.TW": {
+  "name": "JENTECH PRECISION INDUSTRIAL CO",
+  "theme": "전자부품",
+  "desc": "Jentech Precision Industrial Co., Ltd, together with its subsidiaries, manufactures, processes, and trades in precision tooling, and electronic parts and…",
+  "auto": true,
+  "v": 2
+ },
+ "VAL.JO": {
+  "name": "Valterra Platinum Ltd",
+  "theme": "Other Precious Metals & Mining",
+  "desc": "Valterra Platinum Limited engages in the production and supply of platinum group metals, base metals, and precious metals in South Africa, Asia, Europe, North…",
+  "auto": true,
+  "v": 2
+ },
+ "051910.KS": {
+  "name": "LGCHEM",
+  "theme": "화학",
+  "desc": "LG Chem, Ltd., together with its subsidiaries, operates as a chemical company in Korea, China, Asia/Oceania, the United States, Europe, and internationally.",
   "auto": true,
   "v": 2
  }
