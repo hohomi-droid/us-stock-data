@@ -1,50 +1,34 @@
 {
- "TW_ARCHIVE_LIST": [
+ "TW_ARCHIVE_ASSETS": [
   {
-   "url": "https://github.com/sarsadsl/etf_scratch/releases",
-   "final": "https://github.com/sarsadsl/etf_scratch/releases",
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/expanded_assets/archive-20261023",
+   "final": "https://github.com/sarsadsl/etf_scratch/releases/expanded_assets/archive-20261023",
    "status": 200,
    "ctype": "text/html; charset=utf-8",
-   "len": 380474,
-   "cands": [],
-   "text": " Releases · sarsadsl/etf_scratch · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer p"
+   "len": 20566,
+   "cands": [
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00981A_.xlsx",
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00982A_.xlsx",
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00988A_.xlsx",
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00991A_.xlsx"
+   ],
+   "text": " 00981A_統一投信.xlsx sha256:5e90f78f3b53e82094ac5cd679159c79862a137db68dc7ef18ce10a4dbee24d1 7.79 KB 2026-10-23T15:29:44Z 00982A_群益投信.xlsx sha256:ac7f0371b7c873056fd91f00938da44473f9fc0fc0f4627ba224916ba1fe0858 25.7 KB 2026-10-23T15:29:44Z 00988A_統一投信.xlsx sha256:eef1a4940f73144d131a018b5eae54cc625293a2f1df6ec4e7e9cc4550b90579 7.44 KB 2026-10-23T15:29:44Z 00991A_復華投信.xlsx sha256:eb7213900b31e65456533069dd15c488c5dcbf891809bc70ce6539d91f8a1aa6 14 Bytes 2026-10-23T15:29:44Z Source code (zip) 2026-10-23T15:22:26Z Source code (tar.gz) 2026-10-23T15:22:26Z "
   },
   {
-   "url": "https://github.com/sarsadsl/etf_scratch/tags",
-   "final": "https://github.com/sarsadsl/etf_scratch/tags",
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/expanded_assets/archive-20261015",
+   "final": "https://github.com/sarsadsl/etf_scratch/releases/expanded_assets/archive-20261015",
    "status": 200,
    "ctype": "text/html; charset=utf-8",
-   "len": 244169,
-   "cands": [],
-   "text": " Tags · sarsadsl/etf_scratch · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government See all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platf"
-  }
- ],
- "TW_ARCHIVE_00981A": [
-  {
-   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx",
-   "final": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx",
-   "status": 404,
-   "ctype": "text/plain; charset=utf-8",
-   "len": 9,
-   "head": "Not Found"
-  },
-  {
-   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx",
-   "final": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx",
-   "status": 404,
-   "ctype": "text/plain; charset=utf-8",
-   "len": 9,
-   "head": "Not Found"
-  }
- ],
- "TW_ARCHIVE_00991A": [
-  {
-   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00991A_%E5%BE%A9%E8%8F%AF%E6%8A%95%E4%BF%A1.xlsx",
-   "final": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00991A_%E5%BE%A9%E8%8F%AF%E6%8A%95%E4%BF%A1.xlsx",
-   "status": 404,
-   "ctype": "text/plain; charset=utf-8",
-   "len": 9,
-   "head": "Not Found"
+   "len": 28557,
+   "cands": [
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00980A_.csv",
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00981A_.xlsx",
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00982A_.xlsx",
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00985A_.csv",
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00988A_.xlsx",
+    "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00991A_.xlsx"
+   ],
+   "text": " 00980A_野村投信.csv sha256:37d9c5a6e6a3be26d323bc24176eb834fa5117b4824d1196b4cb1b24fd0d813f 1.88 KB 2026-10-15T15:21:02Z 00981A_統一投信.xlsx sha256:f251e05daa2584941fccaa8b6e8312224b7d31f43b0acaffefe1ca958a0987f3 7.78 KB 2026-10-15T15:21:02Z 00982A_群益投信.xlsx sha256:9d2d2ad8fe1a3700ec39945c5773f161c383305fec0900af7410a20b8cd2006b 26.8 KB 2026-10-15T15:21:02Z 00985A_野村投信.csv sha256:598fc50b6d600866933449a5ab545c69cd84ad4d1bd0ce2b6dba117e58890808 1.91 KB 2026-10-15T15:21:02Z 00988A_統一投信.xlsx sha256:b2346c423a348b093d71c9af313816c8d30c82bb9da802a355e9fbc28c8f5b2b 7.41 KB 2026-10-15T15:21:02Z 00991A_復華投信.xlsx sha256:47a6dbdd64e6e902b444d834f319eeb1f5f9afcb4218d8b2a58604a69f973db5 9.12 KB 2026-10-15T15:21:02Z Source code (zip) 2026-10-15T15:13:49Z Source code (tar.gz) 2026-10-15T15:13:49Z "
   }
  ]
 }
