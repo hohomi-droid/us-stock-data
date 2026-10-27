@@ -251,5 +251,115 @@
    "config/discover_targets.json: 대만 주동식 ETF 일별 보유파일 GitHub 보관소(sarsadsl/etf_scratch) 다운로드 시험 등록 — 00981A·00991A 과거 이력 채우기용"
   ],
   "summary": "확인 18개 중 일치 9·불일치 1·확인불가 8(일치율 90%). 불일치는 NTLA: arkfunds.io 10/15 ARKK·ARKG 자료 오류로 생긴 가짜 매수였고 고쳤다. 대만 3개 ETF가 10/22에 멈춘 건 대만 증시 10/23·10/26 거래가 없어서로 보이며(Yahoo·MoneyDJ 모두 10/22) 수집기 문제가 아니다."
+ },
+ {
+  "date": "2026-10-28",
+  "github_generated": "2026-10-28",
+  "checked": 20,
+  "matched": 14,
+  "mismatched": 0,
+  "unverifiable": 6,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "ARK 10/22 ARKK·ARKW·ARKF 매수 + 타임폴리오 10/22 추가, GitHub 1위"
+   },
+   {
+    "sym": "LLY",
+    "name": "Eli Lilly",
+    "reason": "CGGR 10/19·10/20·10/23 연속 매수 보도, GitHub 5위"
+   },
+   {
+    "sym": "ISRG",
+    "name": "Intuitive Surgical",
+    "reason": "ARKQ 10/21 매수 + CGGR 10/19 +25,711주, GitHub 7위"
+   },
+   {
+    "sym": "CDNS",
+    "name": "Cadence Design",
+    "reason": "CGGR 10/23 +63,789주 보도, GitHub 12위"
+   },
+   {
+    "sym": "XE",
+    "name": "X-Energy",
+    "reason": "ARKQ·ARKK·ARKX 10/20~21 매수, GitHub 13위"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "ASE Technology",
+    "reason": "대만 주동식 ETF 10/22 복수 매수(CTEE)·00981A 10/27 대량 매수, GitHub 2위"
+   },
+   {
+    "sym": "MRNA",
+    "name": "Moderna",
+    "reason": "CGGO 10/21 신규·CGGR 10/22 추가. 어제는 claude_only였는데 CG 8/31 이력이 채워져 GitHub 2달 겹침(52위)에 들어옴"
+   },
+   {
+    "sym": "RKT",
+    "name": "Rocket Companies",
+    "reason": "CGGR 10/23 신규 $38M 보도, GitHub 48위(CGGR+BLCR)"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "PACB",
+    "name": "Pacific Biosciences",
+    "reason": "ARKK·ARKG 10/22·23·26 사흘 매수. 하루 증가가 일괄 비율 대비 3% 미만(ARKG 10/23 ×1.092 보정)이라 기준 미달"
+   },
+   {
+    "sym": "JOBY·KTOS·ACHR",
+    "name": "Joby·Kratos·Archer",
+    "reason": "ARKQ·ARKX 10/26 매수. ARKX가 유니버스 밖이라 ARKQ 1개만 2주 편입(ACHR 55위)"
+   },
+   {
+    "sym": "SPOT",
+    "name": "Spotify",
+    "reason": "CGGR 10/20 신규 $80.7M. CG 일별 이력이 10/21부터라 2주 편입으로 못 잡고 2달(8/31 비교)로만 잡힘(99위)"
+   },
+   {
+    "sym": "OKLO",
+    "name": "Oklo",
+    "reason": "ARKQ 10/20~21 매수, ARKX는 유니버스 밖"
+   },
+   {
+    "sym": "LULU",
+    "name": "Lululemon",
+    "reason": "CGGR 10/22 신규·10/23 추가, 유니버스 ETF 1개뿐"
+   },
+   {
+    "sym": "SCTX·FRNM",
+    "name": "Scribe·Freenome",
+    "reason": "ARKG 단독 매수(10/21~23)"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "ACN",
+    "name": "Accenture",
+    "reason": "JTEK·JPEF 매수, 사흘째 보도 없음"
+   },
+   {
+    "sym": "ATO",
+    "name": "Atmos Energy",
+    "reason": "CGDG 10/26·LCAP 10/23 매수, 제3자 자료 없음"
+   },
+   {
+    "sym": "XOM",
+    "name": "ExxonMobil",
+    "reason": "CGDG 10/26 매수·BGIG 10/16, 매수 시점 보도 없음(보유량은 BGIG 페이지와 같음)"
+   },
+   {
+    "sym": "BBAS3.SA",
+    "name": "Banco do Brasil",
+    "reason": "CGIC 신규·CGNG 추가, 보도 없음"
+   }
+  ],
+  "fixes": [
+   "config/themes.json: 상위 30 중 자동 영문 설명 10개(CME·ATO·NFLX·AAPL·MRK·AZN·WFC·KO·RYAAY·EL.PA) 한국어로 교체(auto:false)",
+   "config/discover_targets.json: 10/27에 등록한 대만 보관소 엑셀 URL이 모두 404(파일 이름 추정 오류) → 릴리스 자산 목록(expanded_assets) 페이지로 바꿔 실제 파일 이름을 받게 함"
+  ],
+  "summary": "확인 20개 중 일치 14·불일치 0·확인불가 6(일치율 100%). GuruFocus CGGR 10/23 기사의 LLY·CDNS·KLAC·MU 주식 수 변화가 GitHub와 정확히 같았다. ARKK·ARKW·ARKG 10/23·10/26 파일의 일괄 주식 수 변화(×0.89~×1.12)는 비율 보정으로 판정에 영향이 없었다. 확인불가는 CGDG·CGIC·CGNG·JTEK·LCAP처럼 일별 제3자 자료가 없는 ETF에 몰렸다."
  }
 ]

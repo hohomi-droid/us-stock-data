@@ -114,8 +114,8 @@
  "WFC": {
   "name": "Wells Fargo & Company",
   "theme": "은행",
-  "desc": "Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and…",
-  "auto": true,
+  "desc": "미국 4대 은행 중 하나로 소매금융·주택담보대출·기업금융·자산관리를 한다. 자산 규모 상한 해제 뒤 성장 기대가 커졌다.",
+  "auto": false,
   "v": 2
  },
  "KLAC": {
@@ -392,16 +392,16 @@
  },
  "NFLX": {
   "name": "Netflix, Inc.",
-  "theme": "미디어·엔터",
-  "desc": "Netflix, Inc. provides entertainment services worldwide. The company offers television (TV) series, documentaries, feature films, games, and live programming…",
-  "auto": true,
+  "theme": "동영상 스트리밍",
+  "desc": "전 세계 유료 회원에게 드라마·영화·게임·라이브 콘텐츠를 구독형으로 제공하는 최대 동영상 스트리밍 회사로, 광고 요금제도 키우고 있다.",
+  "auto": false,
   "v": 2
  },
  "KO": {
   "name": "Coca-Cola Company (The)",
   "theme": "음료",
-  "desc": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally.",
-  "auto": true,
+  "desc": "코카콜라·스프라이트 등 탄산음료와 생수·주스·커피 브랜드를 전 세계에 파는 최대 음료 회사다.",
+  "auto": false,
   "v": 2
  },
  "BAC": {
@@ -484,8 +484,8 @@
  "MRK": {
   "name": "Merck & Company, Inc.",
   "theme": "제약",
-  "desc": "Merck & Co., Inc. operates as a healthcare company worldwide.",
-  "auto": true,
+  "desc": "면역항암제 키트루다와 백신(가다실 등)이 주력인 미국 대형 제약사로, 동물 의약품 사업도 한다.",
+  "auto": false,
   "v": 2
  },
  "HWM": {
@@ -826,9 +826,9 @@
  },
  "RYAAY": {
   "name": "Ryanair Holdings plc",
-  "theme": "항공",
-  "desc": "Ryanair Holdings plc, together with its subsidiaries, engages in the provision of scheduled-passenger airline services in Ireland, Italy, Spain, the United…",
-  "auto": true,
+  "theme": "저가 항공",
+  "desc": "유럽 최대 저가 항공사로 아일랜드를 거점으로 유럽 전역 단거리 노선을 운항한다.",
+  "auto": false,
   "v": 2
  },
  "NTRA": {
@@ -1110,9 +1110,9 @@
  },
  "AAPL": {
   "name": "Apple Inc.",
-  "theme": "IT 하드웨어",
-  "desc": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide.",
-  "auto": true,
+  "theme": "스마트폰·기기",
+  "desc": "아이폰·맥·아이패드·웨어러블을 만들고 앱스토어·아이클라우드 등 서비스 매출을 키우는 세계 최대 IT 기기 회사다.",
+  "auto": false,
   "v": 2
  },
  "TDG": {
@@ -1257,30 +1257,30 @@
  },
  "CME": {
   "name": "CME Group Inc.",
-  "theme": "금융데이터·거래소",
-  "desc": "CME Group Inc., together with its subsidiaries, operates contract markets for the trading of futures and options on futures contracts worldwide.",
-  "auto": true,
+  "theme": "거래소·파생상품",
+  "desc": "세계 최대 선물·옵션 거래소(CME·CBOT·NYMEX·COMEX)를 운영하며 금리·주가지수·원자재 파생상품 거래와 청산 수수료로 돈을 번다.",
+  "auto": false,
   "v": 2
  },
  "ATO": {
   "name": "Atmos Energy Corporation",
-  "theme": "Utilities - Regulated Gas",
-  "desc": "Atmos Energy Corporation, together with its subsidiaries, engages in the regulated natural gas distribution, and pipeline and storage businesses in the United…",
-  "auto": true,
+  "theme": "가스 유틸리티",
+  "desc": "미국 텍사스 등 8개 주에서 규제 대상 천연가스 배관·배급 사업을 하는 순수 가스 유틸리티 회사다.",
+  "auto": false,
   "v": 2
  },
  "AZN": {
   "name": "AstraZeneca PLC",
   "theme": "제약",
-  "desc": "AstraZeneca PLC, a biopharmaceutical company, focuses on the discovery, development, manufacture, and commercialization of prescription medicines.",
-  "auto": true,
+  "desc": "항암제(타그리소·엔허투 등)와 심혈관·희귀질환 신약이 주력인 영국계 대형 제약사다.",
+  "auto": false,
   "v": 2
  },
  "EL.PA": {
   "name": "ESSILORLUXOTTICA",
-  "theme": "Medical Instruments & Supplies",
-  "desc": "EssilorLuxottica Société anonyme designs, manufactures, and distributes ophthalmic lenses, frames, sunglasses, and instruments and equipment in North America,…",
-  "auto": true,
+  "theme": "안경·렌즈",
+  "desc": "에실로(렌즈)와 룩소티카(레이밴·오클리 등 안경테·선글라스)를 합친 세계 최대 안경 회사로, 스마트 안경도 만든다.",
+  "auto": false,
   "v": 2
  },
  "MDLN": {

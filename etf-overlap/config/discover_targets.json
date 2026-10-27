@@ -1,23 +1,10 @@
 {
- "TW_ARCHIVE_LIST": [
+ "TW_ARCHIVE_ASSETS": [
   {
-   "url": "https://github.com/sarsadsl/etf_scratch/releases"
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/expanded_assets/archive-20261023"
   },
   {
-   "url": "https://github.com/sarsadsl/etf_scratch/tags"
-  }
- ],
- "TW_ARCHIVE_00981A": [
-  {
-   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx"
-  },
-  {
-   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261023/00981A_%E7%B5%B1%E4%B8%80%E6%8A%95%E4%BF%A1.xlsx"
-  }
- ],
- "TW_ARCHIVE_00991A": [
-  {
-   "url": "https://github.com/sarsadsl/etf_scratch/releases/download/archive-20261015/00991A_%E5%BE%A9%E8%8F%AF%E6%8A%95%E4%BF%A1.xlsx"
+   "url": "https://github.com/sarsadsl/etf_scratch/releases/expanded_assets/archive-20261015"
   }
  ]
 }

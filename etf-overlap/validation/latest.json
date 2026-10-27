@@ -1,206 +1,232 @@
 {
- "date": "2026-10-27",
- "github_generated": "2026-10-27",
- "checked": 18,
- "matched": 9,
- "mismatched": 1,
- "unverifiable": 8,
- "match_rate": 0.9,
+ "date": "2026-10-28",
+ "github_generated": "2026-10-28",
+ "checked": 20,
+ "matched": 14,
+ "mismatched": 0,
+ "unverifiable": 6,
+ "match_rate": 1.0,
  "checks": [
   {
    "sym": "META",
-   "claim": "20개 초과보유, 2주 편입 3 (ARKK·ARKW·426030)",
+   "claim": "1위, 2주 편입 3 (ARKK·ARKW 9/09~, 426030 10/16·10/22)",
    "verdict": "일치",
-   "note": "ARK 10/22 META 매수 보도(어제 확인), CGGR 10/22 +6,889주는 GuruFocus 기사와 주식 수 정확히 같음. 가격 p0 653.69(9/09)·p1 630.56(10/26) Yahoo 동일"
+   "note": "ARK 10/22 ARKK 28.1K·ARKW 7.0K 매수 보도(Investing·arktradetiming). 타임폴리오 페이지(10/26 기준) META 28주 = GitHub. ARKK 10/23·10/26 일괄 ×0.928/×1.120은 보정돼 이벤트 없음"
+  },
+  {
+   "sym": "3711.TW",
+   "claim": "2위, 2주 편입 3 (00981A·00403A 10/27, 00991A)",
+   "verdict": "일치",
+   "note": "CMoney '00981A 10/27 操作日報: 封測雙雄 大買' 확인. 00403A 400,000주는 확인 못 함. 10/23 태풍 휴장·10/26 광복절 대체휴일 확인 → 10/22→10/27 비교 정상. 2주 편입 2곳이 같은 운용사(統一)"
+  },
+  {
+   "sym": "GOOGL",
+   "claim": "3위, 2주 편입 2 (QLTY 10/27 +5.5%, 426030)",
+   "verdict": "일치",
+   "note": "타임폴리오 페이지 GOOGL 107주 = GitHub(10/22). QLTY 10/27 변화는 제3자 자료가 7/31뿐이라 확인 못 함(719k→810k 증가 방향은 맞음)"
+  },
+  {
+   "sym": "AMZN",
+   "claim": "4위, 2주 편입 2 (QLTY 10/27 +7.3%, 426030)",
+   "verdict": "일치",
+   "note": "타임폴리오 페이지 AMZN 98주 = GitHub(10/26). CGGR 10/19 +69,698·CGGO 10/21 +186,244 매수 보도도 있음. ARK는 10/21 소폭 매도(반대 방향)"
   },
   {
    "sym": "LLY",
-   "claim": "2주 편입 2 (CGGR 10/23 +4.7%, 426030 신규 10/16)",
+   "claim": "5위, 2주 편입 2 (CGGR 10/23, 426030 재편입 10/16)",
+   "verdict": "일치",
+   "note": "GuruFocus/Yahoo CGGR 10/23 +25,112주 = GitHub 차이와 정확히 같음. 10/19·10/20에도 매수. 426030 5주 확인"
+  },
+  {
+   "sym": "XOM",
+   "claim": "6위, 2주 편입 2 (CGDG 10/26 +8%, BGIG 10/16 +18%)",
    "verdict": "확인불가",
-   "note": "CG 10/23 매매 기사 아직 없음. p0 1257.03(10/16) Yahoo 동일"
+   "note": "BGIG 운용사 페이지 10/27 207,605주 = GitHub. 10/16 증가 시점과 CGDG 10/26 매수는 확인 자료 없음"
   },
   {
    "sym": "ISRG",
-   "claim": "2주 편입 2 (ARKQ 10/21, LCAP 신규 10/26)",
+   "claim": "7위, 2주 편입 2 (ARKQ 10/21 +6,411, LCAP 신규 10/26)",
    "verdict": "일치",
-   "note": "ARKQ 10/21 6,411주 매수 보도(Investing·TipRanks) = GitHub 66,126→72,537주(+6,411) 정확히 같음. LCAP는 확인불가. p0 428.12 동일"
+   "note": "ARKQ 10/21 6,411주 매수 보도 = GitHub. LCAP는 제3자 자료가 10/1 이전뿐"
+  },
+  {
+   "sym": "CME",
+   "claim": "8위, 2주 편입 2 (CGDG 10/26 +4.8%, JGLO 꾸준히 증가)",
+   "verdict": "확인불가",
+   "note": "JGLO 10/15 +36,093주 매수 보도(GuruFocus)로 방향은 맞음. 10/21~26 수치·CGDG 매수는 확인 못 함"
+  },
+  {
+   "sym": "ATO",
+   "claim": "9위, 2주 편입 2 (CGDG 10/26 +5.6%, LCAP 10/23 +68%)",
+   "verdict": "확인불가",
+   "note": "CGDG·LCAP 일별 자료를 제3자가 공개하지 않음"
   },
   {
    "sym": "RKLB",
-   "claim": "2주 편입 2 (ARKK·ARKQ), IDEF는 월간 공시라 2주 제외",
+   "claim": "10위, 2주 편입 2 (ARKK·ARKQ 8/31~9/01)",
    "verdict": "일치",
-   "note": "ARK 10/1 RKLB 233,482주 매수, 10월 내내 추가 매수 보도(Fool 10/12·10/21, Benzinga). p0 63.92(8/31) 동일"
+   "note": "8/31~9/01 705K주·9/22·10/01 매수 보도(Fool)"
   },
   {
    "sym": "ACN",
-   "claim": "2주 편입 2 (JTEK 62,388→177,875주, JPEF +10%)",
+   "claim": "11위, 2주 편입 2 (JTEK·JPEF 10/22)",
    "verdict": "확인불가",
-   "note": "JPM 매매 보도·제3자 상위 목록에 없음. 10/22 +7.7% 원인 기사도 접근 실패"
+   "note": "사흘째 보도·제3자 일별 자료 없음. JTEK 62k→178k주"
   },
   {
    "sym": "CDNS",
-   "claim": "2주 편입 2 (CGGR 10/23 +21.6%, CGNG +7.3%)",
-   "verdict": "확인불가",
-   "note": "CG 10/23 매매 기사 아직 없음. p0 316.49(10/23) 동일"
+   "claim": "12위, 2주 편입 2 (CGGR 10/23, CGNG)",
+   "verdict": "일치",
+   "note": "GuruFocus CGGR 10/23 +63,789주 = GitHub(295,835→359,624) 정확히 같음. CGNG는 확인 못 함"
   },
   {
    "sym": "XE",
-   "claim": "2주 편입 2 (ARKK·ARKQ 10/20~21)",
+   "claim": "13위, 2주 편입 2 (ARKK·ARKQ 10/20)",
    "verdict": "일치",
-   "note": "ARK 10/21 ARKQ·ARKX XE 200,347주 매수 보도. GitHub ARKQ 10/21 +134,201주(나머지는 유니버스 밖 ARKX). p0 10.74 동일"
+   "note": "ARKQ 10/21 +134,201주 = GitHub, 10/20 ARKK·ARKQ 약 $4.5M 매수 보도"
   },
   {
    "sym": "RXRX",
-   "claim": "2주 편입 2 (ARKG 10/21~23, ARKK 10/15)",
+   "claim": "14위, 2주 편입 2 (ARKK 10/05, ARKG 10/16)",
    "verdict": "일치",
-   "note": "ARK Recursion 매수 보도(CoinCentral·Seeking Alpha 주간 정리). ARKK 10/14→10/16 순증 +12%"
-  },
-  {
-   "sym": "NTLA",
-   "claim": "2주 편입 2 (ARKK·ARKG)",
-   "verdict": "불일치",
-   "note": "ARKK NTLA 10,763,183주가 10/14~10/19 그대로인데 10/15 '감소'→10/16 '증가'로 잡힘. arkfunds.io 10/15 파일이 대부분 종목만 ×1.20(ARKG ×1.91)으로 부풀었다가 다음 날 되돌아간 자료 오류 → 수정 후 2주 편입 1(ARKG만, 실제 매수 보도와 일치), 9위→36위"
+   "note": "ARKG·ARKK 10/05 약 148만주 매수 보도. ARKG 10/16은 확인 못 함"
   },
   {
    "sym": "BBAS3.SA",
-   "claim": "2주 편입 2 (CGNG +4%, CGIC 신규 10/23), 수익률 -29.3%",
+   "claim": "15위, 2주 편입 2 (CGIC 신규 10/23, CGNG)",
    "verdict": "확인불가",
-   "note": "보유 변화 근거 자료 없음. 가격은 일치: 10/26 브라질 대선 다음 날 은행주 폭락(BB -31%, 서킷브레이커) 보도, Yahoo 24.72→17.47"
+   "note": "CGIC·CGNG 일별 기사 없음. 가격(-28%)은 대선 뒤 폭락과 맞음"
+  },
+  {
+   "sym": "KLAC",
+   "claim": "매도 경고 (CGGR 10/23, CGDG 10/26)",
+   "verdict": "일치",
+   "note": "GuruFocus CGGR 10/23 -209,847주 = GitHub 정확히 같음. 10/20에도 -102,316주"
+  },
+  {
+   "sym": "MU",
+   "claim": "매도 경고 (CGGR 10/23, CGGO 10/26)",
+   "verdict": "일치",
+   "note": "CGGR 10/23 -40,710주 = GitHub. CGGO 10/21 -126,895주 보도로 연속 축소 흐름 맞음"
+  },
+  {
+   "sym": "SCCO",
+   "claim": "매도 경고 (CGIC·CGNG 10/26)",
+   "verdict": "확인불가",
+   "note": "CGIC·CGNG 일별 자료 없음"
   },
   {
    "sym": "PLTR",
    "claim": "매도 경고 (ARKK·ARKW)",
    "verdict": "일치",
-   "note": "ARK 10/19·20·21·23 연속 매도 보도(10/23 ARKK·ARKW 24,542주)"
-  },
-  {
-   "sym": "WDC",
-   "claim": "매도 경고 (CGGR 전량 매도 10/22, LCAP 21,694→16주)",
-   "verdict": "일치",
-   "note": "GuruFocus: CGGR 10/22 WDC 175,931주 전량 매도 = GitHub 수치 정확히 같음. LCAP는 확인불가"
-  },
-  {
-   "sym": "000660.KS",
-   "claim": "매도 경고 (426030 141→77주, CGGO -39%, CGGR -6%)",
-   "verdict": "확인불가",
-   "note": "426030은 SK하이닉스 ADR(SKHY)을 보유, 매핑 정상. CG 10/22~23 매매 기사 없음"
-  },
-  {
-   "sym": "LRCX",
-   "claim": "매도 경고 (BLCR 전량, LCAP -27%)",
-   "verdict": "확인불가",
-   "note": "어제 남은 BLCR 105주는 10/23 파일에서 사라짐 → 전량 매도로 확정(내부 일관성). 제3자 자료 없음"
+   "note": "ARK 10/22(ARKF)·10/23 ARKK -15.3K·ARKW -9.2K 매도 보도. GitHub 주식 수는 일괄 비율 보정 뒤 같은 크기"
   },
   {
    "sym": "GOOG",
    "claim": "매도 경고 (ARKK·ARKW 10/23)",
    "verdict": "일치",
-   "note": "ARK 10/23 GOOG 77,167주 매도 보도. GitHub는 자금유출 보정 후 ARKK 약 6.6만+ARKW 약 1.2만주 순매도로 계산돼 거의 같음"
-  },
-  {
-   "sym": "GEV",
-   "claim": "매도 경고 (CGGR 10/23 -38%, LCAP -11%)",
-   "verdict": "확인불가",
-   "note": "CG 10/23 매매 기사 아직 없음"
-  },
-  {
-   "sym": "TER",
-   "claim": "매도 경고 (ARKK 10/22, ARKQ 10/20~21, 426030 34→17주 10/13)",
-   "verdict": "일치",
-   "note": "ARK 10/20 ARKQ·10/22 ARKK TER 매도 보도(어제 확인)"
-  },
-  {
-   "sym": "P",
-   "claim": "매도 경고 (ARKW, 426030 전량 10/22)",
-   "verdict": "확인불가",
-   "note": "ARKW 10/23 -19%(자금유출 -11%보다 큼)이나 ARK 보도 목록에 없음"
+   "note": "ARKK 10/23 -65.8K 보도 = 244,580×0.928−161,066 ≈ 65.9K. ARKW -11.4K"
   }
  ],
  "both": [
   {
    "sym": "META",
    "name": "Meta Platforms",
-   "reason": "ARK 10/22 매수 보도 + CGGR 10/22 소폭 추가, GitHub 1위"
+   "reason": "ARK 10/22 ARKK·ARKW·ARKF 매수 + 타임폴리오 10/22 추가, GitHub 1위"
+  },
+  {
+   "sym": "LLY",
+   "name": "Eli Lilly",
+   "reason": "CGGR 10/19·10/20·10/23 연속 매수 보도, GitHub 5위"
   },
   {
    "sym": "ISRG",
    "name": "Intuitive Surgical",
-   "reason": "ARKQ 10/21 매수 보도, GitHub 3위"
+   "reason": "ARKQ 10/21 매수 + CGGR 10/19 +25,711주, GitHub 7위"
+  },
+  {
+   "sym": "CDNS",
+   "name": "Cadence Design",
+   "reason": "CGGR 10/23 +63,789주 보도, GitHub 12위"
   },
   {
    "sym": "XE",
    "name": "X-Energy",
-   "reason": "ARK 10/20~21 매수 보도, GitHub 7위"
+   "reason": "ARKQ·ARKK·ARKX 10/20~21 매수, GitHub 13위"
   },
   {
-   "sym": "RXRX",
-   "name": "Recursion",
-   "reason": "ARK 매수 보도, GitHub 8위"
-  },
-  {
-   "sym": "RKLB",
-   "name": "Rocket Lab",
-   "reason": "ARK 10월 반복 매수 보도, GitHub 4위"
-  },
-  {
-   "sym": "DIS",
-   "name": "Walt Disney",
-   "reason": "CGGR 10/22 신규 $83.7M(10/23 추가), GitHub 28위(2주 편입 1)"
-  }
- ],
- "claude_only": [
-  {
-   "sym": "LULU",
-   "name": "Lululemon",
-   "reason": "CGGR 10/22 신규 $47.1M·10/23 추가. 유니버스 ETF 1개뿐이라 겹침 아님"
-  },
-  {
-   "sym": "OKLO",
-   "name": "Oklo",
-   "reason": "ARKQ 10/20~21 매수(+43%). 같이 산 ARKX는 유니버스 밖"
-  },
-  {
-   "sym": "PACB",
-   "name": "Pacific Biosciences",
-   "reason": "ARKK·ARKG 매일 매수 보도지만 하루 증가가 보유 대비 3% 미만이라 기준 미달"
+   "sym": "3711.TW",
+   "name": "ASE Technology",
+   "reason": "대만 주동식 ETF 10/22 복수 매수(CTEE)·00981A 10/27 대량 매수, GitHub 2위"
   },
   {
    "sym": "MRNA",
    "name": "Moderna",
-   "reason": "CGGR 10/22 +174,025주(보도와 같음). CGGO 10/21 매수 보도는 GitHub CGGO 이력 시작(10/21) 전이라 못 잡음"
+   "reason": "CGGO 10/21 신규·CGGR 10/22 추가. 어제는 claude_only였는데 CG 8/31 이력이 채워져 GitHub 2달 겹침(52위)에 들어옴"
   },
   {
-   "sym": "NFLX",
-   "name": "Netflix",
-   "reason": "ARKW 10/21 매수 보도. GitHub ARKW 이력이 10/06~10/20 비어 있어 2주 판정 불가"
+   "sym": "RKT",
+   "name": "Rocket Companies",
+   "reason": "CGGR 10/23 신규 $38M 보도, GitHub 48위(CGGR+BLCR)"
+  }
+ ],
+ "claude_only": [
+  {
+   "sym": "PACB",
+   "name": "Pacific Biosciences",
+   "reason": "ARKK·ARKG 10/22·23·26 사흘 매수. 하루 증가가 일괄 비율 대비 3% 미만(ARKG 10/23 ×1.092 보정)이라 기준 미달"
+  },
+  {
+   "sym": "JOBY·KTOS·ACHR",
+   "name": "Joby·Kratos·Archer",
+   "reason": "ARKQ·ARKX 10/26 매수. ARKX가 유니버스 밖이라 ARKQ 1개만 2주 편입(ACHR 55위)"
+  },
+  {
+   "sym": "SPOT",
+   "name": "Spotify",
+   "reason": "CGGR 10/20 신규 $80.7M. CG 일별 이력이 10/21부터라 2주 편입으로 못 잡고 2달(8/31 비교)로만 잡힘(99위)"
+  },
+  {
+   "sym": "OKLO",
+   "name": "Oklo",
+   "reason": "ARKQ 10/20~21 매수, ARKX는 유니버스 밖"
+  },
+  {
+   "sym": "LULU",
+   "name": "Lululemon",
+   "reason": "CGGR 10/22 신규·10/23 추가, 유니버스 ETF 1개뿐"
   },
   {
    "sym": "SCTX·FRNM",
    "name": "Scribe·Freenome",
-   "reason": "ARKG 단독 매수(10/21·10/23)"
+   "reason": "ARKG 단독 매수(10/21~23)"
   }
  ],
  "github_only": [
   {
    "sym": "ACN",
    "name": "Accenture",
-   "reason": "JTEK·JPEF 증가, 근거 보도 없음(이틀째)"
+   "reason": "JTEK·JPEF 매수, 사흘째 보도 없음"
   },
   {
-   "sym": "CDNS",
-   "name": "Cadence Design",
-   "reason": "CGGR·CGNG 10/23 증가, CG 10/23 기사 아직 없음"
+   "sym": "ATO",
+   "name": "Atmos Energy",
+   "reason": "CGDG 10/26·LCAP 10/23 매수, 제3자 자료 없음"
+  },
+  {
+   "sym": "XOM",
+   "name": "ExxonMobil",
+   "reason": "CGDG 10/26 매수·BGIG 10/16, 매수 시점 보도 없음(보유량은 BGIG 페이지와 같음)"
   },
   {
    "sym": "BBAS3.SA",
    "name": "Banco do Brasil",
-   "reason": "CGNG·CGIC 10/23 매수, 근거 없음. 매수 직후 대선 폭락으로 -29%"
+   "reason": "CGIC 신규·CGNG 추가, 보도 없음"
   }
  ],
  "fixes": [
-  "analyze.py: 좌수 없는 ETF에서 하루 ±10% 넘게 일괄 변했다가 다음 공시에 ±5% 안으로 돌아오는 공시일(arkfunds.io ARKK·ARKG 10/15)을 자료 오류로 보고 비교에서 뺌 → NTLA 가짜 2주 편입 제거(summary.spike_snapshots 에 표시)",
-  "config/themes.json: 상위 30 중 자동 영문 설명 20개(ISRG·RKLB·CDNS·XE·RXRX·BBAS3.SA·PLTR 등)를 한국어로 작성",
-  "config/discover_targets.json: 대만 주동식 ETF 일별 보유파일 GitHub 보관소(sarsadsl/etf_scratch) 다운로드 시험 등록 — 00981A·00991A 과거 이력 채우기용"
+  "config/themes.json: 상위 30 중 자동 영문 설명 10개(CME·ATO·NFLX·AAPL·MRK·AZN·WFC·KO·RYAAY·EL.PA) 한국어로 교체(auto:false)",
+  "config/discover_targets.json: 10/27에 등록한 대만 보관소 엑셀 URL이 모두 404(파일 이름 추정 오류) → 릴리스 자산 목록(expanded_assets) 페이지로 바꿔 실제 파일 이름을 받게 함"
  ],
- "summary": "확인 18개 중 일치 9·불일치 1·확인불가 8(일치율 90%). 불일치는 NTLA: arkfunds.io 10/15 ARKK·ARKG 자료 오류로 생긴 가짜 매수였고 고쳤다. 대만 3개 ETF가 10/22에 멈춘 건 대만 증시 10/23·10/26 거래가 없어서로 보이며(Yahoo·MoneyDJ 모두 10/22) 수집기 문제가 아니다."
+ "summary": "확인 20개 중 일치 14·불일치 0·확인불가 6(일치율 100%). GuruFocus CGGR 10/23 기사의 LLY·CDNS·KLAC·MU 주식 수 변화가 GitHub와 정확히 같았다. ARKK·ARKW·ARKG 10/23·10/26 파일의 일괄 주식 수 변화(×0.89~×1.12)는 비율 보정으로 판정에 영향이 없었다. 확인불가는 CGDG·CGIC·CGNG·JTEK·LCAP처럼 일별 제3자 자료가 없는 ETF에 몰렸다."
 }
