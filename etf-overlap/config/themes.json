@@ -1324,5 +1324,12 @@
   "desc": "LG Chem, Ltd., together with its subsidiaries, operates as a chemical company in Korea, China, Asia/Oceania, the United States, Europe, and internationally.",
   "auto": true,
   "v": 2
+ },
+ "3443.TW": {
+  "name": "GLOBAL UNICHIP CORP.",
+  "theme": "반도체",
+  "desc": "Global Unichip Corp. engages in the research and development, production, testing, and sale of embedded memory and logic components, analog components, cell…",
+  "auto": true,
+  "v": 2
  }
 }
