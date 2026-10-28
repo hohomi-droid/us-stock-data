@@ -361,5 +361,175 @@
    "config/discover_targets.json: 10/27에 등록한 대만 보관소 엑셀 URL이 모두 404(파일 이름 추정 오류) → 릴리스 자산 목록(expanded_assets) 페이지로 바꿔 실제 파일 이름을 받게 함"
   ],
   "summary": "확인 20개 중 일치 14·불일치 0·확인불가 6(일치율 100%). GuruFocus CGGR 10/23 기사의 LLY·CDNS·KLAC·MU 주식 수 변화가 GitHub와 정확히 같았다. ARKK·ARKW·ARKG 10/23·10/26 파일의 일괄 주식 수 변화(×0.89~×1.12)는 비율 보정으로 판정에 영향이 없었다. 확인불가는 CGDG·CGIC·CGNG·JTEK·LCAP처럼 일별 제3자 자료가 없는 ETF에 몰렸다."
+ },
+ {
+  "date": "2026-10-29",
+  "github_generated": "2026-10-29",
+  "checked": 20,
+  "matched": 10,
+  "mismatched": 0,
+  "unverifiable": 10,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "ARK 10/22 38,110주, CGGR 10/22, CGUS 10/19, JGLO 10/15 — 3개 운용사"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "日月光投控",
+    "reason": "대만 주동식 ETF 10/27·10/28 동시 매수(10/28 6곳)"
+   },
+   {
+    "sym": "LLY",
+    "name": "Eli Lilly",
+    "reason": "CGGR 10/19·10/20·10/23 연속 매수"
+   },
+   {
+    "sym": "ISRG",
+    "name": "Intuitive Surgical",
+    "reason": "ARKQ 10/21, CGGR 10/19"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "CGGO 10/21 +186K, CGGR·CGUS 10/19"
+   },
+   {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "reason": "JGLO 10/15 +53K, CGUS·CGDV 소량"
+   },
+   {
+    "sym": "XOM",
+    "name": "ExxonMobil",
+    "reason": "CGDV 10/22 +281만주($501M), JAVA 10/14"
+   },
+   {
+    "sym": "MRNA",
+    "name": "Moderna",
+    "reason": "CGGO 10/21 신규 $121M, CGGR 10/22 추가"
+   },
+   {
+    "sym": "MDLN",
+    "name": "Medline",
+    "reason": "CGUS 10월 중순 매수 보도"
+   },
+   {
+    "sym": "5274.TW",
+    "name": "信驊",
+    "reason": "00403A 10/27, 10/28 대만 ETF 3곳 매수"
+   },
+   {
+    "sym": "3443.TW",
+    "name": "創意",
+    "reason": "10/28 대만 ETF 2곳 매수"
+   },
+   {
+    "sym": "CDNS",
+    "name": "Cadence",
+    "reason": "CGGR 10/23 +63,789주"
+   },
+   {
+    "sym": "CME",
+    "name": "CME Group",
+    "reason": "JGLO 10/15 $10.4M"
+   },
+   {
+    "sym": "KTOS",
+    "name": "Kratos",
+    "reason": "ARKQ 10/26~27 매수"
+   },
+   {
+    "sym": "RKT",
+    "name": "Rocket Companies",
+    "reason": "CGGR 10/23 신규 $38M"
+   },
+   {
+    "sym": "DIS",
+    "name": "Disney",
+    "reason": "CGGR 10/22 신규 $83.7M·10/23 추가, JGLO 10/15"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "PACB",
+    "name": "PacBio",
+    "reason": "ARKK·ARKG 10/21~26 매일 매수. 같은 운용사 2곳이며 하루 증가가 자금 흐름 대비 3% 미만"
+   },
+   {
+    "sym": "JOBY",
+    "name": "Joby Aviation",
+    "reason": "ARKQ+ARKX 10/26~27 약 132만주. ARKX는 유니버스 밖"
+   },
+   {
+    "sym": "SCTX",
+    "name": "Scribe Therapeutics",
+    "reason": "ARKG 10/21~23 매수. 유니버스 1곳"
+   },
+   {
+    "sym": "OKLO",
+    "name": "Oklo",
+    "reason": "ARKQ 10/20~21 매수. 1곳"
+   },
+   {
+    "sym": "LULU",
+    "name": "Lululemon",
+    "reason": "CGGR 10/22 신규 $47M·10/23 추가. 1곳"
+   },
+   {
+    "sym": "CMCSA",
+    "name": "Comcast",
+    "reason": "CGDV 10/19 +441만주($96.6M). 1곳"
+   },
+   {
+    "sym": "2330.TW",
+    "name": "台積電",
+    "reason": "00981A 10/27 +375張 등 5개 ETF 매수. 00981A 증가(+3.0%)가 좌수 증가(+1.9%) 대비 3%p 미만이라 기준 미달, 나머지는 유니버스 밖"
+   },
+   {
+    "sym": "2368.TW",
+    "name": "金像電",
+    "reason": "10/28 대만 ETF 4곳 매수. 유니버스 안에서는 00981A(+657張)만"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "GOOGL",
+    "name": "Alphabet",
+    "reason": "1위지만 QLTY·CGGO 10/27 추가와 426030 매수를 다룬 보도 없음"
+   },
+   {
+    "sym": "CAP.PA",
+    "name": "Capgemini",
+    "reason": "CGGO·CGIC만, 보도 없음"
+   },
+   {
+    "sym": "SHEL",
+    "name": "Shell",
+    "reason": "CGDG·CGNG만, 보도 없음"
+   },
+   {
+    "sym": "PAAS",
+    "name": "Pan American Silver",
+    "reason": "CGIC·CGNG만, 보도 없음"
+   },
+   {
+    "sym": "ACN",
+    "name": "Accenture",
+    "reason": "JTEK·JPEF, 나흘째 근거 없음"
+   },
+   {
+    "sym": "ATO",
+    "name": "Atmos Energy",
+    "reason": "CGDG·LCAP, 일별 제3자 자료 없음"
+   }
+  ],
+  "fixes": [
+   "tw_archive.py 추가: 대만 보관소(sarsadsl/etf_scratch)에서 00981A 2026-08-24~10-21 23일치 과거 보유를 채움(10/22 파일이 라이브 수집본과 완전히 같음 확인). 00981A가 짧은 이력에서 빠져 2달 겹침 220→226",
+   "config/themes.json: 상위 30 자동 영문 설명 8개(MDLN·5274.TW·3443.TW·CAP.PA·MRNA·SHEL·PAAS·TTE)와 테마 없던 3017.TW·3008.TW 한국어로 작성"
+  ],
+  "summary": "확인 20 / 일치 10 / 불일치 0 / 확인불가 10. 대만·ARK·CGGR 수치는 주 단위까지 같음. 00981A 과거 이력을 대만 보관소로 채움. 확인불가는 CG 소형·LCAP·AKRE·EAGL·QLTY·426030처럼 일별 제3자 자료가 없는 ETF."
  }
 ]

@@ -472,8 +472,8 @@
  "MRNA": {
   "name": "Moderna, Inc.",
   "theme": "바이오",
-  "desc": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally.",
-  "auto": true,
+  "desc": "mRNA 기술로 코로나·독감·RSV 백신과 맞춤형 암 백신을 개발하는 바이오 기업이다.",
+  "auto": false,
   "v": 2
  },
  "BN": {
@@ -733,8 +733,8 @@
  "TTE": {
   "name": "TotalEnergies SE",
   "theme": "석유·가스",
-  "desc": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and…",
-  "auto": true,
+  "desc": "프랑스 통합 에너지 기업으로 석유·LNG 생산과 정유, 태양광·풍력 발전 사업을 함께 한다.",
+  "auto": false,
   "v": 2
  },
  "B": {
@@ -1028,8 +1028,8 @@
  "CAP.PA": {
   "name": "CAPGEMINI",
   "theme": "IT 서비스",
-  "desc": "Capgemini SE, together with its subsidiaries, provides consulting, digital transformation, technology, and engineering services primarily in North America,…",
-  "auto": true,
+  "desc": "프랑스 최대 IT 컨설팅·시스템 통합 기업으로 디지털 전환·엔지니어링·AI 도입 서비스를 제공한다.",
+  "auto": false,
   "v": 2
  },
  "XYZ": {
@@ -1251,9 +1251,9 @@
  },
  "5274.TW": {
   "name": "信驊科技",
-  "theme": "",
-  "desc": "",
-  "auto": true,
+  "theme": "서버 칩(BMC)",
+  "desc": "데이터센터 서버를 원격 관리하는 BMC 칩 세계 1위 업체로, AI 서버 증설의 수혜를 받는다.",
+  "auto": false,
   "v": 2
  },
  "CME": {
@@ -1286,9 +1286,9 @@
  },
  "MDLN": {
   "name": "Medline Inc.",
-  "theme": "Medical Instruments & Supplies",
-  "desc": "Medline Inc. manufactures med-surg products serving the hospital, surgery centers, physician offices, post-acute facilities, and nursing home sites of care in…",
-  "auto": true,
+  "theme": "의료용품 유통",
+  "desc": "병원·수술센터·요양시설에 수술용품·소모품을 제조·유통하는 미국 최대 의료용품 업체로 2025년 상장했다.",
+  "auto": false,
   "v": 2
  },
  "COF": {
@@ -1328,23 +1328,23 @@
  },
  "3443.TW": {
   "name": "GLOBAL UNICHIP CORP.",
-  "theme": "반도체",
-  "desc": "Global Unichip Corp. engages in the research and development, production, testing, and sale of embedded memory and logic components, analog components, cell…",
-  "auto": true,
+  "theme": "반도체 설계 서비스",
+  "desc": "TSMC 계열 ASIC 설계 서비스 업체로, 빅테크의 맞춤형 AI 칩 설계와 첨단 패키징을 대행한다.",
+  "auto": false,
   "v": 2
  },
  "SHEL": {
   "name": "Shell PLC",
   "theme": "석유·가스",
-  "desc": "Shell plc operates as an energy and petrochemical company in Europe, Asia, Oceania, Africa, the United States, and other parts of the Americas.",
-  "auto": true,
+  "desc": "유럽 최대 석유 메이저로 원유·가스 생산과 세계 1위 LNG 사업, 정유·화학을 운영한다.",
+  "auto": false,
   "v": 2
  },
  "PAAS": {
   "name": "Pan American Silver Corp.",
-  "theme": "금광",
-  "desc": "Pan American Silver Corp. engages in the exploration, mine development, extraction, processing, refining, and reclamation of mines in Chile, Peru, Brazil,…",
-  "auto": true,
+  "theme": "은광",
+  "desc": "미주 지역에서 은·금 광산을 운영하는 세계 최대급 은 생산 기업이다.",
+  "auto": false,
   "v": 2
  },
  "BSX": {
@@ -1395,5 +1395,19 @@
   "desc": "WuXi AppTec Co., Ltd., an investment holding company, provides research and manufacturing services to discover, develop, and manufacture spectrum for small…",
   "auto": true,
   "v": 2
+ },
+ "3017.TW": {
+  "name": "3017.TW",
+  "v": 2,
+  "theme": "서버 냉각",
+  "desc": "AI 서버용 수랭 쿨링 모듈·방열판을 만드는 대만 열관리 부품 업체다.",
+  "auto": false
+ },
+ "3008.TW": {
+  "name": "3008.TW",
+  "v": 2,
+  "theme": "스마트폰 카메라 렌즈",
+  "desc": "아이폰 등 고급 스마트폰에 들어가는 카메라 렌즈 세계 1위 업체다.",
+  "auto": false
  }
 }
