@@ -229,9 +229,9 @@
  },
  "STX": {
   "name": "Seagate Technology Holdings PLC",
-  "theme": "IT 하드웨어",
-  "desc": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally.",
-  "auto": true,
+  "theme": "데이터 저장장치",
+  "desc": "하드디스크(HDD)와 대용량 저장장치를 만들며, AI 데이터센터의 고용량 HDD 수요로 실적이 늘고 있다.",
+  "auto": false,
   "v": 2
  },
  "BE": {
@@ -366,9 +366,9 @@
  },
  "TSLA": {
   "name": "Tesla, Inc.",
-  "theme": "자동차",
-  "desc": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and…",
-  "auto": true,
+  "theme": "전기차·에너지",
+  "desc": "전기차와 에너지 저장장치(ESS)를 만들고, 자율주행·로보택시와 휴머노이드 로봇(옵티머스)을 개발한다.",
+  "auto": false,
   "v": 2
  },
  "HD": {
@@ -500,9 +500,9 @@
  },
  "TER": {
   "name": "Teradyne, Inc.",
-  "theme": "반도체 장비",
-  "desc": "Teradyne, Inc. engages in the design, development, manufacture, and sale of automated test systems and robotics products in the United States, Asia Pacific,…",
-  "auto": true,
+  "theme": "반도체 검사장비",
+  "desc": "반도체 칩 테스트 장비(특히 AI 칩·HBM 검사)와 협동로봇(유니버설 로봇)을 만든다.",
+  "auto": false,
   "v": 2
  },
  "WELL": {
@@ -1324,9 +1324,9 @@
  },
  "051910.KS": {
   "name": "LGCHEM",
-  "theme": "화학",
-  "desc": "LG Chem, Ltd., together with its subsidiaries, operates as a chemical company in Korea, China, Asia/Oceania, the United States, Europe, and internationally.",
-  "auto": true,
+  "theme": "화학·2차전지",
+  "desc": "한국 최대 화학 회사로 석유화학·첨단소재를 하며, 자회사 LG에너지솔루션을 통해 전기차 배터리를 만든다.",
+  "auto": false,
   "v": 2
  },
  "3443.TW": {
@@ -1353,8 +1353,8 @@
  "BSX": {
   "name": "Boston Scientific Corporation",
   "theme": "의료기기",
-  "desc": "Boston Scientific Corporation develops, manufactures, and markets medical devices for use in various interventional medical specialties worldwide.",
-  "auto": true,
+  "desc": "심장 시술용 기기(심방세동 PFA 절제술, 왓치맨 좌심방이 폐색기)와 혈관·내시경 시술 기기를 만든다.",
+  "auto": false,
   "v": 2
  },
  "SSE.L": {
@@ -1415,16 +1415,16 @@
  },
  "GWRE": {
   "name": "Guidewire Software, Inc.",
-  "theme": "응용 SW",
-  "desc": "Guidewire Software, Inc. provides a platform for property and casualty (P&C) insurers the United States, Canada, other Americas, Europe, the Middle East,…",
-  "auto": true,
+  "theme": "보험 SW",
+  "desc": "손해보험사용 핵심 업무 소프트웨어(보험 계약·청구·과금)를 클라우드로 제공한다.",
+  "auto": false,
   "v": 2
  },
  "2368.TW": {
   "name": "GOLD CIRCUIT ELECTRONICS CO",
-  "theme": "전자부품",
-  "desc": "Gold Circuit Electronics Ltd. engages in the manufacturing, processing, and trading of electronic equipment products, such as printed circuit boards in Taiwan.",
-  "auto": true,
+  "theme": "서버용 PCB",
+  "desc": "대만의 인쇄회로기판(PCB) 업체로, AI 서버·스위치용 고다층 기판을 주로 만든다.",
+  "auto": false,
   "v": 2
  },
  "SLB": {

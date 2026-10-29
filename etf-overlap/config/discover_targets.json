@@ -6,5 +6,25 @@
   {
    "url": "https://github.com/sarsadsl/etf_scratch/releases/expanded_assets/archive-20261015"
   }
+ ],
+ "TROWE_DAILY": [
+  {
+   "url": "https://www.troweprice.com/services/advisor-api/etfs/holdings/TCAF",
+   "grep": "holding|ticker|asOf"
+  },
+  {
+   "url": "https://www.troweprice.com/services/advisor-api/etfs/holdings/TMSL",
+   "grep": "holding|ticker|asOf"
+  },
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "follow_js": "(services/[a-z\\-]+-api/[^\\\"' ]+|holdings[^\\\"' ]{0,80})",
+   "grep": "holding|api|json"
+  },
+  {
+   "url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/capital-appreciation-equity-etf.html",
+   "follow_js": "(services/[a-z\\-]+-api/[^\\\"' ]+|holdings[^\\\"' ]{0,80})",
+   "grep": "holding|api|json|csv|xlsx"
+  }
  ]
 }
