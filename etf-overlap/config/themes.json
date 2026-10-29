@@ -382,7 +382,8 @@
   "name": "Sandisk Corporation",
   "theme": "IT 하드웨어",
   "desc": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "LITE": {
   "name": "Lumentum Holdings Inc.",
@@ -447,8 +448,9 @@
  "UBER": {
   "name": "Uber Technologies, Inc.",
   "theme": "응용 SW",
-  "desc": "Uber Technologies, Inc.",
-  "auto": true
+  "desc": "Uber Technologies, Inc. develops and operates proprietary technology applications in the United States, Canada, Latin America, Europe, the Middle East,…",
+  "auto": true,
+  "v": 2
  },
  "EOG": {
   "name": "EOG Resources, Inc.",
@@ -1450,6 +1452,20 @@
   "name": "General Dynamics Corporation",
   "theme": "방산·항공우주",
   "desc": "General Dynamics Corporation operates as an aerospace and defense company worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "BNP.PA": {
+  "name": "BNP PARIBAS ACT.A",
+  "theme": "지역은행",
+  "desc": "BNP Paribas SA provides various banking and financial products and services in Europe, the Middle East, Africa, the Americas, and the Asia Pacific.",
+  "auto": true,
+  "v": 2
+ },
+ "SONY": {
+  "name": "Sony Group Corporation",
+  "theme": "IT 하드웨어",
+  "desc": "Sony Group Corporation develops, designs, produces, manufactures, supplies, and sells electronic equipment, instruments, and devices for consumer,…",
   "auto": true,
   "v": 2
  }
