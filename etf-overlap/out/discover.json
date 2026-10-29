@@ -30,5 +30,94 @@
    ],
    "text": " 00980A_野村投信.csv sha256:37d9c5a6e6a3be26d323bc24176eb834fa5117b4824d1196b4cb1b24fd0d813f 1.88 KB 2026-10-15T15:21:02Z 00981A_統一投信.xlsx sha256:f251e05daa2584941fccaa8b6e8312224b7d31f43b0acaffefe1ca958a0987f3 7.78 KB 2026-10-15T15:21:02Z 00982A_群益投信.xlsx sha256:9d2d2ad8fe1a3700ec39945c5773f161c383305fec0900af7410a20b8cd2006b 26.8 KB 2026-10-15T15:21:02Z 00985A_野村投信.csv sha256:598fc50b6d600866933449a5ab545c69cd84ad4d1bd0ce2b6dba117e58890808 1.91 KB 2026-10-15T15:21:02Z 00988A_統一投信.xlsx sha256:b2346c423a348b093d71c9af313816c8d30c82bb9da802a355e9fbc28c8f5b2b 7.41 KB 2026-10-15T15:21:02Z 00991A_復華投信.xlsx sha256:47a6dbdd64e6e902b444d834f319eeb1f5f9afcb4218d8b2a58604a69f973db5 9.12 KB 2026-10-15T15:21:02Z Source code (zip) 2026-10-15T15:13:49Z Source code (tar.gz) 2026-10-15T15:13:49Z "
   }
+ ],
+ "TROWE_DAILY": [
+  {
+   "url": "https://www.troweprice.com/services/advisor-api/etfs/holdings/TCAF",
+   "final": "https://www.troweprice.com/services/advisor-api/etfs/holdings/TCAF",
+   "status": 502,
+   "ctype": "text/html",
+   "len": 17693,
+   "cands": [],
+   "text": " T. Rowe Price Maintenance For access to all of the T. Rowe Price websites, please use the following links. We apologize for the inconvenience, but this page has temporarily encountered an issue. Thank you for your patience. Choose your site: Enterprise Personal Investing Workplace Retirement Individual / SMSF Investors Institutional Investor / Consultant Financial Advisor / Intermediary Recordkeeping Sponsor / Consultant Please email us at onlinehelp@troweprice.com if you continue to experience issues with the site. Thank you for investing with T. Rowe Price. Invest With Confidence Â® ",
+   "grep": []
+  },
+  {
+   "url": "https://www.troweprice.com/services/advisor-api/etfs/holdings/TMSL",
+   "final": "https://www.troweprice.com/services/advisor-api/etfs/holdings/TMSL",
+   "status": 502,
+   "ctype": "text/html",
+   "len": 17693,
+   "cands": [],
+   "text": " T. Rowe Price Maintenance For access to all of the T. Rowe Price websites, please use the following links. We apologize for the inconvenience, but this page has temporarily encountered an issue. Thank you for your patience. Choose your site: Enterprise Personal Investing Workplace Retirement Individual / SMSF Investors Institutional Investor / Consultant Financial Advisor / Intermediary Recordkeeping Sponsor / Consultant Please email us at onlinehelp@troweprice.com if you continue to experience issues with the site. Thank you for investing with T. Rowe Price. Invest With Confidence Â® ",
+   "grep": []
+  },
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "final": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "status": 200,
+   "ctype": "text/html",
+   "len": 7857,
+   "cands": [],
+   "text": " You need to enable JavaScript to run this app. ",
+   "grep": [
+    "00000\"><link rel=\"stylesheet\" href=\"./static/fonts.css\"><link rel=\"stylesheet\" href=\"./static/icons.css\"><link rel=\"manifest\" href=\"./static/manifest.json\"><link rel=\"shortcut icon\" href=\"./static/favicon.ico\"><link rel=\"stylesheet\" href=\"./static/variables.css\"><link rel=\"stylesheet\" href=\"./static/unscoped-variables.css\"><link rel=\"stylesheet\" href=\"./static/fonts/beacon-fonts/fonts.css\"><link rel=\""
+   ],
+   "js_hits": {}
+  },
+  {
+   "url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/capital-appreciation-equity-etf.html",
+   "final": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/capital-appreciation-equity-etf.html",
+   "status": 200,
+   "ctype": "text/html",
+   "len": 249502,
+   "cands": [
+    "https://www.troweprice.com/content/dam/fai/insights/portfolio-construction-pulse/pc-pulse-nav-image.png",
+    "https://www.troweprice.com/financial-intermediary/us/en/insights/portfolio-construction-pulse.html",
+    "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/capital-appreciation-equity-etf.html#holdings",
+    "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings",
+    "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings-excel-download-etf",
+    "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/if-portfolio",
+    "https://www.troweprice.com/financial-intermediary/us/en/investments/model-portfolio-capabilities.html",
+    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/insights.html",
+    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/manager-review.html",
+    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/model-construction.html",
+    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/model-review.html",
+    "https://www.troweprice.com/financial-intermediary/us/en/portfolio-construction/overview.html"
+   ],
+   "text": " Capital Appreciation Equity ETF (TCAF) | T.Rowe Price Skip to Content Financial Advisors/Intermediaries Choose a site Enterprise Personal Investing Workplace Retirement Financial Advisors/Intermediaries Institutional Investors/Consultants Retirement Plan Sponsors/Consultants Oak Hill Advisors, L.P. (OHA) - External Site Close Localization Settings Current Selection Americas (2) Canada English United States English Asia Pacific (5) Australia English Hong Kong English ä¸­æ Japan æ¥æ¬èª New Zealand English Singapore English Europe (20) Austria English Belgium English Denmark English Estonia English Finland English France English Germany English Deutsch Iceland English Ireland English Italy English Italiano Latvia English Lithuania English Luxembourg English Netherlands English Norway English Portugal English Spain English EspaÃ±ol Sweden English Switzerland English Deutsch United Kingdom English Preferred Website Contact Us Subscribe Search Close Search Search Account Account Subscriptions &amp; Settings Log Out Register Log in Products Close Products Mutual Funds Mutual Fund Finder U.S. Equity International Equity Fixed Income Multi-Asset Target Date Money Market Literature Separately Managed Accounts (SMAs) Overview SMA Finder U.S. Equity International Equity Fixed Income Multi-Asset Literature Model Portfolios Exchange-Traded Funds (ETFs) Overview ETF Finder U.S. Equity International Equity Fixed Income Literature Collective Investment Trusts (CITs) Overview CIT Finder ",
+   "grep": [
+    "e-512x512.png\"/>\n            <link rel=\"canonical\" href=\"https://www.troweprice.com\" />\n\n        <meta name=\"description\" content=\"The T. Rowe Price Capital Appreciation Equity ETF seeks to invest in a diversified portfolio with strong return potential and lower risk relative to the S&amp;P 500 Index.\" />\n\n        \n\n    \n  <title>Capital Appreciation Equity ETF (TCAF) | T.Rowe Price </title>\n\n\n    <s",
+    "eks to invest in a diversified portfolio with strong return potential and lower risk relative to the S&amp;P 500 Index.\" />\n\n        \n\n    \n  <title>Capital Appreciation Equity ETF (TCAF) | T.Rowe Price </title>\n\n\n    <script type=\"importmap\">\n        {\n            \"imports\": {\n                \"lit\": \"https://www.troweprice.com/shared-assets/ds-ui-library/2.0.5/packages/foundation/npm/lit/index.js\",\n",
+    ",\n                productCode: 'CFX',\n                audience: \"INTERMEDIARY\",\n                country: \"us\",\n                dadaEndpoint: 'https://api.public.troweprice.com/ds-dada/graphql',\n                dadaApiKey: 'dfalKOgR1TyFTzz9Uv35a7cUczNRrk1K',\n                dsUiLibraryVersion: '2.0.5',\n                language: \"en\",\n                productComponentLibraryVersion: 'versioned/3.77.0',\n",
+    "            beaconVersion: \"4.13.3\",\n                popSkip: \"true\",\n                beaconSkip: \"true\",\n                featureFlags: JSON.parse('{\"holdings-excel-download-etf\":false,\"market-data-previous-day-trading-volume\":true,\"cit-overview-table\":false,\"if-performance-table\":true,\"if-portfolio\":false,\"enable-cit-header\":false}')\n            };\n        </script>\n\n        \n            <script>\n      ",
+    "pan><h3 slot=\"heading\"><a href=\"https://www.troweprice.com/financial-intermediary/us/en/insights/articles/global-market-outlook.html\">Five shifts reshaping markets<br></a></h3><div class=\"b-flow-space\" slot=\"footer\"></div></fai-beacon-tile></div><div class=\"horizontal-rule aem-GridColumn aem-GridColumn--default--12\"><div id=\"horizontal_rule-1194779069\"><div data-emptytext=\"Separator\" class=\"cq-placeh",
+    "v class=\"beacon-on-dark\">\n      \n        <pop-summary-component\n          defer:on:idle\n          data-component-object=\"{&quot;fundName&quot;:&quot;Capital Appreciation Equity ETF&quot;,&quot;asOfDate&quot;:&quot;2026-10-28&quot;,&quot;productCode&quot;:&quot;CFX&quot;,&quot;isLiteratureSubscribable&quot;:true,&quot;literatures&quot;:[{&quot;locked&quot;:false,&quot;name&quot;:&quot;Fact Sheet&quot;",
+    "&quot;:false,&quot;name&quot;:&quot;Fund Focus&quot;,&quot;url&quot;:&quot;https://www.troweprice.com/content/dam/fai/Investments/etf/etf-literature/Capital_Appreciation_Equity_ETF_Fund_Focus.pdf&quot;,&quot;isExternalURL&quot;:false},{&quot;locked&quot;:false,&quot;name&quot;:&quot;Summary Prospectus&quot;,&quot;url&quot;:&quot;https://www.troweprice.com/literature/public/country/us/language/en/lite",
+    "uarterly Portfolio Holdings&quot;,&quot;url&quot;:&quot;https://www.troweprice.com/literature/public/country/us/language/en/literature-type/portfolio-holdings/sub-type/quarterly?productCode=CFX&amp;currency=USD&quot;,&quot;isExternalURL&quot;:false}],&quot;keyFacts&quot;:[{&quot;title&quot;:&quot;Net Assets&quot;,&quot;value&quot;:&quot;8219638653.79&quot;,&quot;valueFormat&quot;:&quot;USD&quot;,&quot;to",
+    "92;&quot;&gt;&#92;n    &lt;p&gt;&lt;b&gt;Past performance cannot guarantee future results.&lt;/b&gt;&lt;/p&gt;&#92;n&lt;p&gt;&lt;b&gt;Market value of holdings shown are illustrative and may differ from the values used to calculate the fund’s net asset value (“NAV”). For information on valuation of portfolio assets used to calculate NAV, please see the prospectus.&lt;/b&gt;&lt;/p&gt;&#92;n&lt;p&gt;&lt;b&g",
+    "     >\n          <h1\n            slot=\"product-name\"\n            class=\"b-typography-serif--display--100 b-font-weight-bold\"\n          >\n            Capital Appreciation Equity ETF\n            <p class=\"b-typography-sans-serif--headline-loose--600 ticker-name b-margin-block--micro--normal b-uppercase b-font-weight-light\">TCAF</p>\n          </h1>\n          <div slot=\"subscription-button\">\n            ",
+    "be-button>\n          </div>\n        </pop-summary-component>\n      \n\n      \n\n      \n\n    </div>\n    <pop-summary-sticky-header-component data-title=\"Capital Appreciation Equity ETF\">\n      <beacon-anchor-navigation slot=\"local-navigation\">\n        <ol slot=\"tabs\">\n          <li>\n            <a href=\"#overview\">Overview</a>\n          </li>\n          <li>\n            <a href=\"#performance\">Performance<",
+    "         <li>\n            <a href=\"#asset-allocation\">Asset Allocation</a>\n          </li>\n          \n          \n          <li>\n            <a href=\"#holdings\">Holdings</a>\n          </li>\n          <li>\n            <a href=\"#market-metrics\">Market Metrics</a>\n          </li>\n          <li>\n            <a href=\"#literature\">Literature</a>\n          </li>\n          <li>\n            <a href=\"#contact-us\">C"
+   ],
+   "js_hits": {
+    "https://www.troweprice.com/etc/designs/fai/clientlibs/base.f57d25d6686f17f647bb923c2e73af70.js": [
+     " $('main.fund-overview .page-wrapper.fund-overview').addClass('is-overview');\n      } else if (\n        // If a top-ten holdings tab change, filter disclosures\n        tabEvent.tab === 'primary-holdings' ||\n        tabEvent.tab === 'holdings-top-10-issuers' ||\n        tabEvent.tab === 'holdings-top-10-holdings' ||\n        tabE",
+     "');\n      } else if (\n        // If a top-ten holdings tab change, filter disclosures\n        tabEvent.tab === 'primary-holdings' ||\n        tabEvent.tab === 'holdings-top-10-issuers' ||\n        tabEvent.tab === 'holdings-top-10-holdings' ||\n        tabEvent.tab === 'holdings-top-guarantors'\n      ) {\n        fund.filterDisclo",
+     "op-ten holdings tab change, filter disclosures\n        tabEvent.tab === 'primary-holdings' ||\n        tabEvent.tab === 'holdings-top-10-issuers' ||\n        tabEvent.tab === 'holdings-top-10-holdings' ||\n        tabEvent.tab === 'holdings-top-guarantors'\n      ) {\n        fund.filterDisclosures();\n      } else {\n        $('main.fund-overview ",
+     " tabEvent.tab === 'primary-holdings' ||\n        tabEvent.tab === 'holdings-top-10-issuers' ||\n        tabEvent.tab === 'holdings-top-10-holdings' ||\n        tabEvent.tab === 'holdings-top-guarantors'\n      ) {\n        fund.filterDisclosures();\n      } else {\n        $('main.fund-overview .page-wrapper.fund-overview').removeClass('is-overview'",
+     "t.tab === 'holdings-top-10-issuers' ||\n        tabEvent.tab === 'holdings-top-10-holdings' ||\n        tabEvent.tab === 'holdings-top-guarantors'\n      ) {\n        fund.filterDisclosures();\n      } else {\n        $('main.fund-overview .page-wrapper.fund-overview').removeClass('is-overview');\n      }\n    });\n\n    $('.fund-overview .fund-selcla",
+     ", '');\n      }\n      window.location.href = com.trp.fai.utility.sanitizePath(url);\n    });\n\n    $('body').on('click', '.holdings-overlay-item', function () {\n      var $holdingItem = $(this);\n\n      $('#full-holdings-details-overlay')\n        .find('.dynamic-overlay-caption')\n        .html('<span>Ticker</span>: ' + $holdingItem.data('ticke"
+    ],
+    "https://www.troweprice.com/etc/designs/fai/clientlibs/angularDist.cfcb260b7811b570856c0085136749f2.js": [
+     "okSource = null;\n        /* The date of the book of Business*/\n        this.bookDate = null;\n        /* The type of the holdings for the book of Business*/\n        this.bookHoldingsType = null;\n        /* Emits the value of the rules after modifications using the sliders, toggles, or checkboxes */\n        this.value = new _ang",
+     "st trpProductLookupRoute = {\n    name: 'T. Rowe Price Product Lookup',\n    url: 't-rowe-price-product-lookup',\n};\nconst holdingsRoute = {\n    name: 'Holdings Tracker',\n    url: 'holdings',\n};\nconst peerResultsRoute = {\n    name: 'Peer Results Comparison',\n    url: 'peer-results-comparison',\n};\nconst morningstarComparisonRoute = {\n ",
+     "uct Lookup',\n    url: 't-rowe-price-product-lookup',\n};\nconst holdingsRoute = {\n    name: 'Holdings Tracker',\n    url: 'holdings',\n};\nconst peerResultsRoute = {\n    name: 'Peer Results Comparison',\n    url: 'peer-results-comparison',\n};\nconst morningstarComparisonRoute = {\n    name: 'Morningstar® Comparison',\n    url: 'morning",
+     "st managerReviewRoute = {\n    name: 'Manager Review',\n    children: [\n        aocRoute,\n        watchlistRoute,\n        holdingsRoute,\n        customizationHistoryRoute\n    ],\n};\nconst modelReviewRoute = {\n    name: 'Model Review',\n    children: [\n        customModelRoute,\n        modelCheckupRoute\n    ],\n};\nconst portfolioConstructi",
+     " Date().toDateString(),\n    'eligibleForAnalysis': true,\n    'maxDaysAge': 10000,\n    'bookSource': 'Morningstar',\n    'holdingsType': 'Primary',\n    'defaultRulesetUsed': false\n};\nvar finraAttestationChecked = true;\nvar alternateContact = \"\";\nvar alternateParentAccount = \"\";\nvar uberId = \"u.0B7970AE-BD7C-D1A9-B37B-B868E46C2C0F\";\n",
+     "lServiceEndpoints[\"LEAD_NOTIFICATION\"] = \"lead-notification/create\";\n    RealServiceEndpoints[\"BOOK_OF_BUSINESS\"] = \"my-holdings/book-of-business\";\n    RealServiceEndpoints[\"WATCHLIST_SUMMARIES\"] = \"watchlists/summary\";\n    RealServiceEndpoints[\"WATCHLIST_PERFORMANCE\"] = \"watchlists/performance\";\n    RealServiceEndpoints[\"WATCHLIST_DELETE\"] = "
+    ]
+   }
+  }
  ]
 }
