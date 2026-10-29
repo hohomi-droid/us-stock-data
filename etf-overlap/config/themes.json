@@ -606,7 +606,8 @@
   "name": "Aon plc",
   "theme": "보험중개",
   "desc": "Aon plc operates as a professional services firm in the United States, rest of the Americas, the United Kingdom, Ireland, rest of Europe, the Middle East,…",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "SYK": {
   "name": "Stryker Corporation",
@@ -1409,5 +1410,47 @@
   "theme": "스마트폰 카메라 렌즈",
   "desc": "아이폰 등 고급 스마트폰에 들어가는 카메라 렌즈 세계 1위 업체다.",
   "auto": false
+ },
+ "GWRE": {
+  "name": "Guidewire Software, Inc.",
+  "theme": "응용 SW",
+  "desc": "Guidewire Software, Inc. provides a platform for property and casualty (P&C) insurers the United States, Canada, other Americas, Europe, the Middle East,…",
+  "auto": true,
+  "v": 2
+ },
+ "2368.TW": {
+  "name": "GOLD CIRCUIT ELECTRONICS CO",
+  "theme": "전자부품",
+  "desc": "Gold Circuit Electronics Ltd. engages in the manufacturing, processing, and trading of electronic equipment products, such as printed circuit boards in Taiwan.",
+  "auto": true,
+  "v": 2
+ },
+ "SLB": {
+  "name": "SLB Limited",
+  "theme": "Oil & Gas Equipment & Services",
+  "desc": "SLB N.V. engages in the provision of technology for the energy industry worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "DHR": {
+  "name": "Danaher Corporation",
+  "theme": "진단·연구장비",
+  "desc": "Danaher Corporation designs, manufactures, and markets professional, medical, research, and industrial products and services in the United States, China, and…",
+  "auto": true,
+  "v": 2
+ },
+ "GH": {
+  "name": "Guardant Health, Inc.",
+  "theme": "진단·연구장비",
+  "desc": "Guardant Health, Inc., a precision oncology company, provides blood and tissue tests, and data sets in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "GD": {
+  "name": "General Dynamics Corporation",
+  "theme": "방산·항공우주",
+  "desc": "General Dynamics Corporation operates as an aerospace and defense company worldwide.",
+  "auto": true,
+  "v": 2
  }
 }
