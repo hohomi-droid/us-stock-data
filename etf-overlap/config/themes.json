@@ -1468,5 +1468,12 @@
   "desc": "Sony Group Corporation develops, designs, produces, manufactures, supplies, and sells electronic equipment, instruments, and devices for consumer,…",
   "auto": true,
   "v": 2
+ },
+ "NXPI": {
+  "name": "NXP Semiconductors N.V.",
+  "theme": "반도체",
+  "desc": "NXP Semiconductors N.V. provides semiconductor products in the United States, Germany, Japan, South Korea, Taiwan, Singapore, the Netherlands, Mainland China,…",
+  "auto": true,
+  "v": 2
  }
 }
