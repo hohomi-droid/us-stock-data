@@ -333,8 +333,8 @@
  "LRCX": {
   "name": "Lam Research Corporation",
   "theme": "반도체 장비",
-  "desc": "Lam Research Corporation designs, manufactures, markets, refurbishes, and services semiconductor processing equipment used in the fabrication of integrated…",
-  "auto": true,
+  "desc": "반도체 웨이퍼의 식각(etch)·증착 장비를 만드는 미국 장비사로, 메모리·첨단 로직 투자에 매출이 크게 좌우된다.",
+  "auto": false,
   "v": 2
  },
  "SNOW": {
@@ -607,8 +607,8 @@
  "AON": {
   "name": "Aon plc",
   "theme": "보험중개",
-  "desc": "Aon plc operates as a professional services firm in the United States, rest of the Americas, the United Kingdom, Ireland, rest of Europe, the Middle East,…",
-  "auto": true,
+  "desc": "기업 고객에게 보험·재보험 중개와 리스크·연금·인사 컨설팅을 제공하는 세계 2위권 보험중개사.",
+  "auto": false,
   "v": 2
  },
  "SYK": {
@@ -1437,8 +1437,8 @@
  "DHR": {
   "name": "Danaher Corporation",
   "theme": "진단·연구장비",
-  "desc": "Danaher Corporation designs, manufactures, and markets professional, medical, research, and industrial products and services in the United States, China, and…",
-  "auto": true,
+  "desc": "바이오 의약품 생산 공정 장비(Cytiva)와 진단 장비(Beckman Coulter·Cepheid), 생명과학 연구장비를 만드는 미국 헬스케어 장비 기업.",
+  "auto": false,
   "v": 2
  },
  "GH": {
@@ -1478,9 +1478,9 @@
  },
  "TWST": {
   "name": "Twist Bioscience Corporation",
-  "theme": "바이오",
-  "desc": "Twist Bioscience Corporation manufactures and sells synthetic DNA-based products.",
-  "auto": true,
+  "theme": "합성 DNA",
+  "desc": "반도체식 실리콘 칩 공정으로 합성 DNA를 대량 생산해 유전자 연구·신약개발·NGS 분석용으로 판다.",
+  "auto": false,
   "v": 2
  },
  "CMG": {

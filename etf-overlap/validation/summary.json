@@ -776,5 +776,190 @@
    "config/discover_targets.json: T. Rowe TCAF·TMSL 일별 보유 경로 후보(advisor-api JSON, fund-research 페이지 JS) 추가 → Actions discovery 실행"
   ],
   "summary": "확인 20 / 일치 10 / 불일치 0 / 확인불가 10. JPM JAVA 10/28 META·COP 주식 수를 운용사 상품 페이지 시가÷종가로 정확히 확인했고, CG(CGGO·CGGR) 보도 수치 5건도 주 단위까지 같았다. 확인불가는 JPM 일별·LCAP·CG 소형·426030처럼 제3자 자료가 없는 ETF다."
+ },
+ {
+  "date": "2026-10-31",
+  "github_generated": "2026-10-31",
+  "checked": 20,
+  "matched": 7,
+  "mismatched": 0,
+  "unverifiable": 13,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "ARK 10/22 38,110주, JAVA·JGRO·CGDV 10/28"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "CGGO 10/27 +38.5K, QLTY 10/27"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "日月光投控",
+    "reason": "00981A 10/30 +1,644張(최근 1주 최대), 00403A 10/30 +300張"
+   },
+   {
+    "sym": "5274.TW",
+    "name": "信驊",
+    "reason": "00981A 10/29 +15張"
+   },
+   {
+    "sym": "HOOD",
+    "name": "Robinhood",
+    "reason": "ARK 10/28 99,418주(6개월 최대) — GitHub ARKK 2주 편입(겹침 2달 2곳)"
+   },
+   {
+    "sym": "CRWV",
+    "name": "CoreWeave",
+    "reason": "ARK 10/14·10/20, 426030 10/30 비중 2배"
+   },
+   {
+    "sym": "TER",
+    "name": "Teradyne",
+    "reason": "ARK 10월 말 재매수 — GitHub ARKK·ARKQ 10/28"
+   },
+   {
+    "sym": "KTOS",
+    "name": "Kratos",
+    "reason": "ARK 매수 보도 — GitHub ARKQ 10/27"
+   },
+   {
+    "sym": "CBRS",
+    "name": "Cerebras",
+    "reason": "ARK 매수 — GitHub ARKW 2주 편입"
+   },
+   {
+    "sym": "XE",
+    "name": "X-Energy",
+    "reason": "GitHub ARKK·ARKQ 10/20 — ARK 원전 테마 매수 흐름과 일치(개별 보도 없음, 약한 근거)"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "3231.TW",
+    "name": "緯創",
+    "reason": "00981A 10/20 신규 4,703張+10/21 1,300張. 유니버스 안 1곳"
+   },
+   {
+    "sym": "6805.TW",
+    "name": "富世達",
+    "reason": "00981A 10/20·10/29·10/30 반복 매수(+50·+80·+206張, GitHub 데이터와 같음). 1곳이라 겹침 아님"
+   },
+   {
+    "sym": "3264.TW",
+    "name": "欣銓",
+    "reason": "00981A 10/29 +200張(GitHub 4,827,000→5,027,000주). 1곳"
+   },
+   {
+    "sym": "2330.TW",
+    "name": "台積電",
+    "reason": "00981A 10/20·10/30 추가(+205張 GitHub와 같음). 좌수 대비 3%p 미만"
+   },
+   {
+    "sym": "NFLX",
+    "name": "Netflix",
+    "reason": "ARK 10/19~23 주 매수 보도. GitHub는 QLTY만 2주 편입, ARKW 10/21은 2주 판정 밖"
+   },
+   {
+    "sym": "ACHR",
+    "name": "Archer Aviation",
+    "reason": "ARKQ 10월 말 매수($7M대). GitHub 2주 편입 1곳(ARKQ, 10/6 첫 편입)"
+   },
+   {
+    "sym": "AVAV",
+    "name": "AeroVironment",
+    "reason": "ARK 매수. ARKQ 1곳"
+   },
+   {
+    "sym": "JOBY",
+    "name": "Joby Aviation",
+    "reason": "ARKQ·ARKX. ARKX 유니버스 밖"
+   },
+   {
+    "sym": "KDK",
+    "name": "Kodiak AI",
+    "reason": "ARKQ 1곳"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "STX",
+    "name": "Seagate",
+    "reason": "426030·JAVA·JGLO — 보도 없음"
+   },
+   {
+    "sym": "ACN",
+    "name": "Accenture",
+    "reason": "JPM 3개 ETF(운용사 1곳)"
+   },
+   {
+    "sym": "MSFT",
+    "name": "Microsoft",
+    "reason": "JGLO 10/29·JGRO 10/28·426030"
+   },
+   {
+    "sym": "XOM",
+    "name": "ExxonMobil",
+    "reason": "LCAP 10/30·JAVA·CGDG"
+   },
+   {
+    "sym": "BE",
+    "name": "Bloom Energy",
+    "reason": "BAI 10/29·426030"
+   },
+   {
+    "sym": "DHR",
+    "name": "Danaher",
+    "reason": "CGNG 10/29 신규·JAVA"
+   },
+   {
+    "sym": "UNP",
+    "name": "Union Pacific",
+    "reason": "LCAP 10/30 +36%·CGDV 10/28"
+   },
+   {
+    "sym": "TWST",
+    "name": "Twist Bioscience",
+    "reason": "BAI 10/29 신규·JTEK"
+   },
+   {
+    "sym": "RTX",
+    "name": "RTX",
+    "reason": "JPEF 10/29·JAVA 10/28(JPM)"
+   },
+   {
+    "sym": "BRK-B",
+    "name": "Berkshire",
+    "reason": "JAVA 10/28·LCAP 10/23"
+   },
+   {
+    "sym": "ISRG",
+    "name": "Intuitive Surgical",
+    "reason": "LCAP 10/26·ARKQ 10/21"
+   },
+   {
+    "sym": "MDLN",
+    "name": "Medline",
+    "reason": "AKRE 10/27·EAGL 10/26"
+   },
+   {
+    "sym": "NXPI",
+    "name": "NXP",
+    "reason": "JAVA·JGLO(JPM)"
+   },
+   {
+    "sym": "AON",
+    "name": "Aon",
+    "reason": "JAVA·JGLO(JPM)"
+   }
+  ],
+  "fixes": [
+   "config/themes.json·out/dashboard.json: DHR·TWST·AON·LRCX 한국어 테마·설명(auto:false)",
+   "코드 버그 없음. T. Rowe TCAF·TMSL discovery: advisor-api 502(점검 페이지), fund-research 페이지는 JS 전용 — 경로 못 찾음"
+  ],
+  "summary": "확인 20 / 일치 7 / 불일치 0 / 확인불가 13. 대만 00981A의 10/29·10/30 매매(日月光 +1,644張, 信驊 +15張 등 6건)가 CMoney 공개 수치와 주 단위까지 같았고, ARK HOOD 매수·PLTR 매도 방향도 맞았다. 오늘 새로 오른 BAI·LCAP·JPEF·CGNG 매매(TWST·UNP·RTX·DHR, GOOGL 매도 경고)는 운용사 페이지 접근이 막혀 확인불가."
  }
 ]

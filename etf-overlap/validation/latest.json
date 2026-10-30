@@ -1,367 +1,307 @@
 {
- "date": "2026-10-30",
- "github_generated": "2026-10-30",
+ "date": "2026-10-31",
+ "github_generated": "2026-10-31",
  "checked": 20,
- "matched": 10,
+ "matched": 7,
  "mismatched": 0,
- "unverifiable": 10,
+ "unverifiable": 13,
  "match_rate": 1.0,
  "checks": [
   {
    "sym": "META",
-   "claim": "1위, 2주 편입 6 (CGDV·JAVA·JGRO 10/28, 426030, ARKK·ARKW)",
+   "claim": "1위, 2주 7 (JAVA·JGRO·CGDV 10/28, JGLO, 426030, ARKK·ARKW)",
    "verdict": "일치",
-   "note": "JPM JAVA 상품 페이지 10/28 시가 $116,576,447 ÷ Yahoo 10/28 종가 612.49 = 190,332주로 GitHub와 정확히 같음. ARK 10/22 매수 보도. META $25B 유상증자(10/27, $625) 참여 가능성"
-  },
-  {
-   "sym": "GOOGL",
-   "claim": "2위, 2주 편입 4 (JAVA 10/28, QLTY 10/27, CGDV, CGGO)",
-   "verdict": "일치",
-   "note": "CGGO 10/27 +82,459주 보도(Yahoo/GuruFocus)와 GitHub 1,185,767→1,268,226주가 정확히 같음"
+   "note": "JAVA 10/28 190,332주는 어제 운용사 상품 페이지(시가÷종가)로 확인. ARK 10/22 38,110주 매수 보도(TheStreet)와 방향 일치"
   },
   {
    "sym": "AMZN",
-   "claim": "3위, 2주 편입 4 (QLTY, CGDV, CGGO, 426030)",
+   "claim": "2위, 2주 5 (QLTY 10/27, CGDV·CGGO, BAI, 426030)",
    "verdict": "일치",
-   "note": "CGGO 10/27 +38,522주 보도 = GitHub 1,441,553→1,480,075주"
+   "note": "CGGO 10/27 +38,522주 보도 = GitHub(어제 확인). QLTY·BAI 확인 자료 없음"
+  },
+  {
+   "sym": "GOOGL",
+   "claim": "3위 + 새 매도 경고 (BAI 10/29 전량 매도, BLCR -12.6%, JGLO -10%, 426030 -17%)",
+   "verdict": "확인불가",
+   "note": "BAI GOOGL 전량 매도·TWST 신규를 확인할 자료 없음(ishares.com 접근 실패). stockanalysis BAI 10/08 877,063주로 매도 전 수준은 맞음"
   },
   {
    "sym": "XOM",
-   "claim": "4위 (JAVA 10/28 +27%, CGDG, BGIG)",
+   "claim": "4위 (LCAP 10/30 +4.7%, JAVA 10/28, CGDG)",
    "verdict": "확인불가",
-   "note": "CGDV 10/22 보유 2,812,497주는 보도와 정확히 같지만 2주 판정 ETF(JAVA·CGDG·BGIG) 자료 없음"
-  },
-  {
-   "sym": "STX",
-   "claim": "5위(어제 17위), 426030 10/30 6→12, JAVA 신규 10/28, JGLO",
-   "verdict": "확인불가",
-   "note": "제3자 페이지는 상위 25종목만 공개, 보도 없음"
-  },
-  {
-   "sym": "3711.TW",
-   "claim": "6위 (00403A·00981A·00991A)",
-   "verdict": "일치",
-   "note": "00403A 10/29 +400張(etfinfo.tw) = GitHub 900→1,300張, 00981A 10/27·10/28 CMoney 수치와 같음"
-  },
-  {
-   "sym": "ACN",
-   "claim": "7위, JGRO 10/28 +61%, JTEK·JPEF 10/22 (모두 JPM)",
-   "verdict": "확인불가",
-   "note": "JPM ETF 일별 매매 보도 없음. 운용사 1곳뿐"
-  },
-  {
-   "sym": "TSM",
-   "claim": "8위(어제 32위), EAGL 10/28 +3%, JGRO 10/28 +6%",
-   "verdict": "확인불가",
-   "note": "stockanalysis EAGL 9/17 668,856주→GitHub 10/27 711,643주로 방향은 맞음. 10/28 자료 없음"
-  },
-  {
-   "sym": "AVGO",
-   "claim": "9위 (LCAP 10/28, 426030 10/14)",
-   "verdict": "확인불가",
-   "note": "stockanalysis LCAP 10/3 136,416주 < GitHub 10/27 143,759주(방향만 맞음)"
+   "note": "LCAP·JAVA 일별 자료·보도 없음"
   },
   {
    "sym": "MSFT",
-   "claim": "10위 (JGRO 10/28 +5%, 426030)",
+   "claim": "5위 (JGLO 10/29 +4.8%, JGRO 10/28, 426030)",
    "verdict": "확인불가",
-   "note": "JGRO 10/14 +90,202주 보도는 2주 밖. 10/28 자료 없음"
+   "note": "stockanalysis JGLO 8/14 스냅샷뿐"
+  },
+  {
+   "sym": "STX",
+   "claim": "6위 (426030 10/30 비중 0.63→1.31%, JAVA 신규, JGLO)",
+   "verdict": "확인불가",
+   "note": "426030 비중 변화 보도 없음"
+  },
+  {
+   "sym": "3711.TW",
+   "claim": "7위 (00981A·00403A 10/30 추가)",
+   "verdict": "일치",
+   "note": "CMoney: 00981A 10/30 +1,644張 = GitHub 11,944,000→13,588,000주(정확히 같음)"
+  },
+  {
+   "sym": "ACN",
+   "claim": "8위 (JGRO 10/28, JTEK·JPEF 10/22)",
+   "verdict": "확인불가",
+   "note": "6일째 보도 없음, JPM 페이지 접근 실패"
+  },
+  {
+   "sym": "TSM",
+   "claim": "9위 + 새 매도 경고 (ARKQ 146,670→122,911, CGGO -2.3%, JGLO -22%)",
+   "verdict": "확인불가",
+   "note": "ARK TSM 매도는 10월 말 매도 목록 보도에 있고 stockanalysis ARKQ 10/20 161,921주→GitHub 감소 흐름과 맞지만 날짜·규모 없음. CGGO·JGLO 자료 없음"
   },
   {
    "sym": "CRWV",
-   "claim": "11위(어제 44위), ARKK·426030·CGMM·BAI",
+   "claim": "10위 (ARKK·426030 2주 편입, 426030 10/30 비중 2배)",
    "verdict": "일치",
-   "note": "ARK 10/14·10/20 CRWV 매수 보도(10/20 ARKK 102,280주). GitHub ARKK 일별 증감은 보도와 하루씩 어긋나 주 수는 정확히 맞지 않음"
+   "note": "ARK 10/14·10/20 매수 보도(어제 확인). 426030 10/30 증가는 확인 못 함"
   },
   {
-   "sym": "WFC",
-   "claim": "20위, CGDV 10/28 +24%, CGDG",
+   "sym": "BE",
+   "claim": "12위(어제 47위) (BAI 10/29 +4.8%, 426030)",
    "verdict": "확인불가",
-   "note": "CGDV WFC는 상위 25 밖, 보도 없음"
+   "note": "BAI 상위 25종목 밖, 자료 없음"
   },
   {
-   "sym": "BSX",
-   "claim": "21위, CGGO·CGMM 2주 편입",
-   "verdict": "일치",
-   "note": "CGGO 10/27 +157,635주 보도 = GitHub 2,288,953→2,446,588주"
-  },
-  {
-   "sym": "051910.KS",
-   "claim": "34위, CGNG·CGIC 2주 편입",
+   "sym": "DHR",
+   "claim": "17위(어제 75위) (CGNG 10/29 신규 25,262주, JAVA 10/28)",
    "verdict": "확인불가",
-   "note": "CG 소형 ETF, 상위 25 밖, 보도 없음"
+   "note": "CG 매수 기사 없음"
   },
   {
-   "sym": "MRNA",
-   "claim": "26위, CGGR·CGGO",
-   "verdict": "일치",
-   "note": "CGGR 10/22 +174,025주·CGGO 10/27 +40,533주 보도 = GitHub 수치 정확히 같음"
-  },
-  {
-   "sym": "TER",
-   "claim": "25위, ARKK·ARKQ 10/28",
-   "verdict": "일치",
-   "note": "ARK 10/28 TER 74,691주 매수(ARKK·ARKQ·ARKX) 보도. GitHub ARKK +50,662·ARKQ +14,844주(나머지는 유니버스 밖 ARKX)"
-  },
-  {
-   "sym": "2368.TW",
-   "claim": "32위, 00403A 10/29·00981A",
-   "verdict": "일치",
-   "note": "00403A 10/29 +110張(etfinfo.tw) = GitHub 820→930張"
-  },
-  {
-   "sym": "LITE",
-   "claim": "새 매도 경고 (CGMM 10/28 12,854→338주, 426030)",
+   "sym": "UNP",
+   "claim": "18위 신규 (LCAP 10/30 82,291→111,831주, CGDV 10/28 +4.2%)",
    "verdict": "확인불가",
-   "note": "CGMM 상위 25 밖, 426030 공개 자료 없음"
+   "note": "자료 없음"
   },
   {
-   "sym": "6752.T",
-   "claim": "새 매도 경고 (CGIC 10/28 425,800→335,700주, CGNG)",
+   "sym": "TWST",
+   "claim": "19위 신규 (BAI 10/29 신규 193,753주, JTEK)",
+   "verdict": "확인불가",
+   "note": "ishares.com 접근 실패, 보도 없음"
+  },
+  {
+   "sym": "RTX",
+   "claim": "23위(어제 51위) (JPEF 10/29 +11.7%, JAVA 10/28 +44.9%)",
+   "verdict": "확인불가",
+   "note": "JPM 상품 페이지 접근 실패"
+  },
+  {
+   "sym": "5274.TW",
+   "claim": "26위 (00981A 10/29, 00403A)",
+   "verdict": "일치",
+   "note": "CMoney: 00981A 10/29 +15張 = GitHub 223,900→238,900주"
+  },
+  {
+   "sym": "HOOD",
+   "claim": "84위, ARKK 10/28 2주 편입",
+   "verdict": "일치",
+   "note": "ARK 10/28 99,418주(ARKK·ARKW·ARKF) 매수 보도(CoinDesk·TheStreet). GitHub ARKK·ARKW 증가와 방향 일치(일자는 arkfunds 이력 특성상 하루 차이 가능)"
+  },
+  {
+   "sym": "PLTR",
+   "claim": "매도 경고 유지 (ARKK·ARKW)",
+   "verdict": "일치",
+   "note": "ARK 10월 말 PLTR 약 $16M 매도 보도와 방향 일치"
+  },
+  {
+   "sym": "NOW",
+   "claim": "새 매도 경고 (426030 10/22 전량 매도, LCAP 10/30 -17%)",
    "verdict": "확인불가",
    "note": "보도 없음"
   },
   {
-   "sym": "COP",
-   "claim": "새 매도 경고 (EAGL 10/28 -6.5%, JAVA 10/28 987,926→868,428주)",
-   "verdict": "일치",
-   "note": "JPM JAVA 상품 페이지 10/28 시가 $129,447,878 ÷ Yahoo 종가 149.06 = 868,428주로 정확히 같음"
+   "sym": "SAP",
+   "claim": "새 매도 경고 (CGDG 10/29 -12%, EAGL 10/28 -16%)",
+   "verdict": "확인불가",
+   "note": "marketxls CGDG 10/03 0.74% — 매도 전 수준만 확인"
   }
  ],
  "both": [
   {
    "sym": "META",
    "name": "Meta Platforms",
-   "reason": "ARK 10/22, CGGR 10/22, JAVA·JGRO·CGDV 10/28 — 유상증자 직후 여러 운용사 매수"
-  },
-  {
-   "sym": "GOOGL",
-   "name": "Alphabet",
-   "reason": "CGGO 10/27 +82K, CGDV 10/22, JAVA 10/28"
+   "reason": "ARK 10/22 38,110주, JAVA·JGRO·CGDV 10/28"
   },
   {
    "sym": "AMZN",
    "name": "Amazon",
-   "reason": "CGGO 10/27 +38.5K"
-  },
-  {
-   "sym": "XOM",
-   "name": "ExxonMobil",
-   "reason": "CGDV 10/22 $501M 보유(보도), JAVA 10/28"
+   "reason": "CGGO 10/27 +38.5K, QLTY 10/27"
   },
   {
    "sym": "3711.TW",
    "name": "日月光投控",
-   "reason": "00981A 10/27·28, 00403A 10/29 +400張"
-  },
-  {
-   "sym": "MRNA",
-   "name": "Moderna",
-   "reason": "CGGR 10/22 +174K, CGGO 10/27 +40.5K"
-  },
-  {
-   "sym": "BSX",
-   "name": "Boston Scientific",
-   "reason": "CGGO 10/27 +157.6K"
-  },
-  {
-   "sym": "LLY",
-   "name": "Eli Lilly",
-   "reason": "CGGR 10/20·10/23 매수"
-  },
-  {
-   "sym": "CDNS",
-   "name": "Cadence",
-   "reason": "CGGR 10/23 +63.8K"
-  },
-  {
-   "sym": "TER",
-   "name": "Teradyne",
-   "reason": "ARK 10/28 74.7K 재매수"
-  },
-  {
-   "sym": "CRWV",
-   "name": "CoreWeave",
-   "reason": "ARK 10/14·10/20 매수"
+   "reason": "00981A 10/30 +1,644張(최근 1주 최대), 00403A 10/30 +300張"
   },
   {
    "sym": "5274.TW",
    "name": "信驊",
-   "reason": "00981A 10/28 +10.9%, 00403A 10/29 +10張"
-  },
-  {
-   "sym": "3443.TW",
-   "name": "創意",
-   "reason": "00981A 10/28"
-  },
-  {
-   "sym": "2368.TW",
-   "name": "金像電",
-   "reason": "00981A 10/27·28, 00403A 10/29 +110張"
-  },
-  {
-   "sym": "DIS",
-   "name": "Disney",
-   "reason": "CGGR 10/22 신규 $83.7M·10/23 추가"
-  },
-  {
-   "sym": "RKT",
-   "name": "Rocket Cos.",
-   "reason": "CGGR 10/23 신규 $38M"
+   "reason": "00981A 10/29 +15張"
   },
   {
    "sym": "HOOD",
    "name": "Robinhood",
-   "reason": "ARK 10/28 99K주(6개월 최대 매수)"
+   "reason": "ARK 10/28 99,418주(6개월 최대) — GitHub ARKK 2주 편입(겹침 2달 2곳)"
+  },
+  {
+   "sym": "CRWV",
+   "name": "CoreWeave",
+   "reason": "ARK 10/14·10/20, 426030 10/30 비중 2배"
+  },
+  {
+   "sym": "TER",
+   "name": "Teradyne",
+   "reason": "ARK 10월 말 재매수 — GitHub ARKK·ARKQ 10/28"
   },
   {
    "sym": "KTOS",
    "name": "Kratos",
-   "reason": "ARKQ 10/27"
+   "reason": "ARK 매수 보도 — GitHub ARKQ 10/27"
   },
   {
    "sym": "CBRS",
    "name": "Cerebras",
-   "reason": "ARKK·ARKW 10/28"
+   "reason": "ARK 매수 — GitHub ARKW 2주 편입"
   },
   {
-   "sym": "AVAV",
-   "name": "AeroVironment",
-   "reason": "ARKQ 10/26~28"
-  },
-  {
-   "sym": "ACHR",
-   "name": "Archer Aviation",
-   "reason": "ARKQ 10/26~28"
-  },
-  {
-   "sym": "TCOM",
-   "name": "Trip.com",
-   "reason": "CGGO 10/27 +73K"
+   "sym": "XE",
+   "name": "X-Energy",
+   "reason": "GitHub ARKK·ARKQ 10/20 — ARK 원전 테마 매수 흐름과 일치(개별 보도 없음, 약한 근거)"
   }
  ],
  "claude_only": [
   {
-   "sym": "JOBY",
-   "name": "Joby Aviation",
-   "reason": "ARKQ+ARKX 10/27~28. ARKX 유니버스 밖, 겹침 미달"
-  },
-  {
-   "sym": "CRCL",
-   "name": "Circle",
-   "reason": "ARKW 10/26~27 매수. 유니버스 1곳"
-  },
-  {
-   "sym": "KDK",
-   "name": "Kodiak AI",
-   "reason": "ARKQ 10/27~28. 1곳"
-  },
-  {
-   "sym": "LULU",
-   "name": "Lululemon",
-   "reason": "CGGR 10/22 신규 $47M. 1곳"
-  },
-  {
-   "sym": "SPOT",
-   "name": "Spotify",
-   "reason": "CGGR 10/20 신규 $80.7M. CG 일별 이력이 10/21부터라 2주 편입이 아니라 2달(8/31 N-PORT 대비)로만 잡힘"
-  },
-  {
-   "sym": "BURL",
-   "name": "Burlington",
-   "reason": "CGGR 10/20 +44.8K. SPOT과 같은 이유(10/20 이전 CG 이력 없음)"
-  },
-  {
-   "sym": "AUR",
-   "name": "Aurora",
-   "reason": "CGGR 10/20 +1.27M주. 같은 이유"
-  },
-  {
    "sym": "3231.TW",
    "name": "緯創",
-   "reason": "00981A 10/20 신규 4,703張, 대만 액티브 ETF 최다 매수. 유니버스 안에서는 00981A 1곳"
+   "reason": "00981A 10/20 신규 4,703張+10/21 1,300張. 유니버스 안 1곳"
   },
   {
-   "sym": "2449.TW",
-   "name": "京元電子",
-   "reason": "00981A 10/20·10/27. 1곳"
+   "sym": "6805.TW",
+   "name": "富世達",
+   "reason": "00981A 10/20·10/29·10/30 반복 매수(+50·+80·+206張, GitHub 데이터와 같음). 1곳이라 겹침 아님"
   },
   {
-   "sym": "2454.TW",
-   "name": "聯發科",
-   "reason": "00981A 10/27·28. 1곳"
+   "sym": "3264.TW",
+   "name": "欣銓",
+   "reason": "00981A 10/29 +200張(GitHub 4,827,000→5,027,000주). 1곳"
   },
   {
    "sym": "2330.TW",
    "name": "台積電",
-   "reason": "00981A 매수. 좌수 증가 대비 3%p 미만"
+   "reason": "00981A 10/20·10/30 추가(+205張 GitHub와 같음). 좌수 대비 3%p 미만"
+  },
+  {
+   "sym": "NFLX",
+   "name": "Netflix",
+   "reason": "ARK 10/19~23 주 매수 보도. GitHub는 QLTY만 2주 편입, ARKW 10/21은 2주 판정 밖"
+  },
+  {
+   "sym": "ACHR",
+   "name": "Archer Aviation",
+   "reason": "ARKQ 10월 말 매수($7M대). GitHub 2주 편입 1곳(ARKQ, 10/6 첫 편입)"
+  },
+  {
+   "sym": "AVAV",
+   "name": "AeroVironment",
+   "reason": "ARK 매수. ARKQ 1곳"
+  },
+  {
+   "sym": "JOBY",
+   "name": "Joby Aviation",
+   "reason": "ARKQ·ARKX. ARKX 유니버스 밖"
+  },
+  {
+   "sym": "KDK",
+   "name": "Kodiak AI",
+   "reason": "ARKQ 1곳"
   }
  ],
  "github_only": [
   {
    "sym": "STX",
    "name": "Seagate",
-   "reason": "426030·JAVA·JGLO — 일별 공개 자료·보도 없음"
+   "reason": "426030·JAVA·JGLO — 보도 없음"
   },
   {
    "sym": "ACN",
    "name": "Accenture",
-   "reason": "JPM 3개 ETF만(운용사 1곳), 5일째 보도 없음"
-  },
-  {
-   "sym": "TSM",
-   "name": "TSMC",
-   "reason": "EAGL·JGRO 10/28 — 보도 없음"
-  },
-  {
-   "sym": "AVGO",
-   "name": "Broadcom",
-   "reason": "LCAP·426030"
+   "reason": "JPM 3개 ETF(운용사 1곳)"
   },
   {
    "sym": "MSFT",
    "name": "Microsoft",
-   "reason": "JGRO·426030"
+   "reason": "JGLO 10/29·JGRO 10/28·426030"
   },
   {
-   "sym": "TSLA",
-   "name": "Tesla",
-   "reason": "JGRO·LCAP"
+   "sym": "XOM",
+   "name": "ExxonMobil",
+   "reason": "LCAP 10/30·JAVA·CGDG"
   },
   {
-   "sym": "WFC",
-   "name": "Wells Fargo",
-   "reason": "CGDV·CGDG"
+   "sym": "BE",
+   "name": "Bloom Energy",
+   "reason": "BAI 10/29·426030"
   },
   {
-   "sym": "051910.KS",
-   "name": "LG화학",
-   "reason": "CGNG·CGIC"
+   "sym": "DHR",
+   "name": "Danaher",
+   "reason": "CGNG 10/29 신규·JAVA"
   },
   {
-   "sym": "CAP.PA",
-   "name": "Capgemini",
-   "reason": "CGGO·CGIC"
+   "sym": "UNP",
+   "name": "Union Pacific",
+   "reason": "LCAP 10/30 +36%·CGDV 10/28"
   },
   {
-   "sym": "SHEL",
-   "name": "Shell",
-   "reason": "CGDG·CGNG"
+   "sym": "TWST",
+   "name": "Twist Bioscience",
+   "reason": "BAI 10/29 신규·JTEK"
   },
   {
-   "sym": "PAAS",
-   "name": "Pan American Silver",
-   "reason": "CGIC·CGNG"
+   "sym": "RTX",
+   "name": "RTX",
+   "reason": "JPEF 10/29·JAVA 10/28(JPM)"
   },
   {
-   "sym": "GWRE",
-   "name": "Guidewire",
-   "reason": "JGRO 10/28 신규·JTEK"
+   "sym": "BRK-B",
+   "name": "Berkshire",
+   "reason": "JAVA 10/28·LCAP 10/23"
+  },
+  {
+   "sym": "ISRG",
+   "name": "Intuitive Surgical",
+   "reason": "LCAP 10/26·ARKQ 10/21"
+  },
+  {
+   "sym": "MDLN",
+   "name": "Medline",
+   "reason": "AKRE 10/27·EAGL 10/26"
+  },
+  {
+   "sym": "NXPI",
+   "name": "NXP",
+   "reason": "JAVA·JGLO(JPM)"
+  },
+  {
+   "sym": "AON",
+   "name": "Aon",
+   "reason": "JAVA·JGLO(JPM)"
   }
  ],
  "fixes": [
-  "config/themes.json: STX·TSLA·BSX·TER·GWRE·2368.TW·051910.KS 한국어 테마·설명(auto:false)",
-  "config/discover_targets.json: T. Rowe TCAF·TMSL 일별 보유 경로 후보(advisor-api JSON, fund-research 페이지 JS) 추가 → Actions discovery 실행"
+  "config/themes.json·out/dashboard.json: DHR·TWST·AON·LRCX 한국어 테마·설명(auto:false)",
+  "코드 버그 없음. T. Rowe TCAF·TMSL discovery: advisor-api 502(점검 페이지), fund-research 페이지는 JS 전용 — 경로 못 찾음"
  ],
- "summary": "확인 20 / 일치 10 / 불일치 0 / 확인불가 10. JPM JAVA 10/28 META·COP 주식 수를 운용사 상품 페이지 시가÷종가로 정확히 확인했고, CG(CGGO·CGGR) 보도 수치 5건도 주 단위까지 같았다. 확인불가는 JPM 일별·LCAP·CG 소형·426030처럼 제3자 자료가 없는 ETF다."
+ "summary": "확인 20 / 일치 7 / 불일치 0 / 확인불가 13. 대만 00981A의 10/29·10/30 매매(日月光 +1,644張, 信驊 +15張 등 6건)가 CMoney 공개 수치와 주 단위까지 같았고, ARK HOOD 매수·PLTR 매도 방향도 맞았다. 오늘 새로 오른 BAI·LCAP·JPEF·CGNG 매매(TWST·UNP·RTX·DHR, GOOGL 매도 경고)는 운용사 페이지 접근이 막혀 확인불가."
 }
