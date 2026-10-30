@@ -1,5 +1,5 @@
 {
- "run": "2026-10-30T07:40:03+09:00",
+ "run": "2026-10-31T07:38:45+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -265,12 +265,11 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-11-30",
     "2026-02-28"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 1
   },
   "CGIC": {
    "type": "capital_group",

@@ -1475,5 +1475,19 @@
   "desc": "NXP Semiconductors N.V. provides semiconductor products in the United States, Germany, Japan, South Korea, Taiwan, Singapore, the Netherlands, Mainland China,…",
   "auto": true,
   "v": 2
+ },
+ "TWST": {
+  "name": "Twist Bioscience Corporation",
+  "theme": "바이오",
+  "desc": "Twist Bioscience Corporation manufactures and sells synthetic DNA-based products.",
+  "auto": true,
+  "v": 2
+ },
+ "CMG": {
+  "name": "Chipotle Mexican Grill, Inc.",
+  "theme": "외식",
+  "desc": "Chipotle Mexican Grill, Inc., together with its subsidiaries, owns and operates Chipotle Mexican Grill restaurants.",
+  "auto": true,
+  "v": 2
  }
 }
