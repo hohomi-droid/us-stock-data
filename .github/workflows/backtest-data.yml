@@ -1,0 +1,38 @@
+name: Backtest fundamentals snapshot
+
+# 백테스트용 '그 시점' 재무 스냅샷 (backtest-data 브랜치 전용, main 작업과 별개)
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [backtest-data]
+    paths: ["backtest/build_snapshots.py", "backtest/run.txt", ".github/workflows/backtest-data.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backtest-data
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install --quiet requests yfinance pandas
+      - name: Build snapshots
+        run: python backtest/build_snapshots.py backtest/out
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "backtest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add backtest/out || true
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "backtest snapshots $(TZ=Asia/Seoul date +%F_%H%M)"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs origin backtest-data && git push origin HEAD:backtest-data && break; sleep 10; done
