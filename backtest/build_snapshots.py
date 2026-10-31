@@ -18,7 +18,10 @@ import yfinance as yf
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else "backtest/out"
 os.makedirs(OUT, exist_ok=True)
-UA = {"User-Agent": "UsStockDataBacktest hohomi-droid@users.noreply.github.com", "Accept-Encoding": "gzip, deflate"}
+CONTACT = os.environ.get("SEC_CONTACT", "").strip()
+if not CONTACT:
+    sys.exit("SEC_CONTACT 시크릿이 없습니다. 저장소 Settings → Secrets and variables → Actions 에 추가하세요.")
+UA = {"User-Agent": f"hohomi-droid us-stock-data backtest {CONTACT}", "Accept-Encoding": "gzip, deflate"}
 YEARS = [2018, 2019, 2020, 2021, 2022]
 LOG = open(os.path.join(OUT, "log.txt"), "w", encoding="utf-8")
 

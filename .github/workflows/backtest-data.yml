@@ -5,7 +5,7 @@ on:
   workflow_dispatch: {}
   push:
     branches: [backtest-data]
-    paths: ["backtest/build_snapshots.py", "backtest/probe.py", "backtest/run.txt", ".github/workflows/backtest-data.yml"]
+    paths: ["backtest/build_snapshots.py", "backtest/run.txt", ".github/workflows/backtest-data.yml"]
 
 permissions:
   contents: write
@@ -25,10 +25,9 @@ jobs:
           python-version: "3.12"
       - name: Install
         run: pip install --quiet requests yfinance pandas
-      - name: Probe
-        run: mkdir -p backtest/out && python backtest/probe.py
       - name: Build snapshots
-        if: ${{ !contains(github.event.head_commit.message, '[probe]') }}
+        env:
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
         run: python backtest/build_snapshots.py backtest/out
       - name: Commit
         if: always()
