@@ -1,0 +1,8 @@
+403	UsStockDataBacktest hohomi-droid@users.noreply.github.com	https://www.sec.gov/files/company_tickers.json	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+403	UsStockDataBacktest hohomi-droid@users.noreply.github.com	https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+403	UsStockDataBacktest hohomi-droid@users.noreply.github.com	https://data.sec.gov/submissions/CIK0000320193.json	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or
+403	UsStockDataBacktest hohomi-droid@users.noreply.github.com	https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip	2165
+200	hohomi-droid research bot contact@example.com	https://www.sec.gov/files/company_tickers.json	{"0":{"cik_str":1045810,"ticker":"NVDA","title":"NVIDIA CORP"},"1":{"cik_str":32
+200	hohomi-droid research bot contact@example.com	https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json	{"cik":320193,"entityName":"Apple Inc.","facts":{"dei":{"EntityCommonStockShares
+200	hohomi-droid research bot contact@example.com	https://data.sec.gov/submissions/CIK0000320193.json	{"cik":"0000320193","entityType":"operating","sic":"3571","sicDescription":"Elec
+200	hohomi-droid research bot contact@example.com	https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip	1414913699
