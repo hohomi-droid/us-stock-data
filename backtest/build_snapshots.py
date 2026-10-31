@@ -18,7 +18,7 @@ import yfinance as yf
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else "backtest/out"
 os.makedirs(OUT, exist_ok=True)
-UA = {"User-Agent": "us-stock-data backtest research (github.com/hohomi-droid/us-stock-data) actions@users.noreply.github.com"}
+UA = {"User-Agent": "UsStockDataBacktest hohomi-droid@users.noreply.github.com", "Accept-Encoding": "gzip, deflate"}
 YEARS = [2018, 2019, 2020, 2021, 2022]
 LOG = open(os.path.join(OUT, "log.txt"), "w", encoding="utf-8")
 
@@ -175,7 +175,9 @@ def company_metrics(cf, cutoff):
 def main():
     t0 = time.time()
     log("SEC 티커 목록 받는 중")
-    tk = requests.get("https://www.sec.gov/files/company_tickers.json", headers=UA, timeout=60).json()
+    resp = requests.get("https://www.sec.gov/files/company_tickers.json", headers=UA, timeout=60)
+    log("응답", resp.status_code, resp.text[:200].replace("\n", " "))
+    tk = resp.json()
     cik2tick = {}
     for v in tk.values():
         cik2tick.setdefault(int(v["cik_str"]), []).append(v["ticker"].replace(".", "-"))
@@ -308,4 +310,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import traceback
+    try:
+        main()
+    except Exception:
+        log(traceback.format_exc())
+        raise
