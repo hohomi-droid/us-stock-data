@@ -1504,5 +1504,12 @@
   "desc": "Citigroup Inc., a diversified financial service holding company, provides various financial products and services to consumers, corporations, governments, and…",
   "auto": true,
   "v": 2
+ },
+ "REL.L": {
+  "name": "RELX PLC ORD 14 51/116P",
+  "theme": "Specialty Business Services",
+  "desc": "RELX PLC, together with its subsidiaries, provides information-based analytics and decision tools for professional and business customers in North America,…",
+  "auto": true,
+  "v": 2
  }
 }
