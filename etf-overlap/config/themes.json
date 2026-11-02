@@ -826,7 +826,8 @@
   "name": "RESONAC HOLDINGS CORPORATION",
   "theme": "화학",
   "desc": "Resonac Holdings Corporation operates as a chemical company in Japan and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "RYAAY": {
   "name": "Ryanair Holdings plc",
@@ -1487,6 +1488,20 @@
   "name": "Chipotle Mexican Grill, Inc.",
   "theme": "외식",
   "desc": "Chipotle Mexican Grill, Inc., together with its subsidiaries, owns and operates Chipotle Mexican Grill restaurants.",
+  "auto": true,
+  "v": 2
+ },
+ "ILMN": {
+  "name": "Illumina, Inc.",
+  "theme": "진단·연구장비",
+  "desc": "Illumina, Inc. provides sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asia Pacific, the…",
+  "auto": true,
+  "v": 2
+ },
+ "C": {
+  "name": "Citigroup, Inc.",
+  "theme": "은행",
+  "desc": "Citigroup Inc., a diversified financial service holding company, provides various financial products and services to consumers, corporations, governments, and…",
   "auto": true,
   "v": 2
  }
