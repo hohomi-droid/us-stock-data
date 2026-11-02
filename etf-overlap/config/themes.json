@@ -872,9 +872,9 @@
  },
  "MC.PA": {
   "name": "LVMH",
-  "theme": "Luxury Goods",
-  "desc": "LVMH Moët Hennessy - Louis Vuitton, Société Européenne, together with its subsidiaries, operates as a luxury goods company worldwide.",
-  "auto": true,
+  "theme": "명품",
+  "desc": "루이비통·디올·모엣헤네시 등을 거느린 세계 최대 명품 그룹이다.",
+  "auto": false,
   "v": 2
  },
  "0700.HK": {
@@ -947,9 +947,9 @@
  },
  "MELI": {
   "name": "MercadoLibre, Inc.",
-  "theme": "온라인 유통",
-  "desc": "MercadoLibre, Inc. operates online commerce platforms in Brazil, Mexico, Argentina, and internationally.",
-  "auto": true,
+  "theme": "남미 전자상거래·핀테크",
+  "desc": "중남미 최대 온라인 쇼핑몰과 결제·대출 서비스(메르카도파고)를 운영한다.",
+  "auto": false,
   "v": 2
  },
  "2360.TW": {
@@ -1094,9 +1094,9 @@
  },
  "SPGI": {
   "name": "S&P Global Inc.",
-  "theme": "금융데이터·거래소",
-  "desc": "S&P Global Inc., together with its subsidiaries, provides benchmarks, data, analytics, and workflow solutions in the global capital, energy and commodity, and…",
-  "auto": true,
+  "theme": "금융데이터·신용평가",
+  "desc": "신용평가(S&P), S&P500 등 지수, 금융·원자재 데이터 서비스를 제공한다.",
+  "auto": false,
   "v": 2
  },
  "ABNB": {
@@ -1493,9 +1493,9 @@
  },
  "ILMN": {
   "name": "Illumina, Inc.",
-  "theme": "진단·연구장비",
-  "desc": "Illumina, Inc. provides sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asia Pacific, the…",
-  "auto": true,
+  "theme": "유전체 분석장비",
+  "desc": "유전자 염기서열 분석(NGS) 장비와 시약을 만드는 세계 1위 업체다.",
+  "auto": false,
   "v": 2
  },
  "C": {

@@ -26,5 +26,19 @@
    "follow_js": "(services/[a-z\\-]+-api/[^\\\"' ]+|holdings[^\\\"' ]{0,80})",
    "grep": "holding|api|json|csv|xlsx"
   }
+ ],
+ "TROWE_RETRY_1103": [
+  {
+   "url": "https://www.troweprice.com/services/advisor-api/etfs/holdings/TCAF",
+   "grep": "holding|ticker|asOf"
+  },
+  {
+   "url": "https://www.troweprice.com/services/advisor-api/etfs/TCAF/holdings",
+   "grep": "holding|ticker|asOf"
+  },
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/api/etf/TCAF/holdings",
+   "grep": "holding|ticker|asOf"
+  }
  ]
 }

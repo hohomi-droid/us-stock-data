@@ -961,5 +961,156 @@
    "코드 버그 없음. T. Rowe TCAF·TMSL discovery: advisor-api 502(점검 페이지), fund-research 페이지는 JS 전용 — 경로 못 찾음"
   ],
   "summary": "확인 20 / 일치 7 / 불일치 0 / 확인불가 13. 대만 00981A의 10/29·10/30 매매(日月光 +1,644張, 信驊 +15張 등 6건)가 CMoney 공개 수치와 주 단위까지 같았고, ARK HOOD 매수·PLTR 매도 방향도 맞았다. 오늘 새로 오른 BAI·LCAP·JPEF·CGNG 매매(TWST·UNP·RTX·DHR, GOOGL 매도 경고)는 운용사 페이지 접근이 막혀 확인불가."
+ },
+ {
+  "date": "2026-11-03",
+  "github_generated": "2026-11-03",
+  "checked": 20,
+  "matched": 12,
+  "mismatched": 0,
+  "unverifiable": 8,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "CGDV 10/28 +251K주(GuruFocus), ARK 10/22 매수 — GitHub 1위"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "日月光投控",
+    "reason": "00981A 10/29 +1,644·10/30 +1,854張, 00403A·00991A 동반 매수, 대만 액티브 ETF 주간 순매수 1위(+8,443張)"
+   },
+   {
+    "sym": "ILMN",
+    "name": "Illumina",
+    "reason": "ARKK 10/30 43.1K주 매수 — GitHub 2주 신규"
+   },
+   {
+    "sym": "MELI",
+    "name": "MercadoLibre",
+    "reason": "ARKW·ARKF 10/26 매수 — GitHub 9위 신규"
+   },
+   {
+    "sym": "TER",
+    "name": "Teradyne",
+    "reason": "ARK 10/28 $23M 매수(ARKK·ARKQ)"
+   },
+   {
+    "sym": "CBRS",
+    "name": "Cerebras",
+    "reason": "ARKK·ARKW 10/28·10/29 매수"
+   },
+   {
+    "sym": "HOOD",
+    "name": "Robinhood",
+    "reason": "ARK 10/28 99K주(6개월 최대) — ARKK 2주 편입"
+   },
+   {
+    "sym": "KTOS",
+    "name": "Kratos",
+    "reason": "ARKQ 10/26·10/27 매수 — GitHub ARKQ 10/27"
+   },
+   {
+    "sym": "GOOGL",
+    "name": "Alphabet",
+    "reason": "CGDV 10/28 +231K주. 단 매도 경고도 함께 있음"
+   },
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 10/28 신규 333,271주(보도·GitHub 동일) + CGGR"
+   },
+   {
+    "sym": "5274.TW",
+    "name": "信驊",
+    "reason": "00991A 11/02 +5張, 00403A·00981A 편입"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "JOBY",
+    "name": "Joby Aviation",
+    "reason": "ARKQ 10/26~29 대량 매수. 유니버스 안은 ARKQ 1곳(ARKX는 유니버스 밖)"
+   },
+   {
+    "sym": "ACHR",
+    "name": "Archer Aviation",
+    "reason": "ARKQ 10/26~28 대량 매수. GitHub는 겹침(128위)이지만 2주 신규는 ARKQ 1곳뿐"
+   },
+   {
+    "sym": "TEM",
+    "name": "Tempus AI",
+    "reason": "ARKK·ARKG 10/30 매수 보도. 증가폭 2~3%로 GitHub 증액 기준(+3%p 초과) 미달"
+   },
+   {
+    "sym": "PACB",
+    "name": "PacBio",
+    "reason": "ARKK·ARKG 10/30 매수. ARKK 증가 +3.3%가 자금유입 보정 후 기준 미달"
+   },
+   {
+    "sym": "COIN·CRCL",
+    "name": "Coinbase·Circle",
+    "reason": "ARK 10/30 매수. 보유 대비 1~2%라 기준 미달"
+   },
+   {
+    "sym": "DIS·LULU",
+    "name": "Disney·Lululemon",
+    "reason": "CGGR 10/22 신규 편입(보도·GitHub 동일). 다른 ETF 매수 없음 → 겹침 아님"
+   },
+   {
+    "sym": "1303.TW",
+    "name": "南亞",
+    "reason": "대만 액티브 ETF 주간 순매수 2위(+5,197張). 00991A +800·+200張. 00403A 보유, 2곳 이상 2주 편입은 아님"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "XOM",
+    "name": "ExxonMobil",
+    "reason": "LCAP 10/30·JAVA 10/28 — Principal·JPM 일별 매매 보도 없음"
+   },
+   {
+    "sym": "STX",
+    "name": "Seagate",
+    "reason": "426030·JAVA — 타임폴리오·JPM 매매 보도 없음"
+   },
+   {
+    "sym": "LRCX",
+    "name": "Lam Research",
+    "reason": "QLTY 11/02·JAVA 10/28 — GMO·JPM 보도 없음"
+   },
+   {
+    "sym": "ACN",
+    "name": "Accenture",
+    "reason": "JPM 3개 ETF — 보도 없음"
+   },
+   {
+    "sym": "MSFT",
+    "name": "Microsoft",
+    "reason": "JGLO·JGRO — 보도 없음(GuruFocus 'ETFs Buying MSFT Oct 28' 차단)"
+   },
+   {
+    "sym": "AZN",
+    "name": "AstraZeneca",
+    "reason": "JGLO 10/30 신규·CGNG — 보도 없음"
+   },
+   {
+    "sym": "SPGI",
+    "name": "S&P Global",
+    "reason": "CGNG 10/30 신규·JGLO — 보도 없음"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "QLTY 10/27·CGGO — 보도 없음"
+   }
+  ],
+  "fixes": [
+   "config/themes.json: MELI·ILMN·SPGI·MC.PA 한국어 테마·설명(auto:false), dashboard.json 행 반영",
+   "config/discover_targets.json: T. Rowe TCAF 일별 보유 API 경로 3개 재시도 추가(discovery 실행용)",
+   "코드 버그 없음 — ARKK 10/29 ×1.11 이상 공시는 spike 필터가 이미 제외(ILMN·LLY 수량이 보도와 맞음)"
+  ],
+  "summary": "확인 20개 중 일치 12·불일치 0·확인불가 8. CGDV(META·GOOGL·FTAI)·CGGR(WDC)·ARK(ILMN·LLY)·대만 3개 ETF 매매가 보도와 주 단위까지 같았다. 확인불가는 JPM·LCAP·QLTY·BAI 매매(공개 경로 없음)."
  }
 ]
