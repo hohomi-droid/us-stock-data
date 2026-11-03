@@ -1112,5 +1112,171 @@
    "코드 버그 없음 — ARKK 10/29 ×1.11 이상 공시는 spike 필터가 이미 제외(ILMN·LLY 수량이 보도와 맞음)"
   ],
   "summary": "확인 20개 중 일치 12·불일치 0·확인불가 8. CGDV(META·GOOGL·FTAI)·CGGR(WDC)·ARK(ILMN·LLY)·대만 3개 ETF 매매가 보도와 주 단위까지 같았다. 확인불가는 JPM·LCAP·QLTY·BAI 매매(공개 경로 없음)."
+ },
+ {
+  "date": "2026-11-04",
+  "github_generated": "2026-11-04",
+  "checked": 20,
+  "matched": 11,
+  "mismatched": 0,
+  "unverifiable": 9,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "CGDV 10/28 +251K주, JGLO 10/29 $6.4M, CGGR 10/22 — GitHub 1위"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "CGGO 10/21·10/27, BAI 10/29 $12.8M — GitHub 2위"
+   },
+   {
+    "sym": "MSFT",
+    "name": "Microsoft",
+    "reason": "JGLO $18.9M·BAI $12.7M 매수 vs CGDV −$509.5M 매도 — 양쪽 다 엇갈린 신호"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "日月光投控",
+    "reason": "대만 액티브 ETF 공통 매수 1위(00981A·00403A·00991A·00406A)"
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "reason": "JGRO 10/28 매수 1위 — GitHub 9위"
+   },
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "BAI 10/29·10/30 $25.8M — GitHub 15위(53위에서 상승)"
+   },
+   {
+    "sym": "TWST",
+    "name": "Twist Bioscience",
+    "reason": "BAI 10/29 신규 193,753주·10/30 +260,371주(GitHub 수량과 정확히 같음), ARKK 11/02 +26,262주 — GitHub 29위"
+   },
+   {
+    "sym": "MRNA",
+    "name": "Moderna",
+    "reason": "CGGO 10/21 신규 $121M·10/27, CGGR 10/22 $35M — GitHub 41위"
+   },
+   {
+    "sym": "NXPI",
+    "name": "NXP Semiconductors",
+    "reason": "JGLO 10/29 $6.6M(+24,935주) — GitHub 45위(JAVA·JGLO)"
+   },
+   {
+    "sym": "WFC",
+    "name": "Wells Fargo",
+    "reason": "CGDV 10/28 $85.3M — GitHub 33위"
+   },
+   {
+    "sym": "MELI",
+    "name": "MercadoLibre",
+    "reason": "ARKW 10/26 — GitHub 12위"
+   },
+   {
+    "sym": "ILMN",
+    "name": "Illumina",
+    "reason": "ARKK 10/30·11/02 — GitHub 23위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "COIN",
+    "name": "Coinbase",
+    "reason": "ARKK·ARKW·ARKF 10/30·11/02 약 $9M. 보유 대비 1~3%라 자금유입 보정 후 증액 기준 미달"
+   },
+   {
+    "sym": "CRCL",
+    "name": "Circle",
+    "reason": "ARKW 10/26 $5.2M, ARK 10/30·11/02 약 $8M — 같은 운용사 내 매수라 운용사 기준 겹침 아님"
+   },
+   {
+    "sym": "HOOD",
+    "name": "Robinhood",
+    "reason": "ARK 10/28 $9.1M(6개월 최대) — GitHub는 ARKK 1곳(96위)"
+   },
+   {
+    "sym": "TEM·PACB",
+    "name": "Tempus AI·PacBio",
+    "reason": "ARKK·ARKG 10/30 매수 — ARK 공시 일별 ±10% 흔들림 속 보정 후 기준 미달"
+   },
+   {
+    "sym": "ENTG",
+    "name": "Entegris",
+    "reason": "BAI 10/29~11/02 224K→662K주(약 3배) — 다른 ETF 매수 없어 2주 1곳(106위)"
+   },
+   {
+    "sym": "2330.TW·2454.TW·3017.TW",
+    "name": "TSMC·聯發科·奇鋐",
+    "reason": "대만 액티브 ETF(00981A·00403A·00406A) 매수. 00406A는 유니버스 밖이라 2주 2곳 미달"
+   },
+   {
+    "sym": "DIS·LULU·FTAI",
+    "name": "Disney·Lululemon·FTAI",
+    "reason": "CGGR 10/22·CGDV 10/28 단독 신규 — 겹침 아님"
+   },
+   {
+    "sym": "ACHR·JOBY",
+    "name": "Archer·Joby",
+    "reason": "ARKQ 10/26~28 대량 매수 — 유니버스 안 1곳"
+   },
+   {
+    "sym": "1802.TW",
+    "name": "台玻",
+    "reason": "00981A 11/03 신규 8,479張 — 1곳"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "STX",
+    "name": "Seagate",
+    "reason": "CGUS·426030·JAVA 매수 — 보도 없음"
+   },
+   {
+    "sym": "XOM",
+    "name": "ExxonMobil",
+    "reason": "LCAP·JAVA — 보도 없음"
+   },
+   {
+    "sym": "MDLN",
+    "name": "Medline",
+    "reason": "AKRE 10/27 신규·EAGL 증가 — 보도 없음(CGUS 10/15 신규만 보도)"
+   },
+   {
+    "sym": "5274.TW",
+    "name": "信驊",
+    "reason": "00991A·00403A·00981A — 오늘 대만 원문 실패"
+   },
+   {
+    "sym": "ACN",
+    "name": "Accenture",
+    "reason": "JPM 3개(JGRO·JTEK·JPEF) — 보도 없음(9일 연속)"
+   },
+   {
+    "sym": "GLW",
+    "name": "Corning",
+    "reason": "JAVA·CGDV — JAVA 원문 차단"
+   },
+   {
+    "sym": "TWLO",
+    "name": "Twilio",
+    "reason": "LCAP·JTEK 실적 급락 후 매수 — 보도 없음"
+   },
+   {
+    "sym": "AZN·4004.T·CME·UNP",
+    "name": "AstraZeneca 등",
+    "reason": "JGLO·CG 소형 ETF·LCAP 매수 — 보도 없음"
+   }
+  ],
+  "fixes": [
+   "config/themes.json: GLW 광섬유·특수유리, 4004.T 반도체 소재, TWLO 고객소통 클라우드 (auto:false), dashboard.json 행에도 반영",
+   "config/discover_targets.json: TROWE_XLS_1104 추가 — T. Rowe advisor-api 는 11/02에도 502(점검 화면). FA 페이지에서 찾은 holdings-excel-download-etf·etfs/holdings 경로 시도",
+   "코드 버그 없음. 제안: 보도된 소액 재매수(TWST ARKK 11/02)가 기준 미달이면 이전 매도 표시가 남는다 — 매도 경고는 마지막 '매도 이후 매수 없음'일 때만 켜는 방안 검토(판정 기준이라 수정 안 함)"
+  ],
+  "summary": "확인 20 / 일치 11 / 불일치 0 / 확인불가 9 (일치율 100%). 오늘은 GuruFocus BAI·JGLO·CGGO·CGDV 매매 보도로 GOOGL BAI 전량 매도, INTC BAI −$114M, MSFT CGDV −976,305주 등 주식 수까지 정확히 맞았다. 불일치 없음. Claude만: ARK 핀테크(COIN·CRCL·HOOD), ENTG, 대만 TSMC·聯發科."
  }
 ]

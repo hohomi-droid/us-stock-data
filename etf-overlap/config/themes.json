@@ -257,9 +257,9 @@
  },
  "GLW": {
   "name": "Corning Incorporated",
-  "theme": "전자부품",
-  "desc": "Corning Incorporated operates in optical communications, display, specialty materials, automotive, and life sciences businesses in the United States, Canada,…",
-  "auto": true,
+  "theme": "광섬유·특수유리",
+  "desc": "AI 데이터센터용 광섬유·케이블과 디스플레이·스마트폰 커버 유리(고릴라 글라스)를 만드는 소재 기업이다.",
+  "auto": false,
   "v": 2
  },
  "COP": {
@@ -299,9 +299,9 @@
  },
  "TWLO": {
   "name": "Twilio Inc.",
-  "theme": "클라우드·인프라 SW",
-  "desc": "Twilio Inc., together with its subsidiaries, provides customer engagement platform solutions in the United States and internationally.",
-  "auto": true,
+  "theme": "고객소통 클라우드",
+  "desc": "문자·음성·이메일을 API로 보내게 해 주는 클라우드 플랫폼으로, 기업의 고객 소통과 AI 음성 상담에 쓰인다.",
+  "auto": false,
   "v": 2
  },
  "SKHY": {
@@ -825,9 +825,9 @@
  },
  "4004.T": {
   "name": "RESONAC HOLDINGS CORPORATION",
-  "theme": "화학",
-  "desc": "Resonac Holdings Corporation operates as a chemical company in Japan and internationally.",
-  "auto": true,
+  "theme": "반도체 소재",
+  "desc": "일본 화학사로, 반도체 후공정 패키징 소재와 CMP 슬러리 등 반도체 재료가 핵심 성장 사업이다.",
+  "auto": false,
   "v": 2
  },
  "RYAAY": {

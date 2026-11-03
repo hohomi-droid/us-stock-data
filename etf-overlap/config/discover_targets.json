@@ -40,5 +40,16 @@
    "url": "https://www.troweprice.com/personal-investing/tools/fund-research/api/etf/TCAF/holdings",
    "grep": "holding|ticker|asOf"
   }
+ ],
+ "TROWE_XLS_1104": [
+  {
+   "url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings-excel-download-etf",
+   "grep": "holding|xlsx|csv|TCAF|asOf"
+  },
+  {
+   "url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings",
+   "follow_js": "(services/[a-z\\-]+-api/[^\\\"' ]+|holdings[^\\\"' ]{0,80})",
+   "grep": "holding|xlsx|csv|TCAF|api"
+  }
  ]
 }
