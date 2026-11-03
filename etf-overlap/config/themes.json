@@ -1511,5 +1511,12 @@
   "desc": "RELX PLC, together with its subsidiaries, provides information-based analytics and decision tools for professional and business customers in North America,…",
   "auto": true,
   "v": 2
+ },
+ "D05.SI": {
+  "name": "DBS",
+  "theme": "지역은행",
+  "desc": "DBS Group Holdings Ltd provides commercial banking and financial services in Singapore, Hong Kong, rest of Greater China, South and Southeast Asia, and…",
+  "auto": true,
+  "v": 2
  }
 }
