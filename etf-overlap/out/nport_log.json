@@ -1,5 +1,5 @@
 {
- "run": "2026-11-03T07:40:20+09:00",
+ "run": "2026-11-04T07:40:55+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -21,10 +21,12 @@
   "PVAL": {
    "type": "nport",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-02-27"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "BAI": {
    "type": "ishares",
@@ -263,12 +265,11 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-11-30",
     "2026-02-28"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 1
   },
   "CGIC": {
    "type": "capital_group",

@@ -301,7 +301,8 @@
   "name": "Twilio Inc.",
   "theme": "클라우드·인프라 SW",
   "desc": "Twilio Inc., together with its subsidiaries, provides customer engagement platform solutions in the United States and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "SKHY": {
   "name": "SK hynix Inc.",
