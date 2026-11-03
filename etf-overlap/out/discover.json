@@ -70,11 +70,12 @@
    "final": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/capital-appreciation-equity-etf.html",
    "status": 200,
    "ctype": "text/html",
-   "len": 249472,
+   "len": 252344,
    "cands": [
     "https://www.troweprice.com/content/dam/fai/insights/portfolio-construction-pulse/pc-pulse-nav-image.png",
     "https://www.troweprice.com/financial-intermediary/us/en/insights/portfolio-construction-pulse.html",
     "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/capital-appreciation-equity-etf.html#holdings",
+    "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/emea-etf-holdings-market-ticker",
     "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings",
     "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings-excel-download-etf",
     "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/if-portfolio",
@@ -89,16 +90,16 @@
    "grep": [
     "e-512x512.png\"/>\n            <link rel=\"canonical\" href=\"https://www.troweprice.com\" />\n\n        <meta name=\"description\" content=\"The T. Rowe Price Capital Appreciation Equity ETF seeks to invest in a diversified portfolio with strong return potential and lower risk relative to the S&amp;P 500 Index.\" />\n\n        \n\n    \n  <title>Capital Appreciation Equity ETF (TCAF) | T.Rowe Price </title>\n\n\n    <s",
     "eks to invest in a diversified portfolio with strong return potential and lower risk relative to the S&amp;P 500 Index.\" />\n\n        \n\n    \n  <title>Capital Appreciation Equity ETF (TCAF) | T.Rowe Price </title>\n\n\n    <script type=\"importmap\">\n        {\n            \"imports\": {\n                \"lit\": \"https://www.troweprice.com/shared-assets/ds-ui-library/2.0.5/packages/foundation/npm/lit/index.js\",\n",
-    ",\n                productCode: 'CFX',\n                audience: \"INTERMEDIARY\",\n                country: \"us\",\n                dadaEndpoint: 'https://api.public.troweprice.com/ds-dada/graphql',\n                dadaApiKey: 'dfalKOgR1TyFTzz9Uv35a7cUczNRrk1K',\n                dsUiLibraryVersion: '2.0.5',\n                language: \"en\",\n                productComponentLibraryVersion: 'versioned/3.77.0',\n",
-    "            beaconVersion: \"4.13.3\",\n                popSkip: \"true\",\n                beaconSkip: \"true\",\n                featureFlags: JSON.parse('{\"holdings-excel-download-etf\":false,\"market-data-previous-day-trading-volume\":true,\"cit-overview-table\":false,\"if-performance-table\":true,\"if-portfolio\":false,\"enable-cit-header\":false}')\n            };\n        </script>\n\n        \n            <script>\n      ",
+    ",\n                productCode: 'CFX',\n                audience: \"INTERMEDIARY\",\n                country: \"us\",\n                dadaEndpoint: 'https://api.public.troweprice.com/ds-dada/graphql',\n                dadaApiKey: 'dfalKOgR1TyFTzz9Uv35a7cUczNRrk1K',\n                dsUiLibraryVersion: '2.0.5',\n                language: \"en\",\n                productComponentLibraryVersion: 'versioned/3.81.1',\n",
+    "            beaconVersion: \"4.13.3\",\n                popSkip: \"true\",\n                beaconSkip: \"true\",\n                featureFlags: JSON.parse('{\"holdings-excel-download-etf\":false,\"market-data-previous-day-trading-volume\":true,\"cit-overview-table\":false,\"if-performance-table\":true,\"if-portfolio\":false,\"enable-cit-header\":false,\"emea-etf-holdings-market-ticker\":false}')\n            };\n        </scrip",
+    "ata-previous-day-trading-volume\":true,\"cit-overview-table\":false,\"if-performance-table\":true,\"if-portfolio\":false,\"enable-cit-header\":false,\"emea-etf-holdings-market-ticker\":false}')\n            };\n        </script>\n\n        \n            <script>\n                window.metricsData = {\n                    page: {\n                        lob: \"INST\",\n                        site: \"FAI\",\n                   ",
     "pan><h3 slot=\"heading\"><a href=\"https://www.troweprice.com/financial-intermediary/us/en/insights/articles/global-market-outlook.html\">Five shifts reshaping markets<br></a></h3><div class=\"b-flow-space\" slot=\"footer\"></div></fai-beacon-tile></div><div class=\"horizontal-rule aem-GridColumn aem-GridColumn--default--12\"><div id=\"horizontal_rule-1194779069\"><div data-emptytext=\"Separator\" class=\"cq-placeh",
-    "v class=\"beacon-on-dark\">\n      \n        <pop-summary-component\n          defer:on:idle\n          data-component-object=\"{&quot;fundName&quot;:&quot;Capital Appreciation Equity ETF&quot;,&quot;asOfDate&quot;:&quot;2026-10-30&quot;,&quot;productCode&quot;:&quot;CFX&quot;,&quot;isLiteratureSubscribable&quot;:true,&quot;literatures&quot;:[{&quot;locked&quot;:false,&quot;name&quot;:&quot;Fact Sheet&quot;",
+    "v class=\"beacon-on-dark\">\n      \n        <pop-summary-component\n          defer:on:idle\n          data-component-object=\"{&quot;fundName&quot;:&quot;Capital Appreciation Equity ETF&quot;,&quot;asOfDate&quot;:&quot;2026-11-02&quot;,&quot;productCode&quot;:&quot;CFX&quot;,&quot;isLiteratureSubscribable&quot;:true,&quot;literatures&quot;:[{&quot;locked&quot;:false,&quot;name&quot;:&quot;Fact Sheet&quot;",
     "&quot;:false,&quot;name&quot;:&quot;Fund Focus&quot;,&quot;url&quot;:&quot;https://www.troweprice.com/content/dam/fai/Investments/etf/etf-literature/Capital_Appreciation_Equity_ETF_Fund_Focus.pdf&quot;,&quot;isExternalURL&quot;:false},{&quot;locked&quot;:false,&quot;name&quot;:&quot;Summary Prospectus&quot;,&quot;url&quot;:&quot;https://www.troweprice.com/literature/public/country/us/language/en/lite",
-    "uarterly Portfolio Holdings&quot;,&quot;url&quot;:&quot;https://www.troweprice.com/literature/public/country/us/language/en/literature-type/portfolio-holdings/sub-type/quarterly?productCode=CFX&amp;currency=USD&quot;,&quot;isExternalURL&quot;:false}],&quot;keyFacts&quot;:[{&quot;title&quot;:&quot;Expense Ratio&quot;,&quot;value&quot;:&quot;0.31&quot;,&quot;valueFormat&quot;:&quot;percentage&quot;,&quot;t",
+    "uarterly Portfolio Holdings&quot;,&quot;url&quot;:&quot;https://www.troweprice.com/literature/public/country/us/language/en/literature-type/portfolio-holdings/sub-type/quarterly?productCode=CFX&amp;currency=USD&quot;,&quot;isExternalURL&quot;:false}],&quot;keyFacts&quot;:[{&quot;title&quot;:&quot;Net Assets&quot;,&quot;value&quot;:&quot;7981705373.32&quot;,&quot;valueFormat&quot;:&quot;USD&quot;,&quot;to",
     "92;&quot;&gt;&#92;n    &lt;p&gt;&lt;b&gt;Past performance cannot guarantee future results.&lt;/b&gt;&lt;/p&gt;&#92;n&lt;p&gt;&lt;b&gt;Market value of holdings shown are illustrative and may differ from the values used to calculate the fund’s net asset value (“NAV”). For information on valuation of portfolio assets used to calculate NAV, please see the prospectus.&lt;/b&gt;&lt;/p&gt;&#92;n&lt;p&gt;&lt;b&g",
     "     >\n          <h1\n            slot=\"product-name\"\n            class=\"b-typography-serif--display--100 b-font-weight-bold\"\n          >\n            Capital Appreciation Equity ETF\n            <p class=\"b-typography-sans-serif--headline-loose--600 ticker-name b-margin-block--micro--normal b-uppercase b-font-weight-light\">TCAF</p>\n          </h1>\n          <div slot=\"subscription-button\">\n            ",
-    "be-button>\n          </div>\n        </pop-summary-component>\n      \n\n      \n\n      \n\n    </div>\n    <pop-summary-sticky-header-component data-title=\"Capital Appreciation Equity ETF\">\n      <beacon-anchor-navigation slot=\"local-navigation\">\n        <ol slot=\"tabs\">\n          <li>\n            <a href=\"#overview\">Overview</a>\n          </li>\n          <li>\n            <a href=\"#performance\">Performance<",
-    "         <li>\n            <a href=\"#asset-allocation\">Asset Allocation</a>\n          </li>\n          \n          \n          <li>\n            <a href=\"#holdings\">Holdings</a>\n          </li>\n          <li>\n            <a href=\"#market-metrics\">Market Metrics</a>\n          </li>\n          <li>\n            <a href=\"#literature\">Literature</a>\n          </li>\n          <li>\n            <a href=\"#contact-us\">C"
+    "be-button>\n          </div>\n        </pop-summary-component>\n      \n\n      \n\n      \n\n    </div>\n    <pop-summary-sticky-header-component data-title=\"Capital Appreciation Equity ETF\">\n      <beacon-anchor-navigation slot=\"local-navigation\">\n        <ol slot=\"tabs\">\n          <li>\n            <a href=\"#overview\">Overview</a>\n          </li>\n          <li>\n            <a href=\"#performance\">Performance<"
    ],
    "js_hits": {
     "https://www.troweprice.com/etc/designs/fai/clientlibs/base.f57d25d6686f17f647bb923c2e73af70.js": [
@@ -150,6 +151,29 @@
    "cands": [],
    "text": " You need to enable JavaScript to run this app. ",
    "grep": []
+  }
+ ],
+ "TROWE_XLS_1104": [
+  {
+   "url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings-excel-download-etf",
+   "final": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings-excel-download-etf",
+   "status": 403,
+   "ctype": "text/html",
+   "len": 17617,
+   "cands": [],
+   "text": "ï»¿ T. Rowe Price Page Not Found For access to all of the T. Rowe Price websites, please use the following links. We're sorry, the page you requested could not be found. If you used a bookmark to access this page, the link is no longer active. Please go to the T. Rowe Price homepage and navigate to the desired page. If you continue to experience difficulty accessing pages on our website, you may need to delete your temporary internet files or adjust your browser settings. Choose your site: Enterprise Personal Investing Workplace Retirement Individual / SMSF Investors Institutional Investor / Consultant Financial Advisor / Intermediary Recordkeeping Sponsor / Consultant Thank you for investing with T. Rowe Price. Invest With Confidence Â® ",
+   "grep": []
+  },
+  {
+   "url": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings",
+   "final": "https://www.troweprice.com/financial-intermediary/us/en/investments/etfs/holdings",
+   "status": 403,
+   "ctype": "text/html",
+   "len": 17617,
+   "cands": [],
+   "text": "ï»¿ T. Rowe Price Page Not Found For access to all of the T. Rowe Price websites, please use the following links. We're sorry, the page you requested could not be found. If you used a bookmark to access this page, the link is no longer active. Please go to the T. Rowe Price homepage and navigate to the desired page. If you continue to experience difficulty accessing pages on our website, you may need to delete your temporary internet files or adjust your browser settings. Choose your site: Enterprise Personal Investing Workplace Retirement Individual / SMSF Investors Institutional Investor / Consultant Financial Advisor / Intermediary Recordkeeping Sponsor / Consultant Thank you for investing with T. Rowe Price. Invest With Confidence Â® ",
+   "grep": [],
+   "js_hits": {}
   }
  ]
 }
