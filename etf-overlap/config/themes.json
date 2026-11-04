@@ -494,9 +494,9 @@
  },
  "HWM": {
   "name": "Howmet Aerospace Inc.",
-  "theme": "방산·항공우주",
-  "desc": "Howmet Aerospace Inc. provides advanced engineered solutions for the aerospace and transportation industries in the United States, Japan, France, Germany, the…",
-  "auto": true,
+  "theme": "항공기 엔진 부품",
+  "desc": "항공기 엔진용 터빈 블레이드·구조용 단조품·체결 부품을 만들어 보잉·에어버스·엔진사에 공급한다.",
+  "auto": false,
   "v": 2
  },
  "TER": {
@@ -893,10 +893,10 @@
   "v": 2
  },
  "005930.KS": {
-  "name": "SamsungElec",
-  "theme": "IT 하드웨어",
-  "desc": "Samsung Electronics Co., Ltd. engages in the consumer electronics, information technology and mobile communications, and device solutions businesses worldwide.",
-  "auto": true,
+  "name": "삼성전자",
+  "theme": "메모리 반도체",
+  "desc": "D램·HBM·낸드 등 메모리 반도체와 파운드리, 갤럭시 스마트폰·가전을 만드는 한국 최대 전자 기업이다.",
+  "auto": false,
   "v": 2
  },
  "GMEXICO.MX": {

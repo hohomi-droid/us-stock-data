@@ -1278,5 +1278,151 @@
    "코드 버그 없음. 제안: 보도된 소액 재매수(TWST ARKK 11/02)가 기준 미달이면 이전 매도 표시가 남는다 — 매도 경고는 마지막 '매도 이후 매수 없음'일 때만 켜는 방안 검토(판정 기준이라 수정 안 함)"
   ],
   "summary": "확인 20 / 일치 11 / 불일치 0 / 확인불가 9 (일치율 100%). 오늘은 GuruFocus BAI·JGLO·CGGO·CGDV 매매 보도로 GOOGL BAI 전량 매도, INTC BAI −$114M, MSFT CGDV −976,305주 등 주식 수까지 정확히 맞았다. 불일치 없음. Claude만: ARK 핀테크(COIN·CRCL·HOOD), ENTG, 대만 TSMC·聯發科."
+ },
+ {
+  "date": "2026-11-05",
+  "github_generated": "2026-11-04",
+  "checked": 20,
+  "matched": 10,
+  "mismatched": 1,
+  "unverifiable": 9,
+  "match_rate": 0.909,
+  "both": [
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "CGDV 10/28·11/02, JGLO 10/29, CGGR 10/22 매수 보도 = GitHub 1위"
+   },
+   {
+    "sym": "MSFT",
+    "name": "Microsoft",
+    "reason": "JGLO·BAI·CGCV 매수 vs CGDV 대량 매도 — 양쪽 다 엇갈림으로 봄"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "ASE",
+    "reason": "대만 액티브 주간 순매수 1위(8,443張), 00403A 11/02 +300張"
+   },
+   {
+    "sym": "PLTR",
+    "name": "Palantir",
+    "reason": "ARK 11/03 +63,638주, JGRO 10/28 증액"
+   },
+   {
+    "sym": "SHOP",
+    "name": "Shopify",
+    "reason": "ARK 11/03 $12.5M 매수, CGGE 신규"
+   },
+   {
+    "sym": "GLW",
+    "name": "Corning",
+    "reason": "CGDV 11/02 +633,086주, JAVA 10/28"
+   },
+   {
+    "sym": "LLY",
+    "name": "Eli Lilly",
+    "reason": "CGGR 10/23 $32.0M, CGCV 11/02(유입분) — 매도 경고와 공존"
+   },
+   {
+    "sym": "MRNA",
+    "name": "Moderna",
+    "reason": "CGGR 10/22 $35.3M, CGGO 10/27 $8.4M"
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "reason": "BAI 11/02, JGRO 10/28"
+   },
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "BAI 10/29·10/30·11/02 연속 매수"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "CGUS 11/02 $42.2M, BAI 11/02 $17.9M, CGGO 10/27"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 10/28 신규 + 11/02 +686,628주($135.8M) — 한 ETF만(2달 2곳: CGGO 매도 경고)"
+   },
+   {
+    "sym": "AMAT",
+    "name": "Applied Materials",
+    "reason": "CGDV 11/02 +390,755주($146.3M) — 한 ETF만"
+   },
+   {
+    "sym": "ENTG",
+    "name": "Entegris",
+    "reason": "BAI 10/30·11/02 연속 매수(3배) — 다른 ETF 없음"
+   },
+   {
+    "sym": "DIS·LULU·RKT",
+    "name": "Disney·Lululemon·Rocket",
+    "reason": "CGGR 10/22~23 신규 — 한 ETF만"
+   },
+   {
+    "sym": "COIN·CRCL·HOOD",
+    "name": "ARK 핀테크",
+    "reason": "ARK 11/02 매수, 자금유입 보정 후 +3% 기준 미달"
+   },
+   {
+    "sym": "2059.TW·2454.TW·3017.TW·1802.TW",
+    "name": "川湖·聯發科·奇鋐·台玻",
+    "reason": "대만 액티브 11/04 공통 매수(川湖·聯發科 8곳). 00406A·00984A 등 유니버스 밖 ETF가 다수, 유니버스 안은 00981A·00403A·00991A만"
+   },
+   {
+    "sym": "AVGO(CGCV)·ABBV·PM",
+    "name": "CGCV 11/02 매수",
+    "reason": "CGCV 69종목 일괄 매수(유입 ×1.074) — 보정으로 제외, 설계대로"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "STX",
+    "name": "Seagate",
+    "reason": "JAVA·JGLO·426030 매매 보도 없음(426030 보유만 확인)"
+   },
+   {
+    "sym": "XOM",
+    "name": "ExxonMobil",
+    "reason": "LCAP·JAVA·CGDG 보도 경로 없음"
+   },
+   {
+    "sym": "MDLN",
+    "name": "Medline",
+    "reason": "AKRE·EAGL·CGMM 보도 없음"
+   },
+   {
+    "sym": "005930.KS·CRWD·012450.KS",
+    "name": "IDEF 11/03 매수",
+    "reason": "IDEF 일별 매매 기사 없음"
+   },
+   {
+    "sym": "NFLX·HWM·DASH",
+    "name": "JGLO 11/03 매수",
+    "reason": "JGLO 11/03 GuruFocus 기사가 아직 게재 전(보통 다음날 11:00 UTC)"
+   },
+   {
+    "sym": "5274.TW",
+    "name": "ASPEED",
+    "reason": "00981A 11/03 전체 변동 목록에 없음, 최근 매수 보도 없음 — 2주 편입 근거 약함"
+   },
+   {
+    "sym": "ACN",
+    "name": "Accenture",
+    "reason": "10일째 공개 경로 없음"
+   }
+  ],
+  "fixes": [
+   "prices.py: 장이 아직 열린 거래소의 오늘 봉(장중가)을 종가로 저장하지 않도록 수정 — 19:16 KST 실행 때 유럽 종목 RR.L 1275.6(실제 종가 1262.8) 같은 오차 방지",
+   "config/themes.json: 005930.KS 삼성전자·메모리 반도체, HWM 항공기 엔진 부품 한국어 설명(auto:false)",
+   "config/discover_targets.json: TCAF_3RDPARTY_1105 추가 — T. Rowe 공식 경로 403/502 지속, 제3자 보유 페이지·펀드 페이지 JS 링크 탐색"
+  ],
+  "summary": "11/04 19:16 실행 기준(11/05 07:05 실행은 08:30 KST까지 미커밋). 확인 20 중 일치 10·불일치 1(RR.L 장중가)·확인불가 9 → 90.9%. CGDV·BAI·CGCV 11/02 매매가 주식 수까지 정확히 맞았고, PLTR·SHOP 급상승은 ARK 11/03 매수로 확인."
  }
 ]

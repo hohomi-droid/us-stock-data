@@ -51,5 +51,20 @@
    "follow_js": "(services/[a-z\\-]+-api/[^\\\"' ]+|holdings[^\\\"' ]{0,80})",
    "grep": "holding|xlsx|csv|TCAF|api"
   }
+ ],
+ "TCAF_3RDPARTY_1105": [
+  {
+   "url": "https://stockanalysis.com/etf/tcaf/holdings/",
+   "grep": "As of|asOf|holdings|Shares"
+  },
+  {
+   "url": "https://www.etfcentral.com/fund/TCAF",
+   "grep": "holding|asOf|as of|download"
+  },
+  {
+   "url": "https://www.troweprice.com/personal-investing/tools/fund-research/etf/TCAF",
+   "follow_js": "(https?://[^\"' ]*(?:holding|Holding)[^\"' ]{0,120})",
+   "grep": "holding|xlsx|csv"
+  }
  ]
 }

@@ -32,10 +32,16 @@ def fetch(sym: str, rng: str = "6mo"):
         res = res[0]
         ts = res.get("timestamp") or []
         closes = res["indicators"]["quote"][0].get("close") or []
-        off = res.get("meta", {}).get("gmtoffset", 0)
+        meta = res.get("meta", {})
+        off = meta.get("gmtoffset", 0)
+        # 장이 아직 열려 있으면 오늘 봉은 장중가 → 종가로 저장하지 않는다 (예: 한국 19시 실행 때 유럽 종목)
+        reg_end = ((meta.get("currentTradingPeriod") or {}).get("regular") or {}).get("end")
+        skip_after = reg_end - 86400 if reg_end and time.time() < reg_end else None
         out = {}
         for t, c in zip(ts, closes):
             if c is None:
+                continue
+            if skip_after is not None and t >= skip_after:
                 continue
             d = datetime.fromtimestamp(t + off, tz=timezone.utc).strftime("%Y-%m-%d")
             out[d] = round(float(c), 4)
