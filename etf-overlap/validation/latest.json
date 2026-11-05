@@ -1,268 +1,254 @@
 {
- "date": "2026-11-05",
- "github_generated": "2026-11-04",
+ "date": "2026-11-06",
+ "github_generated": "2026-11-06",
  "checked": 20,
  "matched": 10,
- "mismatched": 1,
- "unverifiable": 9,
- "match_rate": 0.909,
+ "mismatched": 0,
+ "unverifiable": 10,
+ "match_rate": 1.0,
  "checks": [
   {
-   "sym": "META",
-   "claim": "1위, 2주 편입 8(EAGL·CGDV·JAVA·JGRO·JGLO 등)",
+   "sym": "AMZN",
+   "claim": "1위(2위), 2주 6, 매도 경고 ARKQ·IDEF·LCAP",
    "verdict": "일치",
-   "note": "CGDV 11/02 +93,533주($56.7M)·10/28 +251,214주, JGLO 10/29 +10,247주 — GuruFocus(Yahoo) 주식 수가 GitHub 차이와 정확히 같음"
+   "note": "ARKQ 11/04 −15,750주 TipRanks 보도와 정확히 같음. 매수 측 CGUS 11/02 +171,673·BAI +72,693 일치(전일). IDEF·LCAP 감소는 보도 없음"
   },
   {
-   "sym": "AMZN",
-   "claim": "2위, 새 매도 경고(IDEF·LCAP)",
-   "verdict": "확인불가",
-   "note": "매수 쪽은 정확: CGUS 11/02 +$42.2M(=+171,673주), BAI 11/02 +72,693주. 매도 경고 근거 IDEF 11/03 −6,609주·LCAP 10/30 −22,632주는 보도 없음"
+   "sym": "SPCX",
+   "claim": "2위(4위), ARKK·ARKQ·ARKW 11/04 증액",
+   "verdict": "일치",
+   "note": "ARK 11/04 거래공시 ARKQ +63,478·ARKW +60,445 정확, ARKK 공시 +224,483 vs 원자료 +239,099 → 유입 보정(×1.0053) 후 +224,484로 1주 차. BAI 11/02 +86,895 Yahoo/GuruFocus 정확"
   },
   {
    "sym": "MSFT",
-   "claim": "3위, 매도 경고(CGDV·EAGL·IDEF)",
+   "claim": "3위, 매도 경고 CGDV·EAGL·IDEF",
    "verdict": "일치",
-   "note": "CGDV 11/02 추가 −51,891주(−$26.3M) 정확히 일치. CGCV 11/02 +18,942주도 일치(자금유입 일괄 매수라 증액으로는 안 셈)"
+   "note": "JGLO 10/29 +35,660·CGGR 11/03 +12,691 Yahoo/GuruFocus와 정확. LCAP 11/03 +15,476은 상위 8 목록 밖(확인불가)"
+  },
+  {
+   "sym": "META",
+   "claim": "4위(1위), 2주 5",
+   "verdict": "일치",
+   "note": "JGLO 10/29 +10,247(230,888→241,135) 정확, CGDV 11/02 +93,533 전일 확인. EAGL 11/02 +16,636은 보도 없음"
   },
   {
    "sym": "STX",
-   "claim": "4위, JAVA·JGLO 신규, 426030 10/30 증액",
-   "verdict": "확인불가",
-   "note": "426030 운용사 페이지에 STX 1.26% 보유(11/03)만 확인, 편입일 근거 없음"
-  },
-  {
-   "sym": "3711.TW",
-   "claim": "5위, 00403A 등 2주 편입 4",
+   "claim": "5위, 2주 5",
    "verdict": "일치",
-   "note": "00403A 11/02 +300張(cmnews·Newtalk), 11/04 액티브 7곳이 ASE 매수(CMoney)"
-  },
-  {
-   "sym": "TSM",
-   "claim": "6위, 매도 경고(ARKQ·CGGO·JGLO)",
-   "verdict": "일치",
-   "note": "전일 확인한 ARKQ 10/28·JGLO 10/29 매도 그대로, 반대 증거 없음. 대만 00981A는 2330 매수(별도 종목)"
+   "note": "CGUS 11/02 +20,653주 GuruFocus(Yahoo) 기사와 정확 — 검증 기간 첫 STX 확인"
   },
   {
    "sym": "GOOGL",
-   "claim": "7위, 매도 경고 5곳(CGDV·BAI 등)",
+   "claim": "6위, 매도 경고 4곳",
    "verdict": "일치",
-   "note": "CGDV 11/02 −2,000,105주(−$558.0M) = GitHub 4,423,922→2,423,817 그대로"
+   "note": "CGUS 11/02 +33,339 정확. ARK 11/04 GOOG 매도(TipRanks)도 매도 쪽 흐름과 맞음"
+  },
+  {
+   "sym": "3711.TW",
+   "claim": "7위, 2주 4",
+   "verdict": "일치",
+   "note": "00981A 11/04 +1,463張(15,442→16,905張) TVBS·cmnews 보도와 정확, 00403A 11/02 +300張·11/05 +150張 정확"
+  },
+  {
+   "sym": "TSM",
+   "claim": "8위, 매도 경고 ARKQ·CGGO·JGLO",
+   "verdict": "일치",
+   "note": "CGGO 10/29 −39,268주 감소는 원자료 그대로. 단 CGGO 11/03 +22,895주($9.3M) 매수 보도 정확 — +1.35%로 기준(+3%) 미달이라 매수로 안 셈. 경고가 최신 흐름과 엇갈림(설계대로)"
   },
   {
    "sym": "XOM",
-   "claim": "8위, LCAP·JAVA·CGDG 증액",
+   "claim": "9위",
+   "verdict": "확인불가",
+   "note": "LCAP 10/30·JAVA 10/28 매수 보도 없음"
+  },
+  {
+   "sym": "MDLN",
+   "claim": "10위, AKRE 신규 10/27",
+   "verdict": "확인불가",
+   "note": "AKRE 보도 없음. CGUS 10/15 신규 771,240주 보도 확인(GitHub는 8/31→10/21 공시 간격 때문에 10/21로 표시), CGUS 11/02 +91,447"
+  },
+  {
+   "sym": "PANW",
+   "claim": "21위(72위), CGGE 11/04·IDEF 11/03 증액",
+   "verdict": "확인불가",
+   "note": "CGGE·IDEF 기사 없음. BAI 11/02 +10,228 보도는 원자료와 정확(유입 수준이라 미반영)"
+  },
+  {
+   "sym": "HOOD",
+   "claim": "32위(103위), CGGR 11/04 +29,914",
+   "verdict": "확인불가",
+   "note": "CGGR 11/04 기사 미게재. ARK 11/02 HOOD 매수 보도(The Block)는 ARKK 증액과 방향 일치"
+  },
+  {
+   "sym": "TMO",
+   "claim": "37위(133위), CGGR 11/04·JPEF 11/02",
    "verdict": "확인불가",
    "note": "보도 없음"
   },
   {
+   "sym": "NEE",
+   "claim": "31위(신규), LCAP 11/05·426030 11/06 신규",
+   "verdict": "확인불가",
+   "note": "신규 편입 보도 없음(공시 하루 전)"
+  },
+  {
+   "sym": "INTC",
+   "claim": "12위, 매도 경고 426030·BAI·CGGE·JAVA",
+   "verdict": "일치",
+   "note": "CGUS 11/02 +264,541·CGGO 11/03 +212,134·BAI 10/30 −1,733,589 모두 GuruFocus(Yahoo) 수치와 정확"
+  },
+  {
    "sym": "TSLA",
-   "claim": "9위, JGRO·LCAP·BAI 증액",
+   "claim": "29위(10위), 새 매도 경고 JGLO·LCAP",
+   "verdict": "확인불가",
+   "note": "JGLO 11/02 −6,197·LCAP 11/05 −7,472 보도 없음(TSLA 11/02 기사는 매수 상위 8만)"
+  },
+  {
+   "sym": "ABBV",
+   "claim": "새 매도 경고 CGUS·JAVA",
+   "verdict": "확인불가",
+   "note": "CGUS 11/04 −12,662 기사 미게재"
+  },
+  {
+   "sym": "SNDK",
+   "claim": "새 매도 경고 426030·BAI",
    "verdict": "일치",
-   "note": "BAI 11/02 +14,969주($6.0M) 정확히 일치, JGRO 10/28 'Tesla Leads' 기사 제목"
+   "note": "BAI 11/02 −10,774주(179,973→169,199) Yahoo/GuruFocus 정확. 426030 13→10주는 확인불가"
   },
   {
-   "sym": "MDLN",
-   "claim": "10위, AKRE 신규·10/30 +10,501주",
+   "sym": "SU.PA",
+   "claim": "새 매도 경고 CGDG·CGIE",
    "verdict": "확인불가",
-   "note": "AKRE·EAGL 보도 없음"
+   "note": "CGIE 11/04 −16,254 보도 없음. 현재가 227.85 = Yahoo regularMarketPrice(11/05 일봉 종가는 null)"
   },
   {
-   "sym": "PLTR",
-   "claim": "11위(60위), ARKK·ARKW 11/03 증액",
-   "verdict": "일치",
-   "note": "ARK 11/03 5개 펀드 합계 +63,638주(24/7 Wall St). GitHub ARKK+ARKW +59,883주로 들어맞음"
-  },
-  {
-   "sym": "SHOP",
-   "claim": "12위(120위), ARKK·ARKW 11/03 증액",
-   "verdict": "일치",
-   "note": "ARKW +17,129주 정확. ARKK 보도 +63,238주 vs 원자료 +84,038주 — 차이 20,800주는 ARKK 그날 일괄 유입(×1.0176)분, 보정 후 증액 판정은 맞음"
-  },
-  {
-   "sym": "005930.KS",
-   "claim": "17위(54위), IDEF 11/03 +22,165주·WCMI 신규",
+   "sym": "7011.T",
+   "claim": "새 매도 경고 CGNG·IDEF",
    "verdict": "확인불가",
-   "note": "IDEF·WCMI 매매 보도 없음"
-  },
-  {
-   "sym": "AVGO",
-   "claim": "18위(52위), JGLO 11/03·LCAP 10/28 증액, 매도 경고(BAI·BGIG·IDEF)",
-   "verdict": "확인불가",
-   "note": "JGLO 11/03 기사 아직 미게재. BAI 10/30 −77,841주 매도는 보도와 같음. CGCV 11/02 +17,958주는 정확하나 자금유입 일괄이라 미반영(설계대로)"
-  },
-  {
-   "sym": "NFLX",
-   "claim": "21위(59위), JGLO 11/03·QLTY 증액",
-   "verdict": "확인불가",
-   "note": "JGLO 11/03·QLTY 보도 없음"
-  },
-  {
-   "sym": "CRWD",
-   "claim": "22위(63위), IDEF 11/03 +66,013주",
-   "verdict": "확인불가",
-   "note": "IDEF 보도 없음"
-  },
-  {
-   "sym": "GLW",
-   "claim": "23위, CGDV·JAVA 2주 증액",
-   "verdict": "일치",
-   "note": "CGDV 11/02 +633,086주($78.0M) = GitHub 2,659,835→3,292,921 그대로. 어제 확인불가였던 종목"
-  },
-  {
-   "sym": "LLY",
-   "claim": "26위, CGGR 증액 + 매도 경고(ARKK·CGDV·JAVA)",
-   "verdict": "일치",
-   "note": "CGGR 10/23 +25,112주·CGDV 11/02 −26,566주 모두 정확히 일치"
-  },
-  {
-   "sym": "RR.L",
-   "claim": "새 매도 경고(CGNG·IDEF), 현재가 1275.6(11/04)",
-   "verdict": "불일치",
-   "note": "Yahoo 11/04 종가 1262.8 → −1.0%. 19:16 KST 실행이 런던 장중가를 종가로 저장. prices.py 수정. 매도 경고(IDEF −1.89M주)는 보도 없음"
-  },
-  {
-   "sym": "SAF.PA",
-   "claim": "새 매도 경고(CGGO·IDEF)",
-   "verdict": "확인불가",
-   "note": "IDEF 11/03 −78,361주 보도 없음. CGGO는 11/02 +330주 소폭 증가(보정 후 감소 판정)"
+   "note": "IDEF 11/04 −1,140,000주 보도 없음"
   }
  ],
  "both": [
   {
-   "sym": "META",
-   "name": "Meta Platforms",
-   "reason": "CGDV 10/28·11/02, JGLO 10/29, CGGR 10/22 매수 보도 = GitHub 1위"
-  },
-  {
-   "sym": "MSFT",
-   "name": "Microsoft",
-   "reason": "JGLO·BAI·CGCV 매수 vs CGDV 대량 매도 — 양쪽 다 엇갈림으로 봄"
+   "sym": "SPCX",
+   "name": "SpaceX",
+   "reason": "ARK 11/04 3개 펀드 $47.4M + BAI 11/02·10/30 연속 매수 = GitHub 2위"
   },
   {
    "sym": "3711.TW",
    "name": "ASE",
-   "reason": "대만 액티브 주간 순매수 1위(8,443張), 00403A 11/02 +300張"
+   "reason": "00981A 11/04 +1,463張(최대 매수), 00403A 11/02·11/05"
   },
   {
-   "sym": "PLTR",
-   "name": "Palantir",
-   "reason": "ARK 11/03 +63,638주, JGRO 10/28 증액"
+   "sym": "MSFT",
+   "name": "Microsoft",
+   "reason": "JGLO 10/29·CGGR 11/03·CGCV 11/02 매수 vs CGDV 매도 — 엇갈림"
   },
   {
-   "sym": "SHOP",
-   "name": "Shopify",
-   "reason": "ARK 11/03 $12.5M 매수, CGGE 신규"
-  },
-  {
-   "sym": "GLW",
-   "name": "Corning",
-   "reason": "CGDV 11/02 +633,086주, JAVA 10/28"
-  },
-  {
-   "sym": "LLY",
-   "name": "Eli Lilly",
-   "reason": "CGGR 10/23 $32.0M, CGCV 11/02(유입분) — 매도 경고와 공존"
-  },
-  {
-   "sym": "MRNA",
-   "name": "Moderna",
-   "reason": "CGGR 10/22 $35.3M, CGGO 10/27 $8.4M"
-  },
-  {
-   "sym": "TSLA",
-   "name": "Tesla",
-   "reason": "BAI 11/02, JGRO 10/28"
-  },
-  {
-   "sym": "SPCX",
-   "name": "SpaceX",
-   "reason": "BAI 10/29·10/30·11/02 연속 매수"
+   "sym": "META",
+   "name": "Meta Platforms",
+   "reason": "JGLO 10/29, CGDV 11/02"
   },
   {
    "sym": "AMZN",
    "name": "Amazon",
-   "reason": "CGUS 11/02 $42.2M, BAI 11/02 $17.9M, CGGO 10/27"
+   "reason": "CGUS·BAI 11/02 매수 vs ARKQ 11/04 매도"
+  },
+  {
+   "sym": "INTC",
+   "name": "Intel",
+   "reason": "CGUS 11/02·CGGO 11/03 매수 vs BAI 10/30 대량 매도 — 매도 경고와 공존"
+  },
+  {
+   "sym": "PM",
+   "name": "Philip Morris",
+   "reason": "CGGO 11/03 +128,067·CGCV 11/02 +28,782(GitHub 30위, QLTY·CGGO 2주)"
+  },
+  {
+   "sym": "PLTR",
+   "name": "Palantir",
+   "reason": "ARK 11/03 5개 펀드 매수"
+  },
+  {
+   "sym": "SHOP",
+   "name": "Shopify",
+   "reason": "ARK 11/03 ARKK·ARKW 매수"
+  },
+  {
+   "sym": "ILMN",
+   "name": "Illumina",
+   "reason": "ARKK·ARKG 10/30·11/03 매수(GitHub 34위, ARKK·JTEK 2주)"
   }
  ],
  "claude_only": [
   {
-   "sym": "FTAI",
-   "name": "FTAI Aviation",
-   "reason": "CGDV 10/28 신규 + 11/02 +686,628주($135.8M) — 한 ETF만(2달 2곳: CGGO 매도 경고)"
+   "sym": "2454.TW",
+   "name": "MediaTek",
+   "reason": "00981A +137張·00991A +15張·00403A +40/+50張 — 3곳 매수지만 각각 +3% 미만(00981A +2.5%)이라 2주 1곳만 셈"
   },
   {
-   "sym": "AMAT",
-   "name": "Applied Materials",
-   "reason": "CGDV 11/02 +390,755주($146.3M) — 한 ETF만"
+   "sym": "3017.TW",
+   "name": "AVC(奇鋐)",
+   "reason": "00981A +39張·00991A +20張·00403A +40張(10/30) — 모두 +3% 미만"
   },
   {
-   "sym": "ENTG",
-   "name": "Entegris",
-   "reason": "BAI 10/30·11/02 연속 매수(3배) — 다른 ETF 없음"
+   "sym": "NVDA",
+   "name": "NVIDIA",
+   "reason": "CGDV 11/02 +83,889·CGUS +131,233 — 기준 미달(유입 대비 소폭), GitHub 2주 1곳(66위)"
   },
   {
-   "sym": "DIS·LULU·RKT",
-   "name": "Disney·Lululemon·Rocket",
-   "reason": "CGGR 10/22~23 신규 — 한 ETF만"
+   "sym": "ICE",
+   "name": "Intercontinental Exchange",
+   "reason": "CGGO 11/03 신규 300,343주($51.3M) — 한 ETF·비중 0.44%"
   },
   {
-   "sym": "COIN·CRCL·HOOD",
-   "name": "ARK 핀테크",
-   "reason": "ARK 11/02 매수, 자금유입 보정 후 +3% 기준 미달"
+   "sym": "FTAI/AMAT/ENTG/1802.TW",
+   "name": "단일 ETF 대량 매수",
+   "reason": "CGDV 11/02(FTAI·AMAT), BAI(ENTG), 00981A 신규(台玻) — 한 ETF만"
   },
   {
-   "sym": "2059.TW·2454.TW·3017.TW·1802.TW",
-   "name": "川湖·聯發科·奇鋐·台玻",
-   "reason": "대만 액티브 11/04 공통 매수(川湖·聯發科 8곳). 00406A·00984A 등 유니버스 밖 ETF가 다수, 유니버스 안은 00981A·00403A·00991A만"
-  },
-  {
-   "sym": "AVGO(CGCV)·ABBV·PM",
-   "name": "CGCV 11/02 매수",
-   "reason": "CGCV 69종목 일괄 매수(유입 ×1.074) — 보정으로 제외, 설계대로"
+   "sym": "TEM/PACB/NRIX/CMPS",
+   "name": "ARK 바이오",
+   "reason": "ARKK·ARKG 같은 운용사 내 매수 — 다른 운용사 겹침 없음"
   }
  ],
  "github_only": [
   {
-   "sym": "STX",
-   "name": "Seagate",
-   "reason": "JAVA·JGLO·426030 매매 보도 없음(426030 보유만 확인)"
+   "sym": "NEE",
+   "name": "NextEra Energy",
+   "reason": "LCAP 11/05·426030 11/06 신규 — 하루 전 공시라 보도 전"
+  },
+  {
+   "sym": "TMO",
+   "name": "Thermo Fisher",
+   "reason": "CGGR 11/04 +3.2%·JPEF 11/02 +11% — 보도 없음"
+  },
+  {
+   "sym": "PANW",
+   "name": "Palo Alto Networks",
+   "reason": "IDEF 11/03 +36.5%·CGGE 11/04 +6.1% — 보도 없음"
   },
   {
    "sym": "XOM",
    "name": "ExxonMobil",
-   "reason": "LCAP·JAVA·CGDG 보도 경로 없음"
+   "reason": "LCAP·JAVA 매수 보도 없음"
   },
   {
    "sym": "MDLN",
    "name": "Medline",
-   "reason": "AKRE·EAGL·CGMM 보도 없음"
+   "reason": "AKRE·EAGL 보도 없음(CGUS 신규만 확인)"
   },
   {
-   "sym": "005930.KS·CRWD·012450.KS",
-   "name": "IDEF 11/03 매수",
-   "reason": "IDEF 일별 매매 기사 없음"
-  },
-  {
-   "sym": "NFLX·HWM·DASH",
-   "name": "JGLO 11/03 매수",
-   "reason": "JGLO 11/03 GuruFocus 기사가 아직 게재 전(보통 다음날 11:00 UTC)"
-  },
-  {
-   "sym": "5274.TW",
-   "name": "ASPEED",
-   "reason": "00981A 11/03 전체 변동 목록에 없음, 최근 매수 보도 없음 — 2주 편입 근거 약함"
-  },
-  {
-   "sym": "ACN",
-   "name": "Accenture",
-   "reason": "10일째 공개 경로 없음"
+   "sym": "MELI/ACN/5274.TW",
+   "name": "",
+   "reason": "CGNG·CGGE / JGRO·JPEF·JTEK / 대만 3곳 — 보도 없음"
   }
  ],
  "fixes": [
-  "prices.py: 장이 아직 열린 거래소의 오늘 봉(장중가)을 종가로 저장하지 않도록 수정 — 19:16 KST 실행 때 유럽 종목 RR.L 1275.6(실제 종가 1262.8) 같은 오차 방지",
-  "config/themes.json: 005930.KS 삼성전자·메모리 반도체, HWM 항공기 엔진 부품 한국어 설명(auto:false)",
-  "config/discover_targets.json: TCAF_3RDPARTY_1105 추가 — T. Rowe 공식 경로 403/502 지속, 제3자 보유 페이지·펀드 페이지 JS 링크 탐색"
+  "코드 수정 없음(버그 확인 안 됨)",
+  "themes.json: 상위 30개 모두 이미 auto:false — 수정 없음",
+  "수집 대기: discover TCAF_3RDPARTY_1105 결과 stockanalysis.com TCAF 페이지가 Actions에서 200으로 열림. 단 상위 25종목·주식 수만(전체 63종목 아님) → 부분 보유로 넣으면 나머지가 '편출'로 잘못 잡혀 수집기 추가 보류",
+  "제안(기준 변경 없음): 매도 경고 뒤 +3% 미만 매수(CGGO TSM 11/03 $9.3M)가 있으면 경고 옆에 '이후 소폭 매수' 표시; 대만 ETF처럼 3곳 이상이 +3% 미만으로 같이 늘린 종목(2454·3017)은 '소폭 동시 증액'으로 따로 표시"
  ],
- "summary": "11/04 19:16 실행 기준(11/05 07:05 실행은 08:30 KST까지 미커밋). 확인 20 중 일치 10·불일치 1(RR.L 장중가)·확인불가 9 → 90.9%. CGDV·BAI·CGCV 11/02 매매가 주식 수까지 정확히 맞았고, PLTR·SHOP 급상승은 ARK 11/03 매수로 확인."
+ "summary": "11/06 07:58 실행 결과 기준. 확인 20 / 일치 10 / 불일치 0 / 확인불가 10 → 100%. GuruFocus·ARK·대만 보도로 10개 종목을 주식 수까지 맞춰 봤고 가격 16종목 차이 0.00%. 11/03~11/05 공시(CGGR·CGGE·IDEF·LCAP·426030)는 아직 보도 전이라 확인불가가 많음. Claude만 찾은 것은 대만 2454·3017(3곳 소폭 증액)과 CGGO ICE 신규."
 }
