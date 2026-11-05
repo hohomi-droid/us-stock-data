@@ -794,7 +794,8 @@
   "name": "KEYENCE CORP",
   "theme": "계측·과학장비",
   "desc": "Keyence Corporation, together with its subsidiaries, manufactures and sells electronic application equipment in Japan and internationally.",
-  "auto": true
+  "auto": true,
+  "v": 2
  },
  "SAF.PA": {
   "name": "SAFRAN",
@@ -1517,6 +1518,13 @@
   "name": "DBS",
   "theme": "지역은행",
   "desc": "DBS Group Holdings Ltd provides commercial banking and financial services in Singapore, Hong Kong, rest of Greater China, South and Southeast Asia, and…",
+  "auto": true,
+  "v": 2
+ },
+ "NOVO.CO": {
+  "name": "Novo Nordisk A/S Common",
+  "theme": "",
+  "desc": "",
   "auto": true,
   "v": 2
  }
