@@ -1527,5 +1527,40 @@
   "desc": "",
   "auto": true,
   "v": 2
+ },
+ "2345.TW": {
+  "name": "ACCTON TECHNOLOGY CORP",
+  "theme": "통신장비·네트워크",
+  "desc": "Accton Technology Corporation develops, manufactures, and sells computer network systems and wireless land area network (LAN) hardware and software products…",
+  "auto": true,
+  "v": 2
+ },
+ "U": {
+  "name": "Unity Software Inc.",
+  "theme": "응용 SW",
+  "desc": "Unity Software Inc. operates a platform to develop, deploy, and grow games and interactive experiences for mobile phones, PCs, consoles, and extended reality…",
+  "auto": true,
+  "v": 2
+ },
+ "TXG": {
+  "name": "10x Genomics, Inc.",
+  "theme": "의료기기",
+  "desc": "10x Genomics, Inc. develops and sells instruments, consumables, and software for analyzing biological systems in the United States, rest of the Americas,…",
+  "auto": true,
+  "v": 2
+ },
+ "2059.TW": {
+  "name": "KING SLIDE WORKS CO",
+  "theme": "Furnishings, Fixtures & Appliances",
+  "desc": "King Slide Works Co., Ltd., together with its subsidiaries, researches, designs, manufactures, distributes, and sells rail kits for cloud servers, network…",
+  "auto": true,
+  "v": 2
+ },
+ "LOW": {
+  "name": "Lowe's Companies, Inc.",
+  "theme": "주택 개보수 유통",
+  "desc": "Lowe's Companies, Inc., together with its subsidiaries, operates as a home improvement retailer in the United States and Canada.",
+  "auto": true,
+  "v": 2
  }
 }
