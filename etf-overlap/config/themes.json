@@ -1562,5 +1562,26 @@
   "desc": "Lowe's Companies, Inc., together with its subsidiaries, operates as a home improvement retailer in the United States and Canada.",
   "auto": true,
   "v": 2
+ },
+ "6857.T": {
+  "name": "ADVANTEST CORP",
+  "theme": "반도체 장비",
+  "desc": "Advantest Corporation, together with its subsidiaries, manufactures and sells semiconductors, component test systems, and mechatronics-related products in…",
+  "auto": true,
+  "v": 2
+ },
+ "CASY": {
+  "name": "Caseys General Stores, Inc.",
+  "theme": "Specialty Retail",
+  "desc": "Casey's General Stores, Inc., together with its subsidiaries, operates convenience stores under the Casey's and Casey's General Store names in the United…",
+  "auto": true,
+  "v": 2
+ },
+ "AMAT": {
+  "name": "Applied Materials, Inc.",
+  "theme": "반도체 장비",
+  "desc": "Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United…",
+  "auto": true,
+  "v": 2
  }
 }
