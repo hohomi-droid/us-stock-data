@@ -172,7 +172,7 @@ details.method ul{margin:10px 0 0;padding-left:18px;color:var(--muted);display:g
     '보유 ETF (+N) = 지금 벤치마크보다 비중을 더 실은 ETF 수, 괄호는 그중 최근 ' + D.params.short_days + '일 안 공시에서 편입한 ETF 수',
     '순위 = 2주 편입 ETF 수 → 2달 편입 ETF 수 → 보유 ETF 수 (같은 수면 서로 다른 운용사가 많은 쪽이 위). 같은 운용사의 여러 ETF가 함께 사면 운용사 수가 적게 표시됩니다',
     '2주 편입은 직전 공시도 2주 무렵이어야 인정(간격이 긴 월별·분기 공시는 2달 편입으로만 셈). 2달 편입은 직전 공시가 약 3달 반 안이어야 인정(분기 공시 ETF는 예외)',
-    '과거 이력: 운용사 날짜별 파일, ARK 보관 API, SEC N-PORT 공시(분기·월별, 약 60일 지연), 인터넷 아카이브'
+    '과거 이력: 운용사 날짜별 파일, ARK 보관 API, SEC N-PORT 공시(분기·월별, 약 60일 지연), 인터넷 아카이브',
     '첫 공시 가격 = 2달 안 처음 편입이 확인된 공시 기준일 종가 · 현재가 = 최근 거래일 종가'
   ].map(t => '<li>' + esc(t) + '</li>').join('');
   $('etfList').innerHTML = Object.entries(D.etfs).sort((a,b) => (b[1].aum||0) - (a[1].aum||0))
@@ -203,7 +203,7 @@ details.method ul{margin:10px 0 0;padding-left:18px;color:var(--muted);display:g
         '<td class="theme">' + esc(r.theme || '–') + '</td><td class="desc">' + esc(r.desc || '') + '</td></tr>';
       if (open === r.sym){
         const hl = r.holder_list.map(x => '<span class="t">' + esc(x.etf) + '</span><span class="x">' + esc((D.etfs[x.etf]||{}).name || '') + '</span><span class="w">' + x.weight.toFixed(2) + '%</span><span class="w">' + (x.active == null ? '·' : '+' + x.active.toFixed(2)) + '</span>').join('');
-        const nl = r.new_list.map(x => '<span class="t">' + esc(x.etf) + '</span><span class="x">' + esc(x.issuer || '') + ' · ' + (x.kind === 'new' ? '신규 편입' : '주식 수 증가') + ' · ' + md(x.prev) + '→' + md(x.date) + ' 비교</span><span class="w">' + esc(x.date) + '</span><span>' + (x.recent ? '<span class="pill new">2주</span>' : '') + '</span>').join('');
+        const nl = r.new_list.map(x => '<span class="t">' + esc(x.etf) + '</span><span class="x">' + esc(x.issuer || '') + ' · ' + (x.kind === 'new' ? '신규 편입' : '주식 수 증가') + ' · ' + md(x.prev) + '→' + md(x.date) + ' 비교' + (x.recent && x.date2w && x.date2w !== x.date ? ' · 2주 근거 ' + md(x.prev2w) + '→' + md(x.date2w) : '') + '</span><span class="w">' + esc(x.date) + '</span><span>' + (x.recent ? '<span class="pill new">2주</span>' : '') + '</span>').join('');
         const sl = r.sells.length ? '<h3 style="margin-top:12px">최근 2주 감소·제외</h3><div class="etfs">' + r.sells.map(s => '<span>' + esc(s) + '</span>').join('') + '</div>' : '';
         h += '<tr class="detail"><td colspan="9"><div class="dgrid">' +
           '<div><h3>보유 ETF ' + r.holder_list.length + '개 · 비중 · 벤치마크 초과분</h3><div class="dl">' + (hl || '<span class="x">없음</span>') + '</div></div>' +

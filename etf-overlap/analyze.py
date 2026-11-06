@@ -326,7 +326,10 @@ def main():
             "ret": None if ret is None or math.isnan(ret) else round(ret, 4),
             "theme": th.get("theme", ""), "desc": th.get("desc", ""),
             "holder_list": sorted(h, key=lambda x: -x["weight"]),
-            "new_list": [{"etf": k, "kind": v[1], "date": v[0], "prev": v[2], "recent": k in add_short, "issuer": iss.get(k, k)}
+            "new_list": [{"etf": k, "kind": v[1], "date": v[0], "prev": v[2], "recent": k in add_short, "issuer": iss.get(k, k),
+                          # 2주 판정에 쓰인 매수(2달 첫 매수일과 다를 수 있음 — 화면 표시용)
+                          "date2w": add_short[k][0] if k in add_short else None,
+                          "prev2w": add_short[k][2] if k in add_short else None}
                          for k, v in sorted(add_long.items(), key=lambda kv: kv[1][0], reverse=True)],
             "no_bench": sorted({x["etf"] for x in h} & no_bench_etfs),
         })

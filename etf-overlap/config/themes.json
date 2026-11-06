@@ -140,8 +140,8 @@
  "GOOG": {
   "name": "Alphabet Inc.",
   "theme": "인터넷 플랫폼",
-  "desc": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America.",
-  "auto": true,
+  "desc": "구글 검색·유튜브 광고와 구글 클라우드, 자체 AI 칩(TPU)·제미나이 모델을 운영하는 알파벳의 C주(의결권 없는 주식)다.",
+  "auto": false,
   "v": 2
  },
  "RTX": {
@@ -641,8 +641,8 @@
  "NVDA": {
   "name": "NVIDIA Corporation",
   "theme": "반도체",
-  "desc": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally.",
-  "auto": true,
+  "desc": "데이터센터 AI 학습·추론용 GPU와 네트워킹·소프트웨어(CUDA)를 묶어 파는 세계 최대 AI 가속기 회사다.",
+  "auto": false,
   "v": 2
  },
  "MCD": {

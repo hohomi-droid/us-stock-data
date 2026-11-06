@@ -1556,5 +1556,136 @@
    "제안(기준 변경 없음): 매도 경고 뒤 +3% 미만 매수(CGGO TSM 11/03 $9.3M)가 있으면 경고 옆에 '이후 소폭 매수' 표시; 대만 ETF처럼 3곳 이상이 +3% 미만으로 같이 늘린 종목(2454·3017)은 '소폭 동시 증액'으로 따로 표시"
   ],
   "summary": "11/06 07:58 실행 결과 기준. 확인 20 / 일치 10 / 불일치 0 / 확인불가 10 → 100%. GuruFocus·ARK·대만 보도로 10개 종목을 주식 수까지 맞춰 봤고 가격 16종목 차이 0.00%. 11/03~11/05 공시(CGGR·CGGE·IDEF·LCAP·426030)는 아직 보도 전이라 확인불가가 많음. Claude만 찾은 것은 대만 2454·3017(3곳 소폭 증액)과 CGGO ICE 신규."
+ },
+ {
+  "date": "2026-11-07",
+  "github_generated": "2026-11-07",
+  "checked": 20,
+  "matched": 14,
+  "mismatched": 0,
+  "unverifiable": 6,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "ARK 11/04 $47.4M·11/05 $48.7M + BAI 10/29~11/02 3회 + CGUS 11/02 — 가장 강한 겹침, GitHub 3위"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "CGUS·BAI 11/02 매수 vs ARKQ 매도 — GitHub 1위"
+   },
+   {
+    "sym": "NVDA",
+    "name": "NVIDIA",
+    "reason": "ARK 11/05 +252,592·CGUS·CGDV 11/02 — GitHub 14위(2주 3)"
+   },
+   {
+    "sym": "TWST",
+    "name": "Twist Bioscience",
+    "reason": "BAI 10/29 신규·10/30 추가 + ARKK 11/03~05 — GitHub 18위"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "ASE",
+    "reason": "00981A 11/04 +1,463張, 00403A 11/05 +150張"
+   },
+   {
+    "sym": "AMAT",
+    "name": "Applied Materials",
+    "reason": "CGDV 11/02 $146.3M — GitHub 신규 56위(CGUS 11/05 포함)"
+   },
+   {
+    "sym": "GLW",
+    "name": "Corning",
+    "reason": "CGDV 11/02 $78M — GitHub 16위"
+   },
+   {
+    "sym": "MSFT/META/INTC/TSM",
+    "name": "엇갈림 대형주",
+    "reason": "매수(JGLO·CGDV·CGUS·CGGO)와 매도(CGDV·BAI·JGLO)가 공존 — 매도 경고와 함께 표시됨"
+   },
+   {
+    "sym": "PLTR/SHOP",
+    "name": "ARK 11/03 재매수",
+    "reason": "ARK가 10/21까지 팔다 11/03 다시 매수"
+   },
+   {
+    "sym": "PM",
+    "name": "Philip Morris",
+    "reason": "CGGO 11/03 +128,067·CGCV 11/02 (같은 운용사) — GitHub 32위"
+   },
+   {
+    "sym": "RKLB/CBRS",
+    "name": "Rocket Lab·Cerebras",
+    "reason": "ARK 11/05 추가 매수 — GitHub 52위·48위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "ICE",
+    "name": "Intercontinental Exchange",
+    "reason": "CGGO 11/03 신규 300,343주($51.3M) — 한 ETF뿐이라 목록에 없음"
+   },
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 11/02 +686,628($135.8M) vs CGGO 11/03 전량 매도 — GitHub 149위"
+   },
+   {
+    "sym": "ENTG",
+    "name": "Entegris",
+    "reason": "BAI 10/29·10/30·11/02 3회 매수 — 한 ETF(GitHub 115위)"
+   },
+   {
+    "sym": "DIS/LULU/RKT/SPOT",
+    "name": "CGGR 10/20~23 신규",
+    "reason": "CGGR 대형 신규 편입 — 직전 비교 공시가 8/31이라 2주로 안 셈"
+   },
+   {
+    "sym": "2891.TW",
+    "name": "中信金",
+    "reason": "00981A 11/05 신규 5,455張 — 한 ETF"
+   },
+   {
+    "sym": "2454.TW",
+    "name": "MediaTek",
+    "reason": "00981A 11/04 +137張·00403A 11/05 +50張 — 각각 +3% 미만"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "NFLX",
+    "name": "Netflix",
+    "reason": "JGLO 11/03·11/04, QLTY 11/04(+11%), CGUS 11/05(+4%) — 보도 전"
+   },
+   {
+    "sym": "6857.T",
+    "name": "Advantest",
+    "reason": "BAI 10/30·11/04, CGGE 11/05 신규 — 도쿄 종목은 보도 적음"
+   },
+   {
+    "sym": "CASY",
+    "name": "Casey's",
+    "reason": "CGGO 11/05 신규 — 보도 전"
+   },
+   {
+    "sym": "MDLN/XOM",
+    "name": "Medline·ExxonMobil",
+    "reason": "AKRE·EAGL·LCAP·JAVA 매수 — 해당 ETF는 일별 매매 기사 없음"
+   },
+   {
+    "sym": "MELI/ACN/5274.TW",
+    "name": "기타",
+    "reason": "보도 없음"
+   }
+  ],
+  "fixes": [
+   "대시보드 JS 문법 오류 수정: template.html 규칙 목록에 쉼표 하나가 빠져(10/24 ad51ed6부터) 브라우저에서 스크립트 전체가 멈춰 표·검증 섹션이 안 보였음",
+   "표시 버그 수정: new_list 에 2주 판정에 쓰인 매수일(date2w/prev2w) 추가, 대시보드에 '2주 근거 11/04→11/05' 표시 — CG·JPM ETF가 10/21(8/31 비교) 날짜로만 보이던 문제. 판정·순위 변화 없음",
+   "themes.json: NVDA·GOOG 한국어 설명 작성(auto:false)"
+  ],
+  "summary": "20개 확인 중 14개 일치, 불일치 0(확인불가 6개는 11/03~11/05 공시 보도 지연). ARK 11/05 AVGO 대량 매도·SPCX 매수가 원자료와 맞음. 새로 오른 NFLX·CASY·6857.T는 아직 근거 없음."
  }
 ]
