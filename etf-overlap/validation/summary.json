@@ -1687,5 +1687,125 @@
    "themes.json: NVDA·GOOG 한국어 설명 작성(auto:false)"
   ],
   "summary": "20개 확인 중 14개 일치, 불일치 0(확인불가 6개는 11/03~11/05 공시 보도 지연). ARK 11/05 AVGO 대량 매도·SPCX 매수가 원자료와 맞음. 새로 오른 NFLX·CASY·6857.T는 아직 근거 없음."
+ },
+ {
+  "date": "2026-11-10",
+  "github_generated": "2026-11-10",
+  "checked": 20,
+  "matched": 17,
+  "mismatched": 1,
+  "unverifiable": 2,
+  "match_rate": 0.944,
+  "both": [
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "ARK 11/04·11/05 + BAI 11/02 + CGUS — ARK 공시와 주 단위까지 맞음, GitHub 3위"
+   },
+   {
+    "sym": "NVDA",
+    "name": "NVIDIA",
+    "reason": "ARK 11/05 252,592주($45.9M) 매수 — GitHub 14위(2주 3)"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "ASE",
+    "reason": "00981A·00991A·00406A 11/2~6 매수 + 00991A 11/09 — GitHub 9위"
+   },
+   {
+    "sym": "META",
+    "name": "Meta",
+    "reason": "CGDV 10/28 $153.9M — GitHub 5위"
+   },
+   {
+    "sym": "STX",
+    "name": "Seagate",
+    "reason": "CGGR 11/04 $16.8M — GitHub 4위"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "BAI 11/02 $17.9M — GitHub 1위"
+   },
+   {
+    "sym": "GLW/NFLX",
+    "name": "Corning·Netflix",
+    "reason": "CGUS 11/05 GLW +463,722·NFLX +90,742 기사 게재(11/07엔 미게재) — GitHub 16위·12위"
+   },
+   {
+    "sym": "2368.TW/3443.TW",
+    "name": "金像電·創意",
+    "reason": "00991A 11/09 신규 — GitHub 24위·20위"
+   },
+   {
+    "sym": "2317.TW/3231.TW",
+    "name": "鴻海·緯創",
+    "reason": "00981A 11/09 +4,636張·+5,964張 — GitHub 48위·51위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "2454.TW",
+    "name": "MediaTek",
+    "reason": "대만 액티브 5곳 11/2~6 동시 매수(각 +3% 미만) — GitHub 108위"
+   },
+   {
+    "sym": "WFC",
+    "name": "Wells Fargo",
+    "reason": "CGDV 10/28 +1,019,631주($85.3M) — 한 ETF, GitHub 78위"
+   },
+   {
+    "sym": "CMCSA",
+    "name": "Comcast",
+    "reason": "CGDV 10/28 +2,287,840주($49.3M) — 한 ETF, 목록 없음"
+   },
+   {
+    "sym": "SBUX",
+    "name": "Starbucks",
+    "reason": "CGUS 11/05 +140,858주($15.0M) — 2주 1곳, GitHub 81위"
+   },
+   {
+    "sym": "COIN/CRCL",
+    "name": "Coinbase·Circle",
+    "reason": "ARK 11/02 소액 매수(ARKF는 유니버스 밖) — 목록 없음"
+   },
+   {
+    "sym": "2330.TW",
+    "name": "TSMC(대만)",
+    "reason": "00981A·00403A·00406A 매수 — GitHub는 TSM 으로 합쳐 집계"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "INTC",
+    "name": "Intel",
+    "reason": "CGDV·CGGR 11/06 대량 매수 — 보도 전"
+   },
+   {
+    "sym": "KLAC",
+    "name": "KLA",
+    "reason": "CGGR 11/06 +20%·426030 신규 — 보도 전"
+   },
+   {
+    "sym": "TMO",
+    "name": "Thermo Fisher",
+    "reason": "CGNG 11/06 신규 — 보도 없음"
+   },
+   {
+    "sym": "MDLN/ACN/LRCX",
+    "name": "기타",
+    "reason": "AKRE·EAGL·JPEF·JTEK·QLTY 매수 — 일별 매매 기사 없는 ETF"
+   },
+   {
+    "sym": "000660.KS",
+    "name": "SK hynix",
+    "reason": "ADR·보통주 줄 바뀜으로 생긴 가짜 2주 편입 — 오늘 수정"
+   }
+  ],
+  "fixes": [
+   "analyze.py 버그 수정: 같은 회사를 두 줄로 보유(SKHY ADR+000660.KS, BIDU+9888.HK, NTES+9999.HK, TSM+2330.TW, SAP+SAP.DE)하면 비중 큰 줄을 골라 날마다 줄이 바뀌며 가짜 매수/매도가 생김 → 표준 티커 줄을 고정 사용. 영향: 000660.KS 52→156위(2주 2→0), 다른 종목 판정 변화 없음",
+   "제안(미적용): flow_ratio 가 ±1% 구간의 가장자리 값을 골라 ARKK 11/05 유입을 1.57%로 추정(실제 2.05%). 구간 중앙값을 쓰면 ARK 공시와 0.02% 안으로 맞지만 NVDA 14→9위·TWST 19→44위 등 순위가 크게 움직여 기준 변경에 가까우므로 제안만"
+  ],
+  "summary": "20개 확인 중 17개 일치·불일치 1(000660.KS, ADR/보통주 줄 바뀜 버그 — 수정)·확인불가 2. ARK 11/05 NVDA·SPCX·AVGO 매매가 ARK 공시와 주 단위까지 맞고, 11/07 확인불가였던 GLW·NFLX(CGUS 11/05)도 기사로 확인됨."
  }
 ]

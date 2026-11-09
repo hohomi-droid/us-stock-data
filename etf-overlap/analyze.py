@@ -63,8 +63,14 @@ def canon(sym: str) -> str:
 
 def canon_holdings(hs: dict) -> dict:
     out = {}
+    exact = {canon(s) for s in hs if canon(s) == s}
     for s, h in hs.items():
         c = canon(s)
+        # 같은 회사를 두 줄(예: CGGR·CGXU 의 SKHY ADR + 000660.KS 보통주, CGNG BIDU + 9888.HK)로 보유하면
+        # 예전엔 비중 큰 줄을 골라 날마다 줄이 바뀌며 주식 수가 7배씩 오르내려 가짜 매수/매도가 잡혔다.
+        # 표준 티커와 같은 줄이 있으면 그 줄만 쓴다(없을 때만 비중 큰 줄).
+        if c in exact and s != c:
+            continue
         if c in out and (out[c].get("weight") or 0) >= (h.get("weight") or 0):
             continue
         h = dict(h)
