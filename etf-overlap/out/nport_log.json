@@ -1,5 +1,5 @@
 {
- "run": "2026-11-07T07:39:33+09:00",
+ "run": "2026-11-10T07:44:20+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -79,11 +79,12 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "FBCG": {
    "type": "nport",
@@ -139,11 +140,12 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "CGDG": {
    "type": "capital_group",
@@ -181,7 +183,8 @@
    "type": "trowe_pdf",
    "strategy": null,
    "saved": [
-    "2025-12-31"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": []
@@ -255,11 +258,12 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "FEGE": {
    "type": "nport",
@@ -309,7 +313,8 @@
    "type": "trowe_pdf",
    "strategy": null,
    "saved": [
-    "2025-12-31"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": []
@@ -341,21 +346,23 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-11-30"
+    "2025-11-30",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "ALAI": {
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "WCMI": {
    "type": "ftportfolios",
@@ -377,11 +384,12 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "LCAP": {
    "type": "generic",
@@ -411,11 +419,12 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "426030": {
    "type": "timefolio",
