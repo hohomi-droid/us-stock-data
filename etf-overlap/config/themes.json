@@ -1583,5 +1583,19 @@
   "desc": "Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United…",
   "auto": true,
   "v": 2
+ },
+ "2317.TW": {
+  "name": "HON HAI PRECISION INDUSTRY",
+  "theme": "전자부품",
+  "desc": "Hon Hai Precision Industry Co., Ltd. provides electronic manufacturing services.",
+  "auto": true,
+  "v": 2
+ },
+ "3231.TW": {
+  "name": "WISTRON CORPORATION",
+  "theme": "IT 하드웨어",
+  "desc": "Wistron Corporation, together with its subsidiaries, engages in the design, manufacture, and sale of information technology products in the United States,…",
+  "auto": true,
+  "v": 2
  }
 }
