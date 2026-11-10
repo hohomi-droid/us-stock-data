@@ -1597,5 +1597,19 @@
   "desc": "Wistron Corporation, together with its subsidiaries, engages in the design, manufacture, and sale of information technology products in the United States,…",
   "auto": true,
   "v": 2
+ },
+ "6805.TW": {
+  "name": "FOSITEK CORP",
+  "theme": "전자부품",
+  "desc": "Fositek Corp. engages in the design and manufacturing of various metal stamping products in Asia, the United States, and Europe.",
+  "auto": true,
+  "v": 2
+ },
+ "1303.TW": {
+  "name": "NAN YA PLASTIC",
+  "theme": "전자부품",
+  "desc": "Nan Ya Plastics Corporation engages in the manufacture and sale of plastic products, polyester fibers, petrochemical products, and electronic materials in…",
+  "auto": true,
+  "v": 2
  }
 }
