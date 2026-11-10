@@ -1611,5 +1611,12 @@
   "desc": "Nan Ya Plastics Corporation engages in the manufacture and sale of plastic products, polyester fibers, petrochemical products, and electronic materials in…",
   "auto": true,
   "v": 2
+ },
+ "CFR.SW": {
+  "name": "RICHEMONT N",
+  "theme": "Luxury Goods",
+  "desc": "Compagnie Financière Richemont SA, an investment holding company, engages in the luxury goods business.",
+  "auto": true,
+  "v": 2
  }
 }
