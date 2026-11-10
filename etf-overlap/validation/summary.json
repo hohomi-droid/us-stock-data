@@ -1807,5 +1807,171 @@
    "제안(미적용): flow_ratio 가 ±1% 구간의 가장자리 값을 골라 ARKK 11/05 유입을 1.57%로 추정(실제 2.05%). 구간 중앙값을 쓰면 ARK 공시와 0.02% 안으로 맞지만 NVDA 14→9위·TWST 19→44위 등 순위가 크게 움직여 기준 변경에 가까우므로 제안만"
   ],
   "summary": "20개 확인 중 17개 일치·불일치 1(000660.KS, ADR/보통주 줄 바뀜 버그 — 수정)·확인불가 2. ARK 11/05 NVDA·SPCX·AVGO 매매가 ARK 공시와 주 단위까지 맞고, 11/07 확인불가였던 GLW·NFLX(CGUS 11/05)도 기사로 확인됨."
+ },
+ {
+  "date": "2026-11-11",
+  "github_generated": "2026-11-11",
+  "checked": 20,
+  "matched": 15,
+  "mismatched": 0,
+  "unverifiable": 5,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "BAI 10/29~11/02·ARK 11/04~05 매수, GitHub 2위"
+   },
+   {
+    "sym": "NVDA",
+    "name": "NVIDIA",
+    "reason": "ARK 11/05·11/09 매수 보도, GitHub 2주 편입 ARKK·ARKW·QLTY (CGUS 11/02 +2.5%는 기준 미달)"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "BAI·CGUS 11/02 매수, GitHub 4위"
+   },
+   {
+    "sym": "MSFT",
+    "name": "Microsoft",
+    "reason": "JGRO 10/28·BAI 10/30·CGCV 11/02 매수, GitHub 1위"
+   },
+   {
+    "sym": "STX",
+    "name": "Seagate",
+    "reason": "CGUS 11/02·CGGR 11/04, GitHub 3위"
+   },
+   {
+    "sym": "INTC",
+    "name": "Intel",
+    "reason": "CGUS 11/02·CGGO 11/03 매수 vs BAI 10/30 대량 매도, GitHub 8위+매도 경고"
+   },
+   {
+    "sym": "TWST",
+    "name": "Twist Bioscience",
+    "reason": "BAI 10/29 신규·ARK 매수, GitHub 24위"
+   },
+   {
+    "sym": "KLAC",
+    "name": "KLA",
+    "reason": "CGGR 11/06 +187,804, GitHub 14위"
+   },
+   {
+    "sym": "PM",
+    "name": "Philip Morris",
+    "reason": "CGGO 11/03 +128,067, GitHub 40위(2주 2곳)"
+   },
+   {
+    "sym": "DE",
+    "name": "Deere",
+    "reason": "CGGR 11/06 +$87.4M, GitHub 2주 2곳"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "ASE",
+    "reason": "00981A 11/04·11/10, 00991A 11/09 매수, GitHub 11위"
+   },
+   {
+    "sym": "2368.TW",
+    "name": "Gold Circuit",
+    "reason": "00991A 11/09 신규·00981A 11/10, GitHub 28위"
+   },
+   {
+    "sym": "3443.TW",
+    "name": "GUC",
+    "reason": "00991A 11/09 신규·00981A 11/04, GitHub 25위"
+   },
+   {
+    "sym": "2345.TW",
+    "name": "Accton",
+    "reason": "00981A 11/10 +682張·00991A 11/10, GitHub 19위"
+   },
+   {
+    "sym": "2317.TW/3231.TW",
+    "name": "Hon Hai / Wistron",
+    "reason": "00981A 11/09 대량 매수·00991A, GitHub 54·59위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "2454.TW",
+    "name": "MediaTek",
+    "reason": "00981A 11/04·00991A 11/09~10 매수 — GitHub 49위(2주 2곳)지만 상위권 밖"
+   },
+   {
+    "sym": "ENTG",
+    "name": "Entegris",
+    "reason": "BAI 10/29~11/02 3일 연속 $67.8M — 한 ETF라 116위"
+   },
+   {
+    "sym": "RKT",
+    "name": "Rocket Cos",
+    "reason": "CGGR 11/06 +6,133,720주($92.4M) — 한 ETF(123위)"
+   },
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 11/06 $69.5M 확신 매수, 다만 CGGO 11/03 전량 매도(147위)"
+   },
+   {
+    "sym": "ICE",
+    "name": "Intercontinental Exchange",
+    "reason": "CGGO 11/03 신규 $51.3M — 유니버스 안 보유 1곳이라 겹침 목록에 없음"
+   },
+   {
+    "sym": "NTRA",
+    "name": "Natera",
+    "reason": "ARK 11/06 $19.2M, JGRO는 매도(71위)"
+   },
+   {
+    "sym": "3037.TW/8046.TW",
+    "name": "Unimicron / NYPCB",
+    "reason": "00406A·00985A·00992A(유니버스 밖) 매수 — GitHub 미반영"
+   },
+   {
+    "sym": "SOFI",
+    "name": "SoFi",
+    "reason": "ARK 11/09 405,720주 — ARK만 보유"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "reason": "BAI·CGDV·JPEF 11/09 매수(보도 전). 뉴스는 ARK 매도만 보도돼 방향 엇갈림"
+   },
+   {
+    "sym": "LRCX",
+    "name": "Lam Research",
+    "reason": "LCAP 11/10·JPEF 11/09 — 일별 매매 기사 없는 ETF"
+   },
+   {
+    "sym": "AAPL",
+    "name": "Apple",
+    "reason": "JPEF·CGNG 11/09 매수(보도 전), 뉴스는 CGUS 매도만"
+   },
+   {
+    "sym": "BTI",
+    "name": "British American Tobacco",
+    "reason": "CGNG 11/09 신규·CGXU — 기사 없음"
+   },
+   {
+    "sym": "GEV",
+    "name": "GE Vernova",
+    "reason": "LCAP 11/10 — 기사 없음"
+   },
+   {
+    "sym": "MDLN/ACN",
+    "name": "Medline / Accenture",
+    "reason": "AKRE·EAGL·CGUS 등 일별 매매 기사 없는 ETF"
+   }
+  ],
+  "fixes": [
+   "config/themes.json: 2345.TW(Accton) 테마·한국어 설명 보강(auto→false)",
+   "코드 수정 없음. QLTY 11/10 전 종목 +32% 대량 설정(creation)도 유입 보정(1.318)이 처리 — 초과분 KLAC·LRCX·NVDA(+3.6~4.3%)만 편입으로 잡힘",
+   "제안(기준 변경 없음): 어제 적은 flow_ratio 구간 중앙값 안은 QLTY처럼 대량 유입일 때 차이가 커짐(1.318 vs 중앙 1.322) — 이번엔 판정 변화 없음"
+  ],
+  "summary": "확인 20개 중 15개 일치·불일치 0·확인불가 5(11/09~10 미국 ETF 매수 기사 미게재). Capital Group·JGRO·BAI 기사 주식 수 14건이 원자료 차이와 정확히 같음. 신규 상위 AVGO·LRCX·AAPL 은 근거 보도 대기."
  }
 ]

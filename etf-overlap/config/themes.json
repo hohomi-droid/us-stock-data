@@ -1530,9 +1530,9 @@
  },
  "2345.TW": {
   "name": "ACCTON TECHNOLOGY CORP",
-  "theme": "통신장비·네트워크",
-  "desc": "Accton Technology Corporation develops, manufactures, and sells computer network systems and wireless land area network (LAN) hardware and software products…",
-  "auto": true,
+  "theme": "AI 네트워크 스위치",
+  "desc": "대만 네트워크 장비 업체로 클라우드 데이터센터용 고속 이더넷 스위치를 화이트박스(ODM) 방식으로 만들어 대형 클라우드 기업에 공급한다.",
+  "auto": false,
   "v": 2
  },
  "U": {
