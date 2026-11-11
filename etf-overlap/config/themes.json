@@ -1618,5 +1618,12 @@
   "desc": "Compagnie Financière Richemont SA, an investment holding company, engages in the luxury goods business.",
   "auto": true,
   "v": 2
+ },
+ "ORCL": {
+  "name": "Oracle Corporation",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide.",
+  "auto": true,
+  "v": 2
  }
 }
