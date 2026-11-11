@@ -1973,5 +1973,171 @@
    "제안(기준 변경 없음): 어제 적은 flow_ratio 구간 중앙값 안은 QLTY처럼 대량 유입일 때 차이가 커짐(1.318 vs 중앙 1.322) — 이번엔 판정 변화 없음"
   ],
   "summary": "확인 20개 중 15개 일치·불일치 0·확인불가 5(11/09~10 미국 ETF 매수 기사 미게재). Capital Group·JGRO·BAI 기사 주식 수 14건이 원자료 차이와 정확히 같음. 신규 상위 AVGO·LRCX·AAPL 은 근거 보도 대기."
+ },
+ {
+  "date": "2026-11-12",
+  "github_generated": "2026-11-12",
+  "checked": 20,
+  "matched": 16,
+  "mismatched": 0,
+  "unverifiable": 4,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "NVDA",
+    "name": "NVIDIA",
+    "reason": "ARK 11/05·11/09·CGUS 11/02 매수 — 운용사 다른 곳끼리 겹친 대표 종목, GitHub 9위"
+   },
+   {
+    "sym": "TSM",
+    "name": "TSMC",
+    "reason": "CGDV·CGGO ADR 매수, 대만 액티브 5곳 11/09 순매수, GitHub 4위"
+   },
+   {
+    "sym": "STX",
+    "name": "Seagate",
+    "reason": "Capital Group 3곳(CGUS·CGGR·CGDV) 매수, GitHub 6위"
+   },
+   {
+    "sym": "INTC",
+    "name": "Intel",
+    "reason": "CGUS·CGGO·CGDV 매수(BAI 매도), GitHub 7위"
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "reason": "CGUS·CGGR 매수, ARK 매도, GitHub 8위"
+   },
+   {
+    "sym": "AMD",
+    "name": "AMD",
+    "reason": "BAI 11/09·ARK 11/05 매수, GitHub 1위"
+   },
+   {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "reason": "BAI·CGDV 11/09 매수, ARK 전량 정리, GitHub 5위"
+   },
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "ARK 11/04~05·CGGR 매수, GitHub 3위"
+   },
+   {
+    "sym": "GLW",
+    "name": "Corning",
+    "reason": "CGUS 11/05·CGDV 11/09, GitHub 27위"
+   },
+   {
+    "sym": "MU",
+    "name": "Micron",
+    "reason": "CGDV 11/06 $46.7M, GitHub 34위"
+   },
+   {
+    "sym": "KLAC",
+    "name": "KLA",
+    "reason": "CGGR 11/06 $26.0M, GitHub 10위"
+   },
+   {
+    "sym": "SHOP",
+    "name": "Shopify",
+    "reason": "CGGR 11/06·ARK 11/03, GitHub 13위"
+   },
+   {
+    "sym": "ORCL",
+    "name": "Oracle",
+    "reason": "CGDV 11/09, GitHub 60위(140에서 상승)"
+   },
+   {
+    "sym": "6805.TW",
+    "name": "富世達",
+    "reason": "00403A·00991A 11/11, GitHub 25위"
+   },
+   {
+    "sym": "1303.TW",
+    "name": "南亞",
+    "reason": "00403A·00991A 각 +1,000張(11/11), CMoney '액티브 6곳 매수', GitHub 50위"
+   },
+   {
+    "sym": "2368.TW",
+    "name": "金像電",
+    "reason": "00991A 신규·00981A 11/11, GitHub 46위"
+   },
+   {
+    "sym": "2317.TW / 3231.TW",
+    "name": "鴻海 / 緯創",
+    "reason": "00981A 11/09 대량·00991A 11/11, GitHub 48·52위"
+   },
+   {
+    "sym": "3443.TW / 2454.TW",
+    "name": "創意 / 聯發科",
+    "reason": "00991A·00403A 11/09~11, GitHub 33·44위"
+   },
+   {
+    "sym": "DE / RKLB / AMAT",
+    "name": "Deere / Rocket Lab / Applied Materials",
+    "reason": "CGGR 11/06 $87.4M / ARK 11/10 / CGDV 11/02 $146M, GitHub 66·57·64위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "3017.TW",
+    "name": "奇鋐",
+    "reason": "11/10 대만 액티브 여러 곳 순매수 NT$1.13B(etfinfo), 00403A 11/11 — GitHub 106위(2주 편입 1곳)"
+   },
+   {
+    "sym": "2308.TW",
+    "name": "台達電",
+    "reason": "00991A 1→250→445張, 00418A(유니버스 밖) — GitHub 107위, 오히려 00403A·BAI·CGNG 매도 경고"
+   },
+   {
+    "sym": "RKT",
+    "name": "Rocket Cos",
+    "reason": "CGGR 11/06 +6.13M주($92.4M) — 한 ETF, 114위"
+   },
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 11/06 $69.5M, CGGO 전량 매도 — 136위"
+   },
+   {
+    "sym": "ICE",
+    "name": "Intercontinental Exchange",
+    "reason": "CGGO 11/03 신규 $51.3M — 유니버스 보유 1곳이라 목록 없음"
+   },
+   {
+    "sym": "SOFI / ACHR",
+    "name": "SoFi / Archer",
+    "reason": "ARK 11/09·11/10 매수(ARK만 보유) — SOFI 목록 없음, ACHR 139위"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "LRCX",
+    "name": "Lam Research",
+    "reason": "LCAP 11/10·JPEF 11/09 — 두 ETF 모두 매매 기사 없음"
+   },
+   {
+    "sym": "TMO",
+    "name": "Thermo Fisher",
+    "reason": "CGNG·CGGR·JPEF — 상위 5 매매에 안 나옴"
+   },
+   {
+    "sym": "SBUX",
+    "name": "Starbucks",
+    "reason": "CGCV 11/10 — 보도 전(CGUS 11/05 매수는 기사 있음)"
+   },
+   {
+    "sym": "MDLN / BTI",
+    "name": "Medline / BAT",
+    "reason": "AKRE·EAGL·CGNG 등 일별 매매 기사 없는 ETF"
+   }
+  ],
+  "fixes": [
+   "config/themes.json: 6805.TW(富世達)·ANET 한국어 테마·설명 보강(auto→false)",
+   "코드 수정 없음(분명한 버그 없음)",
+   "수집 대기(5-2): track:false ETF 없음"
+  ],
+  "summary": "확인 20개 중 일치 16·불일치 0·확인불가 4. 원자료 숫자가 GuruFocus·Wantgoo 기사와 7건 정확히 일치했고, 확인불가는 모두 JPMorgan·LCAP·CGCV 등 기사가 없는 ETF나 11/10~11 보도 전 공시."
  }
 ]

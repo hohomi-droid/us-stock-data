@@ -222,9 +222,9 @@
  },
  "ANET": {
   "name": "Arista Networks, Inc.",
-  "theme": "IT 하드웨어",
-  "desc": "Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and…",
-  "auto": true,
+  "theme": "AI 데이터센터 네트워크",
+  "desc": "클라우드·AI 데이터센터용 고속 이더넷 스위치와 네트워크 운영체제(EOS)를 만드는 미국 업체.",
+  "auto": false,
   "v": 2
  },
  "STX": {
@@ -1600,9 +1600,9 @@
  },
  "6805.TW": {
   "name": "FOSITEK CORP",
-  "theme": "전자부품",
-  "desc": "Fositek Corp. engages in the design and manufacturing of various metal stamping products in Asia, the United States, and Europe.",
-  "auto": true,
+  "theme": "서버 레일·힌지 부품",
+  "desc": "폴더블폰 힌지와 AI 서버용 슬라이드 레일·냉각 부품을 만드는 대만 정밀부품 업체.",
+  "auto": false,
   "v": 2
  },
  "1303.TW": {
