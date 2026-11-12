@@ -1625,5 +1625,26 @@
   "desc": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide.",
   "auto": true,
   "v": 2
+ },
+ "CARR": {
+  "name": "Carrier Global Corporation",
+  "theme": "건축자재",
+  "desc": "Carrier Global Corporation provides intelligent climate and energy solutions in the United States, Europe, the Asia Pacific, and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "6223.TW": {
+  "name": "旺矽",
+  "theme": "",
+  "desc": "",
+  "auto": true,
+  "v": 2
+ },
+ "TSCO": {
+  "name": "Tractor Supply Company",
+  "theme": "Specialty Retail",
+  "desc": "Tractor Supply Company operates as a rural lifestyle retailer in the United States.",
+  "auto": true,
+  "v": 2
  }
 }
