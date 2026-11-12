@@ -2139,5 +2139,136 @@
    "수집 대기(5-2): track:false ETF 없음"
   ],
   "summary": "확인 20개 중 일치 16·불일치 0·확인불가 4. 원자료 숫자가 GuruFocus·Wantgoo 기사와 7건 정확히 일치했고, 확인불가는 모두 JPMorgan·LCAP·CGCV 등 기사가 없는 ETF나 11/10~11 보도 전 공시."
+ },
+ {
+  "date": "2026-11-13",
+  "github_generated": "2026-11-13",
+  "checked": 20,
+  "matched": 14,
+  "mismatched": 0,
+  "unverifiable": 6,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "TSM",
+    "name": "TSMC",
+    "reason": "00981A 11/11 +913張(CMoney)·JAVA/JGLO 11/11 매수, GitHub 2위"
+   },
+   {
+    "sym": "NVDA",
+    "name": "NVIDIA",
+    "reason": "ARK 11/09 $16.2M 매수(The Block) — 다만 Capital Group 2곳·JAVA 11/11 대량 축소로 매도 경고 7곳, GitHub 10위"
+   },
+   {
+    "sym": "AMD",
+    "name": "AMD",
+    "reason": "11/10 ETF 46곳 순매수, BAI·ARK·JGRO·JGLO 매수, GitHub 1위"
+   },
+   {
+    "sym": "META",
+    "name": "Meta",
+    "reason": "CGGR 11/10 +4,752주(GuruFocus) 소폭, GitHub 34위"
+   },
+   {
+    "sym": "3443.TW",
+    "name": "創意",
+    "reason": "00981A·00991A·00403A 11/11~12 모두 매수, GitHub 29위"
+   },
+   {
+    "sym": "2368.TW",
+    "name": "金像電",
+    "reason": "00991A 11/12 +150張(etfinfo), GitHub 47위"
+   },
+   {
+    "sym": "2454.TW",
+    "name": "聯發科",
+    "reason": "00403A 11/12 +50張, GitHub 44위"
+   },
+   {
+    "sym": "6223.TW",
+    "name": "旺矽",
+    "reason": "00981A 11/12 +153張(etfinfo 원자료 정확), GitHub 49위(113에서 상승)"
+   },
+   {
+    "sym": "RKLB",
+    "name": "Rocket Lab",
+    "reason": "ARK 11/10~11 연속 매수, GitHub 60위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "KTOS",
+    "name": "Kratos Defense",
+    "reason": "ARKK·ARKQ 11/11 85,203주 $3.1M — ARK 안에서만 겹침, GitHub 94위"
+   },
+   {
+    "sym": "ACHR",
+    "name": "Archer Aviation",
+    "reason": "ARKK·ARKQ·ARKX 11/10~11 연속 매수 — ARKX 는 유니버스 밖, GitHub 151위"
+   },
+   {
+    "sym": "PRME",
+    "name": "Prime Medicine",
+    "reason": "ARKG 11/11 1,744,714주 $6.8M — 한 ETF, 목록 없음"
+   },
+   {
+    "sym": "6271.TW",
+    "name": "同欣電",
+    "reason": "00981A 11/11~12 +300張 — 한 ETF, 목록 없음"
+   },
+   {
+    "sym": "6515.TW",
+    "name": "穎崴",
+    "reason": "00403A 11/12 신규 30張 — 한 ETF, 목록 없음"
+   },
+   {
+    "sym": "2887.TW",
+    "name": "台新新光金 등 금융주",
+    "reason": "udn 11/08: 대만 액티브 ETF 주간 순매수 1위(14,841張)·상위 10 중 8개 금융주 — 유니버스 밖 ETF 비중이 커서 목록 없음"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "NFLX",
+    "name": "Netflix",
+    "reason": "JGRO 11/11 +62,675주(비중 0.06%) — JPMorgan 매매 기사 없음"
+   },
+   {
+    "sym": "WDC",
+    "name": "Western Digital",
+    "reason": "CGGO 11/11 +126,364주 — GuruFocus 게재 전"
+   },
+   {
+    "sym": "NEE",
+    "name": "NextEra Energy",
+    "reason": "JAVA 11/11·LCAP·426030 — 기사 없는 ETF"
+   },
+   {
+    "sym": "CARR / TSCO / HPE",
+    "name": "Carrier / Tractor Supply / HPE",
+    "reason": "JAVA 11/11 동시 매수(TSCO +207,006주) — JAVA 기사 없음"
+   },
+   {
+    "sym": "ILMN / TWLO",
+    "name": "Illumina / Twilio",
+    "reason": "JGRO 11/11 소폭 증가 — 기사 없음"
+   },
+   {
+    "sym": "ANET",
+    "name": "Arista",
+    "reason": "426030 11/13 신규 28주 — 한국 ETF 기사 없음"
+   },
+   {
+    "sym": "005930.KS",
+    "name": "삼성전자",
+    "reason": "WCMI·CGIC·IDEF 10/21~30 편입 — 기간 내 기사 못 찾음"
+   }
+  ],
+  "fixes": [
+   "config/themes.json: NEE(전력 유틸리티·재생에너지)·WDC(HDD 저장장치) 한국어 테마·설명 보강(auto→false)",
+   "코드 수정 없음(분명한 버그 없음)",
+   "수집 대기(5-2): 50위 안 track:false ETF 없음(TOUS·TGRT·INFL 은 reserve) — 작업 없음"
+  ],
+  "summary": "확인 20개 중 일치 14·불일치 0·확인불가 6(일치율 100%). 원자료 숫자가 기사와 정확히 같은 것 6건(00981A 台積電 +913張·CGGR META +4,752 등). 오늘 순위 변화를 만든 JGRO·JAVA·CGGO 11/11 공시는 보도 전이라 확인불가가 늘었고, NVDA 는 Capital Group 2곳 대량 축소로 매도 경고 7곳."
  }
 ]

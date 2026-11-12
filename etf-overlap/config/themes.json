@@ -64,9 +64,9 @@
  },
  "WDC": {
   "name": "Western Digital Corporation",
-  "theme": "IT 하드웨어",
-  "desc": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology…",
-  "auto": true,
+  "theme": "HDD 저장장치",
+  "desc": "데이터센터·클라우드용 대용량 HDD를 주력으로 만드는 미국 저장장치 기업으로, 2025년 플래시(샌디스크) 사업을 분사했다.",
+  "auto": false,
   "v": 2
  },
  "MSFT": {
@@ -984,9 +984,9 @@
  },
  "NEE": {
   "name": "NextEra Energy, Inc.",
-  "theme": "전력 유틸리티",
-  "desc": "NextEra Energy, Inc., through its subsidiaries, generates, stores, transmits, distributes, and sells electric power to retail and wholesale customers in North…",
-  "auto": true,
+  "theme": "전력 유틸리티·재생에너지",
+  "desc": "플로리다 최대 전력회사 FPL과 미국 최대 풍력·태양광·배터리 저장 발전 사업자 NextEra Energy Resources를 거느린 유틸리티 지주회사다.",
+  "auto": false,
   "v": 2
  },
  "ALAB": {
