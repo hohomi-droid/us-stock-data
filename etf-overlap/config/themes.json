@@ -1646,5 +1646,12 @@
   "desc": "Tractor Supply Company operates as a rural lifestyle retailer in the United States.",
   "auto": true,
   "v": 2
+ },
+ "3665.TW": {
+  "name": "BIZLINK HOLDING INC",
+  "theme": "전력기기",
+  "desc": "BizLink Holding Inc., together with its subsidiaries, provides connection harness application solutions in the United States, China, Germany, Malaysia,…",
+  "auto": true,
+  "v": 2
  }
 }
