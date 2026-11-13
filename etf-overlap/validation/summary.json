@@ -2270,5 +2270,151 @@
    "수집 대기(5-2): 50위 안 track:false ETF 없음(TOUS·TGRT·INFL 은 reserve) — 작업 없음"
   ],
   "summary": "확인 20개 중 일치 14·불일치 0·확인불가 6(일치율 100%). 원자료 숫자가 기사와 정확히 같은 것 6건(00981A 台積電 +913張·CGGR META +4,752 등). 오늘 순위 변화를 만든 JGRO·JAVA·CGGO 11/11 공시는 보도 전이라 확인불가가 늘었고, NVDA 는 Capital Group 2곳 대량 축소로 매도 경고 7곳."
+ },
+ {
+  "date": "2026-11-14",
+  "github_generated": "2026-11-14",
+  "checked": 20,
+  "matched": 12,
+  "mismatched": 1,
+  "unverifiable": 7,
+  "match_rate": 0.923,
+  "both": [
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "CGGR 11/11 +312,210주($43.6M, 최대 매수)·ARK 11/04~05 매수, GitHub 5위"
+   },
+   {
+    "sym": "TSM",
+    "name": "TSMC",
+    "reason": "CGDV 11/06·CGGO 11/11 매수·00981A 연속 매수, GitHub 1위"
+   },
+   {
+    "sym": "STX",
+    "name": "Seagate",
+    "reason": "CGGR 11/04·CGDV 11/06 매수, GitHub 6위"
+   },
+   {
+    "sym": "GLW",
+    "name": "Corning",
+    "reason": "CGUS 11/05 +463,722주(최대 매수), GitHub 12위"
+   },
+   {
+    "sym": "INTC",
+    "name": "Intel",
+    "reason": "CGGR 11/11 +113,158주, ETF 11/11 순매수 $79.2M, GitHub 14위"
+   },
+   {
+    "sym": "WDC",
+    "name": "Western Digital",
+    "reason": "CGGO 11/11 +126,364주, GitHub 24위"
+   },
+   {
+    "sym": "3443.TW",
+    "name": "創意",
+    "reason": "00981A·00403A·00991A 연속 매수, GitHub 11위"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "日月光投控",
+    "reason": "00991A 11/09·00981A 11/10 매수(+00406A 유니버스 밖), GitHub 25위"
+   },
+   {
+    "sym": "2368.TW",
+    "name": "金像電",
+    "reason": "00991A 11/09 신규·00981A 11/10, GitHub 44위"
+   },
+   {
+    "sym": "TWST",
+    "name": "Twist Bioscience",
+    "reason": "ARKK/ARKG 11/12 +72,834주, GitHub 27위"
+   },
+   {
+    "sym": "MU",
+    "name": "Micron",
+    "reason": "CGDV 11/06 +67,626주, GitHub 35위"
+   },
+   {
+    "sym": "AMAT",
+    "name": "Applied Materials",
+    "reason": "CGDV 11/02 $146.3M·CGUS 11/05 +19,343주, GitHub 64위"
+   },
+   {
+    "sym": "CRWV",
+    "name": "CoreWeave",
+    "reason": "ARKK/ARKW 11/12 283,022주 실적 후 매수 — GitHub 57위(ARK 편입일은 9/17 기준)"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "CIEN",
+    "name": "Ciena",
+    "reason": "CGGO 11/11 신규 143,667주($42.5M) — 2주 편입 1곳뿐, GitHub 86위"
+   },
+   {
+    "sym": "CVNA",
+    "name": "Carvana",
+    "reason": "CGGR 11/11 +358,173주($26.5M) — 한 ETF, GitHub 113위(JGRO 매도 경고)"
+   },
+   {
+    "sym": "SPOT",
+    "name": "Spotify",
+    "reason": "CGGR 11/11 +42,717주 — 한 ETF, GitHub 109위"
+   },
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 11/06 +385,387주($69.5M) — 한 ETF, CGGO 매도 경고로 GitHub 144위"
+   },
+   {
+    "sym": "HCA",
+    "name": "HCA Healthcare",
+    "reason": "JAVA 11/11 최대 매수(+39,505주) — 한 ETF, 목록 없음"
+   },
+   {
+    "sym": "ACHR / KTOS",
+    "name": "Archer / Kratos",
+    "reason": "ARK 11/10·11/12 연속 매수 — ARK 안에서만 겹침, GitHub 148·91위"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "NFLX",
+    "name": "Netflix",
+    "reason": "JGRO 11/11 +62,675주(비중 0.06%) — 기사 없음"
+   },
+   {
+    "sym": "NEE",
+    "name": "NextEra Energy",
+    "reason": "JAVA 11/11·LCAP·426030 — 기사 없는 ETF"
+   },
+   {
+    "sym": "LRCX",
+    "name": "Lam Research",
+    "reason": "LCAP 11/10·JPEF 11/09·QLTY — 기사 없는 ETF"
+   },
+   {
+    "sym": "ANET",
+    "name": "Arista",
+    "reason": "426030 11/13 신규 28주 — 한국 ETF 기사 없음"
+   },
+   {
+    "sym": "3665.TW",
+    "name": "貿聯-KY",
+    "reason": "00981A 11/12 +180張(CMoney 방향 확인)·00991A 11/13 신규 210張 — 날짜 불명 Threads 글은 00991A 축소라고 해 확인 보류"
+   },
+   {
+    "sym": "005930.KS",
+    "name": "삼성전자",
+    "reason": "WCMI·CGIC·IDEF 10/21~30 편입 — 기사 못 찾음"
+   }
+  ],
+  "fixes": [
+   "analyze.py flow_ratio: ETF 좌수 비율과 보유 주식 수 공통 비율이 어긋날 때(보유 2/3 이상이 같은 비율로 움직이고 좌수 비율과 3% 넘게 차이) 공통 비율 사용 — IDEF 11/12 좌수 +0.16% vs 129/153종목 −4.9% 로 생긴 가짜 매도 경고 18건 제거(매도 경고 56→52, 겹침 245→252). 과거 구간에서 조건에 걸린 날은 IDEF 11/12 하나뿐",
+   "config/themes.json: 상위 30개 auto 항목 없음 — 변경 없음",
+   "수집 대기(5-2): 50위 안 track:false ETF 없음 — 작업 없음"
+  ],
+  "summary": "확인 20개 중 일치 12·불일치 1·확인불가 7(일치율 92.3%). 불일치는 IDEF 11/12 좌수·보유 기준일 어긋남으로 생긴 가짜 매도 경고(SPCX 등 18건)로, flow_ratio 를 고쳐 제거. 원자료 숫자가 GuruFocus·ARK 보도와 정확히 같은 것 19건(CGGR SPCX +312,210·CGGO WDC +126,364 등). ARKK 11/12 전 종목 ×1.21 자료 오류는 공통 비율 보정으로 영향 없음."
  }
 ]

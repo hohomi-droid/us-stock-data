@@ -131,14 +131,26 @@ def is_stock(sym: str, h: dict) -> bool:
 def flow_ratio(prev: dict, cur: dict, units_prev, units_cur) -> float:
     """자금 유입/유출에 따른 일괄 매매 비율."""
     if units_prev and units_cur and units_prev > 0:
-        return units_cur / units_prev
+        fu = units_cur / units_prev
+        # 좌수와 보유 주식 수의 기준일이 하루 어긋나는 경우(예: IDEF 2026-11-12 좌수 +0.2%인데
+        # 153종목 중 129종목이 똑같이 −4.9%) 좌수 비율을 쓰면 전 종목이 '감소'로 잡힌다.
+        # 보유 종목 2/3 이상이 같은 비율로 움직였고 그 값이 좌수 비율과 ADD_EXCESS 넘게 다르면 공통 비율을 쓴다.
+        fm, share = _mode_ratio(prev, cur)
+        if share >= 2 / 3 and abs(fm / fu - 1) > ADD_EXCESS:
+            return fm
+        return fu
+    return _mode_ratio(prev, cur)[0]
+
+
+def _mode_ratio(prev: dict, cur: dict):
+    """보유 종목 주식 수 변화율의 최빈 구간 값과 그 구간에 든 종목 비율."""
     ratios = []
     for s, h in cur.items():
         p = prev.get(s)
         if p and p.get("shares") and h.get("shares"):
             ratios.append(h["shares"] / p["shares"])
     if not ratios:
-        return 1.0
+        return 1.0, 0.0
     # 최빈 구간: ±1% 안에 가장 많은 종목이 모인 비율 = 일괄 매매 비율.
     # 동률이면 1.0(자금 흐름 없음)에 가까운 값을 택한다.
     best, best_n = 1.0, -1
@@ -146,7 +158,7 @@ def flow_ratio(prev: dict, cur: dict, units_prev, units_cur) -> float:
         n = sum(1 for r in ratios if abs(r / c - 1) <= 0.01)
         if n > best_n or (n == best_n and abs(c - 1) < abs(best - 1)):
             best, best_n = c, n
-    return best
+    return best, best_n / len(ratios)
 
 
 SPIKE_FLOW = 0.10      # 좌수 정보 없는 ETF에서 하루 ±10% 넘는 일괄 변화가
