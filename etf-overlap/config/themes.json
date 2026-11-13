@@ -1653,5 +1653,12 @@
   "desc": "BizLink Holding Inc., together with its subsidiaries, provides connection harness application solutions in the United States, China, Germany, Malaysia,…",
   "auto": true,
   "v": 2
+ },
+ "ONC": {
+  "name": "BeOne Medicines Ltd.",
+  "theme": "바이오",
+  "desc": "BeOne Medicines AG, an oncology company, engages in discovering and developing various treatments for cancer patients in the United States, China, Europe, and…",
+  "auto": true,
+  "v": 2
  }
 }
