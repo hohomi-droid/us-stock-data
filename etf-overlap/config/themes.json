@@ -388,9 +388,9 @@
  },
  "LITE": {
   "name": "Lumentum Holdings Inc.",
-  "theme": "통신장비·네트워크",
-  "desc": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa.",
-  "auto": true,
+  "theme": "광통신 부품",
+  "desc": "AI 데이터센터와 통신망에 쓰이는 광트랜시버·레이저·광 스위치 등 광통신 부품을 만드는 미국 기업이다.",
+  "auto": false,
   "v": 2
  },
  "NFLX": {

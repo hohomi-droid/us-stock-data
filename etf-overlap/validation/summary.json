@@ -2416,5 +2416,140 @@
    "수집 대기(5-2): 50위 안 track:false ETF 없음 — 작업 없음"
   ],
   "summary": "확인 20개 중 일치 12·불일치 1·확인불가 7(일치율 92.3%). 불일치는 IDEF 11/12 좌수·보유 기준일 어긋남으로 생긴 가짜 매도 경고(SPCX 등 18건)로, flow_ratio 를 고쳐 제거. 원자료 숫자가 GuruFocus·ARK 보도와 정확히 같은 것 19건(CGGR SPCX +312,210·CGGO WDC +126,364 등). ARKK 11/12 전 종목 ×1.21 자료 오류는 공통 비율 보정으로 영향 없음."
+ },
+ {
+  "date": "2026-11-17",
+  "github_generated": "2026-11-17",
+  "checked": 20,
+  "matched": 13,
+  "mismatched": 0,
+  "unverifiable": 7,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "ARK 3곳 11/04~05·CGGR 11/11 대량 매수 — GitHub 9위"
+   },
+   {
+    "sym": "AMD",
+    "name": "Advanced Micro Devices",
+    "reason": "JGLO·JGRO·BAI 11/11·ARK 11/05 매수 — 2위"
+   },
+   {
+    "sym": "TSM",
+    "name": "TSMC",
+    "reason": "JAVA 11/11·00981A 연속 매수 — 1위"
+   },
+   {
+    "sym": "GLW",
+    "name": "Corning",
+    "reason": "CGDV 11/02·CGUS 11/05 대량 매수 — 11위"
+   },
+   {
+    "sym": "SHOP",
+    "name": "Shopify",
+    "reason": "ARK 11/03·CGGR 11/11 매수 — 12위"
+   },
+   {
+    "sym": "2345.TW",
+    "name": "智邦 Accton",
+    "reason": "00991A·00981A 동시 매수 — 16위"
+   },
+   {
+    "sym": "3443.TW",
+    "name": "創意 Global Unichip",
+    "reason": "00991A 11/09 신규 후 연속 증가 — 8위"
+   },
+   {
+    "sym": "3711.TW",
+    "name": "日月光 ASE",
+    "reason": "00991A 11/09·00981A 11/10 +617張 — 21위"
+   },
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "CGDV 11/02·CGGR 11/10 매수 — 27위"
+   },
+   {
+    "sym": "6223.TW",
+    "name": "旺矽 MPI",
+    "reason": "etfinfo 2개 이상 액티브 동시 순매수 목록, 00991A·00981A 증가 — 39위"
+   },
+   {
+    "sym": "CRWV / NTRA",
+    "name": "CoreWeave / Natera",
+    "reason": "ARK 여러 펀드 매수 — 54·60위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 11/02 +686,628·11/06 +385,387주, CGGR 소량 — 11/02 는 2주 창(11/03~) 밖이라 2주 편입 1곳, 139위"
+   },
+   {
+    "sym": "3017.TW",
+    "name": "奇鋐 AVC",
+    "reason": "etfinfo 액티브 동시 순매수 1위(약 NT$4.6억). 원자료상 00981A +4.7%(11/10~11), 00991A +1.3% → 00991A 가 +3% 기준 미달이라 2주 편입 1곳, 107위"
+   },
+   {
+    "sym": "2383.TW",
+    "name": "台光電 EMC",
+    "reason": "etfinfo 동시 순매수 목록. 원자료 00991A +1.9%·00981A 변화 없음 → 기준 미달로 목록 밖"
+   },
+   {
+    "sym": "CVNA / SPOT",
+    "name": "Carvana / Spotify",
+    "reason": "CGGR 11/11 대량 매수(원자료 정확) — 한 ETF라 113·109위"
+   },
+   {
+    "sym": "HCA / BDX",
+    "name": "HCA Healthcare / Becton Dickinson",
+    "reason": "JAVA 11/11 상위 매수(HCA +39,505 정확) — 한 ETF"
+   },
+   {
+    "sym": "CIEN",
+    "name": "Ciena",
+    "reason": "CGGO 11/11 신규 — 86위"
+   },
+   {
+    "sym": "KTOS / ACHR",
+    "name": "Kratos / Archer Aviation",
+    "reason": "ARK 안에서만 연속 매수 — 138·145위"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "NFLX / LRCX / MSFT",
+    "name": "Netflix / Lam Research / Microsoft",
+    "reason": "JGRO·LCAP·JPEF·QLTY 등 기사 없는 ETF 매수가 근거"
+   },
+   {
+    "sym": "LITE",
+    "name": "Lumentum",
+    "reason": "JTEK 11/09 증가로 14위 급등, 기사 없음"
+   },
+   {
+    "sym": "ANET",
+    "name": "Arista Networks",
+    "reason": "426030 신규·JGLO — 기사 없음"
+   },
+   {
+    "sym": "KLAC",
+    "name": "KLA",
+    "reason": "QLTY 11/10 대량 증가(설정 자금 영향 가능)·CGGR — 기사 없음"
+   },
+   {
+    "sym": "005930.KS",
+    "name": "삼성전자",
+    "reason": "JGLO·CGDG·CGIC — 기사 없음"
+   }
+  ],
+  "fixes": [
+   "fetchers/nport.py: SEC browse-edgar 가 시리즈 ID 조회에 HTTP 400 을 돌려 11개 N-PORT ETF(TCAF·FBCG·CNEQ·FWD·TMSL·FEGE·NUGO·EMOP·ALAI·IDEQ·BAFE) 수집 실패 → 실패 시 펀드 이름 EFTS 검색으로 대체(seriesId 대조 유지). 이번 실행은 이전 스냅샷이 유지돼 순위 영향 없음",
+   "themes.json: LITE(14위) 한국어 테마·설명 작성(auto→false)"
+  ],
+  "summary": "확인 20개 중 일치 13·불일치 0·확인불가 7(100%). GuruFocus·ARK·대만 추적 사이트 수치가 원자료와 정확히 맞음(CGDV 11/02 6건, AMD 11/11 3건 등). SEC N-PORT 조회 400 오류로 분기 공시 ETF 11개 갱신 실패 → 대체 경로 추가. ARKK 11/13 전 종목 ×1.51 배수 오류(누적 ×1.83)는 공통 비율 보정으로 판정 영향 없음."
  }
 ]

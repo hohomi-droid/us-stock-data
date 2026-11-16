@@ -204,7 +204,14 @@ def history(ticker: str, count: int = 4, fund_name: str | None = None):
     sid = None
     if s:
         cik, sid = s
-        hrefs = filings(sid, count=count + 2)[:count]
+        try:
+            hrefs = filings(sid, count=count + 2)[:count]
+        except Exception:  # noqa: BLE001
+            # 2026-11-17: browse-edgar 가 시리즈 ID(S0000…) 조회에 400 을 돌려줌 → 이름 검색(EFTS)으로 대체.
+            # parse_primary 가 seriesId 를 대조하므로 다른 시리즈 문서는 걸러진다.
+            if not fund_name:
+                raise
+            hrefs = _efts_filings(fund_name, count + 4)
     elif fund_name:
         hrefs = _efts_filings(fund_name, count + 4)
     else:
