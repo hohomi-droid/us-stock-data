@@ -1,22 +1,24 @@
 {
- "run": "2026-11-14T07:43:13+09:00",
+ "run": "2026-11-17T07:47:37+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000074249&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "CGGR": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000074246&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "PVAL": {
    "type": "nport",
@@ -40,25 +42,28 @@
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000074247&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "CGGO": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000074250&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "JGRO": {
    "type": "jpm",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000077070&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "BLCR": {
    "type": "ishares",
@@ -78,31 +83,29 @@
   "TCAF": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2025-12-31",
-    "2026-03-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000079834&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 2
+   "probe": []
   },
   "FBCG": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2026-01-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000068173&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 1
+   "probe": []
   },
   "JAVA": {
    "type": "jpm",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000072931&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "SEQ": {
    "type": "sequoia",
@@ -116,68 +119,73 @@
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000074248&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "JGLO": {
    "type": "jpm",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000081237&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "ARKK": {
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000042977&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "CNEQ": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2025-12-31",
-    "2026-03-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000084280&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 2
+   "probe": []
   },
   "CGDG": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000080720&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "QLTY": {
    "type": "gmo",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000082992&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "EAGL": {
    "type": "eagle",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000081645&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "AKRE": {
    "type": "filepoint",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000089351&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "TSPA": {
    "type": "trowe_pdf",
@@ -193,17 +201,19 @@
    "type": "jpm",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000080536&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "JIVE": {
    "type": "jpm",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000081238&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "00403A": {
    "type": "ezmoney",
@@ -224,90 +234,91 @@
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000088874&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "FWD": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2026-02-28"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000079470&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 1
+   "probe": []
   },
   "CGGE": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000084722&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "CGNG": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000084728&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "TMSL": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2025-12-31",
-    "2026-03-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000079837&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 2
+   "probe": []
   },
   "FEGE": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2026-02-28"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000089122&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 1
+   "probe": []
   },
   "CGIC": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000084726&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "NUGO": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2026-01-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000073535&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 1
+   "probe": []
   },
   "CGIE": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000080722&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "BGIG": {
    "type": "dated_csv",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000081227&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "TCHP": {
    "type": "trowe_pdf",
@@ -330,101 +341,100 @@
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000042975&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "CGCV": {
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000084724&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "EMOP": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2025-11-30",
-    "2026-03-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000092962&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 2
+   "probe": []
   },
   "ALAI": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2025-12-31",
-    "2026-03-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000084281&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 2
+   "probe": []
   },
   "WCMI": {
    "type": "ftportfolios",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000086665&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "JPEF": {
    "type": "jpm",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000079812&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "IDEQ": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2025-12-31",
-    "2026-03-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000091514&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 2
+   "probe": []
   },
   "LCAP": {
    "type": "generic",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000091386&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "ARKW": {
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000042978&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "ARKQ": {
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000042976&type=NPORT-P&dateb=&owner=include&cou"
+   ],
+   "probe": []
   },
   "BAFE": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2025-12-31",
-    "2026-03-31"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 400 Client Error: Bad Request for url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=S000088454&type=NPORT-P&dateb=&owner=include&cou"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 2
+   "probe": []
   },
   "426030": {
    "type": "timefolio",

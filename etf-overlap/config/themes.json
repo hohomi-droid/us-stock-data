@@ -1660,5 +1660,12 @@
   "desc": "BeOne Medicines AG, an oncology company, engages in discovering and developing various treatments for cancer patients in the United States, China, Europe, and…",
   "auto": true,
   "v": 2
+ },
+ "086790.KS": {
+  "name": "HANAFINANCIALGR",
+  "theme": "지역은행",
+  "desc": "Hana Financial Group Inc., through its subsidiaries, provides financial services in South Korea, Hong Kong, Singapore, the United States, Japan, China,…",
+  "auto": true,
+  "v": 2
  }
 }
