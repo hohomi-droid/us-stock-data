@@ -211,9 +211,9 @@ def history(ticker: str, count: int = 4, fund_name: str | None = None):
             # parse_primary 가 seriesId 를 대조하므로 다른 시리즈 문서는 걸러진다.
             if not fund_name:
                 raise
-            hrefs = _efts_filings(fund_name, count + 4)
+            hrefs = _efts_filings(fund_name, max(25, count * 8))
     elif fund_name:
-        hrefs = _efts_filings(fund_name, count + 4)
+        hrefs = _efts_filings(fund_name, max(25, count * 8))
     else:
         raise ValueError(f"SEC 펀드 목록에 {ticker} 없음")
     res = []
@@ -234,6 +234,8 @@ def history(ticker: str, count: int = 4, fund_name: str | None = None):
             res.append(d)
         if len(res) >= count:
             break
+    # 2026-11-18: 이름 검색 결과 상위 5건이 같은 신탁의 다른 시리즈 문서뿐이라 TCAF·FBCG·NUGO·ALAI 가 'N-PORT 없음' →
+    # 검색 범위를 넓혔다(일치하는 문서를 count 개 찾으면 바로 멈추므로 요청 수는 크게 늘지 않음).
     uniq = {}
     for d in res:
         uniq[d["asof"]] = d

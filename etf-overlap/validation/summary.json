@@ -2551,5 +2551,141 @@
    "themes.json: LITE(14위) 한국어 테마·설명 작성(auto→false)"
   ],
   "summary": "확인 20개 중 일치 13·불일치 0·확인불가 7(100%). GuruFocus·ARK·대만 추적 사이트 수치가 원자료와 정확히 맞음(CGDV 11/02 6건, AMD 11/11 3건 등). SEC N-PORT 조회 400 오류로 분기 공시 ETF 11개 갱신 실패 → 대체 경로 추가. ARKK 11/13 전 종목 ×1.51 배수 오류(누적 ×1.83)는 공통 비율 보정으로 판정 영향 없음."
+ },
+ {
+  "date": "2026-11-18",
+  "github_generated": "2026-11-18",
+  "checked": 20,
+  "matched": 16,
+  "mismatched": 0,
+  "unverifiable": 4,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "ARK 11/05·11/12·11/16, BAI 11/12, CGGR 11/11 매수 — 10위"
+   },
+   {
+    "sym": "TSM",
+    "name": "TSMC",
+    "reason": "CGDV 11/06·JAVA·CGGO 11/11·BAI 11/12 매수(CGDG·CGUS 는 매도) — 1위"
+   },
+   {
+    "sym": "AMD",
+    "name": "Advanced Micro Devices",
+    "reason": "JGLO 11/10~11·JGRO·BAI 11/11·ARK 11/05 — 2위"
+   },
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "CGDV 11/06 $65.7M·CGGR 11/10 — 14위"
+   },
+   {
+    "sym": "SHOP",
+    "name": "Shopify",
+    "reason": "CGGR 11/06·11/11·ARK 11/16 — 13위"
+   },
+   {
+    "sym": "KLAC / STX / GLW",
+    "name": "KLA / Seagate / Corning",
+    "reason": "CGGR 11/06·CGDV 11/06·CGUS 11/05 대량 매수 — 9·11·12위"
+   },
+   {
+    "sym": "AMAT",
+    "name": "Applied Materials",
+    "reason": "CGUS 11/05·CGDV 매수, CGGR 11/06 전량 매도(경고 일치) — 25위"
+   },
+   {
+    "sym": "WDC",
+    "name": "Western Digital",
+    "reason": "CGGO 11/11 +126,364 정확·JGLO — 19위"
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "reason": "JGRO 11/11 $12.6M·JGLO — 18위"
+   },
+   {
+    "sym": "NFLX",
+    "name": "Netflix",
+    "reason": "CGUS 11/05 $5.9M — 6위"
+   },
+   {
+    "sym": "XYZ / CRWV / TWST",
+    "name": "Block / CoreWeave / Twist",
+    "reason": "ARK 11/12~16 매수(+BAI·JTEK) — 57·21·22위"
+   },
+   {
+    "sym": "3443.TW / 2345.TW / 3711.TW / 3665.TW / 6223.TW",
+    "name": "創意 / 智邦 / 日月光 / 貿聯 / 旺矽",
+    "reason": "대만 액티브 여러 곳 동시 매수(CMoney·cmnews) — 8·17·20·46·42위. 貿聯 00991A 1→210張 정확"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 11/04 +302,891·11/06 +385,387(원자료 정확), 다른 ETF는 소량 → 2주 편입 1곳, 146위"
+   },
+   {
+    "sym": "RKT",
+    "name": "Rocket Companies",
+    "reason": "CGGR 11/06 +6,133,720주($92.4M, 정확)·11/16 추가 — 한 ETF만 보유라 겹침 목록 밖"
+   },
+   {
+    "sym": "CIEN",
+    "name": "Ciena",
+    "reason": "CGGO 11/11 신규 143,667주($42.5M, 정확) — 91위"
+   },
+   {
+    "sym": "CVNA / SPOT / AWK",
+    "name": "Carvana / Spotify / American Water",
+    "reason": "CGGR 11/11·CGDG 11/12 신규 대량 — 한 ETF라 113~128위"
+   },
+   {
+    "sym": "HCA / BDX",
+    "name": "HCA Healthcare / Becton Dickinson",
+    "reason": "JAVA 11/11 상위 매수 — 한 ETF"
+   },
+   {
+    "sym": "CRCL / ACHR / KTOS",
+    "name": "Circle / Archer / Kratos",
+    "reason": "ARK 내부 여러 펀드 매수 — ARK 한 운용사라 하위권"
+   },
+   {
+    "sym": "2383.TW / 3017.TW",
+    "name": "台光電 / 奇鋐",
+    "reason": "대만 액티브 3~5곳 동시 순매수(CMoney 11/06·11/13) — 추적 ETF 중 증가율 +3% 미달로 목록 밖/111위"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "MSFT / LRCX / LITE",
+    "name": "Microsoft / Lam Research / Lumentum",
+    "reason": "JPEF·JTEK·LCAP·QLTY·BAI 매수 근거 — 이들 ETF 매매 기사 없음"
+   },
+   {
+    "sym": "005930.KS",
+    "name": "삼성전자",
+    "reason": "JGLO·CGIC·CGDG·IDEF — 기사 없음"
+   },
+   {
+    "sym": "AAPL",
+    "name": "Apple",
+    "reason": "JAVA 11/16·JPEF·CGNG 매수(기사 없음), 보도된 건 CGUS 매도·CGGR 매수로 엇갈림"
+   },
+   {
+    "sym": "EL.PA / 6805.TW / ACN",
+    "name": "EssilorLuxottica / 富世達 / Accenture",
+    "reason": "Capital Group 해외·대만·JPMorgan 편입 — 기사 없음"
+   }
+  ],
+  "fixes": [
+   "fetchers/nport.py: TCAF·FBCG·NUGO·ALAI 가 'N-PORT 없음'(11/17 수정 후 11개 중 7개는 회복) → EFTS 이름 검색 범위를 5건→25건으로 넓힘(이전 스냅샷 유지 중이라 순위 영향 없음, 다음 실행에서 효과 확인)",
+   "themes.json: AMAT·APH 한국어 테마·설명 작성(auto→false)",
+   "제안(기준 변경, 적용 안 함): ARKK 원자료 주식 수가 11/12 ×1.21·11/13 ×1.51(ARKW 11/13 ×1.67)로 실제의 약 2배(NVDA 2.26M vs 실제 ~1.2M). 공통비율 보정으로 상대 판정은 ARK 공시와 맞지만 절대 수량 표시는 틀림 → '자료 배수 오류' 배지 또는 ark 공식 CSV 대체 경로 검토"
+  ],
+  "summary": "확인 20개 중 일치 16·불일치 0·확인불가 4. GuruFocus·cmnews 원수치와 정확히 같은 매매 20건 이상, ARK 11/16 NVDA 매도·SPCX 매수도 보정 후 비율 일치. 남은 문제는 ARKK·ARKW 절대 주식 수 배수 오류와 N-PORT 4개 실패."
  }
 ]
