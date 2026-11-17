@@ -1667,5 +1667,19 @@
   "desc": "Hana Financial Group Inc., through its subsidiaries, provides financial services in South Korea, Hong Kong, Singapore, the United States, Japan, China,…",
   "auto": true,
   "v": 2
+ },
+ "6146.T": {
+  "name": "DISCO CORPORATION",
+  "theme": "반도체 장비",
+  "desc": "Disco Corporation manufactures and sells precision cutting, grinding, and polishing machines in Japan and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "SDZ.SW": {
+  "name": "SANDOZ GROUP N",
+  "theme": "Drug Manufacturers - Specialty & Generic",
+  "desc": "Sandoz Group AG develops, manufactures, and markets generic and biosimilars worldwide.",
+  "auto": true,
+  "v": 2
  }
 }
