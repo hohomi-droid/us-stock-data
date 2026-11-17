@@ -10,6 +10,7 @@
   "JGRO:133:2026-11-16",
   "BLCR:51:2026-11-16",
   "00981A:50:2026-11-17",
+  "TCAF:62:2026-06-30",
   "JAVA:140:2026-11-16",
   "SEQ:37:2026-11-18",
   "CGXU:78:2026-11-16",
@@ -39,6 +40,7 @@
   "ARKG:33:2026-11-16",
   "CGCV:72:2026-11-16",
   "EMOP:29:2026-06-30",
+  "ALAI:50:2026-03-31",
   "WCMI:44:2026-11-16",
   "JPEF:39:2026-11-16",
   "IDEQ:109:2026-06-30",
@@ -53,9 +55,7 @@
   "bench:ACWI:2187:2026-11-16"
  ],
  "fail": {
-  "TCAF": "ValueError: N-PORT 없음",
   "FBCG": "ValueError: N-PORT 없음",
-  "NUGO": "ValueError: N-PORT 없음",
-  "ALAI": "ValueError: N-PORT 없음"
+  "NUGO": "ValueError: N-PORT 없음"
  }
 }
