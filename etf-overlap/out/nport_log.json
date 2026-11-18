@@ -1,5 +1,5 @@
 {
- "run": "2026-11-18T07:55:00+09:00",
+ "run": "2026-11-19T07:54:09+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -78,10 +78,13 @@
   "TCAF": {
    "type": "nport",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2025-12-31",
+    "2026-03-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 2
   },
   "FBCG": {
    "type": "nport",
@@ -103,9 +106,10 @@
    "type": "sequoia",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22Sequoia+ETF%22&forms=NPORT-P"
+   ],
+   "probe": []
   },
   "CGXU": {
    "type": "capital_group",
@@ -153,12 +157,10 @@
   "QLTY": {
    "type": "gmo",
    "strategy": null,
-   "saved": [
-    "2026-07-31"
-   ],
+   "saved": [],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 0
   },
   "EAGL": {
    "type": "eagle",
@@ -325,9 +327,10 @@
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22ARK+Genomic+Revolution+ETF%22&forms=NPORT-P"
+   ],
+   "probe": []
   },
   "CGCV": {
    "type": "capital_group",
@@ -340,20 +343,25 @@
   "EMOP": {
    "type": "nport",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2025-11-30",
+    "2026-03-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 2
   },
   "ALAI": {
    "type": "nport",
    "strategy": null,
    "saved": [
+    "2025-03-31",
+    "2025-09-30",
     "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 3
   },
   "WCMI": {
    "type": "ftportfolios",
@@ -385,9 +393,10 @@
    "type": "generic",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22Principal+Capital+Appreciation+Select+ETF%22&forms=NPOR"
+   ],
+   "probe": []
   },
   "ARKW": {
    "type": "ark",
