@@ -2687,5 +2687,137 @@
    "제안(기준 변경, 적용 안 함): ARKK 원자료 주식 수가 11/12 ×1.21·11/13 ×1.51(ARKW 11/13 ×1.67)로 실제의 약 2배(NVDA 2.26M vs 실제 ~1.2M). 공통비율 보정으로 상대 판정은 ARK 공시와 맞지만 절대 수량 표시는 틀림 → '자료 배수 오류' 배지 또는 ark 공식 CSV 대체 경로 검토"
   ],
   "summary": "확인 20개 중 일치 16·불일치 0·확인불가 4. GuruFocus·cmnews 원수치와 정확히 같은 매매 20건 이상, ARK 11/16 NVDA 매도·SPCX 매수도 보정 후 비율 일치. 남은 문제는 ARKK·ARKW 절대 주식 수 배수 오류와 N-PORT 4개 실패."
+ },
+ {
+  "date": "2026-11-19",
+  "github_generated": "2026-11-19",
+  "checked": 20,
+  "matched": 16,
+  "mismatched": 0,
+  "unverifiable": 4,
+  "match_rate": 1.0,
+  "both": [
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "CGGR 11/11·BAI 11/12·ARK 11/16 매수 — 10위"
+   },
+   {
+    "sym": "TSM",
+    "name": "TSMC",
+    "reason": "BAI 11/12·00981A 11/17·CGDV 11/06 매수(CGDG·CGUS·CGDV 11/17 축소) — 1위"
+   },
+   {
+    "sym": "AMD",
+    "name": "Advanced Micro Devices",
+    "reason": "JGLO 11/10·BAI 11/12 — 2위"
+   },
+   {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "reason": "JGLO 11/10·BAI 11/12 매수, CGDG 매도 — 3위"
+   },
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "CGDV 11/06·CGNG 11/17 — 4위"
+   },
+   {
+    "sym": "NET",
+    "name": "Cloudflare",
+    "reason": "BAI 11/09·11/12, CGGR 11/16 $56.4M — 33위"
+   },
+   {
+    "sym": "SHOP",
+    "name": "Shopify",
+    "reason": "CGGR 11/06·ARK 11/16 — 13위"
+   },
+   {
+    "sym": "GLW / ORCL",
+    "name": "Corning / Oracle",
+    "reason": "CGUS 11/05·CGDV 11/09 — 12·52위"
+   },
+   {
+    "sym": "CRWV",
+    "name": "CoreWeave",
+    "reason": "ARK 11/12·BAI 11/16 — 20위"
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "reason": "JGRO 11/11·JGLO — 18위"
+   },
+   {
+    "sym": "3443.TW / 3711.TW / 6223.TW / 2454.TW",
+    "name": "創意 / 日月光 / 旺矽 / 聯發科",
+    "reason": "대만 액티브 11/17~18 동시 매수(SETN·etfinfo) — 8·31·39·34위"
+   },
+   {
+    "sym": "XYZ / ACHR",
+    "name": "Block / Archer",
+    "reason": "ARK 11/16~17 매수 — 51·60위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "RKT",
+    "name": "Rocket Companies",
+    "reason": "CGGR 11/06 +6.13M주 — 한 ETF만 보유"
+   },
+   {
+    "sym": "CIEN",
+    "name": "Ciena",
+    "reason": "CGGO 11/11 신규 +143,667·11/17 +20,815 — 87위"
+   },
+   {
+    "sym": "LUNR",
+    "name": "Intuitive Machines",
+    "reason": "ARKQ 11/17 매수(원자료 보정 후 +449K = 보도 448.4K) — ARK만"
+   },
+   {
+    "sym": "LLY",
+    "name": "Eli Lilly",
+    "reason": "CGGE 11/16 +2,117·CGGR +1,730 원자료 정확, 증가율 3% 미만이라 편입 아님 — 67위"
+   },
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 11/06 $69.5M — 147위"
+   },
+   {
+    "sym": "3017.TW",
+    "name": "奇鋐",
+    "reason": "대만 액티브 3곳 11/13 매수·00981A 11/18 +113 — 추적 ETF 기준 증가율 부족, 109위"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "MSFT / LRCX / LITE",
+    "name": "Microsoft / Lam Research / Lumentum",
+    "reason": "JPMorgan·LCAP·QLTY·BAI 매수 근거 기사 없음"
+   },
+   {
+    "sym": "005930.KS",
+    "name": "삼성전자",
+    "reason": "JGLO·CGIC·CGDG·IDEF 편입 — 기사 없음"
+   },
+   {
+    "sym": "TSCO",
+    "name": "Tractor Supply",
+    "reason": "CGDV 11/17 신규·JAVA·CGCV — 기사 없음"
+   },
+   {
+    "sym": "ACN / 6805.TW",
+    "name": "Accenture / 富世達",
+    "reason": "편입 기사 없음"
+   }
+  ],
+  "fixes": [
+   "themes.json: TSCO·8035.T(도쿄일렉트론) 한국어 테마·설명 작성(auto→false)",
+   "N-PORT: 어제 검색 범위 확대로 TCAF·ALAI 회복(4→2). FBCG·NUGO 는 여전히 'N-PORT 없음' — 셸에서 SEC 접속이 막혀 원인 확인 못 함(분기 공시라 이전 스냅샷 유지, 순위 영향 작음)",
+   "제안(기준 변경, 적용 안 함): ARK 원자료 배수 오류 지속(11/17 ARKK ×1.14·ARKW ×1.15·ARKQ ×1.16). 공통비율 보정 후 ARKQ LUNR +449K 가 보도 448.4K 와 맞아 판정은 정확 — 절대 수량 표시만 문제",
+   "수집 대기(5-2): 50위 안 track:false 없음. short_history 00403A·SEQ 는 10/22 상장이라 채울 과거 없음"
+  ],
+  "summary": "확인 20개 중 일치 16·불일치 0·확인불가 4. BAI·JTEK·CGGR NVDA 매도, CGGR NET $56.4M, CGDV 11/09 GLW·ORCL, 대만 11/18 매매 등 원수치 정확. 새 변화는 CGDV 11/17 대규모 리밸런싱(신규 8종목·매도 경고 12건, 보도 없음)."
  }
 ]

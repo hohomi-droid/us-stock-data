@@ -661,8 +661,8 @@
  "8035.T": {
   "name": "TOKYO ELECTRON",
   "theme": "반도체 장비",
-  "desc": "Tokyo Electron Limited, together with its subsidiaries, develops, manufactures, and sells semiconductor production equipment in Japan, South Korea, Taiwan,…",
-  "auto": true,
+  "desc": "일본 최대 반도체 장비 업체로 코터·디벨로퍼(점유율 약 90%)와 식각·증착·세정 장비를 TSMC·삼성 등에 공급한다.",
+  "auto": false,
   "v": 2
  },
  "MMM": {
@@ -1642,9 +1642,9 @@
  },
  "TSCO": {
   "name": "Tractor Supply Company",
-  "theme": "Specialty Retail",
-  "desc": "Tractor Supply Company operates as a rural lifestyle retailer in the United States.",
-  "auto": true,
+  "theme": "농촌 생활용품 소매",
+  "desc": "미국 최대 농촌 생활용품 소매 체인으로 사료·반려동물·농기자재·공구 등을 2,000여 개 매장과 온라인으로 판다.",
+  "auto": false,
   "v": 2
  },
  "3665.TW": {
