@@ -1681,5 +1681,12 @@
   "desc": "Sandoz Group AG develops, manufactures, and markets generic and biosimilars worldwide.",
   "auto": true,
   "v": 2
+ },
+ "000333.SZ": {
+  "name": "MIDEA GROUP",
+  "theme": "Furnishings, Fixtures & Appliances",
+  "desc": "Midea Group Co., Ltd., together with its subsidiaries, engages in the manufacture and sale of electrical appliance in China and internationally.",
+  "auto": true,
+  "v": 2
  }
 }

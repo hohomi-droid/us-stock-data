@@ -1,5 +1,5 @@
 {
- "run": "2026-11-19T07:54:09+09:00",
+ "run": "2026-11-20T07:52:07+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -106,10 +106,9 @@
    "type": "sequoia",
    "strategy": null,
    "saved": [],
-   "errors": [
-    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22Sequoia+ETF%22&forms=NPORT-P"
-   ],
-   "probe": []
+   "errors": [],
+   "probe": [],
+   "nport": 0
   },
   "CGXU": {
    "type": "capital_group",
@@ -367,9 +366,10 @@
    "type": "ftportfolios",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22First+Trust+WCM+International+Equity+ETF%22&forms=NPORT"
+   ],
+   "probe": []
   },
   "JPEF": {
    "type": "jpm",
@@ -410,9 +410,10 @@
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22ARK+Autonomous+Technology+%26+Robotics+ETF%22&forms=NPO"
+   ],
+   "probe": []
   },
   "BAFE": {
    "type": "nport",
