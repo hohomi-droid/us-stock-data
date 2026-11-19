@@ -792,9 +792,9 @@
  },
  "6861.T": {
   "name": "KEYENCE CORP",
-  "theme": "계측·과학장비",
-  "desc": "Keyence Corporation, together with its subsidiaries, manufactures and sells electronic application equipment in Japan and internationally.",
-  "auto": true,
+  "theme": "공장자동화 센서",
+  "desc": "공장 자동화용 센서·머신비전·측정기를 만드는 일본 기업으로, 영업이익률 50%를 넘는 고수익 직판 모델이 특징이다.",
+  "auto": false,
   "v": 2
  },
  "SAF.PA": {
@@ -1621,9 +1621,9 @@
  },
  "ORCL": {
   "name": "Oracle Corporation",
-  "theme": "클라우드·인프라 SW",
-  "desc": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide.",
-  "auto": true,
+  "theme": "클라우드·AI 인프라",
+  "desc": "데이터베이스·기업용 소프트웨어 강자로, 오픈AI 등과의 대형 계약을 바탕으로 AI 데이터센터(OCI) 클라우드를 빠르게 늘리고 있다.",
+  "auto": false,
   "v": 2
  },
  "CARR": {

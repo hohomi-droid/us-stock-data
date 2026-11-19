@@ -2819,5 +2819,132 @@
    "수집 대기(5-2): 50위 안 track:false 없음. short_history 00403A·SEQ 는 10/22 상장이라 채울 과거 없음"
   ],
   "summary": "확인 20개 중 일치 16·불일치 0·확인불가 4. BAI·JTEK·CGGR NVDA 매도, CGGR NET $56.4M, CGDV 11/09 GLW·ORCL, 대만 11/18 매매 등 원수치 정확. 새 변화는 CGDV 11/17 대규모 리밸런싱(신규 8종목·매도 경고 12건, 보도 없음)."
+ },
+ {
+  "date": "2026-11-20",
+  "github_generated": "2026-11-20",
+  "checked": 20,
+  "matched": 13,
+  "mismatched": 1,
+  "unverifiable": 6,
+  "match_rate": 0.929,
+  "both": [
+   {
+    "sym": "TSM",
+    "name": "TSMC",
+    "reason": "BAI 11/12·11/17, JGLO 11/10, JAVA 11/11, CGGO 11/11 매수 — 1위"
+   },
+   {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "reason": "BAI 11/09·11/12·11/17, JGLO 11/10, CGDV 11/09 — 2위"
+   },
+   {
+    "sym": "AMD",
+    "name": "Advanced Micro Devices",
+    "reason": "BAI 11/12·11/17, JGLO 11/10 — 5위"
+   },
+   {
+    "sym": "META",
+    "name": "Meta Platforms",
+    "reason": "CGDV 11/06 $65.7M·CGGR 11/16 — 3위"
+   },
+   {
+    "sym": "SPCX",
+    "name": "SpaceX",
+    "reason": "CGGR 11/11·BAI 11/17·ARK 11/16 — 16위"
+   },
+   {
+    "sym": "WDC",
+    "name": "Western Digital",
+    "reason": "CGGO 11/11 +$39.6M — 18위"
+   },
+   {
+    "sym": "CRWV / TWST",
+    "name": "CoreWeave / Twist Bioscience",
+    "reason": "ARK 11/12 매수 — 19·14위"
+   },
+   {
+    "sym": "NET",
+    "name": "Cloudflare",
+    "reason": "CGGR 11/16 $56.4M·BAI 11/12 — 32위"
+   },
+   {
+    "sym": "SPOT / XYZ",
+    "name": "Spotify / Block",
+    "reason": "CGGR 11/11·ARK 11/16 매수 — 45·47위"
+   },
+   {
+    "sym": "3711.TW / 2317.TW",
+    "name": "日月光 / 鴻海",
+    "reason": "대만 액티브 11/9~13 순매수 상위(CMoney 집계) — 31·37위"
+   }
+  ],
+  "claude_only": [
+   {
+    "sym": "RKT",
+    "name": "Rocket Companies",
+    "reason": "CGGR 11/06 $92.4M·11/16 $37.9M — 추적 ETF 1곳뿐이라 겹침 없음"
+   },
+   {
+    "sym": "MU",
+    "name": "Micron",
+    "reason": "CGDV 11/06 $46.7M·BAI 11/17 +28,808 매수 — 그러나 CGDV 11/17 −18%, BAI 11/18 소폭 감소(자금 유입 대비)로 GitHub 은 매도 경고 4곳, 209위"
+   },
+   {
+    "sym": "DE",
+    "name": "Deere",
+    "reason": "CGGR 11/06 $87.4M — 130위"
+   },
+   {
+    "sym": "FTAI",
+    "name": "FTAI Aviation",
+    "reason": "CGDV 11/06 $69.5M — 142위"
+   },
+   {
+    "sym": "CIEN / AWK",
+    "name": "Ciena / American Water Works",
+    "reason": "CGGO 11/11 신규 $42.5M, CGDG 11/12 신규 $32.5M — 82·124위"
+   },
+   {
+    "sym": "HCA / CRCL / COIN",
+    "name": "HCA / Circle / Coinbase",
+    "reason": "JAVA 11/11 $20M, ARK 11/16 매수 — 겹침 없음"
+   },
+   {
+    "sym": "3231.TW / 2027.TW",
+    "name": "緯創 / 大成鋼",
+    "reason": "대만 액티브 11/9~13 순매수 1·3위(CMoney) — 緯創 40위, 大成鋼은 추적 3개 ETF 미보유"
+   }
+  ],
+  "github_only": [
+   {
+    "sym": "005930.KS",
+    "name": "삼성전자",
+    "reason": "JGLO·CGDG·CGIC·IDEF 편입 — 기사 없음"
+   },
+   {
+    "sym": "LITE / LRCX / KLAC",
+    "name": "Lumentum / Lam Research / KLA",
+    "reason": "JTEK·LCAP·QLTY·JPEF 매수 — 기사화 드문 운용사"
+   },
+   {
+    "sym": "6861.T",
+    "name": "키엔스",
+    "reason": "분할 착시로 5위였다가 수정 후 20위. JGLO 11/09 +21%·CGNG 실매수는 있음"
+   },
+   {
+    "sym": "MDLN / TSCO",
+    "name": "Medline / Tractor Supply",
+    "reason": "CGDV 11/17~18 리밸런싱·EAGL 11/18 — 11/18 분 기사 미발행"
+   }
+  ],
+  "fixes": [
+   "analyze.py: 주식분할·병합 감지(split_factor) 추가 — 1주당 비중 비율이 1/K(±15%)이고 주식 수가 ≈K배면 K로 나눠 비교. 키엔스 11/18 5:1(CGIE·CGGE·CGXU·CGNG·JGLO ×5), 8035.T 9월 5:1, APH 9월 2:1 로 생긴 가짜 편입 7건 제거. 6861.T 5→20위, APH 2달 편입 8→6, 8035.T 5→3",
+   "themes.json: 6861.T 키엔스·ORCL 오라클 한국어 테마·설명 작성(auto→false)",
+   "수집 대기(5-2): 50위 안 track:false 없음. FBCG·NUGO 'N-PORT 없음' 지속(분기 공시, 이전 스냅샷 유지)",
+   "제안(기준 변경, 적용 안 함): ① ARK 원자료 배수 오류 계속 커짐(ARKK TSLA 11/09 1.77M→11/18 4.76M) — 공통비율 보정으로 판정은 맞지만 표시 주식 수는 부풀려짐. ② BAI 처럼 매일 자금 유입이 큰 ETF는 주식 수가 거의 그대로여도(MU 11/18 −0.15%) '감소'로 잡힘 — 매도 경고에 절대 감소 조건(주식 수 실제 감소 ≥1%)을 추가 검토"
+  ],
+  "summary": "확인 20 / 일치 13 / 불일치 1 / 확인불가 6. 불일치는 키엔스 5:1 분할을 편입으로 잡은 코드 버그(수정). Claude 조사와 상위권(TSM·AVGO·AMD·META·SPCX) 일치, Capital Group CGDV 11/17 리밸런싱은 HD·CSCO 주식 수 정확 일치로 확인."
  }
 ]

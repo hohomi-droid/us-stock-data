@@ -185,6 +185,26 @@ def spike_dates(ser: dict, ds: list) -> set:
     return bad
 
 
+SPLIT_FACTORS = (2, 3, 4, 5, 10, 20, 25, 50, 100)
+
+
+def split_factor(p: dict, h: dict) -> float:
+    """주식 분할·병합 감지. 예: 키엔스(6861.T) 2026-11-18 5:1 분할 — CGIE·CGGE·CGXU·CGNG·JGLO 주식 수가
+    일제히 ×5 됐는데 비중은 그대로라 '편입'으로 잘못 잡혔다. 1주당 비중(=주가) 비율이 1/K(±15%)이면 K로 나눈다."""
+    ws_p, ws_c = p.get("weight") or 0, h.get("weight") or 0
+    if ws_p < 0.05 or ws_c < 0.05 or not p.get("shares") or not h.get("shares"):
+        return 1.0
+    r = h["shares"] / p["shares"]
+    if 0.55 < r < 1.8:
+        return 1.0
+    px = (ws_c / h["shares"]) / (ws_p / p["shares"])  # 1주당 가격 비율
+    for k in SPLIT_FACTORS:
+        for kk in (k, 1 / k):
+            if abs(px * kk - 1) <= 0.15 and abs(r / kk - 1) < abs(r - 1):
+                return kk
+    return 1.0
+
+
 def diff_etf(prev_e: dict, cur_e: dict):
     """한 ETF의 전일→당일 변화 판정. 반환: {sym: 'new'|'add'|'reduce'|'exit'}"""
     prev = {s: h for s, h in prev_e.get("holdings", {}).items() if is_stock(s, h)}
@@ -201,7 +221,7 @@ def diff_etf(prev_e: dict, cur_e: dict):
             if (h.get("weight") or 0) >= MIN_NEW_WEIGHT:
                 out[s] = "new"
         else:
-            r = h["shares"] / p["shares"]
+            r = h["shares"] / p["shares"] / split_factor(p, h)
             if r > f * (1 + ADD_EXCESS):
                 out[s] = "add"
             elif r < f * (1 - REDUCE_EXCESS):
