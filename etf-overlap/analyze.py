@@ -185,7 +185,7 @@ def spike_dates(ser: dict, ds: list) -> set:
     return bad
 
 
-SPLIT_FACTORS = (2, 3, 4, 5, 10, 20, 25, 50, 100)
+SPLIT_FACTORS = (2, 3, 4, 5, 6, 7, 8, 10, 15, 20, 25, 30, 40, 50, 100)  # 8: SanDisk 2026-11-19 8:1
 
 
 def split_factor(p: dict, h: dict) -> float:
@@ -198,11 +198,15 @@ def split_factor(p: dict, h: dict) -> float:
     if 0.55 < r < 1.8:
         return 1.0
     px = (ws_c / h["shares"]) / (ws_p / p["shares"])  # 1주당 가격 비율
+    # 후보가 여러 개면(예: SanDisk 8:1 에서 7도 ±15% 안) 주식 수 비율에 가장 가까운 K를 고른다
+    best, best_err = 1.0, abs(math.log(r))
     for k in SPLIT_FACTORS:
         for kk in (k, 1 / k):
-            if abs(px * kk - 1) <= 0.15 and abs(r / kk - 1) < abs(r - 1):
-                return kk
-    return 1.0
+            if abs(px * kk - 1) <= 0.15:
+                err = abs(math.log(r / kk))
+                if err < best_err:
+                    best, best_err = kk, err
+    return best
 
 
 def diff_etf(prev_e: dict, cur_e: dict):

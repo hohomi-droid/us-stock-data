@@ -1,249 +1,249 @@
 {
- "date": "2026-11-20",
- "github_generated": "2026-11-20",
+ "date": "2026-11-21",
+ "github_generated": "2026-11-21",
  "checked": 20,
- "matched": 13,
+ "matched": 8,
  "mismatched": 1,
- "unverifiable": 6,
- "match_rate": 0.929,
+ "unverifiable": 11,
+ "match_rate": 0.889,
  "checks": [
   {
-   "sym": "TSM",
-   "claim": "1위, 2주 편입 8곳(BAI 11/12·JAVA 11/11·JGLO 11/10·JIVE 11/18 등), 매도 경고 CGDG·CGDV·CGGO·CGXU",
+   "sym": "ANT",
+   "claim": "1위, 11개 ETF가 상장 첫날(11/19) 신규 편입: BAI 6.27M주 5.16%·CGGR 7.63M주 2.77%·JTEK·EAGL·JGRO·CGGO·JPEF·CGUS·JGLO·BLCR, 426030 11/20",
    "verdict": "일치",
-   "note": "BAI 11/12 +80,144·11/17 +56,785, JGLO 11/10 +47,996, JAVA 11/11 +20,807 원자료 정확(GuruFocus). JIVE 11/18 은 기사 없음"
+   "note": "Seeking Alpha 11/20 'ANT 이미 82개 ETF 편입'(BAI·EAGL 언급), capitalgroup.com CGGR 보유 목록에 Anthropic, FETV TIMEFOLIO 액티브 4종 편입. 주의: BAI 는 상장 전 'Anthropic Series G Pref Prvt'(ANTHC, 11/17 1.85M주 1.1%)를 이미 보유 → 완전 신규가 아니라 전환+추가. ARK 6개 펀드 11/19 매수 93.5만주(Stocktwits·The Block)는 ARK 파일이 전일 보유 기준이라 아직 미반영"
+  },
+  {
+   "sym": "TSM",
+   "claim": "2위, 2주 편입 7곳(JTEK 11/19 +55%·BAI 11/12·JAVA·LCAP 11/11 등), 매도 경고 CGDG·CGDV·CGGO·CGXU·JGLO·JIVE",
+   "verdict": "일치",
+   "note": "BAI 11/12 +$32.5M·11/17 +56,785·11/18 +30,750, JTEK 11/18 +7,448(GuruFocus/Yahoo). CGDV·CGGO 11/17 매도 보도로 경고도 뒷받침. JTEK 11/19 +60,356 은 기사 없음"
   },
   {
    "sym": "AVGO",
-   "claim": "2위, 2주 편입 6곳(JPEF·BAI·CGDV 11/09, JGLO, LCAP, 426030), 매도 경고 5곳",
+   "claim": "3위, BAI·CGDV·JPEF 11/09·JGLO 편입, 매도 경고 ARKK·CGDG·JGRO·JTEK",
    "verdict": "일치",
-   "note": "BAI 11/09 +131,455·CGDV 11/09 +118,918·JGLO 11/10 +68,113 정확. ARK 11/05 −410,559 매도 보도"
+   "note": "GuruFocus '53 ETFs add AVGO' BAI 11/09 +131,455·CGDV +118,918 정확, BAI 11/12 +251,992. ARKK 11/06 매도 보도"
   },
   {
    "sym": "META",
-   "claim": "3위, CGUS 11/18·CGNG 11/17·CGDV 11/06 편입",
-   "verdict": "일치",
-   "note": "CGDV 11/06 +107,606 정확. CGUS 11/18 +27,301 은 기사 없음(stockanalysis 11/11 767,002 ≈ 원자료 직전 770,357)"
+   "claim": "4위, CGUS 11/18·CGNG 11/17·EAGL 11/19(+6.4%) 편입",
+   "verdict": "확인불가",
+   "note": "'JTEK·CGGR Bought: Meta Leads' 헤드라인만 확인(본문 접근 실패), CGUS·CGNG·EAGL 기사 없음"
   },
   {
-   "sym": "STX",
-   "claim": "4위(11위→), CGUS 11/18 +13%·CGDV 11/06·CGGR 11/06 편입",
+   "sym": "3443.TW",
+   "claim": "5위, BAI 11/12·00991A 11/09·00403A 10/28 편입",
    "verdict": "일치",
-   "note": "CGDV 11/06 +75,348 정확. CGUS 11/18 은 기사 없음"
+   "note": "CMoney 00991A 11/09 신규 45張 확인, 00981A 11/18 +37張 추가 매수 보도(SETN·CMoney). BAI·00403A 는 기사 없음"
+  },
+  {
+   "sym": "GLW",
+   "claim": "6위, JAVA·CGDV·CGCV·CGUS 편입",
+   "verdict": "일치",
+   "note": "CGUS 11/05 $48.0M 최대 매수(GuruFocus/Yahoo), CGDV 11/09 'Adds Corning'. JAVA·CGCV 는 기사 없음"
+  },
+  {
+   "sym": "LITE",
+   "claim": "7위, JTEK 11/09·LCAP 편입, 매도 경고 BAI",
+   "verdict": "확인불가",
+   "note": "JTEK·LCAP·BAI LITE 매매 기사 없음"
+  },
+  {
+   "sym": "LRCX",
+   "claim": "8위, LCAP 11/10·JPEF 11/09·QLTY 11/02 편입, 매도 경고 BAI·JGLO",
+   "verdict": "확인불가",
+   "note": "11/09 ETF 순매수 $231.4M 기사에 해당 ETF 없음"
+  },
+  {
+   "sym": "TWST",
+   "claim": "9위, ARKK 11/05·BAI·JTEK 편입",
+   "verdict": "일치",
+   "note": "ARKK·ARKG 11/12~19 반복 매수 약 $14M(cathiesark·Benzinga). BAI·JTEK 는 기사 없음"
+  },
+  {
+   "sym": "2345.TW",
+   "claim": "10위, 00991A 11/06·BAI 10/30·00981A 10/14 편입",
+   "verdict": "확인불가",
+   "note": "00981A 11/19 +120張(비중 4.2%, CMoney·工商時報)으로 매수 방향은 맞지만, 판정 근거인 00991A 11/06·BAI 10/30 은 기사 없음"
   },
   {
    "sym": "AMD",
-   "claim": "5위, JGRO·JGLO·BAI·LCAP 편입, 매도 경고 426030·CGNG",
+   "claim": "12위, JGRO 11/11·JGLO 11/10·BAI 11/09 편입, 매도 경고 426030·CGNG·LCAP",
    "verdict": "일치",
-   "note": "JGLO 11/10 +42,787·BAI 11/12 +28,622·11/17 +49,860 정확"
+   "note": "BAI 11/09 +86,157·11/17 +49,860, JGRO 11/11 +18,047, JGLO +30,134(+35.5%) — 기사 날짜 11/11 vs 원자료 11/10(공시 기준일 차이 하루, 수량 동일)"
+  },
+  {
+   "sym": "NFLX",
+   "claim": "15위, JGRO 11/11·JGLO 11/03(11/19 +15%) 편입, CGGR 11/19 거의 전량 매도(2,744,788→970)",
+   "verdict": "확인불가",
+   "note": "CGGR 10/22 −219,388 축소 보도만 있음. 11/19 전량 매도·JGLO 증액 기사 없음"
+  },
+  {
+   "sym": "SNDK",
+   "claim": "(원래 커밋) JGRO 11/19 편입(13,252→106,328)",
+   "verdict": "불일치",
+   "note": "SanDisk 8:1 분할(11/19 장 마감 후, Yahoo 분할 이벤트 8:1 확인) → JGRO 수량 ×8.02 는 분할. split_factor 가 후보 7을 먼저 골라 '편입'으로 남은 코드 버그 — 수정 후 편입 0. JTEK 16,514→1,408 은 분할로 설명 안 되는 실제 축소"
+  },
+  {
+   "sym": "CGDV 11/19",
+   "claim": "APH +85%·D +62%·DHI +96%·MDLN +54%·TSCO +22%·HD +28%, SBUX −53%·LLY −36%·MSFT −12%",
+   "verdict": "확인불가",
+   "note": "11/19 분 GuruFocus 기사 미발행(보통 2일 지연). LLY 는 ARKG 11/19 매도와 방향 같음"
+  },
+  {
+   "sym": "JGLO 11/19",
+   "claim": "DIS −23%·UNH −23%·C +24%·WDC +15%·TSM −9%",
+   "verdict": "확인불가",
+   "note": "JPM 상품 페이지는 상위 10종목만 표시"
+  },
+  {
+   "sym": "NVDA",
+   "claim": "29위, 매도 경고 13곳(CGGR 11/19 −8.3% 포함)",
+   "verdict": "일치",
+   "note": "CGGR 11/11 −334,273, BAI 11/12 −1,020,427, ARKK 11/16 −501,733, ARKQ 11/19 −33,430 보도. CGGR 11/19 수량은 기사 없음"
+  },
+  {
+   "sym": "GOOGL",
+   "claim": "26위, EAGL 11/19 +15% 편입, 매도 경고 CGDV·CGGO·JAVA·JGLO",
+   "verdict": "확인불가",
+   "note": "EAGL 11/19 기사 없음. CGDV 10/28 $75.1M 매수(창 밖)는 경고와 반대 방향 — 이후 매도분 기사는 없음"
   },
   {
    "sym": "005930.KS",
-   "claim": "6위, JGLO·IDEF·CGDG·CGIC 편입, 매도 경고 CGGO",
+   "claim": "16위, JGLO 11/09·CGDG·CGIC 편입",
    "verdict": "확인불가",
    "note": "삼성전자 개별 ETF 매매 기사 없음"
   },
   {
    "sym": "AAPL",
-   "claim": "7위, JAVA 11/16·JPEF·CGNG·426030 편입",
+   "claim": "17위, JAVA 11/16·JPEF 11/09 편입, 매도 경고 CGCV·CGDV",
    "verdict": "확인불가",
-   "note": "JAVA 11/11 기사에 AAPL 없음, 11/16 기사 못 찾음. CGGR 11/06 +60,913 은 기존 확인"
+   "note": "JAVA·JPEF 기사 없음(CGUS 11/05 −$46.1M 매도는 별개)"
   },
   {
-   "sym": "3443.TW",
-   "claim": "8위, BAI·00991A·00403A·00981A 편입",
+   "sym": "JPEF·JTEK 11/19",
+   "claim": "JPEF BKNG −73%, JTEK NOW −36%·HOOD −15%",
    "verdict": "확인불가",
-   "note": "오늘은 새 자료 없음(00403A 10/30 710,000주 스냅샷뿐). 어제 SETN 확인분 유지"
-  },
-  {
-   "sym": "KLAC",
-   "claim": "9위, CGGE·QLTY·CGGR·CGCV 편입",
-   "verdict": "일치",
-   "note": "CGGR 11/06 +187,804 정확. QLTY·CGGE·CGCV 기사 없음"
-  },
-  {
-   "sym": "GLW",
-   "claim": "10위, JAVA·CGCV·CGUS 11/18·CGDV 11/09 편입",
-   "verdict": "일치",
-   "note": "CGDV 11/09 'Adds Corning' 헤드라인, CGUS 11/05 +463,722 보도. CGUS 11/18 은 기사 없음"
-  },
-  {
-   "sym": "SHOP",
-   "claim": "11위, CGGR 11/06·ARKK/ARKW 11/16·CGGE 편입",
-   "verdict": "일치",
-   "note": "CGGR 11/06 +153,508 정확, ARK 11/16 111,510주 매수 보도"
-  },
-  {
-   "sym": "6861.T",
-   "claim": "(원래 커밋) 5위, CGIE·CGGE·CGNG 11/18 편입",
-   "verdict": "불일치",
-   "note": "키엔스 1:5 주식분할(권리락 11/19 JST)로 CG·JGLO 보유 주식 수가 일제히 ×5 → 편입으로 잘못 잡힘. analyze.py 분할 감지 추가 후 20위(2주 3곳: JGLO·CGNG·CGXU, CGNG 은 분할 보정 후에도 +8%)"
-  },
-  {
-   "sym": "LITE",
-   "claim": "12위, JTEK·LCAP·426030 편입, 매도 경고 BAI",
-   "verdict": "확인불가",
-   "note": "JTEK·LCAP LITE 매매 기사 없음"
-  },
-  {
-   "sym": "TWST",
-   "claim": "14위, ARKK 11/12·BAI 11/18·JTEK 11/12 편입",
-   "verdict": "일치",
-   "note": "ARK 11/12 TWST 72,834주 매수 보도(방향 일치). 원자료 ARKK +25% 는 ARK 배수 오류(×1.21) 포함 — 공통비율 보정 후 약 +65K. BAI 11/18 은 기사 없음"
-  },
-  {
-   "sym": "CRWV",
-   "claim": "19위, BAI 11/16·ARKK/ARKW 11/12 편입",
-   "verdict": "일치",
-   "note": "ARK 11/12 283,022주 매수 보도. BAI 11/16 은 어제 'CoreWeave Leads' 헤드라인"
-  },
-  {
-   "sym": "TSCO",
-   "claim": "21위, CGDV 11/17 신규 3,692,311주·JAVA·CGCV",
-   "verdict": "일치",
-   "note": "CGDV 11/17 리밸런싱이 보도로 확인: HD 신규 +700,613·CSCO −1,948,850(−20.04%) 원자료와 정확히 같음, 11/17 ETF TSCO·APH·DHI 순매수 헤드라인"
-  },
-  {
-   "sym": "MDLN",
-   "claim": "29위(178위→), CGDV 11/18 429,810→2,834,943·EAGL 11/18 편입",
-   "verdict": "확인불가",
-   "note": "11/18 매매 기사 아직 없음"
-  },
-  {
-   "sym": "000660.KS",
-   "claim": "30위, BAI 11/18 편입, 매도 경고 CGGO·CGIC·CGNG",
-   "verdict": "확인불가",
-   "note": "BAI 11/18 기사 없음"
-  },
-  {
-   "sym": "NVDA",
-   "claim": "27위, 매도 경고 13곳(CGUS 11/18 −5.7% 신규)",
-   "verdict": "일치",
-   "note": "BAI 11/12 −1,020,427·JGLO 11/10 −347,980·CGGR 11/16 −262,733·ARK 11/16 −543,092 정확. CGUS 11/18 은 기사 없음"
-  },
-  {
-   "sym": "INTC",
-   "claim": "44위, CGUS 11/18 +42%·CGGR 편입, 매도 경고 CGDV·CGNG·JGRO",
-   "verdict": "일치",
-   "note": "CGGR 11/11 +113,158 원자료 정확(3,022,457→3,135,615). CGUS 11/18 은 기사 없음"
+   "note": "기사 없음"
   }
  ],
  "both": [
   {
+   "sym": "ANT",
+   "name": "Anthropic",
+   "reason": "상장 첫날 ARK 6개 펀드 93.5만주·TIMEFOLIO 액티브 4종·BAI(전환+추가) 편입 보도 — GitHub 1위(11곳)"
+  },
+  {
    "sym": "TSM",
    "name": "TSMC",
-   "reason": "BAI 11/12·11/17, JGLO 11/10, JAVA 11/11, CGGO 11/11 매수 — 1위"
+   "reason": "BAI 11/12·11/17·11/18, JTEK 11/18, 00981A 11/17 +124張 — 2위"
   },
   {
    "sym": "AVGO",
    "name": "Broadcom",
-   "reason": "BAI 11/09·11/12·11/17, JGLO 11/10, CGDV 11/09 — 2위"
+   "reason": "BAI 11/09·11/12·11/17, CGDV 11/09 — 3위"
   },
   {
    "sym": "AMD",
    "name": "Advanced Micro Devices",
-   "reason": "BAI 11/12·11/17, JGLO 11/10 — 5위"
-  },
-  {
-   "sym": "META",
-   "name": "Meta Platforms",
-   "reason": "CGDV 11/06 $65.7M·CGGR 11/16 — 3위"
+   "reason": "BAI 11/09·11/17·11/18, JGRO·JGLO 11/11 — 12위"
   },
   {
    "sym": "SPCX",
    "name": "SpaceX",
-   "reason": "CGGR 11/11·BAI 11/17·ARK 11/16 — 16위"
+   "reason": "ARKK·ARKW 11/16 $52M, BAI 11/17 +117,171 — 13위"
   },
   {
-   "sym": "WDC",
-   "name": "Western Digital",
-   "reason": "CGGO 11/11 +$39.6M — 18위"
+   "sym": "TWST / CRWV",
+   "name": "Twist Bioscience / CoreWeave",
+   "reason": "ARK 11/12~19 매수 — 9·21위"
   },
   {
-   "sym": "CRWV / TWST",
-   "name": "CoreWeave / Twist Bioscience",
-   "reason": "ARK 11/12 매수 — 19·14위"
+   "sym": "SHOP / XYZ",
+   "name": "Shopify / Block",
+   "reason": "ARK 11/16 매수 — 18·51위"
   },
   {
-   "sym": "NET",
-   "name": "Cloudflare",
-   "reason": "CGGR 11/16 $56.4M·BAI 11/12 — 32위"
+   "sym": "3443.TW / 3711.TW / 3665.TW / 6223.TW",
+   "name": "創意 / 日月光 / 貿聯 / 旺矽",
+   "reason": "00981A 11/18 동시 증액(SETN·CMoney) — 5·34·42·41위"
   },
   {
-   "sym": "SPOT / XYZ",
-   "name": "Spotify / Block",
-   "reason": "CGGR 11/11·ARK 11/16 매수 — 45·47위"
+   "sym": "2345.TW",
+   "name": "智邦 Accton",
+   "reason": "00981A 11/19 +120張(비중 4.2%) — 10위"
   },
   {
-   "sym": "3711.TW / 2317.TW",
-   "name": "日月光 / 鴻海",
-   "reason": "대만 액티브 11/9~13 순매수 상위(CMoney 집계) — 31·37위"
+   "sym": "ACHR",
+   "name": "Archer Aviation",
+   "reason": "ARKK·ARKQ 11/10~16 약 190만주 — 63위(2주 2곳)"
   }
  ],
  "claude_only": [
   {
-   "sym": "RKT",
-   "name": "Rocket Companies",
-   "reason": "CGGR 11/06 $92.4M·11/16 $37.9M — 추적 ETF 1곳뿐이라 겹침 없음"
+   "sym": "ANT (ARK)",
+   "name": "Anthropic — ARK 6개 펀드",
+   "reason": "ARKK 556,777·ARKW 146,183 등 11/19 매수 — ARK 파일이 전일 보유 기준이라 다음 실행(11/20 파일)에서 반영 예정"
+  },
+  {
+   "sym": "CRCL / COIN",
+   "name": "Circle / Coinbase",
+   "reason": "ARKK·ARKW 11/16 매수 — 추적 ETF 중 ARK만 보유해 겹침 없음"
+  },
+  {
+   "sym": "2454.TW",
+   "name": "聯發科 MediaTek",
+   "reason": "00981A 11/17 +121張·11/18 +28張 — 75위(2주 1곳, CGIC 매도)"
+  },
+  {
+   "sym": "KTOS / RKLB",
+   "name": "Kratos / Rocket Lab",
+   "reason": "ARKK·ARKQ 11/10~16 매수 — 141·217위(ARK 펀드끼리만 겹침)"
   },
   {
    "sym": "MU",
    "name": "Micron",
-   "reason": "CGDV 11/06 $46.7M·BAI 11/17 +28,808 매수 — 그러나 CGDV 11/17 −18%, BAI 11/18 소폭 감소(자금 유입 대비)로 GitHub 은 매도 경고 4곳, 209위"
+   "reason": "BAI 11/17 +28,808 매수 보도 — GitHub 은 CGDV·BAI 등 4곳 감소로 매도 경고, 210위"
   },
   {
-   "sym": "DE",
-   "name": "Deere",
-   "reason": "CGGR 11/06 $87.4M — 130위"
-  },
-  {
-   "sym": "FTAI",
-   "name": "FTAI Aviation",
-   "reason": "CGDV 11/06 $69.5M — 142위"
-  },
-  {
-   "sym": "CIEN / AWK",
-   "name": "Ciena / American Water Works",
-   "reason": "CGGO 11/11 신규 $42.5M, CGDG 11/12 신규 $32.5M — 82·124위"
-  },
-  {
-   "sym": "HCA / CRCL / COIN",
-   "name": "HCA / Circle / Coinbase",
-   "reason": "JAVA 11/11 $20M, ARK 11/16 매수 — 겹침 없음"
-  },
-  {
-   "sym": "3231.TW / 2027.TW",
-   "name": "緯創 / 大成鋼",
-   "reason": "대만 액티브 11/9~13 순매수 1·3위(CMoney) — 緯創 40위, 大成鋼은 추적 3개 ETF 미보유"
+   "sym": "SOFI / PRME / WGS",
+   "name": "SoFi / Prime Medicine / GeneDx",
+   "reason": "ARK 11/09~19 매수 — 추적 ETF 1곳뿐"
   }
  ],
  "github_only": [
   {
+   "sym": "META",
+   "name": "Meta Platforms",
+   "reason": "CGUS 11/18·CGNG 11/17·EAGL 11/19 — 헤드라인만 있고 수량 기사 없음"
+  },
+  {
+   "sym": "LITE / LRCX",
+   "name": "Lumentum / Lam Research",
+   "reason": "JTEK·LCAP·JPEF·QLTY 매수 — 기사화 드문 운용사"
+  },
+  {
    "sym": "005930.KS",
    "name": "삼성전자",
-   "reason": "JGLO·CGDG·CGIC·IDEF 편입 — 기사 없음"
+   "reason": "JGLO·CGDG·CGIC 편입 — 기사 없음"
   },
   {
-   "sym": "LITE / LRCX / KLAC",
-   "name": "Lumentum / Lam Research / KLA",
-   "reason": "JTEK·LCAP·QLTY·JPEF 매수 — 기사화 드문 운용사"
+   "sym": "NFLX",
+   "name": "Netflix",
+   "reason": "JGRO 11/11·JGLO 11/19 +15% — 기사 없음, CGGR 은 11/19 거의 전량 매도"
   },
   {
-   "sym": "6861.T",
-   "name": "키엔스",
-   "reason": "분할 착시로 5위였다가 수정 후 20위. JGLO 11/09 +21%·CGNG 실매수는 있음"
-  },
-  {
-   "sym": "MDLN / TSCO",
-   "name": "Medline / Tractor Supply",
-   "reason": "CGDV 11/17~18 리밸런싱·EAGL 11/18 — 11/18 분 기사 미발행"
+   "sym": "APH / MDLN / TSCO",
+   "name": "Amphenol / Medline / Tractor Supply",
+   "reason": "CGDV 11/17~19 연속 리밸런싱 — 11/19 분 기사 미발행"
   }
  ],
  "fixes": [
-  "analyze.py: 주식분할·병합 감지(split_factor) 추가 — 1주당 비중 비율이 1/K(±15%)이고 주식 수가 ≈K배면 K로 나눠 비교. 키엔스 11/18 5:1(CGIE·CGGE·CGXU·CGNG·JGLO ×5), 8035.T 9월 5:1, APH 9월 2:1 로 생긴 가짜 편입 7건 제거. 6861.T 5→20위, APH 2달 편입 8→6, 8035.T 5→3",
-  "themes.json: 6861.T 키엔스·ORCL 오라클 한국어 테마·설명 작성(auto→false)",
-  "수집 대기(5-2): 50위 안 track:false 없음. FBCG·NUGO 'N-PORT 없음' 지속(분기 공시, 이전 스냅샷 유지)",
-  "제안(기준 변경, 적용 안 함): ① ARK 원자료 배수 오류 계속 커짐(ARKK TSLA 11/09 1.77M→11/18 4.76M) — 공통비율 보정으로 판정은 맞지만 표시 주식 수는 부풀려짐. ② BAI 처럼 매일 자금 유입이 큰 ETF는 주식 수가 거의 그대로여도(MU 11/18 −0.15%) '감소'로 잡힘 — 매도 경고에 절대 감소 조건(주식 수 실제 감소 ≥1%)을 추가 검토"
+  "analyze.py split_factor: 후보 배수 중 '처음 맞는 값'이 아니라 주식 수 비율에 가장 가까운 K 선택 + 후보에 6·7·8·15·30·40 추가. SanDisk 8:1(11/19, JGRO ×8.02 가 7로 나뉘어 '편입')·도쿄해상 8766.T 15:1(9/29, CG 5곳·JGLO ×13~17 이 '편입' 5건)로 생긴 가짜 편입 제거 — SNDK 2주 편입 1→0, 8766.T 2달 편입 5→0(목록에서 빠짐), 8035.T 2달 3→2. Yahoo 분할 이벤트로 두 분할 모두 확인",
+  "themes.json: ANT(AI 파운데이션 모델)·6223.TW 旺矽(반도체 테스트 프로브카드) 한국어 테마·설명(auto→false, missing_themes 1→0)",
+  "수집 대기(5-2): 50위 안 track:false 없음. FBCG·NUGO 'N-PORT 없음' 지속(분기 공시, 이전 스냅샷 유지). short_history 00403A·SEQ 는 10/22 상장이라 채울 과거 없음",
+  "제안(기준 변경, 적용 안 함): ① BAI 처럼 비상장 주식(ANTHC 'Series G Pref Prvt')을 갖고 있다가 상장 후 새 티커(ANT)로 바뀌면 '신규 편입'으로 잡힘 — 이름 기반 비상장→상장 연결 표를 두고 '전환'으로 표시 검토. ② ARK 일별 파일은 전일 보유 기준이라 ARK 매매가 하루 늦게 잡힘(ANT 11/19 매수 미반영) — 표시용 '공시 지연 1일' 배지 검토. ③ ARK 배수 오류 계속(11/19 ARKK 전 종목 ×1.299) — 판정은 공통비율 보정으로 정확"
  ],
- "summary": "확인 20 / 일치 13 / 불일치 1 / 확인불가 6. 불일치는 키엔스 5:1 분할을 편입으로 잡은 코드 버그(수정). Claude 조사와 상위권(TSM·AVGO·AMD·META·SPCX) 일치, Capital Group CGDV 11/17 리밸런싱은 HD·CSCO 주식 수 정확 일치로 확인."
+ "summary": "확인 20 / 일치 8 / 불일치 1 / 확인불가 11. Anthropic(ANT) 상장 첫날 11개 ETF 동시 편입이 1위로 올랐고 보도와 일치(단 BAI 는 비상장 지분 전환+추가, ARK 매수는 하루 늦게 반영 예정). 불일치는 SanDisk 8:1 분할을 편입으로 잡은 분할 감지 버그(도쿄해상 15:1 포함) — 수정."
 }

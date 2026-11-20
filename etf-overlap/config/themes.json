@@ -1635,10 +1635,10 @@
   "v": 2
  },
  "6223.TW": {
-  "name": "旺矽",
-  "theme": "",
-  "desc": "",
-  "auto": true,
+  "name": "旺矽 (MPI Corp)",
+  "theme": "반도체 테스트 프로브카드",
+  "desc": "반도체 웨이퍼 테스트용 프로브카드와 검사 장비를 만드는 대만 업체로, AI 칩 고성능 테스트 수요가 늘고 있다.",
+  "auto": false,
   "v": 2
  },
  "TSCO": {
@@ -1692,9 +1692,9 @@
  },
  "ANT": {
   "name": "Anthropic, PBC Class A Common Stock",
-  "theme": "응용 SW",
-  "desc": "Anthropic, PBC develops and maintains advanced artificial intelligence (AI) models in the United States and internationally.",
-  "auto": true,
+  "theme": "AI 파운데이션 모델",
+  "desc": "Claude 계열 대규모 언어모델을 개발해 기업용 API·구독 서비스로 판매하는 AI 연구 기업으로, 2026-11-19 나스닥에 상장했다.",
+  "auto": false,
   "v": 2
  }
 }
