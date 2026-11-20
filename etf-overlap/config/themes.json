@@ -869,8 +869,9 @@
  "7182.T": {
   "name": "JAPAN POST BANK CO LTD",
   "theme": "지역은행",
-  "desc": "JAPAN POST BANK Co., Ltd.",
-  "auto": true
+  "desc": "JAPAN POST BANK Co., Ltd. provides financial products and services in Japan and internationally.",
+  "auto": true,
+  "v": 2
  },
  "MC.PA": {
   "name": "LVMH",

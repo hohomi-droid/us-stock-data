@@ -1,5 +1,5 @@
 {
- "run": "2026-11-20T07:52:07+09:00",
+ "run": "2026-11-21T07:49:27+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -326,10 +326,9 @@
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [
-    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22ARK+Genomic+Revolution+ETF%22&forms=NPORT-P"
-   ],
-   "probe": []
+   "errors": [],
+   "probe": [],
+   "nport": 0
   },
   "CGCV": {
    "type": "capital_group",
@@ -343,18 +342,17 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-11-30",
     "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 1
   },
   "ALAI": {
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-03-31",
+    "2024-09-30",
     "2025-09-30",
     "2026-03-31"
    ],
@@ -366,10 +364,9 @@
    "type": "ftportfolios",
    "strategy": null,
    "saved": [],
-   "errors": [
-    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22First+Trust+WCM+International+Equity+ETF%22&forms=NPORT"
-   ],
-   "probe": []
+   "errors": [],
+   "probe": [],
+   "nport": 0
   },
   "JPEF": {
    "type": "jpm",
@@ -393,10 +390,9 @@
    "type": "generic",
    "strategy": null,
    "saved": [],
-   "errors": [
-    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22Principal+Capital+Appreciation+Select+ETF%22&forms=NPOR"
-   ],
-   "probe": []
+   "errors": [],
+   "probe": [],
+   "nport": 0
   },
   "ARKW": {
    "type": "ark",
@@ -410,10 +406,9 @@
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [
-    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22ARK+Autonomous+Technology+%26+Robotics+ETF%22&forms=NPO"
-   ],
-   "probe": []
+   "errors": [],
+   "probe": [],
+   "nport": 0
   },
   "BAFE": {
    "type": "nport",
