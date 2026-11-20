@@ -1688,5 +1688,12 @@
   "desc": "Midea Group Co., Ltd., together with its subsidiaries, engages in the manufacture and sale of electrical appliance in China and internationally.",
   "auto": true,
   "v": 2
+ },
+ "ANT": {
+  "name": "Anthropic, PBC Class A Common Stock",
+  "theme": "응용 SW",
+  "desc": "Anthropic, PBC develops and maintains advanced artificial intelligence (AI) models in the United States and internationally.",
+  "auto": true,
+  "v": 2
  }
 }
