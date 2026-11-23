@@ -1,5 +1,5 @@
 {
- "run": "2026-11-21T07:49:27+09:00",
+ "run": "2026-11-24T07:55:19+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -14,9 +14,10 @@
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22Capital+Group+Growth+ETF%22&forms=NPORT-P"
+   ],
+   "probe": []
   },
   "PVAL": {
    "type": "nport",
@@ -78,13 +79,10 @@
   "TCAF": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2025-12-31",
-    "2026-03-31"
-   ],
+   "saved": [],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 0
   },
   "FBCG": {
    "type": "nport",
@@ -230,11 +228,12 @@
    "type": "nport",
    "strategy": null,
    "saved": [
+    "2023-11-30",
     "2026-02-28"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "CGGE": {
    "type": "capital_group",
@@ -256,8 +255,8 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31",
-    "2026-03-31"
+    "2025-03-31",
+    "2025-12-31"
    ],
    "errors": [],
    "probe": [],
@@ -342,7 +341,7 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2026-03-31"
+    "2025-11-30"
    ],
    "errors": [],
    "probe": [],
@@ -352,13 +351,12 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2024-09-30",
     "2025-09-30",
     "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 3
+   "nport": 2
   },
   "WCMI": {
    "type": "ftportfolios",
@@ -389,10 +387,12 @@
   "LCAP": {
    "type": "generic",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-09-30"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "ARKW": {
    "type": "ark",
@@ -406,20 +406,20 @@
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [],
-   "probe": [],
-   "nport": 0
+   "errors": [
+    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22ARK+Autonomous+Technology+%26+Robotics+ETF%22&forms=NPO"
+   ],
+   "probe": []
   },
   "BAFE": {
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31",
-    "2026-03-31"
+    "2025-06-30"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 1
   },
   "426030": {
    "type": "timefolio",

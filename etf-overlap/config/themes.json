@@ -1731,5 +1731,33 @@
   "desc": "Circle Internet Group, Inc. operates as a platform, network, and market infrastructure for stablecoin and blockchain applications.",
   "auto": true,
   "v": 2
+ },
+ "BLSH": {
+  "name": "Bullish",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Bullish, a global digital asset platform that provides market infrastructure and information services in United States.",
+  "auto": true,
+  "v": 2
+ },
+ "PACB": {
+  "name": "Pacific Biosciences of Californ",
+  "theme": "의료기기",
+  "desc": "Pacific Biosciences of California, Inc. designs, develops, and manufactures sequencing solutions to resolve genetically complex problems.",
+  "auto": true,
+  "v": 2
+ },
+ "CERS": {
+  "name": "Cerus Corporation",
+  "theme": "의료기기",
+  "desc": "Cerus Corporation operates as a biomedical products company. The company focuses on developing and commercializing the INTERCEPT Blood System to enhance blood…",
+  "auto": true,
+  "v": 2
+ },
+ "BIP.TO": {
+  "name": "Brookfield Infrastruct Cl A Common Stock",
+  "theme": "",
+  "desc": "",
+  "auto": true,
+  "v": 2
  }
 }
