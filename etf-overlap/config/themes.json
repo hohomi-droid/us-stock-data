@@ -1696,5 +1696,40 @@
   "desc": "Claude 계열 대규모 언어모델을 개발해 기업용 API·구독 서비스로 판매하는 AI 연구 기업으로, 2026-11-19 나스닥에 상장했다.",
   "auto": false,
   "v": 2
+ },
+ "TEM": {
+  "name": "Tempus AI, Inc.",
+  "theme": "Health Information Services",
+  "desc": "Tempus AI, Inc. operates as a healthcare technology company in the United States.",
+  "auto": true,
+  "v": 2
+ },
+ "BWXT": {
+  "name": "BWX Technologies, Inc.",
+  "theme": "방산·항공우주",
+  "desc": "BWX Technologies, Inc. manufactures and sells nuclear components in the United States, Canada, and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "COIN": {
+  "name": "Coinbase Global, Inc.",
+  "theme": "금융데이터·거래소",
+  "desc": "Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "CRSP": {
+  "name": "CRISPR Therapeutics AG",
+  "theme": "바이오",
+  "desc": "CRISPR Therapeutics AG, a gene editing company, focuses on developing gene-based medicines for serious human diseases using its Clustered Regularly…",
+  "auto": true,
+  "v": 2
+ },
+ "CRCL": {
+  "name": "Circle Internet Group, Inc.",
+  "theme": "증권·자본시장",
+  "desc": "Circle Internet Group, Inc. operates as a platform, network, and market infrastructure for stablecoin and blockchain applications.",
+  "auto": true,
+  "v": 2
  }
 }
