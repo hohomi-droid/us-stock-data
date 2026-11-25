@@ -1,5 +1,5 @@
 {
- "run": "2026-11-24T07:55:19+09:00",
+ "run": "2026-11-25T13:53:32+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -14,10 +14,9 @@
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [
-    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22Capital+Group+Growth+ETF%22&forms=NPORT-P"
-   ],
-   "probe": []
+   "errors": [],
+   "probe": [],
+   "nport": 0
   },
   "PVAL": {
    "type": "nport",
@@ -40,10 +39,12 @@
   "CGUS": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-09-30"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "CGGO": {
    "type": "capital_group",
@@ -79,10 +80,12 @@
   "TCAF": {
    "type": "nport",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-03-31"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "FBCG": {
    "type": "nport",
@@ -228,12 +231,11 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2023-11-30",
     "2026-02-28"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 1
   },
   "CGGE": {
    "type": "capital_group",
@@ -255,12 +257,11 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-03-31",
-    "2025-12-31"
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 1
   },
   "FEGE": {
    "type": "nport",
@@ -341,7 +342,7 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-11-30"
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
@@ -351,20 +352,23 @@
    "type": "nport",
    "strategy": null,
    "saved": [
+    "2025-03-31",
     "2025-09-30",
     "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 3
   },
   "WCMI": {
    "type": "ftportfolios",
    "strategy": null,
-   "saved": [],
+   "saved": [
+    "2026-09-30"
+   ],
    "errors": [],
    "probe": [],
-   "nport": 0
+   "nport": 1
   },
   "JPEF": {
    "type": "jpm",
@@ -377,22 +381,18 @@
   "IDEQ": {
    "type": "nport",
    "strategy": null,
-   "saved": [
-    "2026-03-31"
-   ],
+   "saved": [],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 0
   },
   "LCAP": {
    "type": "generic",
    "strategy": null,
-   "saved": [
-    "2026-09-30"
-   ],
+   "saved": [],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 0
   },
   "ARKW": {
    "type": "ark",
@@ -406,20 +406,20 @@
    "type": "ark",
    "strategy": null,
    "saved": [],
-   "errors": [
-    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22ARK+Autonomous+Technology+%26+Robotics+ETF%22&forms=NPO"
-   ],
-   "probe": []
+   "errors": [],
+   "probe": [],
+   "nport": 0
   },
   "BAFE": {
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-06-30"
+    "2025-12-31",
+    "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 2
   },
   "426030": {
    "type": "timefolio",
