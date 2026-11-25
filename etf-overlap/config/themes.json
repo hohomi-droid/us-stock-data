@@ -1759,5 +1759,54 @@
   "desc": "",
   "auto": true,
   "v": 2
+ },
+ "2891.TW": {
+  "name": "CTBC FINANCIAL HOLDINGS COMPANY",
+  "theme": "지역은행",
+  "desc": "CTBC Financial Holding Co., Ltd., together with its subsidiaries, engages in corporate and personal finance, life insurance, and other businesses in Taiwan,…",
+  "auto": true,
+  "v": 2
+ },
+ "AUR": {
+  "name": "Aurora Innovation, Inc.",
+  "theme": "Auto Parts",
+  "desc": "Aurora Innovation, Inc. engages in the self-driving technology business in the United States.",
+  "auto": true,
+  "v": 2
+ },
+ "RBRK": {
+  "name": "Rubrik, Inc.",
+  "theme": "클라우드·인프라 SW",
+  "desc": "Rubrik, Inc. provides data security solutions to individuals and businesses worldwide.",
+  "auto": true,
+  "v": 2
+ },
+ "3037.TW": {
+  "name": "UNIMICRON TECHNOLOGY",
+  "theme": "전자부품",
+  "desc": "Unimicron Technology Corp., together with its subsidiaries, engages in the manufacturing, processing, and sale of printed circuit boards, electrical…",
+  "auto": true,
+  "v": 2
+ },
+ "6669.TW": {
+  "name": "WIWYNN CORPORATION",
+  "theme": "IT 하드웨어",
+  "desc": "Wiwynn Corporation engages in the research, development, design, testing, and sales of semi products, and peripheral equipment and parts in the United States,…",
+  "auto": true,
+  "v": 2
+ },
+ "2882.TW": {
+  "name": "CATHAY FINANCIAL HLDG CO",
+  "theme": "Insurance - Life",
+  "desc": "Cathay Financial Holding Co., Ltd., through its subsidiaries, provides various financial products and services in Taiwan, rest of Asia, and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "2914.T": {
+  "name": "JAPAN TOBACCO INC",
+  "theme": "담배",
+  "desc": "Japan Tobacco Inc., a tobacco company, engages in the manufacture and sale of tobacco products in Japan and internationally.",
+  "auto": true,
+  "v": 2
  }
 }
