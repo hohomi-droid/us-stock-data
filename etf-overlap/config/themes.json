@@ -1816,5 +1816,12 @@
   "desc": "Neurocrine Biosciences, Inc. discovers, develops, and commercialize pharmaceuticals for neurological, psychiatric, endocrine, and immunological disorders in…",
   "auto": true,
   "v": 2
+ },
+ "IBM": {
+  "name": "International Business Machines",
+  "theme": "IT 서비스",
+  "desc": "International Business Machines Corporation, together with its subsidiaries, provides integrated solutions and services in the Americas, Europe, the Middle…",
+  "auto": true,
+  "v": 2
  }
 }
