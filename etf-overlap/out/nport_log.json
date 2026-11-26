@@ -1,5 +1,5 @@
 {
- "run": "2026-11-25T13:53:32+09:00",
+ "run": "2026-11-26T13:06:53+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -39,12 +39,11 @@
   "CGUS": {
    "type": "capital_group",
    "strategy": null,
-   "saved": [
-    "2026-09-30"
+   "saved": [],
+   "errors": [
+    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22Capital+Group+Core+Equity+ETF%22&forms=NPORT-P"
    ],
-   "errors": [],
-   "probe": [],
-   "nport": 1
+   "probe": []
   },
   "CGGO": {
    "type": "capital_group",
@@ -139,12 +138,11 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-12-31",
     "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 2
+   "nport": 1
   },
   "CGDG": {
    "type": "capital_group",
@@ -352,23 +350,20 @@
    "type": "nport",
    "strategy": null,
    "saved": [
-    "2025-03-31",
     "2025-09-30",
     "2026-03-31"
    ],
    "errors": [],
    "probe": [],
-   "nport": 3
+   "nport": 2
   },
   "WCMI": {
    "type": "ftportfolios",
    "strategy": null,
-   "saved": [
-    "2026-09-30"
-   ],
+   "saved": [],
    "errors": [],
    "probe": [],
-   "nport": 1
+   "nport": 0
   },
   "JPEF": {
    "type": "jpm",

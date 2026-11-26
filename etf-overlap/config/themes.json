@@ -529,8 +529,9 @@
  "AZO": {
   "name": "AutoZone, Inc.",
   "theme": "Auto Parts",
-  "desc": "AutoZone, Inc.",
-  "auto": true
+  "desc": "AutoZone, Inc. operates as a retailer and distributor of automotive replacement parts and accessories in the Americas.",
+  "auto": true,
+  "v": 2
  },
  "A005930.KS": {
   "name": "Samsung Electronics Co Ltd Common Stock Krw100.0",
@@ -1806,6 +1807,13 @@
   "name": "JAPAN TOBACCO INC",
   "theme": "담배",
   "desc": "Japan Tobacco Inc., a tobacco company, engages in the manufacture and sale of tobacco products in Japan and internationally.",
+  "auto": true,
+  "v": 2
+ },
+ "NBIX": {
+  "name": "Neurocrine Biosciences, Inc.",
+  "theme": "Drug Manufacturers - Specialty & Generic",
+  "desc": "Neurocrine Biosciences, Inc. discovers, develops, and commercialize pharmaceuticals for neurological, psychiatric, endocrine, and immunological disorders in…",
   "auto": true,
   "v": 2
  }
