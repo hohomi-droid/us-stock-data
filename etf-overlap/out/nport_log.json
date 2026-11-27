@@ -1,5 +1,5 @@
 {
- "run": "2026-11-26T13:06:53+09:00",
+ "run": "2026-11-27T13:06:44+09:00",
  "days": 66,
  "etfs": {
   "CGDV": {
@@ -40,10 +40,9 @@
    "type": "capital_group",
    "strategy": null,
    "saved": [],
-   "errors": [
-    "nport: HTTPError: 500 Server Error: Internal Server Error for url: https://efts.sec.gov/LATEST/search-index?q=%22Capital+Group+Core+Equity+ETF%22&forms=NPORT-P"
-   ],
-   "probe": []
+   "errors": [],
+   "probe": [],
+   "nport": 0
   },
   "CGGO": {
    "type": "capital_group",
