@@ -1823,5 +1823,12 @@
   "desc": "International Business Machines Corporation, together with its subsidiaries, provides integrated solutions and services in the Americas, Europe, the Middle…",
   "auto": true,
   "v": 2
+ },
+ "2618.TW": {
+  "name": "EVA AIRWAYS",
+  "theme": "항공",
+  "desc": "EVA Airways Corp., together with its subsidiaries, engages in the aviation business in Taiwan, Asia, Europe, Oceania, and the United States.",
+  "auto": true,
+  "v": 2
  }
 }
